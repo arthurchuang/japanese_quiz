@@ -3,76 +3,113 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Japanese vs. Mandarin Quiz</title>
   <style>
-    /* Use Flexbox to center everything in the viewport */
+    /* Resetting box-sizing for easier layout math */
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       margin: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
-      background-color: #f9f9f9;
+      /* Use svh for mobile toolbars */
+      min-height: 100svh;
+      background-color: #f0f2f5;
       text-align: center;
-      /* Centers text inside paragraphs */
+      padding: 15px;
+      /* Keeps content away from screen edges */
     }
 
-    /* A container to keep things neat */
     .quiz-container {
       background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      max-width: 500px;
-      width: 90%;
-    }
-
-    /* Make buttons stack and look nicer */
-    .option {
-      display: block;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
       width: 100%;
-      margin: 0.5em 0;
-      padding: 0.8em;
-      cursor: pointer;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      background-color: #fff;
-      transition: background 0.2s;
+      max-width: 400px;
+      /* Perfect width for most smartphones */
     }
 
-    .option:hover {
-      background-color: #f0f0f0;
+    h1 {
+      font-size: 1.4rem;
+      color: #1a1a1a;
+      margin-bottom: 0.5em;
+    }
+
+    #progress {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0;
     }
 
     #japaneseWord {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: bold;
-      color: #333;
+      color: #d32f2f;
+      /* Nice red for Japanese accent */
       margin: 1em 0;
     }
 
-    #feedback {
-      margin-top: 1em;
-      font-weight: bold;
-      min-height: 1.2em;
+    /* Make buttons large and easy to tap with a thumb */
+    .option {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 14px;
+      cursor: pointer;
+      border: 2px solid #eee;
+      border-radius: 10px;
+      background-color: #fff;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+      /* Removes blue flash on iPhone tap */
     }
 
-    /* The "Next" button styling */
+    /* Define the selected state */
+    .option.selected {
+      background-color: #e0e0e0;
+      /* The grey highlight */
+      border-color: #bdbdbd;
+    }
+
+    #feedback {
+      margin-top: 15px;
+      font-weight: 600;
+      min-height: 3em;
+      /* Prevents layout jumping when text appears */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #score {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
     .next-btn {
-      margin-top: 2em;
-      padding: 0.8em 2em;
-      background-color: #4CAF50;
+      margin-top: 10px;
+      width: 100%;
+      padding: 15px;
+      background-color: #007AFF;
+      /* iPhone "Link Blue" */
       color: white;
       border: none;
-      border-radius: 5px;
+      border-radius: 12px;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 1.1rem;
+      font-weight: bold;
     }
 
-    .next-btn:hover {
-      background-color: #45a049;
+    .next-btn:active {
+      opacity: 0.8;
     }
   </style>
 </head>
@@ -172,7 +209,7 @@
     let current = {};
     let score = 0;
     let totalQuestions = data.length;
-    let hasAttempted = false; // Flag to track the first click
+    let hasAttempted = false;
 
     function shuffle(array) {
       for (let i = array.length - 1; i > 0; i--) {
@@ -185,7 +222,7 @@
     function nextQuestion() {
       const feedback = document.getElementById("feedback");
       feedback.textContent = "";
-      hasAttempted = false; // Reset the flag for the new question
+      hasAttempted = false;
 
       if (unusedQuestions.length === 0) {
         document.getElementById("japaneseWord").textContent = "🎉 Quiz Complete!";
@@ -197,7 +234,7 @@
       const index = Math.floor(Math.random() * unusedQuestions.length);
       current = unusedQuestions.splice(index, 1)[0];
 
-      document.getElementById("japaneseWord").textContent = `Japanese: ${current.japanese}`;
+      document.getElementById("japaneseWord").textContent = current.japanese;
       document.getElementById("progress").textContent = `Question ${totalQuestions - unusedQuestions.length} / ${totalQuestions}`;
       document.getElementById("score").textContent = `Score: ${score}`;
 
@@ -213,16 +250,26 @@
         btn.textContent = opt;
         btn.className = "option";
         btn.onclick = () => {
+          // 1. Remove .selected from any other option button
+          const existingSelected = optionsDiv.querySelector('.option.selected');
+          if (existingSelected) {
+            existingSelected.classList.remove('selected');
+          }
+
+          // 2. Add .selected to the button that was just clicked
+          btn.classList.add('selected');
+
+          // 3. Quiz logic (checking the answer)
           if (opt === current.mandarin) {
             feedback.textContent = "✅ Correct!";
-            // Only increment score if this is the very first click on this question
+            feedback.style.color = "#2e7d32";
             if (!hasAttempted) {
               score++;
               hasAttempted = true;
             }
           } else {
-            feedback.textContent = `❌ Incorrect. Correct answer: ${current.mandarin}`;
-            // Mark as attempted so even if they click the right one next, no points are given
+            feedback.textContent = `❌ Incorrect. The answer is: ${current.mandarin}`;
+            feedback.style.color = "#c62828";
             hasAttempted = true;
           }
           document.getElementById("score").textContent = `Score: ${score}`;
