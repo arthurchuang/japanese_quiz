@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Japanese → Mandarin Quiz</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 2em; }
+  .option { margin: 0.5em 0; padding: 0.5em 1em; }
+  #feedback { margin-top: 1em; font-weight: bold; }
+  #score { margin-top: 1em; }
+</style>
+</head>
+<body>
+
+<h1>鴨の故鄉語小測試</h1>
+<p id="progress"></p>
+<p id="japaneseWord"></p>
+<div id="options"></div>
+<p id="feedback"></p>
+<p id="score"></p>
+<button onclick="nextQuestion()">Next Question</button>
+
+<script>
+// Hardcoded vocabulary list
+const data = [
+  { japanese: "たかいくるま", mandarin: "昂貴的車" },
+  { japanese: "たかいびる", mandarin: "高樓" },
+  { japanese: "たかいやま", mandarin: "高山" },
+  { japanese: "たかいかめら", mandarin: "昂貴的相機" },
+  { japanese: "たかいれすとらん", mandarin: "昂貴的餐廳" },
+  { japanese: "あたらしいくるま", mandarin: "新車" },
+  { japanese: "たかいぱそこん", mandarin: "昂貴的電腦" },
+  { japanese: "たかいほてる", mandarin: "昂貴的飯店" },
+  { japanese: "たかいこーひー", mandarin: "昂貴的咖啡" },
+  { japanese: "つよいかぜ", mandarin: "強風" },
+  { japanese: "つよいひと", mandarin: "強壯的人" },
+  { japanese: "はやいじかん", mandarin: "早的時間（也可表示快）" },
+  { japanese: "ひろいへや", mandarin: "寬敞的房間" },
+  { japanese: "あたたかいへや", mandarin: "溫暖的房間" },
+  { japanese: "かるいバッグ", mandarin: "輕便的包包" },
+  { japanese: "くらいへや", mandarin: "黑暗的房間" },
+  { japanese: "くらいきもち", mandarin: "沮喪的心情" },
+  { japanese: "ちかいくに", mandarin: "鄰近的國家" },
+  { japanese: "ながいかみ", mandarin: "長頭髮" },
+  { japanese: "おもしろいゲーム", mandarin: "有趣的遊戲" },
+  { japanese: "ふといき", mandarin: "粗的樹" },
+  { japanese: "ふかいうみ", mandarin: "深海" },
+  { japanese: "いそがしいしごと", mandarin: "忙碌的工作" },
+  { japanese: "ただしいしゅだん", mandarin: "正確的方法" },
+  { japanese: "たのしいじかん", mandarin: "快樂的時間" },
+  { japanese: "したしいともだち", mandarin: "親密的朋友" },
+  { japanese: "ふるいしゃしん", mandarin: "舊照片" },
+  { japanese: "わるいてんき", mandarin: "壞天氣" },
+  { japanese: "やすいたべもの", mandarin: "便宜的食物" },
+  { japanese: "ひくいいえ", mandarin: "矮房子" },
+  { japanese: "まずいたべもの", mandarin: "難吃的食物" },
+  { japanese: "つめたいみず", mandarin: "冰水 / 冷水" },
+  { japanese: "うすいほん", mandarin: "薄書 / 薄的書" },
+  { japanese: "よわいくすり", mandarin: "效力弱的藥" },
+  { japanese: "おそいくるま", mandarin: "慢車 / 行駛慢的車" },
+  { japanese: "せまいみち", mandarin: "狹小的路" },
+  { japanese: "すずしいへや", mandarin: "涼爽的房間" },
+  { japanese: "おもいこころ", mandarin: "沉重的心情 / 心裡負擔" },
+  { japanese: "あかるいへや", mandarin: "明亮的房間" },
+  { japanese: "とおいくに", mandarin: "遙遠的國家" },
+  { japanese: "みじかいかみ", mandarin: "短髮" },
+  { japanese: "つまらないしごと", mandarin: "無聊的工作" },
+  { japanese: "ほそいえんぴつ", mandarin: "細鉛筆" },
+  { japanese: "あさいかわ", mandarin: "淺河" },
+  { japanese: "おおい", mandarin: "多的" },
+  { japanese: "すくない", mandarin: "少的" },
+  { japanese: "むずかしいテスト", mandarin: "很難的考試" },
+  { japanese: "あまいアメ", mandarin: "甜的糖果" },
+  { japanese: "やさしいせんせい", mandarin: "親切的老師" },
+  { japanese: "からいたべもの", mandarin: "辣的食物" },
+  { japanese: "まるい", mandarin: "圓的" },
+  { japanese: "あぶない", mandarin: "危險的" },
+  { japanese: "きたない", mandarin: "髒的／不乾淨的" },
+  { japanese: "わかい", mandarin: "年輕的" },
+  { japanese: "ほしい", mandarin: "想要的" },
+  { japanese: "あおい", mandarin: "藍色的" },
+  { japanese: "あかい", mandarin: "紅色的" },
+  { japanese: "きいろい", mandarin: "黃色的" },
+  { japanese: "くろい", mandarin: "黑色的" },
+  { japanese: "きれいな", mandarin: "漂亮的／乾淨的" },
+  { japanese: "すきな", mandarin: "喜歡的" },
+  { japanese: "べんりな", mandarin: "方便的" },
+  { japanese: "じょうずな", mandarin: "擅長的" },
+  { japanese: "とくいな", mandarin: "拿手的" },
+  { japanese: "しずかな", mandarin: "安靜的" },
+  { japanese: "かんたんな", mandarin: "簡單的" },
+  { japanese: "たいへんな", mandarin: "辛苦的／糟糕的" },
+  { japanese: "げんきな", mandarin: "有精神的／健康的" },
+  { japanese: "じょうぶな", mandarin: "強壯的／堅固的" },
+  { japanese: "にぎやかな", mandarin: "熱鬧的" },
+  { japanese: "ひまな", mandarin: "有空的" },
+  { japanese: "ゆうめいな", mandarin: "有名的" },
+  { japanese: "いろいろな", mandarin: "各種各樣的" },
+  { japanese: "たいせつな", mandarin: "重要的" },
+  { japanese: "だいじょうぶな", mandarin: "沒問題的" },
+  { japanese: "まっすぐな", mandarin: "筆直的" },
+  { japanese: "ぶすな", mandarin: "醜的 (俚語/粗俗)" },
+  { japanese: "きらいな", mandarin: "討厭的" },
+  { japanese: "ふべんな", mandarin: "不方便的" },
+  { japanese: "へたな", mandarin: "不擅長的" },
+  { japanese: "にがてな", mandarin: "不擅長／討厭的" },
+  { japanese: "らくな", mandarin: "輕鬆的" }
+];
+
+// Quiz variables
+let unusedQuestions = [...data];
+let current = {};
+let score = 0;
+let totalQuestions = data.length;
+let hasAttempted = false; // Flag to track the first click
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function nextQuestion() {
+  const feedback = document.getElementById("feedback");
+  feedback.textContent = "";
+  hasAttempted = false; // Reset the flag for the new question
+
+  if (unusedQuestions.length === 0) {
+    document.getElementById("japaneseWord").textContent = "🎉 Quiz Complete!";
+    document.getElementById("options").innerHTML = "";
+    document.getElementById("progress").textContent = "";
+    return;
+  }
+
+  const index = Math.floor(Math.random() * unusedQuestions.length);
+  current = unusedQuestions.splice(index, 1)[0];
+
+  document.getElementById("japaneseWord").textContent = `Japanese: ${current.japanese}`;
+  document.getElementById("progress").textContent = `Question ${totalQuestions - unusedQuestions.length} / ${totalQuestions}`;
+  document.getElementById("score").textContent = `Score: ${score}`;
+
+  let distractors = data.filter(d => d.mandarin !== current.mandarin);
+  distractors = shuffle(distractors).slice(0, 3).map(d => d.mandarin);
+
+  const options = shuffle([current.mandarin, ...distractors]);
+  const optionsDiv = document.getElementById("options");
+  optionsDiv.innerHTML = "";
+
+  options.forEach(opt => {
+    const btn = document.createElement("button");
+    btn.textContent = opt;
+    btn.className = "option";
+    btn.onclick = () => {
+      if (opt === current.mandarin) {
+        feedback.textContent = "✅ Correct!";
+        // Only increment score if this is the very first click on this question
+        if (!hasAttempted) {
+          score++;
+          hasAttempted = true; 
+        }
+      } else {
+        feedback.textContent = `❌ Incorrect. Correct answer: ${current.mandarin}`;
+        // Mark as attempted so even if they click the right one next, no points are given
+        hasAttempted = true; 
+      }
+      document.getElementById("score").textContent = `Score: ${score}`;
+    };
+    optionsDiv.appendChild(btn);
+  });
+}
+
+nextQuestion();
+</script>
+
+</body>
+</html>
