@@ -230,6 +230,12 @@
       return array;
     }
 
+    function speakJapaneseText(text) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'ja-JP';
+      window.speechSynthesis.speak(utterance);
+    }
+
     function nextQuestion() {
       const feedback = document.getElementById("feedback");
       feedback.textContent = "";
@@ -272,6 +278,8 @@
 
           // 2. Add .selected to the button that was just clicked
           btn.classList.add('selected');
+
+          speakJapaneseText(opt);
 
           // 3. Quiz logic (checking the answer)
           if (opt === current.option) {
