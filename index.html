@@ -233,7 +233,7 @@
     function speakJapaneseText(text) {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
-      utterance.rate = 0.7;
+      utterance.rate = 0.5;
       window.speechSynthesis.speak(utterance);
     }
 
