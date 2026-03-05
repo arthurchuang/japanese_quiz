@@ -21,8 +21,9 @@ jobs:
 
       - name: Obfuscate JavaScript
         run: |
-          # This replaces your script.js with an obfuscated version
-          javascript-obfuscator ./script.js --output ./script.js --compact true --self-defending true
+          npx javascript-obfuscator ./script.js --output ./dist/script.js --compact true --self-defending true
+          # Move the obfuscated file back to the root so the HTML can find it
+          mv ./dist/script.js ./script.js
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
