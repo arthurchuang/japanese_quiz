@@ -81,11 +81,12 @@ const japDictionary = data.reduce((acc, item) => {
     return acc;
 }, {});
 
-// Quiz variables
+// Quiz variables.
 let unusedQuestions = [];
 let current = {};
 let score = 0;
-let totalQuestions = 20;
+let totalQuestions = 25;
+let wrongAnswers = [];
 let hasAttempted = false;
 
 function shuffle(array) {
@@ -99,16 +100,48 @@ function shuffle(array) {
 function speakJapaneseText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'ja-JP';
-    utterance.rate = 0.5;
+    utterance.rate = 1.0;
     window.speechSynthesis.speak(utterance);
 }
 
+function displayJapaneseDate() {
+    const today = new Date();
+
+    // 1. Get the base Era/Year/Padded Month/Day/Weekday
+    let formatted = today.toLocaleDateString('ja-JP', {
+        calendar: 'japanese',
+        era: 'long',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        weekday: 'long'
+    });
+
+    // 2. Clean up the Kanji to get your "/" and spacing
+    // Transforms "令和8年03月04日水曜日" -> "令和 8 年 03/04 水曜日"
+    formatted = formatted
+        .replace(/(\D)(\d+)/, '$1 $2')
+        .replace('年', ' 年 ')
+        .replace('月', '/')
+        .replace('日', ' ');
+
+    // 3. Print it to the top of the page
+    document.getElementById("dateDisplay").innerText = formatted;
+}
+
 function nextQuestion() {
+    document.getElementById("nextBtn").style.display = "none";
     const feedback = document.getElementById("feedback");
     feedback.textContent = "";
     hasAttempted = false;
 
     if (unusedQuestions.length === 0) {
+        if (wrongAnswers.length > 0) {
+            localStorage.setItem('failedQuestions', JSON.stringify(wrongAnswers));
+            localStorage.setItem('finalScore', `${score} / ${totalQuestions}`);
+            window.location.href = "review.html";
+            return
+        }
         document.getElementById("questionWord").textContent = "🎉 Quiz Complete!";
         document.getElementById("options").innerHTML = "";
         document.getElementById("progress").textContent = "";
@@ -157,39 +190,23 @@ function nextQuestion() {
                     hasAttempted = true;
                 }
             } else {
+                if (!hasAttempted) {
+                    // Save the question AND what the user actually clicked
+                    wrongAnswers.push({
+                        question: current.question, // The Kanji/Word
+                        correctAnswer: current.option, // The right meaning
+                        userChoice: opt // The wrong meaning the user picked
+                    });
+                }
                 feedback.textContent = `❌ ${japDictionary[opt]} The answer is: ${current.option}`;
                 feedback.style.color = "#c62828";
                 hasAttempted = true;
             }
+            document.getElementById("nextBtn").style.display = "block";
             document.getElementById("score").textContent = `Score: ${score}`;
         };
         optionsDiv.appendChild(btn);
     });
-}
-
-function displayJapaneseDate() {
-    const today = new Date();
-
-    // 1. Get the base Era/Year/Padded Month/Day/Weekday
-    let formatted = today.toLocaleDateString('ja-JP', {
-        calendar: 'japanese',
-        era: 'long',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        weekday: 'long'
-    });
-
-    // 2. Clean up the Kanji to get your "/" and spacing
-    // Transforms "令和8年03月04日水曜日" -> "令和 8 年 03/04 水曜日"
-    formatted = formatted
-        .replace(/(\D)(\d+)/, '$1 $2')
-        .replace('年', ' 年 ')
-        .replace('月', '/')
-        .replace('日', ' ');
-
-    // 3. Print it to the top of the page
-    document.getElementById("dateDisplay").innerText = formatted;
 }
 
 unusedQuestions = shuffle([...data]).slice(0, totalQuestions);
