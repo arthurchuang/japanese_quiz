@@ -1,0 +1,31 @@
+name: Obfuscate and Deploy
+on:
+  push:
+    branches:
+      - main  # Runs every time you push to main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Obfuscator
+        run: npm install -g javascript-obfuscator
+
+      - name: Obfuscate JavaScript
+        run: |
+          # This replaces your script.js with an obfuscated version
+          javascript-obfuscator ./script.js --output ./script.js --compact true --self-defending true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
