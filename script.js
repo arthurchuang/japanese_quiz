@@ -85,7 +85,7 @@ const japDictionary = data.reduce((acc, item) => {
 let unusedQuestions = [];
 let current = {};
 let score = 0;
-let totalQuestions = 5;
+let totalQuestions = 25;
 let wrongAnswers = [];
 let hasAttempted = false;
 
