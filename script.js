@@ -85,7 +85,7 @@ const japDictionary = data.reduce((acc, item) => {
 let unusedQuestions = [];
 let current = {};
 let score = 0;
-let totalQuestions = 25;
+let totalQuestions = 5;
 let wrongAnswers = [];
 let hasAttempted = false;
 
@@ -97,10 +97,28 @@ function shuffle(array) {
     return array;
 }
 
+
+window.speechSynthesis.onvoiceschanged = () => {
+    // This "warms up" the voice list so it's ready when the user clicks 'Play'
+    window.speechSynthesis.getVoices();
+    console.log("Japanese voices loaded and ready!");
+};
 function speakJapaneseText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+
+    // Look for a specific high-quality voice
+    // "Google 日本語" is usually very good on Chrome
+    const jpVoice = voices.find(voice =>
+        voice.lang === 'ja-JP' && voice.name.includes('Google')
+    ) || voices.find(voice => voice.lang === 'ja-JP');
+
+    if (jpVoice) {
+        utterance.voice = jpVoice;
+    }
+
     utterance.lang = 'ja-JP';
-    utterance.rate = 1.0;
+    utterance.rate = 0.9; // Slightly slower is often better for learners
     window.speechSynthesis.speak(utterance);
 }
 
@@ -198,7 +216,7 @@ function nextQuestion() {
                         userChoice: opt // The wrong meaning the user picked
                     });
                 }
-                feedback.textContent = `❌ ${japDictionary[opt]} The answer is: ${current.option}`;
+                feedback.innerHTML = `❌ ${japDictionary[opt]}<br>The answer is: ${current.option}`;
                 feedback.style.color = "#c62828";
                 hasAttempted = true;
             }

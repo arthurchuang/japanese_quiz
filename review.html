@@ -85,22 +85,23 @@
             border: none;
         }
 
+        .btn-subtext {
+            display: block;
+            /* Forces it to a new line */
+            margin-top: 4px;
+        }
+
         .back-btn {
             background-color: #3498db;
             color: white;
+            text-align: center;
+            display: inline-block;
+            /* Ensures the button expands to fit both lines */
+            padding: 10px 20px;
         }
 
         .back-btn:hover {
             background-color: #2980b9;
-        }
-
-        .clear-btn {
-            background-color: #95a5a6;
-            color: white;
-        }
-
-        .clear-btn:hover {
-            background-color: #7f8c8d;
         }
     </style>
 </head>
@@ -123,7 +124,10 @@
         </table>
 
         <div class="actions">
-            <a href="index.html" class="btn back-btn">大丈夫です！もう一度挑戦しましょう</a>
+            <a href="index.html" class="btn back-btn">
+                大丈夫です!
+                <span class="btn-subtext">もう一度挑戦しましょう</span>
+            </a>
         </div>
     </div>
 
