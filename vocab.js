@@ -286,7 +286,7 @@ function nextQuestion() {
         if (wrongAnswers.length > 0) {
             localStorage.setItem('failedQuestions', JSON.stringify(wrongAnswers));
             localStorage.setItem('finalScore', `${score} / ${totalQuestions}`);
-            window.location.replace("review.html");
+            window.location.replace("vocab_review.html");
             return
         }
         document.getElementById("questionWord").textContent = "すごいですね 👍🎉";
