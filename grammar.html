@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N5 Grammar Quiz</title>
+    <style>
+        :root {
+            --primary: #4a90e2;
+            --success: #58cc02;
+            --error: #ff4b4b;
+            --text: #3c3c3c;
+            --bg: #f7f7f7;
+            --border: #e5e5e5;
+            --secondary-text: #888;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border: 2px solid var(--border);
+            text-align: center;
+        }
+
+        .top-bar {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .progress-container {
+            flex: 1;
+            height: 16px;
+            background-color: var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        #progress-bar-fill {
+            height: 100%;
+            width: 0%;
+            background-color: var(--success);
+            transition: width 0.4s ease-in-out;
+        }
+
+        .progress-text {
+            font-size: 0.8rem;
+            color: #afafaf;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        #display-question {
+            font-size: 1.5rem;
+            line-height: 1.4;
+            margin-bottom: 8px;
+            min-height: 60px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        /* NEW: Mandarin Translation Styling */
+        #display-translation {
+            font-size: 1rem;
+            color: var(--secondary-text);
+            text-align: left;
+            margin-bottom: 20px;
+            min-height: 24px;
+        }
+
+        .audio-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            padding: 12px 28px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 25px;
+            transition: transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 4px 0 #357abd;
+            width: 100%;
+        }
+
+        .audio-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 #357abd;
+        }
+
+        #options-list {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option-btn {
+            background: white;
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            padding: 16px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        .option-btn:hover {
+            border-color: var(--primary);
+            background: #f8fbff;
+        }
+
+        .option-btn.correct {
+            background: var(--success) !important;
+            color: white;
+            border-color: var(--success);
+        }
+
+        .option-btn.wrong {
+            background: var(--error) !important;
+            color: white;
+            border-color: var(--error);
+        }
+
+        .score-circle {
+            width: 100px;
+            height: 100px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 20px auto;
+            font-weight: bold;
+        }
+
+        /* Review Page Updates */
+        .review-item {
+            text-align: left;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            border-left: 5px solid var(--error);
+            background: #fffafa;
+        }
+
+        .review-item.was-correct {
+            border-left-color: var(--success);
+            background: #fafffa;
+        }
+
+        .review-q-row {
+            margin-bottom: 5px;
+        }
+
+        .review-q {
+            font-size: 1.1rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .review-t {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+            display: block;
+        }
+
+        .review-a {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: var(--success);
+            display: block;
+            margin-top: 5px;
+        }
+
+        .score-text {
+            height: 24px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: bold;
+            background: #eef5ff;
+            padding: 0 15px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="quiz-page" class="card">
+        <div class="top-bar">
+            <div class="progress-container">
+                <div id="progress-bar-fill"></div>
+            </div>
+            <div class="score-text">Score: <span id="live-score">0</span></div>
+        </div>
+
+        <div class="progress-text">Question <span id="current-count">1</span> / 20</div>
+        
+        <div id="display-question">Loading...</div>
+        <div id="display-translation"></div> <button onclick="playQuestionAudio()" class="audio-btn">🔊 Listen</button>
+        <div id="options-list"></div>
+    </div>
+
+    <div id="review-page" class="card" style="display: none;">
+        <h2>Quiz Complete!</h2>
+        <div class="score-circle"><span id="final-score">0</span>/20</div>
+        <div id="review-list" style="max-height: 400px; overflow-y: auto; margin-bottom: 20px; padding-right: 5px;"></div>
+        <button onclick="window.location.href = 'index.html'" class="audio-btn">Try Again</button>
+    </div>
+
+    <script src="grammar_questions.js"></script>
+    <script src="grammar.js"></script>
+</body>
+
+</html>
