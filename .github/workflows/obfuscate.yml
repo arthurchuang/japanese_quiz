@@ -2,7 +2,7 @@ name: Obfuscate and Deploy
 on:
   push:
     branches:
-      - main  # Runs every time you push to main
+      - main
 
 jobs:
   build:
@@ -21,9 +21,17 @@ jobs:
 
       - name: Obfuscate JavaScript
         run: |
-          npx javascript-obfuscator ./script.js --output ./dist/script.js --compact true --self-defending true
-          # Move the obfuscated file back to the root so the HTML can find it
-          mv ./dist/script.js ./script.js
+          # Create a temporary directory for output
+          mkdir -p ./dist
+          
+          # Obfuscate all .js files in the root directory
+          # Using --output ./dist ensures we don't overwrite files while the tool is reading them
+          npx javascript-obfuscator . --output ./dist --compact true --self-defending true
+          
+          # Move the obfuscated files back to the root so the HTML files can find them
+          # This replaces your original JS files with the obfuscated versions before deployment
+          cp -R ./dist/* .
+          rm -rf ./dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
