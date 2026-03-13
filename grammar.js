@@ -9,8 +9,8 @@ function init() {
     score = 0;
     quizQuestions = [...n5Questions]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 20); 
-    
+        .slice(0, 20);
+
     displayQuestion();
 }
 
@@ -21,7 +21,7 @@ function displayQuestion() {
     // Progress UI (Now out of quizQuestions.length, which is max 20)
     document.getElementById('progress-bar-fill').style.width = (currentIdx / quizQuestions.length * 100) + "%";
     document.getElementById('current-count').innerText = currentIdx + 1;
-    
+
     // Display Question
     document.getElementById('display-question').innerText = data.q;
 
@@ -86,11 +86,11 @@ function showReview() {
 
     const list = document.getElementById('review-list');
     list.innerHTML = ''; // Clear previous review items
-    
+
     userResults.forEach(res => {
         const item = document.createElement('div');
         item.className = `review-item ${res.isCorrect ? 'was-correct' : ''}`;
-        
+
         // --- NEW: Added Mandarin Meaning to the review list ---
         item.innerHTML = `
             <div class="review-row">
@@ -103,17 +103,39 @@ function showReview() {
     });
 }
 
+let tokenizer = null;
+
+kuromoji.builder({ dicPath: "node_modules/kuromoji/dict" }).build((err, built) => {
+    tokenizer = built;
+});
+
 function toPhonetic(text) {
-  return text
-    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])は/g, '$1わ')
-    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])へ/g, '$1え')
-    .replace(/を/g, 'お');
+    if (!tokenizer) return text; // fallback if tokenizer not ready
+
+    const tokens = tokenizer.tokenize(text);
+
+    return tokens.map(token => {
+        const surface = token.surface_form;
+        const pos = token.part_of_speech; // 品詞
+
+        // は: replace only when it's a particle (助詞)
+        if (surface === 'は' && pos.includes('助詞')) return 'わ';
+
+        // へ: replace only when it's a particle (助詞)
+        if (surface === 'へ' && pos.includes('助詞')) return 'え';
+
+        // を: always a particle, but use same pattern for consistency
+        if (surface === 'を' && pos.includes('助詞')) return 'お';
+
+        // for everything else, use the reading if available, else surface
+        return token.reading ? token.reading : surface;
+    }).join('');
 }
 
 function playQuestionAudio() {
     const msg = new SpeechSynthesisUtterance(toPhonetic(quizQuestions[currentIdx].tts));
     msg.lang = 'ja-JP';
-    msg.rate = 0.8;
+    msg.rate = 0.6;
     window.speechSynthesis.speak(msg);
 }
 
