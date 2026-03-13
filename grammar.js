@@ -110,26 +110,11 @@ kuromoji.builder({ dicPath: "node_modules/kuromoji/dict" }).build((err, built) =
 });
 
 function toPhonetic(text) {
-    if (!tokenizer) return text; // fallback if tokenizer not ready
+  if (!tokenizer) return text;
 
-    const tokens = tokenizer.tokenize(text);
-
-    return tokens.map(token => {
-        const surface = token.surface_form;
-        const pos = token.part_of_speech; // 品詞
-
-        // は: replace only when it's a particle (助詞)
-        if (surface === 'は' && pos.includes('助詞')) return 'わ';
-
-        // へ: replace only when it's a particle (助詞)
-        if (surface === 'へ' && pos.includes('助詞')) return 'え';
-
-        // を: always a particle, but use same pattern for consistency
-        if (surface === 'を' && pos.includes('助詞')) return 'お';
-
-        // for everything else, use the reading if available, else surface
-        return token.reading ? token.reading : surface;
-    }).join('');
+  return tokenizer.tokenize(text)
+    .map(token => token.reading ?? token.surface_form)
+    .join('');
 }
 
 function playQuestionAudio() {
