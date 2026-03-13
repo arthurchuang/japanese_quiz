@@ -103,8 +103,15 @@ function showReview() {
     });
 }
 
+function toPhonetic(text) {
+  return text
+    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])は/g, '$1わ')
+    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])へ/g, '$1え')
+    .replace(/を/g, 'お');
+}
+
 function playQuestionAudio() {
-    const msg = new SpeechSynthesisUtterance(quizQuestions[currentIdx].tts);
+    const msg = new SpeechSynthesisUtterance(toPhonetic(quizQuestions[currentIdx].tts));
     msg.lang = 'ja-JP';
     msg.rate = 0.8;
     window.speechSynthesis.speak(msg);
