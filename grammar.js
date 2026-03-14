@@ -5,11 +5,11 @@ let userResults = [];
 let quizQuestions = []; // Use a separate array for the active 20 questions
 
 function init() {
-    // 1. Shuffle and pick only the first 20 questions
+    // 1. Shuffle and pick only the first 30 questions
     score = 0;
     quizQuestions = [...n5Questions]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 20);
+        .slice(0, 30);
 
     displayQuestion();
 }
