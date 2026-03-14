@@ -103,33 +103,11 @@ function showReview() {
     });
 }
 
-let tokenizer = null;
-
-kuromoji.builder({ dicPath: "node_modules/kuromoji/dict" }).build((err, built) => {
-  tokenizer = built;
-});
-
 function toPhonetic(text) {
-  if (!tokenizer) return text; // fallback if tokenizer not ready
-
-  const tokens = tokenizer.tokenize(text);
-  
-  return tokens.map(token => {
-    const surface = token.surface_form;
-    const pos = token.part_of_speech; // 品詞
-
-    // は: replace only when it's a particle (助詞)
-    if (surface === 'は' && pos.includes('助詞')) return 'わ';
-    
-    // へ: replace only when it's a particle (助詞)
-    if (surface === 'へ' && pos.includes('助詞')) return 'え';
-
-    // を: always a particle, but use same pattern for consistency
-    if (surface === 'を' && pos.includes('助詞')) return 'お';
-
-    // for everything else, use the reading if available, else surface
-    return token.reading ? token.reading : surface;
-  }).join('');
+  return text
+    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])は/g, '$1わ')
+    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])へ/g, '$1え')
+    .replace(/を/g, 'お');
 }
 
 function playQuestionAudio() {
