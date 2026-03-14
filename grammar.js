@@ -2,14 +2,14 @@ let currentIdx = 0;
 let score = 0;
 let canClick = true;
 let userResults = [];
-let quizQuestions = []; // Use a separate array for the active 20 questions
+let quizQuestions = []; // Use a separate array for the active 50 questions
 
 function init() {
-    // 1. Shuffle and pick only the first 30 questions
+    // 1. Shuffle and pick only the first 50 questions
     score = 0;
     quizQuestions = [...n5Questions]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 30);
+        .slice(0, 50);
 
     displayQuestion();
 }
@@ -103,15 +103,8 @@ function showReview() {
     });
 }
 
-function toPhonetic(text) {
-  return text
-    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])は/g, '$1わ')
-    .replace(/([ぁ-んァ-ン\u4e00-\u9fff])へ/g, '$1え')
-    .replace(/を/g, 'お');
-}
-
 function playQuestionAudio() {
-    const msg = new SpeechSynthesisUtterance(toPhonetic(quizQuestions[currentIdx].tts));
+    const msg = new SpeechSynthesisUtterance(quizQuestions[currentIdx].tts);
     msg.lang = 'ja-JP';
     msg.rate = 0.6;
     window.speechSynthesis.speak(msg);
