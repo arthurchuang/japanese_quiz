@@ -2,11 +2,12 @@ let currentIdx = 0;
 let score = 0;
 let canClick = true;
 let userResults = [];
-let quizQuestions = []; // Use a separate array for the active 50 questions
+let quizQuestions = [];
 
 function init() {
-    // 1. Shuffle and pick only the first 50 questions
     score = 0;
+    currentIdx = 0;
+    userResults = [];
     quizQuestions = [...n5Questions]
         .sort(() => Math.random() - 0.5)
         .slice(0, 50);
@@ -14,28 +15,35 @@ function init() {
     displayQuestion();
 }
 
+function buildOptions(currentQuestion) {
+    const correctAnswer = currentQuestion.a;
+
+    const wrongAnswers = n5Questions
+        .filter(q => q.a !== correctAnswer)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .map(q => q.a);
+
+    return [...wrongAnswers, correctAnswer].sort(() => Math.random() - 0.5);
+}
+
 function displayQuestion() {
     canClick = true;
     const data = quizQuestions[currentIdx];
 
-    // Progress UI (Now out of quizQuestions.length, which is max 20)
     document.getElementById('progress-bar-fill').style.width = (currentIdx / quizQuestions.length * 100) + "%";
     document.getElementById('current-count').innerText = currentIdx + 1;
 
-    // Display Question
     document.getElementById('display-question').innerText = data.q;
 
-    // --- NEW: Display Mandarin Translation ---
-    // If you have a specific element for it, use that. Otherwise, you can append it or use a sub-header.
     const translationEl = document.getElementById('display-translation');
-    if (translationEl) {
-        translationEl.innerText = data.t;
-    }
+    if (translationEl) translationEl.innerText = data.t;
 
-    // Options
+    data._options = buildOptions(data);
+
     const list = document.getElementById('options-list');
     list.innerHTML = '';
-    data.a.forEach((text, i) => {
+    data._options.forEach((text, i) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.innerText = text;
@@ -49,13 +57,14 @@ function handleAnswer(idx, btn) {
     canClick = false;
 
     const data = quizQuestions[currentIdx];
-    const correct = data.correct;
-    const isCorrect = (idx === correct);
+    const correctAnswer = data.a;
+    const correctIdx = data._options.indexOf(correctAnswer);
+    const isCorrect = (idx === correctIdx);
 
     userResults.push({
         q: data.q,
-        ans: data.a[correct],
-        meaning: data.t, // Save the translation for the review page
+        ans: correctAnswer,
+        meaning: data.t,
         isCorrect: isCorrect
     });
 
@@ -66,7 +75,7 @@ function handleAnswer(idx, btn) {
     } else {
         btn.classList.add('wrong');
         const options = document.querySelectorAll('.option-btn');
-        if (options[correct]) options[correct].classList.add('correct');
+        if (options[correctIdx]) options[correctIdx].classList.add('correct');
     }
 
     setTimeout(() => {
@@ -85,13 +94,11 @@ function showReview() {
     document.getElementById('final-score').innerText = score;
 
     const list = document.getElementById('review-list');
-    list.innerHTML = ''; // Clear previous review items
+    list.innerHTML = '';
 
     userResults.forEach(res => {
         const item = document.createElement('div');
         item.className = `review-item ${res.isCorrect ? 'was-correct' : ''}`;
-
-        // --- NEW: Added Mandarin Meaning to the review list ---
         item.innerHTML = `
             <div class="review-row">
                 <span class="review-q">${res.q}</span>
@@ -101,13 +108,6 @@ function showReview() {
         `;
         list.appendChild(item);
     });
-}
-
-function playQuestionAudio() {
-    const msg = new SpeechSynthesisUtterance(quizQuestions[currentIdx].tts);
-    msg.lang = 'ja-JP';
-    msg.rate = 0.6;
-    window.speechSynthesis.speak(msg);
 }
 
 init();
