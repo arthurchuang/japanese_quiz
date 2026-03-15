@@ -29,7 +29,7 @@
         }
 
         .card {
-            background: white;
+            background: lightskyblue;
             width: 100%;
             max-width: 450px;
             border-radius: 20px;
@@ -63,7 +63,7 @@
 
         .progress-text {
             font-size: 0.8rem;
-            color: #afafaf;
+            color: grey;
             font-weight: bold;
             margin-bottom: 15px;
             text-transform: uppercase;
@@ -78,33 +78,14 @@
             font-weight: bold;
         }
 
-        /* NEW: Mandarin Translation Styling */
         #display-translation {
             font-size: 1rem;
+            color: grey;
+            font-weight: bold;
             color: var(--secondary-text);
             text-align: left;
             margin-bottom: 20px;
             min-height: 24px;
-        }
-
-        .audio-btn {
-            background: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 14px;
-            padding: 12px 28px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            cursor: pointer;
-            margin-bottom: 25px;
-            transition: transform 0.1s, box-shadow 0.1s;
-            box-shadow: 0 4px 0 #357abd;
-            width: 100%;
-        }
-
-        .audio-btn:active {
-            transform: translateY(2px);
-            box-shadow: 0 2px 0 #357abd;
         }
 
         #options-list {
@@ -155,7 +136,6 @@
             font-weight: bold;
         }
 
-        /* Review Page Updates */
         .review-item {
             text-align: left;
             padding: 15px;
@@ -168,10 +148,6 @@
         .review-item.was-correct {
             border-left-color: var(--success);
             background: #fafffa;
-        }
-
-        .review-q-row {
-            margin-bottom: 5px;
         }
 
         .review-q {
@@ -207,6 +183,26 @@
             border-radius: 12px;
             white-space: nowrap;
         }
+
+        .restart-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            padding: 12px 28px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 25px;
+            transition: transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 4px 0 #357abd;
+            width: 100%;
+        }
+
+        .restart-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 #357abd;
+        }
     </style>
 </head>
 
@@ -221,17 +217,17 @@
         </div>
 
         <div class="progress-text">Question <span id="current-count">1</span> / 50</div>
-        
+
         <div id="display-question">Loading...</div>
-        <div id="display-translation"></div> <button onclick="playQuestionAudio()" class="audio-btn">🔊 Listen</button>
+        <div id="display-translation"></div>
         <div id="options-list"></div>
     </div>
 
     <div id="review-page" class="card" style="display: none;">
         <h2>Quiz Complete!</h2>
-        <div class="score-circle"><span id="final-score">0</span>/20</div>
+        <div class="score-circle"><span id="final-score">0</span>/50</div>
         <div id="review-list" style="max-height: 400px; overflow-y: auto; margin-bottom: 20px; padding-right: 5px;"></div>
-        <button onclick="window.location.href = 'index.html'" class="audio-btn">Try Again</button>
+        <button onclick="init(); document.getElementById('quiz-page').style.display='block'; document.getElementById('review-page').style.display='none';" class="restart-btn">Try Again</button>
     </div>
 
     <script src="grammar_questions.js"></script>
