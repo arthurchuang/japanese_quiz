@@ -34,10 +34,10 @@ function displayQuestion() {
     document.getElementById('progress-bar-fill').style.width = (currentIdx / quizQuestions.length * 100) + "%";
     document.getElementById('current-count').innerText = currentIdx + 1;
 
-    document.getElementById('display-question').innerText = data.q;
+    document.getElementById('display-question').innerText = data.t;
 
     const translationEl = document.getElementById('display-translation');
-    if (translationEl) translationEl.innerText = data.t;
+    if (translationEl) translationEl.innerText = data.q;
 
     data._options = buildOptions(data);
 
@@ -62,9 +62,9 @@ function handleAnswer(idx, btn) {
     const isCorrect = (idx === correctIdx);
 
     userResults.push({
-        q: data.q,
+        q: data.t,
         ans: correctAnswer,
-        meaning: data.t,
+        meaning: data.q,
         isCorrect: isCorrect
     });
 

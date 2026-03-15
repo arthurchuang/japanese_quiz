@@ -289,7 +289,7 @@ function nextQuestion() {
             window.location.replace("vocab_review.html");
             return
         }
-        document.getElementById("questionWord").textContent = "すごいですね 👍🎉";
+        document.getElementById("questionWord").textContent = "すごいですね!";
         document.getElementById("options").innerHTML = "";
         document.getElementById("progress").textContent = "";
         document.getElementById("score").textContent = `Final Score: ${score} / ${totalQuestions}`;
