@@ -227,7 +227,7 @@ function shuffle(array) {
 }
 
 const ELEVENLABS_API_KEY = "sk_1988935013fe1efca7daebe22fd1ca197d38d47b12554a0d";
-const VOICE_ID = "TxGEqnHWrfWFTfGW9XjX";
+const VOICE_ID = "JBFqnCBsd6RMkjVDRZzb";
 const MODEL_ID = "eleven_multilingual_v2";
 
 // Cache to avoid re-calling the API for the same word
