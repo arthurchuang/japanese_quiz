@@ -226,7 +226,7 @@ function shuffle(array) {
     return array;
 }
 
-const ELEVENLABS_API_KEY = "sk_1988935013fe1efca7daebe22fd1ca197d38d47b12554a0d";
+const ELEVENLABS_API_KEY = "sk_3c0a6925d213838085a85dece73a773831d1e1aaa54ea84e";
 const VOICE_ID = "JBFqnCBsd6RMkjVDRZzb";
 const MODEL_ID = "eleven_multilingual_v2";
 
