@@ -227,7 +227,7 @@ function shuffle(array) {
 }
 
 const ELEVENLABS_API_KEY = "sk_3c0a6925d213838085a85dece73a773831d1e1aaa54ea84e";
-const VOICE_ID = "JBFqnCBsd6RMkjVDRZzb";
+const VOICE_ID = "AZnzlk1XvdvUeBnXmlld";
 const MODEL_ID = "eleven_multilingual_v2";
 
 // Cache to avoid re-calling the API for the same word
@@ -255,6 +255,7 @@ async function speakJapaneseText(text) {
           voice_settings: {
             stability: 0.75,
             similarity_boost: 0.75,
+            speed: 0.75,
           },
         }),
       }
