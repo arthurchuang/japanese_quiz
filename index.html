@@ -120,7 +120,7 @@
         document.getElementById('daily-quiz-btn').addEventListener('click', async () => {
             try {
                 const today = new Date().toISOString().split('T')[0]; // e.g. 2026-03-19
-                const response = await fetch(`/quizzes/daily-${today}.json`);
+                const response = await fetch(`./quizzes/daily-${today}.json`);
 
                 if (!response.ok) throw new Error("No quiz found for today!");
 
