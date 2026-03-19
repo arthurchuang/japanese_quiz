@@ -226,55 +226,28 @@ function shuffle(array) {
     return array;
 }
 
-const ELEVENLABS_API_KEY = "sk_a65d12b3e10312ce5ea5c72b310f73ed36dab713df0bded4";
-const VOICE_ID = "3JDquces8E8bkmvbh6Bc";
-const MODEL_ID = "eleven_multilingual_v2";
-
-// Cache to avoid re-calling the API for the same word
-const audioCache = {};
-
-async function speakJapaneseText(text) {
-  // Return cached audio if available
-  if (audioCache[text]) {
-    new Audio(audioCache[text]).play();
-    return;
-  }
-
-  try {
-    const response = await fetch(
-      `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`,
-      {
-        method: "POST",
-        headers: {
-          "xi-api-key": ELEVENLABS_API_KEY,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          text: text,
-          model_id: MODEL_ID,
-          voice_settings: {
-            stability: 0.75,
-            similarity_boost: 0.75,
-            speed: 0.75,
-          },
-        }),
-      }
-    );
-
-    if (!response.ok) throw new Error("TTS request failed");
-
-    const blob = await response.blob();
-    const url = URL.createObjectURL(blob);
-    audioCache[text] = url; // cache it
-    new Audio(url).play();
-
-  } catch (err) {
-    console.error("ElevenLabs TTS error:", err);
-    // Fallback to Web Speech API
+window.speechSynthesis.onvoiceschanged = () => {
+    // This "warms up" the voice list so it's ready when the user clicks 'Play'
+    window.speechSynthesis.getVoices();
+    console.log("Japanese voices loaded and ready!");
+};
+function speakJapaneseText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "ja-JP";
+    const voices = window.speechSynthesis.getVoices();
+
+    // Look for a specific high-quality voice
+    // "Google 日本語" is usually very good on Chrome
+    const jpVoice = voices.find(voice =>
+        voice.lang === 'ja-JP' && voice.name.includes('Google')
+    ) || voices.find(voice => voice.lang === 'ja-JP');
+
+    if (jpVoice) {
+        utterance.voice = jpVoice;
+    }
+
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.7; // Slightly slower is often better for learners
     window.speechSynthesis.speak(utterance);
-  }
 }
 
 function displayJapaneseDate() {
