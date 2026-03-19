@@ -1,0 +1,27 @@
+name: Generate Daily Quiz
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run script
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node generate_quiz.js
+
+      - name: Commit results
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@example.com"
+          git add quizzes/
+          git commit -m "Daily grammar quiz"
+          git push

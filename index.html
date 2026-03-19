@@ -85,14 +85,18 @@
                 文法 (Grammar)
                 <span class="btn-desc">Grammar Practice</span>
             </button>
+            <button class="menu-btn" id="daily-quiz-btn">
+                文法 (Daily Grammar Quiz)
+                <span class="btn-desc">AI-generated quiz for today</span>
+            </button>
         </div>
     </div>
 
     <script>
         function startQuiz(mode) {
-            if (mode == 'grammar') {
+            if (mode === 'grammar') {
                 window.location.href = 'grammar.html';
-            } else if (mode == 'vocab') {
+            } else if (mode === 'vocab') {
                 window.location.href = 'vocab.html';
             }
 
@@ -109,6 +113,34 @@
 
             document.body.appendChild(script);
         }
+
+        // ------------------------
+        // Daily AI-generated quiz
+        // ------------------------
+        document.getElementById('daily-quiz-btn').addEventListener('click', async () => {
+            try {
+                const today = new Date().toISOString().split('T')[0]; // e.g. 2026-03-19
+                const response = await fetch(`/quizzes/daily-${today}.json`);
+
+                if (!response.ok) throw new Error("No quiz found for today!");
+
+                const quizData = await response.json();
+
+                // Inject quiz into your existing global variables
+                window.currentQuiz = quizData;
+                window.currentQuestionIndex = 0;
+
+                // Call your display function
+                if (typeof displayQuestion === "function") {
+                    displayQuestion();
+                } else if (typeof nextQuestion === "function") {
+                    nextQuestion();
+                }
+            } catch (err) {
+                alert("Failed to load daily quiz: " + err.message);
+                console.error(err);
+            }
+        });
     </script>
 
 </body>
