@@ -52,7 +52,7 @@ You are a Japanese teacher creating JLPT N5 fill-in-the-blank MCQ quizzes from t
 
 Rules:
 - 10 questions, each blanking out a grammar point (particle, verb ending, or conjugation)
-- The blanked word must not appear elsewhere in the sentence
+- The sentence must not contain any of the 4 option words outside of the blank
 - 4 options: 1 correct, 3 clearly wrong in context
 - Short English explanation for the correct answer
 - All Japanese in hiragana/katakana; kanji in parentheses after reading: まいあさ（毎朝）
