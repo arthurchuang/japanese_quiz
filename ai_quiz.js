@@ -48,7 +48,7 @@ async function loadQuiz(fileName) {
 
     try {
         loadingEl.textContent = "Loading quiz...";
-        const response = await fetch(`./quizzes/${fileName}`);
+        const response = await fetch(`./quizzes/${fileName}?t=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load quiz JSON");
 
         const quizData = await response.json();
