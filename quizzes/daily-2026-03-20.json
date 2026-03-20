@@ -3,120 +3,120 @@
     "type": "mcq",
     "question": "______のホテルのプールは良くありません。",
     "options": [
-      "このホテルのプールは",
-      "このプールのホテルは",
-      "プールのこのホテルは",
-      "このホテルのプールは"
+      "この",
+      "その",
+      "あの",
+      "その"
     ],
-    "answer": "このホテルのプールは",
-    "explanation": "良い → 良くありません (irregular i-adjective negative)"
+    "answer": "この",
+    "explanation": "この前はどんな町ですか?"
   },
   {
     "type": "mcq",
-    "question": "今日私は_____で本屋へ行きました。",
+    "question": "______の散歩は毎日しています。",
     "options": [
-      "バスで",
-      "電車で",
-      "飛行機で",
-      "タクシーで"
+      "毎朝の",
+      "毎日のお",
+      "毎週の",
+      "毎朝のお"
     ],
-    "answer": "バスで",
-    "explanation": "verb mashita-form with で (means of transport) and へ (direction)"
+    "answer": "毎朝の",
+    "explanation": "毎朝の散歩"
   },
   {
     "type": "mcq",
-    "question": "_____の歌手は有名でした。",
+    "question": "______の時は仕事が終わりますか?",
     "options": [
-      "この歌手",
-      "新しい歌手",
-      "有名な歌手",
-      "あの歌手"
-    ],
-    "answer": "この歌手",
-    "explanation": "な形容詞 + でした (na-adjective past tense)"
-  },
-  {
-    "type": "mcq",
-    "question": "いいえ、_____はあまり大丈夫ではありません。",
-    "options": [
-      "おばさんの病気",
-      "その病気",
-      "その葉書",
-      "おばの病気"
-    ],
-    "answer": "おばの病気",
-    "explanation": "あまり〜ではありません (not very ~)"
-  },
-  {
-    "type": "mcq",
-    "question": "_____のニュースは今朝読みました。",
-    "options": [
-      "正午の",
+      "今日の",
+      "明日の",
       "昨日の",
-      "今朝の",
-      "明日の"
+      "今日の"
     ],
-    "answer": "今朝の",
-    "explanation": "time word + の (specific time)"
+    "answer": "今日の",
+    "explanation": "今日仕事は六時に終わりますか?"
   },
   {
     "type": "mcq",
-    "question": "_____から_____まで休みます。",
+    "question": "______の水は冷たいです。",
     "options": [
-      "十日から十四日まで",
-      "一日から二日まで",
-      "三日から四日まで",
-      "五日から六日まで"
+      "その",
+      "あの",
+      "この",
+      "その"
     ],
-    "answer": "十日から十四日まで",
-    "explanation": "〜から〜まで (from ~ to ~)"
+    "answer": "その",
+    "explanation": "はい、川の水は冷たいです。"
   },
   {
     "type": "mcq",
-    "question": "_____はどんな_____ですか?",
+    "question": "朝食は______から______までです。",
     "options": [
-      "このテストは",
-      "あの書籍は",
-      "その映画は",
-      "この歌は"
+      "六時から",
+      "十時から",
+      "六時から",
+      "十時から"
     ],
-    "answer": "このテストは",
-    "explanation": "どんな〜ですか (what kind of ~?)"
+    "answer": "六時から",
+    "explanation": "朝食は六時から十時までです。"
   },
   {
     "type": "mcq",
-    "question": "_____は六時に終わりません。",
+    "question": "______は良いです。",
     "options": [
-      "いつも仕事",
-      "今日仕事",
-      "明日の仕事",
-      "あの仕事"
+      "この",
+      "その",
+      "あの",
+      "この"
     ],
-    "answer": "いつも仕事",
-    "explanation": "いつも + verb masen-form (habitual negative)"
+    "answer": "この",
+    "explanation": "この電子辞書は良いです。"
   },
   {
     "type": "mcq",
-    "question": "_____は甘いです。",
+    "question": "______は少し寒いです。",
     "options": [
-      "この飲み物",
-      "あの飲み物",
-      "その飲み物",
-      "今の飲み物"
+      "日本は",
+      "日本の",
+      "ここは",
+      "ここは"
     ],
-    "answer": "この飲み物",
-    "explanation": "い形容詞 (i-adjective)"
+    "answer": "日本は",
+    "explanation": "はい、(日本は)少し寒いです。"
   },
   {
     "type": "mcq",
-    "question": "_____は飛びません。",
+    "question": "動物は______ます。",
     "options": [
-      "ペンギンは",
-      "鳥は",
-      "犬は",
-      "猫は"
+      "寝ます",
+      "食べます",
+      "走ります",
+      "寝ます"
     ],
-    "answer": "ペンギンは",
-    "explanation": "verb masen-form (general truth, negative)"
+    "answer": "寝ます",
+    "explanation": "動物は寝ます。"
+  },
+  {
+    "type": "mcq",
+    "question": "林さんは______まで勉強しました。",
+    "options": [
+      "昨日",
+      "今日",
+      "明日",
+      "昨日"
+    ],
+    "answer": "昨日",
+    "explanation": "昨日林さんは十時まで勉強しました。"
+  },
+  {
+    "type": "mcq",
+    "question": "会議は______に終わりません。",
+    "options": [
+      "三時",
+      "六時",
+      "九時",
+      "三時"
+    ],
+    "answer": "三時",
+    "explanation": "会議は三時に終わりません。"
   }
 ]
