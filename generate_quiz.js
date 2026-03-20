@@ -48,42 +48,30 @@ async function generateQuiz() {
     const selected = pickRandom(sentences, 50);
 
     const prompt = `
-You are a professional Japanese teacher.
+You are a Japanese teacher creating JLPT N5 grammar quizzes.
 
-STRICT RULES:
-- Japanese must sound natural to native speakers
-- Do NOT create unnatural sentences
-- Use only correct grammar (JLPT N5 level) from the provided sentences
-- Do NOT use any grammar points that are not in the provided sentences
+Use only natural Japanese.
+Use only grammar found in the provided sentences.
+Do not use any new grammar points.
+Skip anything uncertain or unnatural.
 
-TASK:
-Generate exactly 10 grammar quiz questions.
+Generate exactly 10 questions.
 
-FORMAT:
-- All 10 questions must be type "mcq"
-- Each question must be a Japanese sentence with one word or particle replaced by a blank (_____)
+For each question:
+- "type" must be "mcq"
+- Use one Japanese sentence with one blank: _____
 - The blank must test a grammar point from the provided sentences
-- The question sentence must NOT contain the answer word anywhere outside the blank
-- The options must NOT appear anywhere in the question sentence
-- Each question must have exactly 4 options to fill in the blank
-- Each question must have EXACTLY 1 correct answer and 3 incorrect distractors
-- The 3 distractors must be clearly wrong in the context of the sentence
-- Provide a brief explanation in English for why the correct answer is right
-- Do NOT ask meta questions like "which particle is used here" — just show the sentence with a blank
+- Do not show the answer anywhere else in the sentence
+- None of the options may appear in the question sentence
+- Give exactly 4 options
+- Include 1 correct answer and 3 clearly wrong distractors
+- Add a short English explanation
+- Do not ask meta questions
 
-JAPANESE WRITING RULES:
-- All Japanese text in "question", "options", and "answer" must be written in hiragana/katakana only
-- If the original word contains kanji, add it in parentheses after the reading: e.g. "まいあさ（毎朝）"
-- Apply this rule to ALL Japanese text including options and answers
-EXAMPLE FORMAT:
-{
-  "type": "mcq",
-  "question": "このたてもの(建物)は_____です。",
-  "options": ["ふる(古)くない", "ふる(古)くて", "ふる(古)い", "ふる(古)く"],
-  "answer": "ふる(古)くない",
-  "explanation": "ふる(古)くない is the negative form of the i-adjective ふる(古)い. To negate an i-adjective, drop the い and add くない."
-}
-
+Japanese text rules:
+- In "question", "options", and "answer", use hiragana/katakana only
+- If a word normally uses kanji, add the kanji in parentheses after the reading
+- Apply this to all Japanese text
 Return ONLY valid JSON:
 
 [
