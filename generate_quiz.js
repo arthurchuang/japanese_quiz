@@ -45,7 +45,7 @@ async function generateQuiz() {
         fs.readFileSync("./data/sentences.json", "utf-8")
     );
 
-    const selected = pickRandom(sentences, 6);
+    const selected = pickRandom(sentences, 50);
 
     const prompt = `
 You are a professional Japanese teacher.
@@ -61,12 +61,22 @@ Generate exactly 10 grammar quiz questions.
 
 FORMAT:
 - All 10 questions must be type "mcq"
-- Each question must have a clear, concise question in English about the grammar point being tested
-- Each question must have exactly 4 options
+- Each question must be a Japanese sentence with one word or particle replaced by a blank (_____)
+- The blank must test a grammar point from the provided sentences
+- Each question must have exactly 4 options to fill in the blank
 - Each question must have EXACTLY 1 correct answer and 3 incorrect distractors
-- The 3 distractors must all be clearly wrong
-- Do NOT include any fill-in-the-blank or other question types
-- Provide a brief explanation for the correct answer in English
+- The 3 distractors must be clearly wrong in the context of the sentence
+- Provide a brief explanation in English for why the correct answer is right
+- Do NOT ask meta questions like "which particle is used here" — just show the sentence with a blank
+
+EXAMPLE FORMAT:
+{
+  "type": "mcq",
+  "question": "この建物は_____です。",
+  "options": ["古くない", "古くて", "古い", "古く"],
+  "answer": "古くない",
+  "explanation": "古くない is the negative form of the i-adjective 古い. To negate an i-adjective, drop the い and add くない."
+}
 
 Return ONLY valid JSON:
 
