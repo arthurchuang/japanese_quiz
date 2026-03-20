@@ -5,14 +5,19 @@ function pickRandom(arr, n) {
 }
 
 function isValidQuiz(quiz) {
-    return Array.isArray(quiz) &&
-        quiz.length === 10 &&
-        quiz.every(q =>
-            q.question &&
-            q.answer &&
-            typeof q.question === "string" &&
-            typeof q.answer === "string"
-        );
+  return (
+    Array.isArray(quiz) &&
+    quiz.length > 0 &&
+    quiz.every(
+      (q) =>
+        q.type === "mcq" &&
+        q.question &&
+        Array.isArray(q.options) &&
+        q.options.length === 4 &&
+        q.answer &&
+        q.explanation
+    )
+  );
 }
 
 async function callGroq(prompt) {
@@ -48,14 +53,18 @@ You are a professional Japanese teacher.
 STRICT RULES:
 - Japanese must sound natural to native speakers
 - Do NOT create unnatural sentences
-- Use only correct grammar (JLPT N4–N3 level)
+- Use only correct grammar (JLPT N5 level)
 
 TASK:
 Generate exactly 10 grammar quiz questions.
 
 FORMAT:
-- 5 multiple choice (4 options)
-- 5 fill-in-the-blank
+- All 10 questions must be type "mcq"
+- Each question must have exactly 4 options
+- Each question must have EXACTLY 1 correct answer and 3 incorrect distractors
+- The 3 distractors must all be clearly wrong
+- Do NOT include any fill-in-the-blank or other question types
+- Provide a brief explanation for the correct answer
 
 Return ONLY valid JSON:
 
