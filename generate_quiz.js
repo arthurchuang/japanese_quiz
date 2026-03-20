@@ -48,15 +48,16 @@ async function generateQuiz() {
     const selected = pickRandom(sentences, 50);
 
     const prompt = `
-You are a Japanese teacher creating JLPT N5 fill-in-the-blank MCQ quizzes from the provided sentences.
+You are a Japanese teacher creating JLPT N5 MCQ quizzes.
 
-Rules:
-- 10 questions, each blanking out a grammar point (particle, verb ending, or conjugation)
-- The sentence must not contain any of the 4 option words outside of the blank
-- 4 options: 1 correct, 3 clearly wrong in context
-- Short English explanation for the correct answer
-- All Japanese in hiragana/katakana; kanji in parentheses after reading: まいあさ（毎朝）
+Pick 10 sentences from the list. For each, blank out a grammar
+point (particle, verb ending, or conjugation) and create 4
+options (1 correct, 3 clearly wrong). The sentence must not contain
+any option word outside the blank. Add a short English explanation.
 
+All Japanese in hiragana/katakana; kanji in parentheses: まいあさ（毎朝）
+
+Return ONLY valid JSON:
 Return ONLY valid JSON:
 
 [
