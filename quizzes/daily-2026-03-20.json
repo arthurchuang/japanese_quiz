@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "私は今月両親と_______します。（わたしはこんげつりょうしんと_______します。）",
+    "question": "あなたは毎朝（__）食事しますか？",
     "options": [
-      "行きます",
-      "食べます",
-      "飲みます",
-      "帰ります"
+      "が",
+      "を",
+      "で",
+      "に"
     ],
-    "answer": "行きます",
-    "explanation": "The verb '行きます' (to go) is the correct answer because it is used with 'と' to indicate going with someone."
+    "answer": "に",
+    "explanation": "The correct answer is に, indicating the time when the action takes place."
   },
   {
     "type": "mcq",
-    "question": "この仕事は四月一日から九月三十日_______です。（このしごとはしがつついたちからくがつさんじゅうにち_______です。）",
+    "question": "王さんは日本語__レポートを書きました。",
     "options": [
-      "から",
-      "まで",
+      "を",
+      "で",
       "に",
-      "で"
+      "と"
     ],
-    "answer": "まで",
-    "explanation": "The particle 'まで' (until) is the correct answer because it is used to indicate the end of a period."
+    "answer": "で",
+    "explanation": "The correct answer is で, indicating the language used to write the report."
   },
   {
     "type": "mcq",
-    "question": "あなたは友達と_______ますか？（あなたはともだちと_______ますか？）",
+    "question": "私は大学__塾で日本語を勉強しました。",
     "options": [
-      "帰ります",
-      "行きます",
-      "食べます",
-      "飲みます"
-    ],
-    "answer": "帰ります",
-    "explanation": "The verb '帰ります' (to return) is the correct answer because it is used with 'と' to indicate returning with someone."
-  },
-  {
-    "type": "mcq",
-    "question": "あさってのパーティーは五時に_______ます。（あさってのパーティーはごじに_______ます。）",
-    "options": [
-      "始まります",
-      "終わります",
-      "行きます",
-      "帰ります"
-    ],
-    "answer": "始まります",
-    "explanation": "The verb '始まります' (to start) is the correct answer because it is used with a time to indicate when something starts."
-  },
-  {
-    "type": "mcq",
-    "question": "王さんは十日から十四日_______休みます。（おうさんはとおかからじゅうよっか_______休みます。）",
-    "options": [
-      "まで",
-      "から",
+      "と",
+      "で",
       "に",
-      "で"
+      "や"
     ],
-    "answer": "まで",
-    "explanation": "The particle 'まで' (until) is the correct answer because it is used to indicate the end of a period."
+    "answer": "や",
+    "explanation": "The correct answer is や, indicating a non-exhaustive list of locations."
   },
   {
     "type": "mcq",
-    "question": "このホテルのプールは_______ありません。（このホテルのプールは_______ありません。）",
+    "question": "高橋さんは__です。",
     "options": [
-      "良く",
-      "悪く",
-      "大きく",
-      "小さく"
+      "ひまじゃありません",
+      "ひまです",
+      "ひまではない",
+      "ひまではないです"
     ],
-    "answer": "良く",
-    "explanation": "The adjective '良く' (well) is the correct answer because it is used in the negative form to indicate that something is not good."
+    "answer": "ひまです",
+    "explanation": "The correct answer is ひまです, which is a na-adjective predicate."
   },
   {
     "type": "mcq",
-    "question": "彼は朝六時半に_______ます。（かれはあさろくじはんに_______ます。）",
+    "question": "私は妹__デパートへ行きました。",
     "options": [
-      "起きます",
-      "寝ます",
-      "食べます",
-      "飲みます"
+      "と",
+      "で",
+      "に",
+      "を"
     ],
-    "answer": "起きます",
-    "explanation": "The verb '起きます' (to wake up) is the correct answer because it is used with a time to indicate when someone wakes up."
+    "answer": "と",
+    "explanation": "The correct answer is と, indicating the person accompanying the speaker."
   },
   {
     "type": "mcq",
-    "question": "私は忙しく_______ません。（わたしはいそがしく_______ません。）",
+    "question": "海__行きました。",
     "options": [
-      "あり",
-      "いる",
-      "ある",
-      "ありません"
+      "を",
+      "に",
+      "で",
+      "と"
     ],
-    "answer": "ありません",
-    "explanation": "The verb 'ありません' (is not) is the correct answer because it is used to indicate the negative form of the adjective '忙しい' (busy)."
+    "answer": "へ",
+    "explanation": "The correct answer is へ, indicating the direction of the action."
   },
   {
     "type": "mcq",
-    "question": "いいえ、(日本は)_______寒くありません。（いいえ、(にほんは)_______さむくありません。）",
+    "question": "あなたは友達__帰りますか？",
     "options": [
-      "あまり",
-      "とても",
-      "少し",
-      "たいへん"
+      "と",
+      "で",
+      "に",
+      "を"
     ],
-    "answer": "あまり",
-    "explanation": "The adverb 'あまり' (not very) is the correct answer because it is used to indicate that something is not very much."
+    "answer": "と",
+    "explanation": "The correct answer is と, indicating the person accompanying the speaker."
   },
   {
     "type": "mcq",
-    "question": "私の家は駅から_______遠いです。（わたしのいえはえきから_______遠いです。）",
+    "question": "王さんは行き__。",
     "options": [
-      "とても",
-      "あまり",
-      "ちょっと",
-      "かなり"
+      "ません",
+      "ました",
+      "ませんでした",
+      "ましょう"
     ],
-    "answer": "とても",
-    "explanation": "The adverb 'とても' (very) is the correct answer because it is used to indicate a high degree of something."
+    "answer": "ません",
+    "explanation": "The correct answer is ません, which is the negative form of the verb."
+  },
+  {
+    "type": "mcq",
+    "question": "私はピアノ__演奏します。",
+    "options": [
+      "を",
+      "で",
+      "に",
+      "と"
+    ],
+    "answer": "で",
+    "explanation": "The correct answer is で, indicating the instrument used for the action."
+  },
+  {
+    "type": "mcq",
+    "question": "今日私はバス__本屋へ行きました。",
+    "options": [
+      "と",
+      "で",
+      "に",
+      "を"
+    ],
+    "answer": "で",
+    "explanation": "The correct answer is で, indicating the means of transportation."
   }
 ]
