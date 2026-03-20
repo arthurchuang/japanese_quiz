@@ -1,74 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"な形容詞\" in the sentence?",
+    "question": "この葉書は_____ですか?",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is a na-adjective predicate",
-      "It is an i-adjective predicate"
+      "大切",
+      "大切",
+      "大切ですか",
+      "大切だ"
     ],
-    "answer": "3",
-    "explanation": "In the sentence \"ここは賑やかなところです（ここはにぎやかなところです）\", \"な形容詞\" (na-adjective) is used as a predicate to describe the location."
+    "answer": "大切ですか",
+    "explanation": "な形容詞 + ですか (na-adjective question)"
   },
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"まで\" in the sentence?",
+    "question": "これは_____ギターです。",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is a suffix indicating a point in time",
-      "It is a particle indicating direction"
+      "低い",
+      "低く",
+      "低いです",
+      "低くない"
     ],
-    "answer": "3",
-    "explanation": "In the sentence \"私は七時まで勉強します（わたしはしちじまでべんきょうします）\", \"まで\" indicates the ending point of the action."
+    "answer": "低い",
+    "explanation": "い形容詞 + です (i-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"は\" in the sentence?",
+    "question": "私は_____ます。",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is a particle indicating topic",
-      "It is a suffix indicating a point in time"
+      "寝",
+      "寝",
+      "寝ます",
+      "寝る"
     ],
-    "answer": "3",
-    "explanation": "In the sentence \"大きい封筒は不便です（おおきいふうとうはふべんです）\", \"は\" indicates the topic of the sentence."
+    "answer": "寝ます",
+    "explanation": "verb masu-form (present/future)"
   },
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"つまらない\" in the sentence?",
+    "question": "先週の水曜日私は_____まで働きました。",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is an i-adjective predicate",
-      "It is a na-adjective predicate"
+      "十一時",
+      "十一時",
+      "十一時まで",
+      "十一時には"
     ],
-    "answer": "3",
-    "explanation": "In the sentence \"このドラマはつまらないです（このドラマはつまらないです）\", \"つまらない\" is used as an i-adjective predicate to describe the drama."
+    "answer": "十一時まで",
+    "explanation": "verb mashita-form (past tense)"
   },
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"うまい\" in the sentence?",
+    "question": "私は_____毎晩十二時に寝ます。",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is an i-adjective predicate",
-      "It is a na-adjective predicate"
+      "毎晩",
+      "毎晩",
+      "毎晩に",
+      "毎朝"
     ],
-    "answer": "3",
-    "explanation": "In the sentence \"お寿司はうまいです（おすしはうまいです）\", \"うまい\" is used as an i-adjective predicate to describe the sushi."
+    "answer": "毎晩",
+    "explanation": "毎〜 (every) + time + に + verb masu-form"
   },
   {
     "type": "mcq",
-    "question": "What is the grammatical function of \"なかった\" in the sentence?",
+    "question": "飛行機は_____時に飛びませんでした。",
     "options": [
-      "It is a verb ending in -masu",
-      "It is a noun",
-      "It is an i-adjective past negative",
-      "It is a na-adjective predicate"
+      "一時",
+      "一時",
+      "一時に",
+      "一時に"
     ],
-    "answer": "2",
-    "explanation": "In the sentence \"その言葉は正しくなかったです（そのことばはただしくなかったです）\", \"なかった\" is used as an i-adjective past negative to describe the words."
+    "answer": "一時に",
+    "explanation": "verb masendeshita-form (past negative)"
+  },
+  {
+    "type": "mcq",
+    "question": "彼の歌は_____でしょう?",
+    "options": [
+      "上手",
+      "上手",
+      "上手です",
+      "上手だ"
+    ],
+    "answer": "上手",
+    "explanation": "〜でしょう (conjecture/confirmation)"
+  },
+  {
+    "type": "mcq",
+    "question": "いつも_____仕事は六時に終わりません。",
+    "options": [
+      "仕事は",
+      "仕事",
+      "仕事を",
+      "仕事をする"
+    ],
+    "answer": "仕事は",
+    "explanation": "いつも + verb masen-form (habitual negative)"
+  },
+  {
+    "type": "mcq",
+    "question": "ここは_____のところです。",
+    "options": [
+      "賑やかな",
+      "賑やか",
+      "賑やかに",
+      "賑やかなところ"
+    ],
+    "answer": "賑やかな",
+    "explanation": "な形容詞 + です (na-adjective predicate)"
+  },
+  {
+    "type": "mcq",
+    "question": "日本は_____ですか?",
+    "options": [
+      "寒い",
+      "寒い",
+      "寒いです",
+      "寒くない"
+    ],
+    "answer": "寒い",
+    "explanation": "い形容詞 + ですか (i-adjective question)"
   }
 ]
