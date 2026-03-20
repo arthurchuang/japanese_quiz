@@ -5,19 +5,19 @@ function pickRandom(arr, n) {
 }
 
 function isValidQuiz(quiz) {
-  return (
-    Array.isArray(quiz) &&
-    quiz.length > 0 &&
-    quiz.every(
-      (q) =>
-        q.type === "mcq" &&
-        q.question &&
-        Array.isArray(q.options) &&
-        q.options.length === 4 &&
-        q.answer &&
-        q.explanation
-    )
-  );
+    return (
+        Array.isArray(quiz) &&
+        quiz.length > 0 &&
+        quiz.every(
+            (q) =>
+                q.type === "mcq" &&
+                q.question &&
+                Array.isArray(q.options) &&
+                q.options.length === 4 &&
+                q.answer &&
+                q.explanation
+        )
+    );
 }
 
 async function callGroq(prompt) {
@@ -48,35 +48,15 @@ async function generateQuiz() {
     const selected = pickRandom(sentences, 50);
 
     const prompt = `
-You are a Japanese teacher creating JLPT N5 grammar quizzes.
+You are a Japanese teacher creating JLPT N5 fill-in-the-blank MCQ quizzes from the provided sentences.
 
-Use only natural Japanese.
-Use only grammar found in the provided sentences.
-Do not use any new grammar points.
-Skip anything uncertain or unnatural.
+Rules:
+- 10 questions, each blanking out a grammar point (particle, verb ending, or conjugation)
+- The blanked word must not appear elsewhere in the sentence
+- 4 options: 1 correct, 3 clearly wrong in context
+- Short English explanation for the correct answer
+- All Japanese in hiragana/katakana; kanji in parentheses after reading: まいあさ（毎朝）
 
-Generate exactly 10 questions.
-
-For each question:
-- "type" must be "mcq"
-- Use one Japanese sentence with one blank: _____
-- The blank must test a grammar point from the provided sentences
-- Do not show the answer anywhere else in the sentence
-- None of the options may appear in the question sentence
-- Give exactly 4 options
-- Include 1 correct answer and 3 clearly wrong distractors
-- Add a short English explanation
-- Do not ask meta questions
-- Do not create questions where the blank overlaps with text already appearing before or after the blank.
-   - Bad example:
-     question: "______のホテルのプールは良くありません。"
-     answer: "このホテルのプールは"
-     This creates duplication and is invalid.
-
-Japanese text rules:
-- In "question", "options", and "answer", use hiragana/katakana only
-- If a word normally uses kanji, add the kanji in parentheses after the reading
-- Apply this to all Japanese text
 Return ONLY valid JSON:
 
 [
