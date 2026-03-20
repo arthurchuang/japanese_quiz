@@ -140,4 +140,5 @@ function nextQuestion() {
 }
 
 // 6️⃣ Initialize
+nextBtn.onclick = nextQuestion;
 showQuizList();
