@@ -124,6 +124,7 @@ function selectAnswer(selected, correct, explanation) {
     // Show next button if more questions remain
     if (window.currentQuestionIndex < window.currentQuiz.length - 1) {
         nextBtn.style.display = "block";
+        nextBtn.disabled = false;
     } else {
         refreshBtn.style.display = "block";
         nextBtn.style.display = "none";
