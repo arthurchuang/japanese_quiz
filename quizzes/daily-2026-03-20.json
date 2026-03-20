@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "______のホテルのプールは良くありません。",
+    "question": "張さんと洪さんはバイオリンを______。",
     "options": [
-      "この",
-      "その",
-      "あの",
-      "その"
+      "弾きました",
+      "弾きます",
+      "弾きません",
+      "弾きますません"
     ],
-    "answer": "この",
-    "explanation": "この前はどんな町ですか?"
+    "answer": "弾きました",
+    "explanation": "verb mashita-form with を (direct object)"
   },
   {
     "type": "mcq",
-    "question": "______の散歩は毎日しています。",
+    "question": "お寿司は______。",
     "options": [
-      "毎朝の",
-      "毎日のお",
-      "毎週の",
-      "毎朝のお"
+      "うまい",
+      "うまいません",
+      "うまくない",
+      "うまいです"
     ],
-    "answer": "毎朝の",
-    "explanation": "毎朝の散歩"
+    "answer": "うまい",
+    "explanation": "い形容詞 + です (i-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "______の時は仕事が終わりますか?",
+    "question": "毎晩の九時______。",
     "options": [
-      "今日の",
-      "明日の",
-      "昨日の",
-      "今日の"
-    ],
-    "answer": "今日の",
-    "explanation": "今日仕事は六時に終わりますか?"
-  },
-  {
-    "type": "mcq",
-    "question": "______の水は冷たいです。",
-    "options": [
-      "その",
-      "あの",
-      "この",
-      "その"
-    ],
-    "answer": "その",
-    "explanation": "はい、川の水は冷たいです。"
-  },
-  {
-    "type": "mcq",
-    "question": "朝食は______から______までです。",
-    "options": [
-      "六時から",
-      "十時から",
-      "六時から",
-      "十時から"
-    ],
-    "answer": "六時から",
-    "explanation": "朝食は六時から十時までです。"
-  },
-  {
-    "type": "mcq",
-    "question": "______は良いです。",
-    "options": [
-      "この",
-      "その",
-      "あの",
-      "この"
-    ],
-    "answer": "この",
-    "explanation": "この電子辞書は良いです。"
-  },
-  {
-    "type": "mcq",
-    "question": "______は少し寒いです。",
-    "options": [
-      "日本は",
-      "日本の",
-      "ここは",
-      "ここは"
-    ],
-    "answer": "日本は",
-    "explanation": "はい、(日本は)少し寒いです。"
-  },
-  {
-    "type": "mcq",
-    "question": "動物は______ます。",
-    "options": [
-      "寝ます",
-      "食べます",
-      "走ります",
-      "寝ます"
-    ],
-    "answer": "寝ます",
-    "explanation": "動物は寝ます。"
-  },
-  {
-    "type": "mcq",
-    "question": "林さんは______まで勉強しました。",
-    "options": [
-      "昨日",
-      "今日",
-      "明日",
-      "昨日"
-    ],
-    "answer": "昨日",
-    "explanation": "昨日林さんは十時まで勉強しました。"
-  },
-  {
-    "type": "mcq",
-    "question": "会議は______に終わりません。",
-    "options": [
-      "三時",
-      "六時",
       "九時",
-      "三時"
+      "九時です",
+      "九時まで",
+      "九時から"
     ],
-    "answer": "三時",
-    "explanation": "会議は三時に終わりません。"
+    "answer": "九時",
+    "explanation": "time word (specific time)"
+  },
+  {
+    "type": "mcq",
+    "question": "去年のテストは______。",
+    "options": [
+      "簡単",
+      "簡単です",
+      "簡単な",
+      "簡単ではありませんでした"
+    ],
+    "answer": "簡単",
+    "explanation": "な形容詞 + でした (na-adjective past tense)"
+  },
+  {
+    "type": "mcq",
+    "question": "あのドアは______。",
+    "options": [
+      "丈夫",
+      "丈夫ではありませんでした",
+      "丈夫ではなかった",
+      "丈夫でした"
+    ],
+    "answer": "丈夫ではありませんでした",
+    "explanation": "な形容詞 + ではありませんでした (na-adjective past negative)"
+  },
+  {
+    "type": "mcq",
+    "question": "英語のクラスは______。",
+    "options": [
+      "終わりました",
+      "終わります",
+      "終わりません",
+      "終わらせました"
+    ],
+    "answer": "終わりました",
+    "explanation": "verb mashita-form (past tense)"
+  },
+  {
+    "type": "mcq",
+    "question": "私は七時まで______。",
+    "options": [
+      "勉強します",
+      "勉強しました",
+      "勉強しますません",
+      "勉強しません"
+    ],
+    "answer": "勉強します",
+    "explanation": "time + まで + verb (ending point)"
+  },
+  {
+    "type": "mcq",
+    "question": "私は日曜日家で美味しいケーキを______。",
+    "options": [
+      "作りました",
+      "作ります",
+      "作りません",
+      "作りましたません"
+    ],
+    "answer": "作りました",
+    "explanation": "verb mashita-form with で (location of action) and を (direct object)"
+  },
+  {
+    "type": "mcq",
+    "question": "佐藤さんは友達と______。",
+    "options": [
+      "北海道へ行きました",
+      "北海道へ行きます",
+      "北海道へ行きません",
+      "北海道へ行きましたません"
+    ],
+    "answer": "北海道へ行きました",
+    "explanation": "verb mashita-form with と and 〜人で (group of people)"
+  },
+  {
+    "type": "mcq",
+    "question": "お寺は______。",
+    "options": [
+      "静か",
+      "静かです",
+      "静かではありませんでした",
+      "静かではありませんでしたません"
+    ],
+    "answer": "静か",
+    "explanation": "な形容詞 + です (na-adjective predicate)"
   }
 ]
