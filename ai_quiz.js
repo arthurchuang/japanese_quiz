@@ -17,7 +17,7 @@ const refreshBtn = document.getElementById("refreshBtn");
 async function showQuizList() {
     try {
         loadingEl.textContent = "Loading available quizzes...";
-        const response = await fetch("./quizzes/index.json");
+        const response = await fetch(`./quizzes/index.json?t=${Date.now()}`);
         if (!response.ok) throw new Error("Failed to load index.json");
 
         const quizzes = await response.json();
