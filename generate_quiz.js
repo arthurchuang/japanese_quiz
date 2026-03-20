@@ -28,7 +28,7 @@ async function callGroq(prompt) {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            model: "llama-3.1-8b-instant",
+            model: "qwen/qwen3-32b",
             messages: [
                 { role: "user", content: prompt }
             ],
