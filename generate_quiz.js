@@ -53,18 +53,20 @@ You are a professional Japanese teacher.
 STRICT RULES:
 - Japanese must sound natural to native speakers
 - Do NOT create unnatural sentences
-- Use only correct grammar (JLPT N5 level)
+- Use only correct grammar (JLPT N5 level) from the provided sentences
+- Do NOT use any grammar points that are not in the provided sentences
 
 TASK:
 Generate exactly 10 grammar quiz questions.
 
 FORMAT:
 - All 10 questions must be type "mcq"
+- Each question must have a clear, concise question in English about the grammar point being tested
 - Each question must have exactly 4 options
 - Each question must have EXACTLY 1 correct answer and 3 incorrect distractors
 - The 3 distractors must all be clearly wrong
 - Do NOT include any fill-in-the-blank or other question types
-- Provide a brief explanation for the correct answer
+- Provide a brief explanation for the correct answer in English
 
 Return ONLY valid JSON:
 
