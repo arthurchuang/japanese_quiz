@@ -67,6 +67,11 @@ For each question:
 - Include 1 correct answer and 3 clearly wrong distractors
 - Add a short English explanation
 - Do not ask meta questions
+- Do not create questions where the blank overlaps with text already appearing before or after the blank.
+   - Bad example:
+     question: "______のホテルのプールは良くありません。"
+     answer: "このホテルのプールは"
+     This creates duplication and is invalid.
 
 Japanese text rules:
 - In "question", "options", and "answer", use hiragana/katakana only
