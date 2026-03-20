@@ -1,122 +1,74 @@
 [
   {
     "type": "mcq",
-    "question": "大きい封筒は不便です。と言うことはできません。",
+    "question": "What is the grammatical function of \"な形容詞\" in the sentence?",
     "options": [
-      "大きい封筒は不便です。",
-      "封筒は大きいです。",
-      "封筒は大きくないです。",
-      "封筒は小さいです。"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is a na-adjective predicate",
+      "It is an i-adjective predicate"
     ],
-    "answer": "封筒は大きいです。",
-    "explanation": "この文は否定文ではないので、否定形の形容詞でなく、基本形の形容詞を使います。"
+    "answer": "3",
+    "explanation": "In the sentence \"ここは賑やかなところです（ここはにぎやかなところです）\", \"な形容詞\" (na-adjective) is used as a predicate to describe the location."
   },
   {
     "type": "mcq",
-    "question": "この建物は古くないです。",
+    "question": "What is the grammatical function of \"まで\" in the sentence?",
     "options": [
-      "この建物は古いです。",
-      "この建物は新しです。",
-      "この建物は古くないです。",
-      "この建物は古くはいないです。"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is a suffix indicating a point in time",
+      "It is a particle indicating direction"
     ],
-    "answer": "この建物は新しです。",
-    "explanation": "この文は「古くない」ではなく、「古い」が正解です。"
+    "answer": "3",
+    "explanation": "In the sentence \"私は七時まで勉強します（わたしはしちじまでべんきょうします）\", \"まで\" indicates the ending point of the action."
   },
   {
     "type": "mcq",
-    "question": "静かな森では鳥がうるさく鳴いています。",
+    "question": "What is the grammatical function of \"は\" in the sentence?",
     "options": [
-      "静かな森は静かです。",
-      "静かな森では静かです。",
-      "静かな森では静かな森です。",
-      "静かな森では静かな森は静かです。"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is a particle indicating topic",
+      "It is a suffix indicating a point in time"
     ],
-    "answer": "静かな森は静かです。",
-    "explanation": "この文の述語の位置が誤りで、主語と述語が入れ替わっています。"
+    "answer": "3",
+    "explanation": "In the sentence \"大きい封筒は不便です（おおきいふうとうはふべんです）\", \"は\" indicates the topic of the sentence."
   },
   {
     "type": "mcq",
-    "question": "おばさんの病気は大丈夫ですか?",
+    "question": "What is the grammatical function of \"つまらない\" in the sentence?",
     "options": [
-      "おばさんの病気は大丈夫です。",
-      "おばさんは大丈夫です。",
-      "おばさんの病気は大丈夫ですか?",
-      "おばさんの病気は大丈夫ですか??"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is an i-adjective predicate",
+      "It is a na-adjective predicate"
     ],
-    "answer": "おばさんは大丈夫です。",
-    "explanation": "この文の主語がおばさんで、病気はおばさんのものではなく、おばさんは大丈夫の文を聞いているので、この文はおばさんは大丈夫です。"
+    "answer": "3",
+    "explanation": "In the sentence \"このドラマはつまらないです（このドラマはつまらないです）\", \"つまらない\" is used as an i-adjective predicate to describe the drama."
   },
   {
     "type": "mcq",
-    "question": "店は今月暇です。",
+    "question": "What is the grammatical function of \"うまい\" in the sentence?",
     "options": [
-      "店は今月暇です。",
-      "店は今月休みです。",
-      "店は今月忙しいです。",
-      "店は今月休んでいます。"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is an i-adjective predicate",
+      "It is a na-adjective predicate"
     ],
-    "answer": "店は今月休みです。",
-    "explanation": "この文は店が今月休んでいるという意味です。"
+    "answer": "3",
+    "explanation": "In the sentence \"お寿司はうまいです（おすしはうまいです）\", \"うまい\" is used as an i-adjective predicate to describe the sushi."
   },
   {
     "type": "mcq",
-    "question": "私は毎晩十二時に寝ます。",
+    "question": "What is the grammatical function of \"なかった\" in the sentence?",
     "options": [
-      "私は毎晩十二時まで寝ます。",
-      "私は毎晩十二時で寝ます。",
-      "私は毎晩十二時に寝ます。",
-      "私は毎晩十二時で寝ます。"
+      "It is a verb ending in -masu",
+      "It is a noun",
+      "It is an i-adjective past negative",
+      "It is a na-adjective predicate"
     ],
-    "answer": "私は毎晩十二時に寝ます。",
-    "explanation": "この文は私は毎晩十二時に寝るという意味です。"
-  },
-  {
-    "type": "mcq",
-    "question": "明日は雨が降ります。",
-    "options": [
-      "明日は雨が降ります。",
-      "明日は雨が降る。",
-      "明日は雨が降っています。",
-      "明日は雨が降った。"
-    ],
-    "answer": "明日は雨が降る。",
-    "explanation": "この文は明日は雨が降るという意味で、現在形を使います。"
-  },
-  {
-    "type": "mcq",
-    "question": "彼女は毎週金曜日に買い物に行きます。",
-    "options": [
-      "彼女は毎週金曜日に買い物に行きます。",
-      "彼女は毎週金曜日に買い物に行きました。",
-      "彼女は毎週金曜日に買い物に行く。",
-      "彼女は毎週金曜日に買い物にいきます。"
-    ],
-    "answer": "彼女は毎週金曜日に買い物に行きます。",
-    "explanation": "この文は彼女が毎週金曜日に買い物に行くという意味です。"
-  },
-  {
-    "type": "mcq",
-    "question": "私は日本語を勉強しています。",
-    "options": [
-      "私は日本語を勉強します。",
-      "私は日本語を勉強します。",
-      "私は日本語を勉強しています。",
-      "私は日本語を勉強すます。"
-    ],
-    "answer": "私は日本語を勉強します。",
-    "explanation": "この文は私は日本語を勉強しているという意味です。"
-  },
-  {
-    "type": "mcq",
-    "question": "お母さんは明日帰ってきます。",
-    "options": [
-      "お母さんは明日帰ってきます。",
-      "お母さんは明日帰ります。",
-      "お母さんは明日帰ってきました。",
-      "お母さんは明日帰ってきませんでした。"
-    ],
-    "answer": "お母さんは明日帰ります。",
-    "explanation": "この文はお母さんが明日帰ってくるという意味です。"
+    "answer": "2",
+    "explanation": "In the sentence \"その言葉は正しくなかったです（そのことばはただしくなかったです）\", \"なかった\" is used as an i-adjective past negative to describe the words."
   }
 ]
