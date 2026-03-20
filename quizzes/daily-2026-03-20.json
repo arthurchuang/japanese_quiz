@@ -1,122 +1,134 @@
 [
   {
     "type": "mcq",
-    "question": "この葉書は_____ですか?",
+    "question": "このたてものは_____です。",
     "options": [
-      "大切",
-      "大切",
-      "大切ですか",
-      "大切だ"
+      "ふる(古)くない",
+      "ふる(古)くて",
+      "ふる(古)い",
+      "ふる(古)く"
     ],
-    "answer": "大切ですか",
-    "explanation": "な形容詞 + ですか (na-adjective question)"
+    "answer": "ふる(古)くない",
+    "explanation": "ふる(古)くない is the negative form of the i-adjective ふる(古)い. To negate an i-adjective, drop the い and add くない."
   },
   {
     "type": "mcq",
-    "question": "これは_____ギターです。",
+    "question": "飛行機は_____です。",
     "options": [
-      "低い",
-      "低く",
-      "低いです",
-      "低くない"
+      "ひこうきはいちじにとびました",
+      "ひこうきはいちじにとびませんでした",
+      "ひこうきはいちじにとびます",
+      "ひこうきはいちじにとびません"
     ],
-    "answer": "低い",
-    "explanation": "い形容詞 + です (i-adjective predicate)"
+    "answer": "ひこうきはいちじにとびませんでした",
+    "explanation": "The verb masendeshita-form is used for past negative action."
   },
   {
     "type": "mcq",
-    "question": "私は_____ます。",
+    "question": "その葉書は_____?",
     "options": [
-      "寝",
-      "寝",
-      "寝ます",
-      "寝る"
+      "はがきはたいせつです",
+      "はがきはたいせつじゃありません",
+      "はがきはたいせつでしょう",
+      "はがきはたいせつですか"
     ],
-    "answer": "寝ます",
-    "explanation": "verb masu-form (present/future)"
+    "answer": "はがきはたいせつじゃありません",
+    "explanation": "The phrase いいえ + な形容詞 + じゃありません is used for a negative answer."
   },
   {
     "type": "mcq",
-    "question": "先週の水曜日私は_____まで働きました。",
+    "question": "私は_____です。",
     "options": [
-      "十一時",
-      "十一時",
-      "十一時まで",
-      "十一時には"
+      "はい、わたしはほしいです",
+      "はい、わたしはいそがしくありません",
+      "いいえ、わたしはいそがしいです",
+      "いいえ、わたしは忙しくありません"
     ],
-    "answer": "十一時まで",
-    "explanation": "verb mashita-form (past tense)"
+    "answer": "はい、わたしはいそがしくありません",
+    "explanation": "The phrase はい + い形容詞 + です is used for an affirmative answer."
   },
   {
     "type": "mcq",
-    "question": "私は_____毎晩十二時に寝ます。",
+    "question": "会議は_____。",
     "options": [
-      "毎晩",
-      "毎晩",
-      "毎晩に",
-      "毎朝"
+      "かいぎはごじはんまでにします",
+      "かいぎはごじはんまでしません",
+      "かいぎはごじはんまでです",
+      "かいぎはごじはんまでました"
     ],
-    "answer": "毎晩",
-    "explanation": "毎〜 (every) + time + に + verb masu-form"
+    "answer": "かいぎはごじはんまでです",
+    "explanation": "The phrase 〜までです is used to indicate a time limit."
   },
   {
     "type": "mcq",
-    "question": "飛行機は_____時に飛びませんでした。",
+    "question": "私は_____。",
     "options": [
-      "一時",
-      "一時",
-      "一時に",
-      "一時に"
+      "わたしはよるじゅういちじに寝ます",
+      "わたしはよるじゅういちじに寝ません",
+      "yoるじゅういちじにねます",
+      "yoるじゅういちじにねません"
     ],
-    "answer": "一時に",
-    "explanation": "verb masendeshita-form (past negative)"
+    "answer": "わたしはよるじゅういちじに寝ます",
+    "explanation": "The phrase time + に + verb masu-form is used to indicate a future action."
   },
   {
     "type": "mcq",
-    "question": "彼の歌は_____でしょう?",
+    "question": "山田さんは_____?",
     "options": [
-      "上手",
-      "上手",
-      "上手です",
-      "上手だ"
+      "やまださんはなんにちからなんにちまでやすみますか",
+      "やまださんはなんにちからなんにちまでやすみませんか",
+      "やまださんはなんにちからなんにちまでやすみます",
+      "やまださんはなんにちからなんにちまでやすみません"
     ],
-    "answer": "上手",
-    "explanation": "〜でしょう (conjecture/confirmation)"
+    "answer": "やまださんはなんにちからなんにちまでやすみますか",
+    "explanation": "The phrase verb masu-form question with から〜まで is used to ask about a time range."
   },
   {
     "type": "mcq",
-    "question": "いつも_____仕事は六時に終わりません。",
+    "question": "私は_____。",
     "options": [
-      "仕事は",
-      "仕事",
-      "仕事を",
-      "仕事をする"
+      "わたしはいつもよるじゅういちじからあさろくじまで寝ます",
+      "わたしはいつもよるじゅういちじからあさろくじまで寝ません",
+      "わたしはよるじゅういちじからあさろくじまで寝ます",
+      "わたしはよるじゅういちじからあさろくじまで寝ません"
     ],
-    "answer": "仕事は",
-    "explanation": "いつも + verb masen-form (habitual negative)"
+    "answer": "わたしはいつもよるじゅういちじからあさろくじまで寝ます",
+    "explanation": "The phrase 〜から〜まで is used to indicate a time range."
   },
   {
     "type": "mcq",
-    "question": "ここは_____のところです。",
+    "question": "私は_____。",
     "options": [
-      "賑やかな",
-      "賑やか",
-      "賑やかに",
-      "賑やかなところ"
+      "わたしはにくやでぶたにくをかいました",
+      "わたしはにくやでぶたにくをかいません",
+      "わたしはにくやでぶたにくを買いました",
+      "わたしはにくやでぶたにくを買いません"
     ],
-    "answer": "賑やかな",
-    "explanation": "な形容詞 + です (na-adjective predicate)"
+    "answer": "わたしはにくやでぶたにくをかいました",
+    "explanation": "The phrase verb mashita-form with で and を is used to indicate a past action."
   },
   {
     "type": "mcq",
-    "question": "日本は_____ですか?",
+    "question": "兄は_____。",
     "options": [
-      "寒い",
-      "寒い",
-      "寒いです",
-      "寒くない"
+      "あにはかおをあらいました",
+      "あにはかおをあらしませんでした",
+      "あにはかおをあらす",
+      "あにはかおをあらしません"
     ],
-    "answer": "寒い",
-    "explanation": "い形容詞 + ですか (i-adjective question)"
+    "answer": "あにはかおをあらいました",
+    "explanation": "The phrase verb mashita-form with を is used to indicate a past action."
+  },
+  {
+    "type": "mcq",
+    "question": "あなたは_____?",
+    "options": [
+      "あなたはきのうのゆうがたでかけました",
+      "あなたはきのうのゆうがたでかけません",
+      "あなたはきのうのゆうがたでかける",
+      "あなたはきのうのゆうがたでかけません"
+    ],
+    "answer": "あなたはきのうのゆうがたでかけました",
+    "explanation": "The phrase verb mashita-form question is used to ask about a past action."
   }
 ]
