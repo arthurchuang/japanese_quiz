@@ -1,0 +1,42 @@
+name: Update Quiz Index
+
+# Trigger this workflow only after 'Generate Daily Quiz' workflow completes successfully
+on:
+  workflow_run:
+    workflows: ["Generate Daily Quiz"]
+    types:
+      - completed
+
+jobs:
+  update-index:
+    # Only run if the previous workflow succeeded
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate index.json
+        run: |
+          echo "Generating index.json..."
+          cd quizzes
+          # list all daily-*.json files and sort
+          ls daily-*.json | sort > ../temp_quiz_list.txt
+          # convert to JSON array
+          echo -n "[" > index.json
+          awk '{printf "%s\"%s\"", sep, $0; sep=","}' ../temp_quiz_list.txt >> index.json
+          echo "]" >> index.json
+          cd ..
+          rm temp_quiz_list.txt
+          echo "Generated index.json:"
+          cat quizzes/index.json
+
+      - name: Commit & push index.json
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@example.com"
+          git add quizzes/index.json
+          # commit only if changes exist
+          git diff --cached --quiet || git commit -m "Update quiz index.json"
+          git push

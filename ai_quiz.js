@@ -1,124 +1,139 @@
-let quiz = [];
-let currentIndex = 0;
-let score = 0;
-let answered = false;
+// Global state
+window.currentQuiz = [];
+window.currentQuestionIndex = 0;
 
-// Load quiz
-window.onload = async function () {
-    try {
-        const today = new Date().toISOString().split('T')[0];
-        document.getElementById("dateDisplay").textContent = today;
+// DOM elements
+const loadingEl = document.getElementById("loading");
+const dateDisplayEl = document.getElementById("dateDisplay");
+const progressEl = document.getElementById("progress");
+const questionWordEl = document.getElementById("questionWord");
+const optionsEl = document.getElementById("options");
+const feedbackEl = document.getElementById("feedback");
+const scoreEl = document.getElementById("score");
+const nextBtn = document.getElementById("nextBtn");
+const refreshBtn = document.getElementById("refreshBtn");
 
-        const response = await fetch(`./quizzes/daily-${today}.json`);
-        if (!response.ok) throw new Error("No quiz found");
+// 1️⃣ Fetch and display list of available quizzes
+async function showQuizList() {
+  try {
+    loadingEl.textContent = "Loading available quizzes...";
+    const response = await fetch("./quizzes/index.json");
+    if (!response.ok) throw new Error("Failed to load index.json");
 
-        quiz = await response.json();
+    const quizzes = await response.json();
+    loadingEl.textContent = "";
+    dateDisplayEl.textContent = "Select a quiz:";
 
-        displayQuestion();
-    } catch (err) {
-        alert("Failed to load quiz: " + err.message);
-        console.error(err);
-    }
-};
+    // Clear previous content
+    optionsEl.innerHTML = "";
 
-function displayQuestion() {
-    const q = quiz[currentIndex];
-
-    answered = false;
-
-    document.getElementById("progress").textContent =
-        `${currentIndex + 1} / ${quiz.length}`;
-
-    document.getElementById("questionWord").textContent = q.question;
-    document.getElementById("feedback").textContent = "";
-    document.getElementById("score").textContent = `Score: ${score}`;
-    document.getElementById("nextBtn").style.display = "none";
-
-    const optionsDiv = document.getElementById("options");
-    optionsDiv.innerHTML = "";
-
-    // 🟢 MCQ handling
-    if (q.type === "mcq") {
-        q.options.forEach(option => {
-            const btn = document.createElement("button");
-            btn.textContent = option;
-            btn.className = "option";
-
-            btn.onclick = () => handleAnswer(option, q);
-
-            optionsDiv.appendChild(btn);
-        });
-    }
-
-    // 🔵 Fill-in-the-blank handling (tap to reveal)
-    else if (q.type === "fill-in-the-blank") {
-        const btn = document.createElement("button");
-        btn.textContent = "Show Answer";
-        btn.className = "option";
-
-        btn.onclick = () => handleAnswer(q.answer, q);
-
-        optionsDiv.appendChild(btn);
-    }
+    quizzes.reverse().forEach((quizFile) => {
+      const btn = document.createElement("button");
+      btn.className = "option";
+      btn.textContent = quizFile.replace(".json", ""); // e.g., daily-2026-03-19
+      btn.onclick = () => loadQuiz(quizFile);
+      optionsEl.appendChild(btn);
+    });
+  } catch (err) {
+    loadingEl.textContent = "Failed to load quizzes.";
+    console.error(err);
+  }
 }
 
-function handleAnswer(selected, q) {
-    if (answered) return;
+// 2️⃣ Load selected quiz JSON
+async function loadQuiz(fileName) {
+  try {
+    loadingEl.textContent = "Loading quiz...";
+    const response = await fetch(`./quizzes/${fileName}`);
+    if (!response.ok) throw new Error("Failed to load quiz JSON");
 
-    answered = true;
+    const quizData = await response.json();
+    window.currentQuiz = quizData;
+    window.currentQuestionIndex = 0;
 
-    const feedback = document.getElementById("feedback");
+    // Update date display
+    dateDisplayEl.textContent = fileName.replace(".json", "");
 
-    if (q.type === "mcq") {
-        const buttons = document.querySelectorAll(".option");
-
-        buttons.forEach(btn => {
-            if (btn.textContent === q.answer) {
-                btn.style.backgroundColor = "#c8f7c5"; // correct = green
-            } else if (btn.textContent === selected) {
-                btn.style.backgroundColor = "#f7c5c5"; // wrong = red
-            }
-            btn.disabled = true;
-        });
-
-        if (selected === q.answer) {
-            feedback.textContent = "✅ Correct!";
-            score++;
-        } else {
-            feedback.textContent = `❌ Wrong!`;
-        }
-    }
-
-    // Fill-in-the-blank: always reveal
-    else {
-        feedback.textContent = `💡 Answer: ${q.answer}`;
-        score++; // optional: always reward
-    }
-
-    // 📘 Show explanation (VERY IMPORTANT UX)
-    const explanation = document.createElement("div");
-    explanation.style.marginTop = "10px";
-    explanation.style.fontSize = "0.9rem";
-    explanation.style.color = "#555";
-    explanation.textContent = q.explanation;
-
-    document.getElementById("options").appendChild(explanation);
-
-    document.getElementById("score").textContent = `Score: ${score}`;
-    document.getElementById("nextBtn").style.display = "block";
-}
-
-document.getElementById("nextBtn").addEventListener("click", () => {
-    currentIndex++;
-
-    if (currentIndex >= quiz.length) {
-        document.getElementById("questionWord").textContent = "🎉 Quiz Complete!";
-        document.getElementById("options").innerHTML = "";
-        document.getElementById("feedback").textContent = `Final Score: ${score}`;
-        document.getElementById("nextBtn").style.display = "none";
-        document.getElementById("refreshBtn").style.display = "block";
-        return;
-    }
+    // Hide loading, show quiz
+    loadingEl.style.display = "none";
+    nextBtn.disabled = false;
+    optionsEl.innerHTML = "";
+    feedbackEl.textContent = "";
+    scoreEl.textContent = "";
 
     displayQuestion();
-});
+  } catch (err) {
+    loadingEl.textContent = "Failed to load quiz.";
+    console.error(err);
+  }
+}
+
+// 3️⃣ Display current question
+function displayQuestion() {
+  if (!window.currentQuiz.length) return;
+
+  const current = window.currentQuiz[window.currentQuestionIndex];
+
+  // Update progress
+  progressEl.textContent = `Question ${window.currentQuestionIndex + 1} / ${window.currentQuiz.length}`;
+
+  // Update question text
+  questionWordEl.textContent = current.question;
+
+  // Clear options & feedback
+  optionsEl.innerHTML = "";
+  feedbackEl.textContent = "";
+
+  // Fill options for MCQ
+  if (current.type === "mcq") {
+    current.options.forEach((opt) => {
+      const btn = document.createElement("button");
+      btn.className = "option";
+      btn.textContent = opt;
+      btn.onclick = () => selectAnswer(opt, current.answer, current.explanation);
+      optionsEl.appendChild(btn);
+    });
+  }
+
+  // Fill for fill-in-the-blank
+  else if (current.type === "fill-in-the-blank") {
+    const input = document.createElement("input");
+    input.type = "text";
+    input.placeholder = "Type your answer...";
+    input.style.width = "100%";
+    input.style.padding = "12px";
+    input.style.fontSize = "1rem";
+    input.onkeydown = (e) => {
+      if (e.key === "Enter") selectAnswer(input.value, current.answer, current.explanation);
+    };
+    optionsEl.appendChild(input);
+  }
+}
+
+// 4️⃣ Handle answer selection
+function selectAnswer(selected, correct, explanation) {
+  feedbackEl.textContent = selected === correct ? "✅ Correct!" : `❌ Incorrect! ${explanation}`;
+
+  // Disable all option buttons
+  document.querySelectorAll(".option").forEach((btn) => (btn.disabled = true));
+
+  // Show next button if more questions remain
+  if (window.currentQuestionIndex < window.currentQuiz.length - 1) {
+    nextBtn.style.display = "block";
+  } else {
+    refreshBtn.style.display = "block";
+    nextBtn.style.display = "none";
+  }
+}
+
+// 5️⃣ Next question
+function nextQuestion() {
+  window.currentQuestionIndex++;
+  if (window.currentQuestionIndex < window.currentQuiz.length) {
+    displayQuestion();
+  }
+  nextBtn.style.display = "none";
+}
+
+// 6️⃣ Initialize
+showQuizList();
