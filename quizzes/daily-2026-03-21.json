@@ -1,0 +1,122 @@
+[
+  {
+    "type": "mcq",
+    "question": "お寿司はうまいです。",
+    "options": [
+      "な形容詞 + です",
+      "い形容詞 + です",
+      "い形容詞 + でした",
+      "い形容詞 + じゃないです"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "The sentence uses the i-adjective 'うまい' with the polite predicate 'です' to describe the sushi as delicious."
+  },
+  {
+    "type": "mcq",
+    "question": "綺麗なお皿",
+    "options": [
+      "な形容詞 + の",
+      "い形容詞 + の",
+      "な形容詞 + です",
+      "い形容詞 + です"
+    ],
+    "answer": "な形容詞",
+    "explanation": "The sentence uses the na-adjective 'きれい' to describe the plate as beautiful."
+  },
+  {
+    "type": "mcq",
+    "question": "去年のテストは簡単でした。",
+    "options": [
+      "な形容詞 + でした",
+      "い形容詞 + でした",
+      "な形容詞 + です",
+      "い形容詞 + です"
+    ],
+    "answer": "な形容詞 + でした",
+    "explanation": "The sentence uses the na-adjective '簡単' with the past tense 'でした' to describe the test as simple."
+  },
+  {
+    "type": "mcq",
+    "question": "お寺は静かです。",
+    "options": [
+      "な形容詞 + です",
+      "い形容詞 + です",
+      "な形容詞 + でした",
+      "い形容詞 + でした"
+    ],
+    "answer": "な形容詞 + です",
+    "explanation": "The sentence uses the na-adjective '静か' with the polite predicate 'です' to describe the temple as quiet."
+  },
+  {
+    "type": "mcq",
+    "question": "この道はまっすぐではありません。",
+    "options": [
+      "な形容詞 + ではありません",
+      "い形容詞 + ではありません",
+      "な形容詞 + ではありませんでした",
+      "い形容詞 + ではありませんでした"
+    ],
+    "answer": "な形容詞 + ではありません",
+    "explanation": "The sentence uses the na-adjective 'まっすぐ' with the negative 'ではありません' to describe the road as not straight."
+  },
+  {
+    "type": "mcq",
+    "question": "高校は楽しいです。",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + でした",
+      "な形容詞 + でした"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "The sentence uses the i-adjective '楽しい' with the polite predicate 'です' to describe the high school as fun."
+  },
+  {
+    "type": "mcq",
+    "question": "私は暇です。",
+    "options": [
+      "な形容詞 + です",
+      "い形容詞 + です",
+      "な形容詞 + でした",
+      "い形容詞 + でした"
+    ],
+    "answer": "な形容詞 + です",
+    "explanation": "The sentence uses the na-adjective '暇' with the polite predicate 'です' to describe the speaker as having free time."
+  },
+  {
+    "type": "mcq",
+    "question": "田中さんは勉強しません。",
+    "options": [
+      "verb masen-form",
+      "verb mashita-form",
+      "verb masu-form",
+      "verb masendeshita-form"
+    ],
+    "answer": "verb masen-form",
+    "explanation": "The sentence uses the verb '勉強する' in the negative form 'しません' to describe Tanaka-san as not studying."
+  },
+  {
+    "type": "mcq",
+    "question": "あのお菓子はまずかったです。",
+    "options": [
+      "い形容詞 + かったです",
+      "な形容詞 + でした",
+      "い形容詞 + でした",
+      "な形容詞 + ではなかったです"
+    ],
+    "answer": "い形容詞 + かったです",
+    "explanation": "The sentence uses the i-adjective 'まずい' with the past tense 'かったです' to describe the candy as not tasty."
+  },
+  {
+    "type": "mcq",
+    "question": "これは高いギターです。",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + でした",
+      "な形容詞 + でした"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "The sentence uses the i-adjective '高い' with the polite predicate 'です' to describe the guitar as expensive."
+  }
+]
