@@ -2,8 +2,11 @@ name: Generate Daily Quiz
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "40 2 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Run script
         env:
@@ -23,5 +28,5 @@ jobs:
           git config --global user.name "bot"
           git config --global user.email "bot@example.com"
           git add quizzes/
-          git commit -m "Daily grammar quiz"
+          git diff --cached --quiet || git commit -m "Daily grammar quiz"
           git push

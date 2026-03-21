@@ -50,23 +50,26 @@ async function generateQuiz() {
     const prompt = `
 You are a Japanese teacher creating JLPT N5 MCQ quizzes.
 
-Pick 10 sentences from the list. For each, blank out a grammar
-point (particle, verb ending, or conjugation) and create 4
-options (1 correct, 3 clearly wrong). The sentence must not contain
-any option word outside the blank. Add a short English explanation.
+Pick exactly 10 sentences from the provided pool.
+Do not blank out, remove, or change any part of the sentence.
 
-All Japanese in hiragana/katakana; kanji in parentheses: まいあさ（毎朝）
+For each sentence:
+- show the full original sentence
+- ask which grammar point is used
+- provide 4 options: 1 correct answer and 3 incorrect but plausible JLPT N5 grammar points
+- add a short English explanation
 
-Return ONLY valid JSON:
-Return ONLY valid JSON:
+Use only one clear grammar point per sentence.
+Return ONLY valid JSON.
 
+OUTPUT SCHEMA:
 [
   {
     "type": "mcq",
-    "question": "",
-    "options": [],
-    "answer": "",
-    "explanation": ""
+    "question": "<full original sentence>",
+    "options": ["...", "...", "...", "..."],
+    "answer": "<correct grammar point>",
+    "explanation": "<short English explanation>"
   }
 ]
 
