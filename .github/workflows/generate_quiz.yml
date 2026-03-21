@@ -30,3 +30,11 @@ jobs:
           git add quizzes/
           git diff --cached --quiet || git commit -m "Daily grammar quiz"
           git push
+
+      - name: Deploy to gh-pages
+        if: github.event_name == 'workflow_dispatch'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages

@@ -57,6 +57,7 @@ For each sentence:
 - show the full original sentence
 - ask which grammar point is used
 - provide 4 options: 1 correct answer and 3 incorrect but plausible JLPT N5 grammar points
+- The correct answer must match one option exactly, character for character
 - add a short English explanation
 
 Use only one clear grammar point per sentence.
