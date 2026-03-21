@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "お寿司はうまいです。",
+    "question": "今日お客さんは少ないです。（きょうおきゃくさんはすくないです。）",
     "options": [
-      "な形容詞 + です",
       "い形容詞 + です",
-      "い形容詞 + でした",
-      "い形容詞 + じゃないです"
-    ],
-    "answer": "い形容詞 + です",
-    "explanation": "The sentence uses the i-adjective 'うまい' with the polite predicate 'です' to describe the sushi as delicious."
-  },
-  {
-    "type": "mcq",
-    "question": "綺麗なお皿",
-    "options": [
-      "な形容詞 + の",
-      "い形容詞 + の",
       "な形容詞 + です",
-      "い形容詞 + です"
-    ],
-    "answer": "な形容詞",
-    "explanation": "The sentence uses the na-adjective 'きれい' to describe the plate as beautiful."
-  },
-  {
-    "type": "mcq",
-    "question": "去年のテストは簡単でした。",
-    "options": [
-      "な形容詞 + でした",
-      "い形容詞 + でした",
-      "な形容詞 + です",
-      "い形容詞 + です"
-    ],
-    "answer": "な形容詞 + でした",
-    "explanation": "The sentence uses the na-adjective '簡単' with the past tense 'でした' to describe the test as simple."
-  },
-  {
-    "type": "mcq",
-    "question": "お寺は静かです。",
-    "options": [
-      "な形容詞 + です",
-      "い形容詞 + です",
-      "な形容詞 + でした",
-      "い形容詞 + でした"
-    ],
-    "answer": "な形容詞 + です",
-    "explanation": "The sentence uses the na-adjective '静か' with the polite predicate 'です' to describe the temple as quiet."
-  },
-  {
-    "type": "mcq",
-    "question": "この道はまっすぐではありません。",
-    "options": [
-      "な形容詞 + ではありません",
       "い形容詞 + ではありません",
-      "な形容詞 + ではありませんでした",
-      "い形容詞 + ではありませんでした"
-    ],
-    "answer": "な形容詞 + ではありません",
-    "explanation": "The sentence uses the na-adjective 'まっすぐ' with the negative 'ではありません' to describe the road as not straight."
-  },
-  {
-    "type": "mcq",
-    "question": "高校は楽しいです。",
-    "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + でした",
-      "な形容詞 + でした"
+      "い形容詞 + でしょう"
     ],
     "answer": "い形容詞 + です",
-    "explanation": "The sentence uses the i-adjective '楽しい' with the polite predicate 'です' to describe the high school as fun."
+    "explanation": "The sentence uses the i-adjective 'すくない' with 'です' to describe the state of having few customers today."
   },
   {
     "type": "mcq",
-    "question": "私は暇です。",
+    "question": "日本の中学生は制服を着ます。（にほんのちゅうがくせいはせいふくをきます。）",
     "options": [
       "な形容詞 + です",
       "い形容詞 + です",
-      "な形容詞 + でした",
-      "い形容詞 + でした"
+      "動詞のます形 + を",
+      "い形容詞 + くありません"
+    ],
+    "answer": "動詞のます形 + を",
+    "explanation": "The sentence uses the verb '着ます' in its masu-form with the direct object '制服' marked by 'を'."
+  },
+  {
+    "type": "mcq",
+    "question": "このホテルのプールは良くありません。（このホテルのプールはよくありません。）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + くありません",
+      "良い → 良くありません"
+    ],
+    "answer": "良い → 良くありません",
+    "explanation": "The sentence uses the irregular i-adjective '良く' in its negative form '良くありません' to describe the pool."
+  },
+  {
+    "type": "mcq",
+    "question": "日本は寒いですか?（にほんはさむいですか?）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + くありません",
+      "い形容詞 + ですか"
+    ],
+    "answer": "い形容詞 + ですか",
+    "explanation": "The sentence uses the i-adjective '寒い' with 'ですか' to ask if Japan is cold."
+  },
+  {
+    "type": "mcq",
+    "question": "ここは賑やかなところです。（ここはにぎやかなところです。）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + くありません",
+      "な形容詞 + ではありません"
     ],
     "answer": "な形容詞 + です",
-    "explanation": "The sentence uses the na-adjective '暇' with the polite predicate 'です' to describe the speaker as having free time."
+    "explanation": "The sentence uses the na-adjective '賑やかな' with 'です' to describe the place as lively."
   },
   {
     "type": "mcq",
-    "question": "田中さんは勉強しません。",
+    "question": "彼は朝六時半に起きます。（かれはあさろくじはんにおきます。）",
     "options": [
-      "verb masen-form",
-      "verb mashita-form",
-      "verb masu-form",
-      "verb masendeshita-form"
+      "動詞のます形 + に",
+      "動詞のます形 + を",
+      "い形容詞 + です",
+      "な形容詞 + です"
     ],
-    "answer": "verb masen-form",
-    "explanation": "The sentence uses the verb '勉強する' in the negative form 'しません' to describe Tanaka-san as not studying."
+    "answer": "動詞のます形 + に",
+    "explanation": "The sentence uses the verb '起きます' in its masu-form with the time '六時半' marked by 'に'."
   },
   {
     "type": "mcq",
-    "question": "あのお菓子はまずかったです。",
+    "question": "私は寝ません。（わたしはねません。）",
     "options": [
-      "い形容詞 + かったです",
-      "な形容詞 + でした",
-      "い形容詞 + でした",
-      "な形容詞 + ではなかったです"
+      "動詞のます形 + を",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "動詞のません形"
     ],
-    "answer": "い形容詞 + かったです",
-    "explanation": "The sentence uses the i-adjective 'まずい' with the past tense 'かったです' to describe the candy as not tasty."
+    "answer": "動詞のません形",
+    "explanation": "The sentence uses the verb '寝ます' in its masen-form to express that the speaker does not sleep."
   },
   {
     "type": "mcq",
-    "question": "これは高いギターです。",
+    "question": "高校は楽しいです。（こうこうはたのしいです。）",
     "options": [
       "い形容詞 + です",
       "な形容詞 + です",
-      "い形容詞 + でした",
-      "な形容詞 + でした"
+      "い形容詞 + くありません",
+      "な形容詞 + ではありません"
     ],
     "answer": "い形容詞 + です",
-    "explanation": "The sentence uses the i-adjective '高い' with the polite predicate 'です' to describe the guitar as expensive."
+    "explanation": "The sentence uses the i-adjective '楽しい' with 'です' to describe high school as fun."
+  },
+  {
+    "type": "mcq",
+    "question": "ダンスの練習は何時に終わりますか？（だんすのれんしゅうはなんじにおわりますか？）",
+    "options": [
+      "動詞のます形 + に",
+      "動詞のます形 + を",
+      "い形容詞 + です",
+      "何時 + 動詞のます形"
+    ],
+    "answer": "何時 + 動詞のます形",
+    "explanation": "The sentence uses the question word '何時' with the verb '終わります' in its masu-form to ask at what time the dance practice ends."
+  },
+  {
+    "type": "mcq",
+    "question": "毎朝の七時（まいあさのななじ）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "時期の言葉 + の + 時間",
+      "い形容詞 + くありません"
+    ],
+    "answer": "時期の言葉 + の + 時間",
+    "explanation": "The phrase uses the time word '毎朝' with 'の' and the specific time '七時' to indicate every morning at 7 o'clock."
   }
 ]
