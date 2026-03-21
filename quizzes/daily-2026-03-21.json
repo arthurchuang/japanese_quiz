@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "今日お客さんは少ないです。（きょうおきゃくさんはすくないです。）",
+    "question": "この葉書は大切ですか?（このはがきはたいせつですか?）",
     "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + ではありません",
-      "い形容詞 + でしょう"
+      "な形容詞 + です (na-adjective predicate)",
+      "な形容詞 + ではありません (na-adjective negative)",
+      "い形容詞 + です (i-adjective predicate)",
+      "な形容詞 + ですか (na-adjective question)"
     ],
-    "answer": "い形容詞 + です",
-    "explanation": "The sentence uses the i-adjective 'すくない' with 'です' to describe the state of having few customers today."
+    "answer": "な形容詞 + ですか (na-adjective question)",
+    "explanation": "Asking about importance using na-adjective"
   },
   {
     "type": "mcq",
-    "question": "日本の中学生は制服を着ます。（にほんのちゅうがくせいはせいふくをきます。）",
+    "question": "去年両親は旅行しませんでした。（きょねんりょうしんはりょこうしませんでした。）",
     "options": [
-      "な形容詞 + です",
-      "い形容詞 + です",
-      "動詞のます形 + を",
-      "い形容詞 + くありません"
+      "verb mashita-form (past tense)",
+      "verb masendeshita-form (past negative)",
+      "verb masen-form (negative)",
+      "い形容詞 + ではありません (i-adjective negative)"
     ],
-    "answer": "動詞のます形 + を",
-    "explanation": "The sentence uses the verb '着ます' in its masu-form with the direct object '制服' marked by 'を'."
+    "answer": "verb masendeshita-form (past negative)",
+    "explanation": "Describing past action that did not happen"
   },
   {
     "type": "mcq",
-    "question": "このホテルのプールは良くありません。（このホテルのプールはよくありません。）",
+    "question": "毎晩十二時に寝ます。（わたしはまいばんじゅういちじにねます。）",
     "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません",
-      "良い → 良くありません"
+      "毎〜 (every) + time + に + verb masu-form",
+      "毎〜 (every) + time + に + verb mashita-form (past tense)",
+      "time + に + verb masu-form",
+      "毎〜 (every) + time + から + verb masu-form"
     ],
-    "answer": "良い → 良くありません",
-    "explanation": "The sentence uses the irregular i-adjective '良く' in its negative form '良くありません' to describe the pool."
+    "answer": "毎〜 (every) + time + に + verb masu-form",
+    "explanation": "Habit of doing something every night"
+  },
+  {
+    "type": "mcq",
+    "question": "会議は三時に終わりません。（かいぎはさんじにおわりません。）",
+    "options": [
+      "verb masen-form (negative)",
+      "time + に + verb masen-form (negative)",
+      "time + に + verb mashita-form (past tense)",
+      "verb masu-form question with 何時に (what time)"
+    ],
+    "answer": "time + に + verb masen-form (negative)",
+    "explanation": "Saying something will not end at a certain time"
+  },
+  {
+    "type": "mcq",
+    "question": "綺麗なお皿（きれいなおさら）",
+    "options": [
+      "な形容詞 (na-adjective)",
+      "い形容詞 (i-adjective)",
+      "な形容詞 + です (na-adjective predicate)",
+      "い形容詞 + です (i-adjective predicate)"
+    ],
+    "answer": "な形容詞 (na-adjective)",
+    "explanation": "Describing a noun with na-adjective"
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは行きません。（おうさんはいきません。）",
+    "options": [
+      "verb masen-form (negative)",
+      "verb mashita-form (past tense)",
+      "verb masu-form",
+      "い形容詞 + ではありません (i-adjective negative)"
+    ],
+    "answer": "verb masen-form (negative)",
+    "explanation": "Describing an action that will not be done"
   },
   {
     "type": "mcq",
     "question": "日本は寒いですか?（にほんはさむいですか?）",
     "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません",
-      "い形容詞 + ですか"
+      "い形容詞 + です (i-adjective predicate)",
+      "い形容詞 + ですか (i-adjective question)",
+      "な形容詞 + です (na-adjective predicate)",
+      "な形容詞 + ですか (na-adjective question)"
     ],
-    "answer": "い形容詞 + ですか",
-    "explanation": "The sentence uses the i-adjective '寒い' with 'ですか' to ask if Japan is cold."
+    "answer": "い形容詞 + ですか (i-adjective question)",
+    "explanation": "Asking about temperature using i-adjective"
   },
   {
     "type": "mcq",
-    "question": "ここは賑やかなところです。（ここはにぎやかなところです。）",
+    "question": "その箱は重いでしょう?（そのはこはおもいでしょう?）",
     "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません",
-      "な形容詞 + ではありません"
+      "い形容詞 + でしょう (conjecture/confirmation)",
+      "い形容詞 + です (i-adjective predicate)",
+      "な形容詞 + でしょう (conjecture/confirmation)",
+      "な形容詞 + です (na-adjective predicate)"
     ],
-    "answer": "な形容詞 + です",
-    "explanation": "The sentence uses the na-adjective '賑やかな' with 'です' to describe the place as lively."
+    "answer": "い形容詞 + でしょう (conjecture/confirmation)",
+    "explanation": "Making a guess about weight"
   },
   {
     "type": "mcq",
-    "question": "彼は朝六時半に起きます。（かれはあさろくじはんにおきます。）",
+    "question": "お寺は静かです。（おてらはしずかです。）",
     "options": [
-      "動詞のます形 + に",
-      "動詞のます形 + を",
-      "い形容詞 + です",
-      "な形容詞 + です"
+      "な形容詞 + です (na-adjective predicate)",
+      "な形容詞 + ではありません (na-adjective negative)",
+      "い形容詞 + です (i-adjective predicate)",
+      "い形容詞 + ではありません (i-adjective negative)"
     ],
-    "answer": "動詞のます形 + に",
-    "explanation": "The sentence uses the verb '起きます' in its masu-form with the time '六時半' marked by 'に'."
+    "answer": "な形容詞 + です (na-adjective predicate)",
+    "explanation": "Describing a place using na-adjective"
   },
   {
     "type": "mcq",
-    "question": "私は寝ません。（わたしはねません。）",
+    "question": "(このレストランの料理は）辛いです。（(このレストランのりょうりは)からいです。）",
     "options": [
-      "動詞のます形 + を",
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "動詞のません形"
+      "い形容詞 + です (i-adjective predicate)",
+      "い形容詞 + ではありません (i-adjective negative)",
+      "な形容詞 + です (na-adjective predicate)",
+      "な形容詞 + ではありません (na-adjective negative)"
     ],
-    "answer": "動詞のません形",
-    "explanation": "The sentence uses the verb '寝ます' in its masen-form to express that the speaker does not sleep."
-  },
-  {
-    "type": "mcq",
-    "question": "高校は楽しいです。（こうこうはたのしいです。）",
-    "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません",
-      "な形容詞 + ではありません"
-    ],
-    "answer": "い形容詞 + です",
-    "explanation": "The sentence uses the i-adjective '楽しい' with 'です' to describe high school as fun."
-  },
-  {
-    "type": "mcq",
-    "question": "ダンスの練習は何時に終わりますか？（だんすのれんしゅうはなんじにおわりますか？）",
-    "options": [
-      "動詞のます形 + に",
-      "動詞のます形 + を",
-      "い形容詞 + です",
-      "何時 + 動詞のます形"
-    ],
-    "answer": "何時 + 動詞のます形",
-    "explanation": "The sentence uses the question word '何時' with the verb '終わります' in its masu-form to ask at what time the dance practice ends."
-  },
-  {
-    "type": "mcq",
-    "question": "毎朝の七時（まいあさのななじ）",
-    "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "時期の言葉 + の + 時間",
-      "い形容詞 + くありません"
-    ],
-    "answer": "時期の言葉 + の + 時間",
-    "explanation": "The phrase uses the time word '毎朝' with 'の' and the specific time '七時' to indicate every morning at 7 o'clock."
+    "answer": "い形容詞 + です (i-adjective predicate)",
+    "explanation": "Describing food using i-adjective"
   }
 ]
