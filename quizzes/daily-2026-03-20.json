@@ -1,122 +1,123 @@
 [
   {
     "type": "mcq",
-    "question": "あなたは毎朝（__）食事しますか？",
+    "question": "私は忙しく__ありません。（わたしはいそがしく__ありません。）",
     "options": [
-      "が",
-      "を",
-      "で",
-      "に"
+      "あり",
+      "いる",
+      "ある",
+      "く"
     ],
-    "answer": "に",
-    "explanation": "The correct answer is に, indicating the time when the action takes place."
+    "answer": "く",
+    "explanation": "い形容詞 + くありません (i-adjective negative)"
   },
   {
     "type": "mcq",
-    "question": "王さんは日本語__レポートを書きました。",
+    "question": "(新しい仕事は）__です。（(あたらしいしごとは)__です。）",
     "options": [
-      "を",
-      "で",
-      "に",
-      "と"
+      "い",
+      "な",
+      "大変",
+      "ない"
     ],
-    "answer": "で",
-    "explanation": "The correct answer is で, indicating the language used to write the report."
+    "answer": "な",
+    "answer2": "です",
+    "explanation": "な形容詞 + です (na-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "私は大学__塾で日本語を勉強しました。",
+    "question": "このベッドは__です。（このベッドは__です。）",
     "options": [
-      "と",
-      "で",
-      "に",
-      "や"
+      "遠い",
+      "せまい",
+      "綺麗",
+      "簡単"
     ],
-    "answer": "や",
-    "explanation": "The correct answer is や, indicating a non-exhaustive list of locations."
+    "answer": "せまい",
+    "explanation": "い形容詞 + です (i-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "高橋さんは__です。",
+    "question": "あの赤いハンカチは__です。（あのあかいハンカチは__です。）",
     "options": [
-      "ひまじゃありません",
-      "ひまです",
-      "ひまではない",
-      "ひまではないです"
+      "大きい",
+      "小さい",
+      "かわいい",
+      "遠い"
     ],
-    "answer": "ひまです",
-    "explanation": "The correct answer is ひまです, which is a na-adjective predicate."
+    "answer": "かわいい",
+    "explanation": "い形容詞 (stacked i-adjectives)"
   },
   {
     "type": "mcq",
-    "question": "私は妹__デパートへ行きました。",
+    "question": "(このレストランの料理は）__です。（(このレストランのりょうりは）__です。）",
     "options": [
-      "と",
-      "で",
-      "に",
-      "を"
+      "辛く",
+      "辛い",
+      "簡単",
+      "遠い"
     ],
-    "answer": "と",
-    "explanation": "The correct answer is と, indicating the person accompanying the speaker."
+    "answer": "辛い",
+    "explanation": "い形容詞 + です (i-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "海__行きました。",
+    "question": "このホテルの庭は__です。（このホテルのにわは__です。）",
     "options": [
-      "を",
-      "に",
-      "で",
-      "と"
+      "静か",
+      "大きい",
+      "綺麗",
+      "ゆうめい"
     ],
-    "answer": "へ",
-    "explanation": "The correct answer is へ, indicating the direction of the action."
+    "answer": "ゆうめい",
+    "explanation": "な形容詞 + です (na-adjective predicate)"
   },
   {
     "type": "mcq",
-    "question": "あなたは友達__帰りますか？",
+    "question": "このきれいなのは日本製__。（このきれいなのはにほんせい__。）",
     "options": [
-      "と",
-      "で",
-      "に",
-      "を"
+      "です",
+      "だ",
+      "な",
+      "の"
     ],
-    "answer": "と",
-    "explanation": "The correct answer is と, indicating the person accompanying the speaker."
+    "answer": "です",
+    "explanation": "な形容詞 + の (nominalizer)"
   },
   {
     "type": "mcq",
-    "question": "王さんは行き__。",
+    "question": "川の水は__ですか？（かわのみずは__ですか？）",
     "options": [
-      "ません",
-      "ました",
-      "ませんでした",
-      "ましょう"
+      "つめたい",
+      "冷たい",
+      "綺麗",
+      "遠い"
     ],
-    "answer": "ません",
-    "explanation": "The correct answer is ません, which is the negative form of the verb."
+    "answer": "冷たい",
+    "explanation": "い形容詞 + ですか (i-adjective question)"
   },
   {
     "type": "mcq",
-    "question": "私はピアノ__演奏します。",
+    "question": "海へ__ました。（うみへ__ました。）",
     "options": [
-      "を",
-      "で",
-      "に",
-      "と"
+      "行き",
+      "行く",
+      "行った",
+      "いき"
     ],
-    "answer": "で",
-    "explanation": "The correct answer is で, indicating the instrument used for the action."
+    "answer": "いき",
+    "explanation": "verb mashita-form with へ (direction)"
   },
   {
     "type": "mcq",
-    "question": "今日私はバス__本屋へ行きました。",
+    "question": "あの洋服は__です。（あのようふくは__です。）",
     "options": [
-      "と",
-      "で",
-      "に",
-      "を"
+      "きれい",
+      "大きい",
+      "綺麗",
+      "簡単"
     ],
-    "answer": "で",
-    "explanation": "The correct answer is で, indicating the means of transportation."
+    "answer": "きれい",
+    "explanation": "な形容詞 + です (na-adjective predicate)"
   }
 ]
