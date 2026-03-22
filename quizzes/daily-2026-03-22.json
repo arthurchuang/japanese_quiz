@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "今夜の二時（こんやのにじ）",
+    "question": "あのドアは丈夫ではなかったです。（あのドアはじょうぶではなかったです。）",
     "options": [
-      "time word + の + noun",
-      "time word + の + time (specific time)",
-      "noun + の + noun",
-      "い形容詞 + です"
-    ],
-    "answer": "time word + の + time (specific time)",
-    "explanation": "Specific time expression"
-  },
-  {
-    "type": "mcq",
-    "question": "あのドアは丈夫ではありませんでした。（あのドアはじょうぶではありませんでした。）",
-    "options": [
-      "な形容詞 + ではありませんでした",
-      "い形容詞 + くありませんでした",
+      "な形容詞 + ではなかった",
+      "い形容詞 + ではなかった",
       "な形容詞 + ではなかったです",
-      "い形容詞 + ではありませんでした"
+      "い形容詞 + ではなかったです"
     ],
-    "answer": "な形容詞 + ではありませんでした",
-    "explanation": "Na-adjective past negative"
+    "answer": "な形容詞 + ではなかったです",
+    "explanation": "Using na-adjective past negative form"
   },
   {
     "type": "mcq",
-    "question": "はい、(その葉書は)とても大切です。（はい、(そのはがきは)とてもたいせつです。）",
+    "question": "川の水は冷たいですか?（かわのみずはつめたいですか?）",
     "options": [
-      "とても + な形容詞 + です",
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません"
-    ],
-    "answer": "とても + な形容詞 + です",
-    "explanation": "Degree adverb with na-adjective"
-  },
-  {
-    "type": "mcq",
-    "question": "この建物は古くないです。（このたてものはふるくないです。）",
-    "options": [
-      "い形容詞 + くないです",
-      "な形容詞 + ではありません",
-      "い形容詞 + です",
-      "な形容詞 + です"
-    ],
-    "answer": "い形容詞 + くないです",
-    "explanation": "I-adjective negative"
-  },
-  {
-    "type": "mcq",
-    "question": "日本は寒いですか?（にほんはさむいですか?）",
-    "options": [
-      "い形容詞 + ですか",
       "な形容詞 + ですか",
-      "い形容詞 + でしょう",
+      "い形容詞 + です",
+      "い形容詞 + ですか",
       "な形容詞 + です"
     ],
     "answer": "い形容詞 + ですか",
-    "explanation": "I-adjective question"
+    "explanation": "Using i-adjective question form"
   },
   {
     "type": "mcq",
-    "question": "明日の飛行機（あしたのひこうき）",
+    "question": "ここは賑やかなところです。（ここはにぎやかなところです。）",
     "options": [
-      "time word + の + time (specific time)",
-      "noun + の + noun",
-      "な形容詞 + です",
-      "い形容詞 + です"
-    ],
-    "answer": "noun + の + noun",
-    "explanation": "Noun possession/relation"
-  },
-  {
-    "type": "mcq",
-    "question": "いいえ、(川の水は)全然冷たくありません。（いいえ、(かわのみずは)ぜんぜんつめたくありません。）",
-    "options": [
-      "全然〜くありません",
-      "あまり〜くありません",
-      "とても〜です",
+      "い形容詞 + です",
+      "な形容詞 + である",
+      "い形容詞 + である",
       "な形容詞 + です"
     ],
-    "answer": "全然〜くありません",
-    "explanation": "Not at all"
-  },
-  {
-    "type": "mcq",
-    "question": "このドラマはつまらないです。（このドラマはつまらないです。）",
-    "options": [
-      "い形容詞 + です",
-      "な形容詞 + です",
-      "い形容詞 + くありません",
-      "な形容詞 + ではありません"
-    ],
-    "answer": "い形容詞 + です",
-    "explanation": "I-adjective predicate"
-  },
-  {
-    "type": "mcq",
-    "question": "毎朝の散歩（まいあさのさんぽ）",
-    "options": [
-      "time word + の + noun",
-      "time word + の + time (specific time)",
-      "な形容詞 + です",
-      "い形容詞 + です"
-    ],
-    "answer": "time word + の + noun",
-    "explanation": "Time word with noun"
-  },
-  {
-    "type": "mcq",
-    "question": "お寺は静かです。（おてらはしずかです。）",
-    "options": [
-      "な形容詞 + です",
-      "い形容詞 + です",
-      "な形容詞 + ではありません",
-      "い形容詞 + くありません"
-    ],
     "answer": "な形容詞 + です",
-    "explanation": "Na-adjective predicate"
+    "explanation": "Using na-adjective predicate form"
+  },
+  {
+    "type": "mcq",
+    "question": "いいえ、(その葉書は)大切じゃありません。（いいえ、(そのはがきは)たいせつじゃありません。）",
+    "options": [
+      "いいえ + い形容詞 + です",
+      "はい + な形容詞 + です",
+      "いいえ + な形容詞 + じゃありません",
+      "はい + い形容詞 + です"
+    ],
+    "answer": "いいえ + な形容詞 + じゃありません",
+    "explanation": "Using negative answer with na-adjective"
+  },
+  {
+    "type": "mcq",
+    "question": "私はもう薬を飲みました。（わたしはもうくすりをのみました。）",
+    "options": [
+      "もう + verb mashita-form",
+      "まだ + verb mashita-form",
+      "もう + verb masen-form",
+      "まだ + verb masen-form"
+    ],
+    "answer": "もう + verb mashita-form",
+    "explanation": "Using already completed action"
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは私からラジカセを借りました。（おうさんはわたしかららじかせをかりました。）",
+    "options": [
+      "から + verb mashita-form",
+      "に + verb mashita-form",
+      "から + verb masen-form",
+      "に + verb masen-form"
+    ],
+    "answer": "から + verb mashita-form",
+    "explanation": "Using source of borrowing"
+  },
+  {
+    "type": "mcq",
+    "question": "大きい封筒は不便です。（おおきいふうとうはふべんです。）",
+    "options": [
+      "い形容詞 + noun + です",
+      "な形容詞 + noun + です",
+      "い形容詞 + noun + だ",
+      "な形容詞 + noun + だ"
+    ],
+    "answer": "い形容詞 + noun + です",
+    "explanation": "Using i-adjective with noun"
+  },
+  {
+    "type": "mcq",
+    "question": "青いのはいくらですか?（あおいのはいくらですか?）",
+    "options": [
+      "い形容詞 + の + いくらですか",
+      "な形容詞 + の + いくらですか",
+      "い形容詞 + いくらですか",
+      "な形容詞 + いくらですか"
+    ],
+    "answer": "い形容詞 + の + いくらですか",
+    "explanation": "Using i-adjective to ask price"
+  },
+  {
+    "type": "mcq",
+    "question": "姉は今朝歯を磨きました。（あねはけさはをみがきました。）",
+    "options": [
+      "verb mashita-form with を",
+      "verb mashita-form with に",
+      "verb mashita-form with へ",
+      "verb mashita-form with と"
+    ],
+    "answer": "verb mashita-form with を",
+    "explanation": "Using direct object marker"
+  },
+  {
+    "type": "mcq",
+    "question": "彼は朝六時半に起きます。（かれはあさろくじはんにおきます。）",
+    "options": [
+      "time + に + verb masu-form",
+      "time + に + verb mashita-form",
+      "time + へ + verb masu-form",
+      "time + へ + verb mashita-form"
+    ],
+    "answer": "time + に + verb masu-form",
+    "explanation": "Using time and action"
   }
 ]
