@@ -1,0 +1,122 @@
+[
+  {
+    "type": "mcq",
+    "question": "今夜の二時（こんやのにじ）",
+    "options": [
+      "time word + の + noun",
+      "time word + の + time (specific time)",
+      "noun + の + noun",
+      "い形容詞 + です"
+    ],
+    "answer": "time word + の + time (specific time)",
+    "explanation": "Specific time expression"
+  },
+  {
+    "type": "mcq",
+    "question": "あのドアは丈夫ではありませんでした。（あのドアはじょうぶではありませんでした。）",
+    "options": [
+      "な形容詞 + ではありませんでした",
+      "い形容詞 + くありませんでした",
+      "な形容詞 + ではなかったです",
+      "い形容詞 + ではありませんでした"
+    ],
+    "answer": "な形容詞 + ではありませんでした",
+    "explanation": "Na-adjective past negative"
+  },
+  {
+    "type": "mcq",
+    "question": "はい、(その葉書は)とても大切です。（はい、(そのはがきは)とてもたいせつです。）",
+    "options": [
+      "とても + な形容詞 + です",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + くありません"
+    ],
+    "answer": "とても + な形容詞 + です",
+    "explanation": "Degree adverb with na-adjective"
+  },
+  {
+    "type": "mcq",
+    "question": "この建物は古くないです。（このたてものはふるくないです。）",
+    "options": [
+      "い形容詞 + くないです",
+      "な形容詞 + ではありません",
+      "い形容詞 + です",
+      "な形容詞 + です"
+    ],
+    "answer": "い形容詞 + くないです",
+    "explanation": "I-adjective negative"
+  },
+  {
+    "type": "mcq",
+    "question": "日本は寒いですか?（にほんはさむいですか?）",
+    "options": [
+      "い形容詞 + ですか",
+      "な形容詞 + ですか",
+      "い形容詞 + でしょう",
+      "な形容詞 + です"
+    ],
+    "answer": "い形容詞 + ですか",
+    "explanation": "I-adjective question"
+  },
+  {
+    "type": "mcq",
+    "question": "明日の飛行機（あしたのひこうき）",
+    "options": [
+      "time word + の + time (specific time)",
+      "noun + の + noun",
+      "な形容詞 + です",
+      "い形容詞 + です"
+    ],
+    "answer": "noun + の + noun",
+    "explanation": "Noun possession/relation"
+  },
+  {
+    "type": "mcq",
+    "question": "いいえ、(川の水は)全然冷たくありません。（いいえ、(かわのみずは)ぜんぜんつめたくありません。）",
+    "options": [
+      "全然〜くありません",
+      "あまり〜くありません",
+      "とても〜です",
+      "な形容詞 + です"
+    ],
+    "answer": "全然〜くありません",
+    "explanation": "Not at all"
+  },
+  {
+    "type": "mcq",
+    "question": "このドラマはつまらないです。（このドラマはつまらないです。）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + くありません",
+      "な形容詞 + ではありません"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "I-adjective predicate"
+  },
+  {
+    "type": "mcq",
+    "question": "毎朝の散歩（まいあさのさんぽ）",
+    "options": [
+      "time word + の + noun",
+      "time word + の + time (specific time)",
+      "な形容詞 + です",
+      "い形容詞 + です"
+    ],
+    "answer": "time word + の + noun",
+    "explanation": "Time word with noun"
+  },
+  {
+    "type": "mcq",
+    "question": "お寺は静かです。（おてらはしずかです。）",
+    "options": [
+      "な形容詞 + です",
+      "い形容詞 + です",
+      "な形容詞 + ではありません",
+      "い形容詞 + くありません"
+    ],
+    "answer": "な形容詞 + です",
+    "explanation": "Na-adjective predicate"
+  }
+]
