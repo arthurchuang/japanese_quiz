@@ -898,5 +898,255 @@
         "japanese": "私は大学や塾で日本語を勉強しました。（わたしはだいがくやじゅくでにほんごをべんきょうしました。）",
         "chinese": "我在大學及補習班等地方學了日語。",
         "grammar": "verb mashita-form with や (non-exhaustive listing) and で (location of action)"
+    },
+    {
+        "japanese": "私は山田さんにこの事を話しました。（わたしはやまださんにこのことをはなしました。）",
+        "chinese": "我跟山田先生說了這件事。",
+        "grammar": "verb mashita-form (話しました); に marks the recipient of the speech; を marks the topic spoken about"
+    },
+    {
+        "japanese": "高さんは鈴木先生に言葉の意味を聞きました。（こうさんはすずきせんせいにことばのいみをききました。）",
+        "chinese": "高先生問鈴木老師話語的意思。",
+        "grammar": "verb mashita-form (聞きました); に marks the person being asked; を marks what was asked about; の connects two nouns (言葉の意味)"
+    },
+    {
+        "japanese": "弟は毎日彼女に手紙を書きます。（おとうとはまいにちかのじょにてがみをかきます。）",
+        "chinese": "弟弟每天寫信給女朋友。",
+        "grammar": "verb masu-form (書きます); に marks the recipient; を marks the direct object; 毎日 (every day) as time adverb"
+    },
+    {
+        "japanese": "あなたは先月お母さんに電話しましたか？（あなたはせんげつおかあさんにでんわしましたか。）",
+        "chinese": "你上個月有打電話給媽媽嗎？",
+        "grammar": "verb mashita-ka form (電話しましたか) for past-tense yes/no question; に marks the recipient of the call; 先月 as time expression"
+    },
+    {
+        "japanese": "田中さんは張さんに平仮名を教えました。（たなかさんはちょうさんにひらがなをおしえました。）",
+        "chinese": "田中先生教了張先生平假名。",
+        "grammar": "verb mashita-form (教えました); に marks the recipient/student; を marks what was taught; giving-knowledge pattern with 教える"
+    },
+    {
+        "japanese": "私は王さんにラジカセを貸しました。（わたしはおうさんにらじかせをかしました。）",
+        "chinese": "我借給王先生手提音響。",
+        "grammar": "verb mashita-form (貸しました); に marks the person lent to; を marks the item lent; 貸す = to lend (from speaker's perspective)"
+    },
+    {
+        "japanese": "毎年李さんは高橋さんに誕生日のプレゼントをあげます。（まいとしりさんはたかはしさんにたんじょうびのぷれぜんとをあげます。）",
+        "chinese": "每年李小姐都會給高橋小姐生日的禮物。",
+        "grammar": "giving verb あげます (give, outward from giver); に marks recipient; を marks the gift; の connects nouns (誕生日のプレゼント); 毎年 as time adverb"
+    },
+    {
+        "japanese": "虎は田中さんを食べました。（とらはたなかさんをたべました。）",
+        "chinese": "老虎吃了田中先生。",
+        "grammar": "verb mashita-form (食べました); を marks the direct object (the one eaten); は marks the subject"
+    },
+    {
+        "japanese": "私は山田さんを山本さんに貸しました。（わたしはやまださんをやまもとさんにかしました。）",
+        "chinese": "我把山田先生借給山本小姐了。",
+        "grammar": "verb mashita-form (貸しました); を marks the person being lent out; に marks the recipient; double-object construction with 貸す"
+    },
+    {
+        "japanese": "張さんは田中さんに平仮名を習いました。（ちょうさんはたなかさんにひらがなをならいました。）",
+        "chinese": "張先生向田中先生學了平假名。",
+        "grammar": "verb mashita-form (習いました); に marks the teacher (source of learning); を marks what was learned; 習う = to learn from someone"
+    },
+    {
+        "japanese": "王さんは私にラジカセを借りました。（おうさんはわたしにらじかせをかりました。）",
+        "chinese": "王先生向我借了手提音響。",
+        "grammar": "verb mashita-form (借りました); に marks the person borrowed from; を marks the item borrowed; 借りる = to borrow (from borrower's perspective)"
+    },
+    {
+        "japanese": "毎年高橋さんは李さんに誕生日のプレゼントをもらいます。（まいとしたかはしさんはりさんにたんじょうびのぷれぜんとをもらいます。）",
+        "chinese": "每年高橋先生都會從李先生收到生日的禮物。",
+        "grammar": "receiving verb もらいます (receive); に marks the giver (source); を marks the gift received; に and から are interchangeable here"
+    },
+    {
+        "japanese": "張さんは田中さんから平仮名を習いました。（ちょうさんはたなかさんからひらがなをならいました。）",
+        "chinese": "張先生從田中先生那裡學了平假名。",
+        "grammar": "verb mashita-form (習いました); から marks the source/teacher (more explicit origin than に); を marks what was learned"
+    },
+    {
+        "japanese": "王さんは私からラジカセを借りました。（おうさんはわたしかららじかせをかりました。）",
+        "chinese": "王先生向我借了手提音響。",
+        "grammar": "verb mashita-form (借りました); から marks the source explicitly (from me); を marks the item; から vs に both acceptable with 借りる"
+    },
+    {
+        "japanese": "毎年高橋さんは李さんから誕生日のプレゼントをもらいます。（まいとしたかはしさんはりさんからたんじょうびのぷれぜんとをもらいます。）",
+        "chinese": "每年高橋先生都會從李先生收到生日的禮物。",
+        "grammar": "receiving verb もらいます; から marks the giver as explicit origin point; を marks gift; contrast with に-version (sentence 12)"
+    },
+    {
+        "japanese": "高さんは鈴木さんに花をあげました。（こうさんはすずきさんにはなをあげました。）",
+        "chinese": "高先生給了鈴木小姐花。",
+        "grammar": "giving verb あげました (gave, outward); に marks recipient; を marks the gift; あげる used when giver is not the speaker and recipient is not the speaker"
+    },
+    {
+        "japanese": "鈴木さんは高さんに花をもらいました。（すずきさんはこうさんにはなをもらいました。）",
+        "chinese": "鈴木小姐從高先生那裡收到花。",
+        "grammar": "receiving verb もらいました; に marks the giver; を marks the gift; contrast pair with あげました (sentence 16) — same event from receiver's viewpoint"
+    },
+    {
+        "japanese": "田中さんは王さんからチョコレートをもらいます。（たなかさんはおうさんからちょこれーとをもらいます。）",
+        "chinese": "田中小姐會從王先生收巧克力。",
+        "grammar": "receiving verb もらいます (habitual/future); から marks the giver as origin; を marks what is received"
+    },
+    {
+        "japanese": "王さんは田中さんにチョコレートをあげます。（おうさんはたなかさんにちょこれーとをあげます。）",
+        "chinese": "王先生要給田中小姐巧克力。",
+        "grammar": "giving verb あげます (habitual/future); に marks recipient; を marks the gift; contrast pair with もらいます (sentence 18) — same event from giver's viewpoint"
+    },
+    {
+        "japanese": "私は山田さんにボールペンをあげます。（わたしはやまださんにぼーるぺんをあげます。）",
+        "chinese": "我要給山田先生原子筆。［注意（X）山田さんは私にボールペンをもらいます。］",
+        "grammar": "giving verb あげます from speaker outward; に marks recipient; を marks gift; note: もらいます cannot be used with 私 as receiver in third-person statement"
+    },
+    {
+        "japanese": "私は張さんからカレンダーをもらいました。（わたしはちょうさんからかれんだーをもらいました。）",
+        "chinese": "我從張小姐那收到了月曆。［注意（X）張さんは私にカレンダーをあげました。］",
+        "grammar": "receiving verb もらいました from speaker's perspective; から marks giver; を marks received item; note: あげました cannot describe giving to the speaker from a third party's viewpoint"
+    },
+    {
+        "japanese": "山本さんは私にストーブをくれました。（やまもとさんはわたしにすとーぶをくれました。）",
+        "chinese": "山本先生給了我暖爐。",
+        "grammar": "giving verb くれました (give inward, toward speaker or speaker's in-group); に marks recipient (must be speaker or close to speaker); を marks the gift"
+    },
+    {
+        "japanese": "生徒達は私に時々手紙をくれます。（せいとたちはわたしにときどきてがみをくれます。）",
+        "chinese": "學生們有時候會給我信。",
+        "grammar": "giving verb くれます (give toward speaker); 達 plural suffix; に marks recipient (speaker); を marks gift; 時々 as frequency adverb"
+    },
+    {
+        "japanese": "今年彼女は私にプレゼントをくれませんでした。（ことしかのじょはわたしにぷれぜんとをくれませんでした。）",
+        "chinese": "今年她沒有給我禮物。",
+        "grammar": "negative past of くれる → くれませんでした; に marks recipient (speaker); を marks gift; 今年 as time expression"
+    },
+    {
+        "japanese": "王さんは弟に飴をくれました。（おうさんはおとうとにあめをくれました。）",
+        "chinese": "王先生／小姐給了弟弟糖。",
+        "grammar": "giving verb くれました (give toward speaker's in-group); に marks recipient (speaker's younger brother, in-group); を marks the gift"
+    },
+    {
+        "japanese": "中田さんは息子にチョコレートをくれません。（なかたさんはむすこにちょこれーとをくれません。）",
+        "chinese": "中田先生／小姐不給兒子巧克力。",
+        "grammar": "negative present of くれる → くれません; に marks recipient (speaker's son, in-group); を marks gift; くれる used because recipient is speaker's in-group"
+    },
+    {
+        "japanese": "一緒にお昼を食べませんか？（いっしょにおひるをたべませんか。）",
+        "chinese": "要不要一起吃午飯？",
+        "grammar": "～ませんか invitation/suggestion form (won't you...?); を marks direct object; 一緒に = together; polite invitation seeking agreement"
+    },
+    {
+        "japanese": "一緒に電車で帰りませんか？（いっしょにでんしゃでかえりませんか。）",
+        "chinese": "要不要一起搭電車回去？",
+        "grammar": "～ませんか invitation form; で marks means of transport (by train); 一緒に = together; 帰る = to return/go home"
+    },
+    {
+        "japanese": "一緒に図書館で勉強しませんか？（いっしょにとしょかんでべんきょうしませんか。）",
+        "chinese": "要不要一起在圖書館唸書？",
+        "grammar": "～ませんか invitation form; で marks location of action (at the library); 一緒に = together"
+    },
+    {
+        "japanese": "映画を見ましょう。（えいがをみましょう。）",
+        "chinese": "一起看電影吧。",
+        "grammar": "～ましょう volitional/let's form (let's do...); を marks direct object; stronger, more assertive suggestion than ませんか"
+    },
+    {
+        "japanese": "コーヒーを飲みましょう。（こーひーをのみましょう。）",
+        "chinese": "一起喝咖啡吧。",
+        "grammar": "～ましょう let's form; を marks direct object; speaker includes both parties in the action"
+    },
+    {
+        "japanese": "さあ、食べましょう。（さあ、たべましょう。）",
+        "chinese": "好啊，來吃吧。",
+        "grammar": "～ましょう let's form; さあ = well then / come on (interjection to prompt action); no explicit object (understood from context)"
+    },
+    {
+        "japanese": "私はもう薬を飲みました。（わたしはもうくすりをのみました。）",
+        "chinese": "我已經吃藥了。",
+        "grammar": "もう + verb mashita-form = already (completed action); を marks direct object; もう indicates the action is already done"
+    },
+    {
+        "japanese": "あなたはもう食事しましたか？（あなたはもうしょくじしましたか。）",
+        "chinese": "你已經吃飯了嗎？",
+        "grammar": "もう + mashita-ka = have you already...? (past question); もう in questions asks about completion; contrast answer patterns: もう～ました / まだです"
+    },
+    {
+        "japanese": "はい、もう食事しました。／いいえ、まだです。（はい、もうしょくじしました。／いいえ、まだです。）",
+        "chinese": "是，已經吃過了。／不，還沒有。",
+        "grammar": "response pair: もう～ました (yes, already done) vs まだです (not yet); まだです is short for まだ食事していません"
+    },
+    {
+        "japanese": "あなたはもうお母さんに手紙を書きましたか？（あなたはもうおかあさんにてがみをかきましたか。）",
+        "chinese": "你已經寫信給媽媽了嗎？",
+        "grammar": "もう + mashita-ka question about completion; に marks recipient of letter; を marks the letter written"
+    },
+    {
+        "japanese": "はい、もう書きました。／いいえ、まだです。（はい、もうかきました。／いいえ、まだです。）",
+        "chinese": "是，已經寫了。／不，還沒有。",
+        "grammar": "response pair: もう + mashita-form (completed) vs まだです (not yet); verb shortened in reply (書きました without repeating object)"
+    },
+    {
+        "japanese": "私はまだ買い物をします。（わたしはまだかいものをします。）",
+        "chinese": "我還要買東西。",
+        "grammar": "まだ + affirmative verb = still (action ongoing/continuing); を marks the activity; contrast: まだ + negative = not yet"
+    },
+    {
+        "japanese": "私はもう友達からお金を借りません。（わたしはもうともだちからおかねをかりません。）",
+        "chinese": "我不再跟朋友借錢了。",
+        "grammar": "もう + negative verb = no longer / not anymore; から marks the source (friends); を marks what is borrowed; もう～ません = will not do again"
+    },
+    {
+        "japanese": "あなたはまだこの雑誌を見ますか？（あなたはまだこのざっしをみますか。）",
+        "chinese": "您還要看這本雜誌嗎？",
+        "grammar": "まだ + affirmative question = are you still...?; を marks direct object; この = this (demonstrative)"
+    },
+    {
+        "japanese": "はい、まだ見ます。／いいえ、もう見ません。（はい、まだみます。／いいえ、もうみません。）",
+        "chinese": "是，還要看。／不，已經不看了。",
+        "grammar": "response pair: まだ + affirmative (still doing) vs もう + negative (no longer doing); key contrast of まだ and もう with verb polarity"
+    },
+    {
+        "japanese": "私はまだ帰りません。（わたしはまだかえりません。）",
+        "chinese": "我還不回去。",
+        "grammar": "まだ + negative verb = not yet / not yet going to; 帰る (to return/go home) in negative masu-form; speaker declining to leave yet"
+    },
+    {
+        "japanese": "私はまだ寝ません。（わたしはまだねません。）",
+        "chinese": "我還不睡。",
+        "grammar": "まだ + negative verb = not yet; 寝る (to sleep) in negative masu-form ません; speaker is not ready to sleep yet"
+    },
+    {
+        "japanese": "私はまだお風呂へ行きません。（わたしはまだおふろへいきません。）",
+        "chinese": "我不去洗澡。",
+        "grammar": "まだ + negative verb = not yet; へ marks direction/destination (toward the bath); 行く (to go) in negative form"
+    },
+    {
+        "japanese": "彼はまだ中学生です。（かれはまだちゅうがくせいです。）",
+        "chinese": "他才中學生。",
+        "grammar": "まだ + affirmative copula です = still (only); used with noun/adjective predicates to mean 'only' or 'still just'; implies young age"
+    },
+    {
+        "japanese": "まだ六時です。（まだろくじです。）",
+        "chinese": "時間才6點。",
+        "grammar": "まだ + time expression + です = it's only (time); implies it's earlier than expected; は omitted as topic is understood from context"
+    },
+    {
+        "japanese": "この男の子はまだ九歳です。（このおとこのこはまだきゅうさいです。）",
+        "chinese": "這男孩才9歲。",
+        "grammar": "まだ + age + です = only (age); この = this (demonstrative); の connects nouns (男の子); implies young/young-seeming"
+    },
+    {
+        "japanese": "彼女はまだ若いです。（かのじょはまだわかいです。）",
+        "chinese": "她還很年輕。",
+        "grammar": "まだ + い-adjective + です = still (adjective); 若い (young) is an い-adjective; まだ emphasises the ongoing state"
+    },
+    {
+        "japanese": "日本はまだ寒いです。（にほんはまださむいです。）",
+        "chinese": "日本還很冷。",
+        "grammar": "まだ + い-adjective + です = still (adjective); 寒い (cold) is an い-adjective; は marks topic (Japan)"
+    },
+    {
+        "japanese": "空はまだ明るいです。（そらはまだあかるいです。）",
+        "chinese": "天空還很亮。",
+        "grammar": "まだ + い-adjective + です = still (adjective); 明るい (bright) is an い-adjective; は marks topic (the sky)"
     }
 ]
