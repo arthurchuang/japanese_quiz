@@ -40,3 +40,10 @@ jobs:
           # commit only if changes exist
           git diff --cached --quiet || git commit -m "Update quiz index.json"
           git push
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
