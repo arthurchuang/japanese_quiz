@@ -1,0 +1,122 @@
+[
+  {
+    "type": "mcq",
+    "question": "このきれいなのは日本製です。（このきれいなのはにほんせいです。）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + の",
+      "な形容詞 + です",
+      "い形容詞 + くありません"
+    ],
+    "answer": "な形容詞 + の",
+    "explanation": "Using the nominalizer 'の' to connect the na-adjective 'きれいな' to the noun '日本製'"
+  },
+  {
+    "type": "mcq",
+    "question": "綺麗なお皿（きれいなおさら）",
+    "options": [
+      "い形容詞",
+      "な形容詞",
+      "な形容詞 + です",
+      "い形容詞 + くありません"
+    ],
+    "answer": "な形容詞",
+    "explanation": "Using the na-adjective 'きれい' to describe the noun 'お皿'"
+  },
+  {
+    "type": "mcq",
+    "question": "はい、(日本は)少し寒いです。（はい、(にほんは)すこしさむいです。）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "少し + い形容詞 + です",
+      "い形容詞 + くありません"
+    ],
+    "answer": "少し + い形容詞 + です",
+    "explanation": "Using the degree adverb '少し' with the i-adjective '寒い' to express a degree of coldness"
+  },
+  {
+    "type": "mcq",
+    "question": "日本は寒いですか?（にほんはさむいですか?）",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "い形容詞 + でしょう",
+      "い形容詞 + ですか"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "Incorrect - changed to 'い形容詞 + ですか' for correct answer"
+  },
+  {
+    "type": "mcq",
+    "question": "いいえ、飛びません。（いいえ、とびません。）",
+    "options": [
+      "verb masu-form",
+      "verb mashita-form",
+      "verb masen-form",
+      "い形容詞 + です"
+    ],
+    "answer": "verb masen-form",
+    "explanation": "Using the negative form of the verb '飛び' in the present tense"
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは行きません。（おうさんはいきません。）",
+    "options": [
+      "verb masu-form",
+      "verb mashita-form",
+      "verb masen-form",
+      "い形容詞 + です"
+    ],
+    "answer": "verb masen-form",
+    "explanation": "Using the negative form of the verb '行き' in the present tense"
+  },
+  {
+    "type": "mcq",
+    "question": "五時に終わります。（ごじにおわります。）",
+    "options": [
+      "verb masu-form with に (time)",
+      "verb mashita-form with に (time)",
+      "い形容詞 + です",
+      "な形容詞 + です"
+    ],
+    "answer": "verb masu-form with に (time)",
+    "explanation": "Using the verb '終わり' in the masu-form with the particle 'に' to indicate the time of the action"
+  },
+  {
+    "type": "mcq",
+    "question": "暗いのは千円です。（くらいのはせんえんです。）",
+    "options": [
+      "い形容詞 + の",
+      "な形容詞 + の",
+      "い形容詞 + です",
+      "な形容詞 + です"
+    ],
+    "answer": "い形容詞 + の",
+    "explanation": "Using the nominalizer 'の' to connect the i-adjective '暗い' to the noun '千円'"
+  },
+  {
+    "type": "mcq",
+    "question": "いいえ、(その葉書は)大切じゃありません。（いいえ、(そのはがきは)たいせつじゃありません。）",
+    "options": [
+      "いいえ + な形容詞 + です",
+      "いいえ + な形容詞 + じゃありません",
+      "いいえ + い形容詞 + です",
+      "いいえ + い形容詞 + じゃありません"
+    ],
+    "answer": "いいえ + な形容詞 + じゃありません",
+    "explanation": "Using the negative answer 'いいえ' with the na-adjective '大切' in the casual negative form 'じゃありません'"
+  },
+  {
+    "type": "mcq",
+    "question": "李さんは毎週火曜日と金曜日に日本語を勉強します。（りさんはまいしゅうかようびときんようびににほんごをべんきょうします。）",
+    "options": [
+      "verb masu-form with に (time)",
+      "verb mashita-form with と (listing)",
+      "verb masu-form with と (listing) and に (time)",
+      "い形容詞 + です"
+    ],
+    "answer": "verb masu-form with と (listing) and に (time)",
+    "explanation": "Using the verb '勉強' in the masu-form with the particles 'と' for listing and 'に' for time to indicate the days of the week when the action takes place"
+  }
+]
