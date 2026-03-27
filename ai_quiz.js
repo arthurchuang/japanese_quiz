@@ -101,6 +101,7 @@ async function displayQuestion() {
 
         const furigana = document.createElement("div");
         furigana.textContent = match[2].trim();
+        mainText.style.fontSize = "1.5rem";
         furigana.style.cssText = `
             font-size: 0.9rem;
             color: #999;
@@ -110,6 +111,7 @@ async function displayQuestion() {
     } else {
         const mainText = document.createElement("span");
         mainText.textContent = questionText;
+        mainText.style.fontSize = "1.5rem";
         questionWordEl.appendChild(mainText);
     }
 

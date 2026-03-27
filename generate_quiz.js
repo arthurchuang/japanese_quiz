@@ -48,19 +48,19 @@ async function generateQuiz() {
     const selected = pickRandom(sentences, 50);
 
     const prompt = `
-You are a Japanese teacher creating JLPT N5 MCQ quizzes.
+You are a native Japanese teacher creating JLPT N5 MCQ quizzes.
 
 Pick exactly 10 sentences from the provided pool.
 Do not blank out, remove, or change any part of the sentence.
 
 For each sentence:
 - show the full original sentence
-- ask which grammar point is used
-- provide 4 options: 1 correct answer and 3 incorrect but plausible JLPT N5 grammar points
-- The correct answer must match one option exactly, character for character
-- add a short English explanation
+- ask which Chinese translation is used
+- provide 4 options: 1 correct answer and 3 incorrect but plausible Chinese translations
+- The correct answer must match one option exactly
+- Add a short explanation in Chinese about why the correct translation is right
 
-Use only one clear grammar point per sentence.
+Use only one sentence per question.
 Return ONLY valid JSON.
 
 OUTPUT SCHEMA:
@@ -69,8 +69,8 @@ OUTPUT SCHEMA:
     "type": "mcq",
     "question": "<full original sentence>",
     "options": ["...", "...", "...", "..."],
-    "answer": "<correct grammar point>",
-    "explanation": "<short English explanation>"
+    "answer": "<correct Chinese translation>",
+    "explanation": "<short Chinese explanation>"
   }
 ]
 
