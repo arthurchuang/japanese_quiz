@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "去年のテストは簡単でした。",
+    "question": "私は山田さんにこの事を話しました。（わたしはやまださんにこのことをはなしました。）",
     "options": [
-      "な形容詞 + でした (na-adjective past tense)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)",
-      "い形容詞 + でした (i-adjective past tense)"
+      "verb mashita-form",
+      "verb masu-form",
+      "い形容詞 + です",
+      "な形容詞 + です"
     ],
-    "answer": "な形容詞 + でした (na-adjective past tense)",
-    "explanation": "The sentence describes a past state using a na-adjective."
+    "answer": "verb mashita-form",
+    "explanation": "The sentence uses the mashita-form of the verb to indicate a past action."
   },
   {
     "type": "mcq",
-    "question": "私は暇です。",
+    "question": "新しい仕事はどうですか?（あたらしいしごとはどうですか?）",
     "options": [
-      "な形容詞 + でした (na-adjective past tense)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)",
-      "い形容詞 + でした (i-adjective past tense)"
+      "〜はどうですか",
+      "〜はどうなんですか",
+      "〜はどうでしょう",
+      "〜はどうですかね"
     ],
-    "answer": "な形容詞 + です (na-adjective predicate)",
-    "explanation": "The sentence describes a state using a na-adjective."
+    "answer": "〜はどうですか",
+    "explanation": "The sentence uses the grammar point 〜はどうですか to ask about the state of something."
   },
   {
     "type": "mcq",
-    "question": "私はピアノで演奏します。",
+    "question": "毎朝の散歩（まいあさのさんぽ）",
     "options": [
-      "verb masu-form with で (tool/instrument)",
-      "verb mashita-form with で (means of transport)",
-      "verb masu-form with に (direction)",
-      "verb masu-form with を (direct object)"
+      "time word + の + noun",
+      "noun + の + time word",
+      "time word + noun",
+      "noun + time word"
     ],
-    "answer": "verb masu-form with で (tool/instrument)",
-    "explanation": "The sentence describes an action using a tool or instrument."
+    "answer": "time word + の + noun",
+    "explanation": "The sentence uses the grammar point time word + の + noun to indicate a habitual action."
   },
   {
     "type": "mcq",
-    "question": "妹は昼食を食べました。",
+    "question": "その言葉は正しくありませんでした。（そのことばはただしくありませんでした。）",
     "options": [
-      "verb mashita-form with を (direct object)",
-      "verb masu-form with を (direct object)",
-      "verb masu-form with で (means of transport)",
-      "verb mashita-form with で (tool/instrument)"
+      "い形容詞 + くありませんでした",
+      "な形容詞 + でありませんでした",
+      "い形容詞 + ありませんでした",
+      "な形容詞 + ありませんでした"
     ],
-    "answer": "verb mashita-form with を (direct object)",
-    "explanation": "The sentence describes a past action with a direct object."
+    "answer": "い形容詞 + くありませんでした",
+    "explanation": "The sentence uses the grammar point い形容詞 + くありませんでした to indicate a past negative state."
   },
   {
     "type": "mcq",
-    "question": "去年両親は旅行しませんでした。",
+    "question": "あの元気な人は山田さんです。（あのげんきなひとはやまださんです。）",
     "options": [
-      "verb masendeshita-form (past negative)",
-      "verb mashita-form (past tense)",
-      "verb masu-form (present/future)",
-      "verb masen-form (negative)"
+      "な形容詞 + noun + です",
+      "い形容詞 + noun + です",
+      "な形容詞 + noun + であります",
+      "い形容詞 + noun + であります"
     ],
-    "answer": "verb masendeshita-form (past negative)",
-    "explanation": "The sentence describes a past negative action."
+    "answer": "な形容詞 + noun + です",
+    "explanation": "The sentence uses the grammar point な形容詞 + noun + です to modify a noun."
   },
   {
     "type": "mcq",
-    "question": "私は今晩家族で食事します。",
+    "question": "先週私は大変でした。（せんしゅうわたしはたいへんでした。）",
     "options": [
-      "verb masu-form with で (group)",
-      "verb masu-form with に (direction)",
-      "verb masu-form with を (direct object)",
-      "verb mashita-form with で (means of transport)"
+      "な形容詞 + でした",
+      "い形容詞 + でした",
+      "な形容詞 + です",
+      "い形容詞 + です"
     ],
-    "answer": "verb masu-form with で (group)",
-    "explanation": "The sentence describes an action with a group."
+    "answer": "な形容詞 + でした",
+    "explanation": "The sentence uses the grammar point な形容詞 + でした to indicate a past state."
   },
   {
     "type": "mcq",
-    "question": "鈴木さんは高さんに花をもらいました。",
+    "question": "あなたは毎朝食事しますか？（あなたはまいあさしょくじしますか？）",
     "options": [
-      "receiving verb もらいました",
-      "giving verb くれました",
-      "verb mashita-form (past tense)",
-      "verb masu-form (present/future)"
+      "verb masu-form question",
+      "verb mashita-form question",
+      "verb masu-form statement",
+      "verb mashita-form statement"
     ],
-    "answer": "receiving verb もらいました",
-    "explanation": "The sentence describes an action of receiving something."
+    "answer": "verb masu-form question",
+    "explanation": "The sentence uses the grammar point verb masu-form question to ask about a habitual action."
   },
   {
     "type": "mcq",
-    "question": "王さんは私からラジカセを借りました。",
+    "question": "毎晩の九時（まいばんのくじ）",
     "options": [
-      "verb mashita-form (借りました); から marks the source explicitly (from me)",
-      "verb mashita-form (past tense)",
-      "verb masu-form (present/future)",
-      "receiving verb もらいました"
+      "time word + の + time",
+      "time word + time",
+      "time + の + time word",
+      "time + time word"
     ],
-    "answer": "verb mashita-form (借りました); から marks the source explicitly (from me)",
-    "explanation": "The sentence describes a past action of borrowing with the source marked explicitly."
+    "answer": "time word + の + time",
+    "explanation": "The sentence uses the grammar point time word + の + time to indicate a specific time."
   },
   {
     "type": "mcq",
-    "question": "私はいつも夜十一時から朝六時まで寝ます。",
+    "question": "私は毎晩十二時に寝ます。（わたしはまいばんじゅうにじにねます。）",
     "options": [
-      "〜から〜まで (from ~ to ~)",
-      "〜から〜まで + です",
-      "verb mashita-form (past tense)",
-      "verb masu-form (present/future)"
+      "毎〜 + time + に + verb masu-form",
+      "毎〜 + time + に + verb mashita-form",
+      "毎〜 + time + で + verb masu-form",
+      "毎〜 + time + で + verb mashita-form"
     ],
-    "answer": "〜から〜まで (from ~ to ~)",
-    "explanation": "The sentence describes a time period from one point to another."
+    "answer": "毎〜 + time + に + verb masu-form",
+    "explanation": "The sentence uses the grammar point 毎〜 + time + に + verb masu-form to indicate a habitual action at a specific time."
   },
   {
     "type": "mcq",
-    "question": "あさってのパーティーは五時に始まります。",
+    "question": "私は明日五時に起きます。（わたしはあしたごじにおきます。）",
     "options": [
       "time + に + verb masu-form",
       "time + に + verb mashita-form",
-      "time + から + verb masu-form",
-      "time + まで + verb masu-form"
+      "time + で + verb masu-form",
+      "time + で + verb mashita-form"
     ],
     "answer": "time + に + verb masu-form",
-    "explanation": "The sentence describes a future action at a specific time."
+    "explanation": "The sentence uses the grammar point time + に + verb masu-form to indicate a future action at a specific time."
   }
 ]
