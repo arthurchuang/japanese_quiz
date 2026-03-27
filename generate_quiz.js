@@ -28,7 +28,7 @@ async function callGroq(prompt) {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            model: "qwen/qwen3-32b",
+            model: "llama-3.3-70b-versatile",
             messages: [
                 { role: "user", content: prompt }
             ],
@@ -48,16 +48,15 @@ async function generateQuiz() {
     const selected = pickRandom(sentences, 50);
 
     const prompt = `
-You are a native Japanese teacher creating JLPT N5 MCQ quizzes.
+You are a native Japanese teacher creating JLPT N5 MCQ quizzes for Chinese speakers.
 
 Pick exactly 10 sentences from the provided pool.
 Do not blank out, remove, or change any part of the sentence.
 
 For each sentence:
-- show the full original sentence
-- ask which Chinese translation is used
-- provide 4 options: 1 correct answer and 3 incorrect but plausible Chinese translations
-- The correct answer must match one option exactly
+- Show the full original Japanese sentence as the question
+- Provide 4 Chinese translation options: 1 correct translation and 3 incorrect but plausible alternatives
+- The correct answer must match one option exactly, character for character
 - Add a short explanation in Chinese about why the correct translation is right
 
 Use only one sentence per question.
@@ -67,14 +66,14 @@ OUTPUT SCHEMA:
 [
   {
     "type": "mcq",
-    "question": "<full original sentence>",
+    "question": "<full original Japanese sentence>",
     "options": ["...", "...", "...", "..."],
     "answer": "<correct Chinese translation>",
     "explanation": "<short Chinese explanation>"
   }
 ]
 
-If unsure, skip the sentence.
+If unsure about a sentence, skip it.
 
 Sentences:
 ${JSON.stringify(selected)}
@@ -84,11 +83,9 @@ ${JSON.stringify(selected)}
         try {
             const text = await callGroq(prompt);
 
-            const cleaned = text.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
-
             let quiz;
             try {
-                quiz = JSON.parse(cleaned);
+                quiz = JSON.parse(text);
             } catch {
                 console.log("JSON parse failed, retrying...");
                 continue;
