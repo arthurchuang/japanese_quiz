@@ -1,1 +1,196 @@
-const a0_0x20f2da=a0_0x3a36;(function(_0x54825e,_0x4035e5){const _0x2210a2=a0_0x3a36,_0x2d0517=_0x54825e();while(!![]){try{const _0x5bb81a=-parseInt(_0x2210a2(0x110))/0x1*(-parseInt(_0x2210a2(0x118))/0x2)+-parseInt(_0x2210a2(0x14b))/0x3*(parseInt(_0x2210a2(0x14f))/0x4)+parseInt(_0x2210a2(0x137))/0x5*(-parseInt(_0x2210a2(0x12c))/0x6)+parseInt(_0x2210a2(0x107))/0x7*(-parseInt(_0x2210a2(0x116))/0x8)+parseInt(_0x2210a2(0x139))/0x9*(-parseInt(_0x2210a2(0x101))/0xa)+-parseInt(_0x2210a2(0x115))/0xb+parseInt(_0x2210a2(0x156))/0xc;if(_0x5bb81a===_0x4035e5)break;else _0x2d0517['push'](_0x2d0517['shift']());}catch(_0x1de85f){_0x2d0517['push'](_0x2d0517['shift']());}}}(a0_0x43ea,0x5f157),window[a0_0x20f2da(0x10b)]=[],window['currentQuestionIndex']=0x0,window[a0_0x20f2da(0x133)]=null);const loadingEl=document[a0_0x20f2da(0x10e)]('loading'),dateDisplayEl=document['getElementById'](a0_0x20f2da(0x119)),progressEl=document['getElementById'](a0_0x20f2da(0x117)),questionWordEl=document[a0_0x20f2da(0x10e)](a0_0x20f2da(0x112)),optionsEl=document[a0_0x20f2da(0x10e)](a0_0x20f2da(0x150)),feedbackEl=document[a0_0x20f2da(0x10e)]('feedback'),scoreEl=document[a0_0x20f2da(0x10e)](a0_0x20f2da(0x11f)),nextBtn=document[a0_0x20f2da(0x10e)](a0_0x20f2da(0x132)),refreshBtn=document['getElementById'](a0_0x20f2da(0x135));function a0_0x3a36(_0x18a731,_0x5b7cec){_0x18a731=_0x18a731-0xfd;const _0x3dd461=a0_0x43ea();let _0x254d58=_0x3dd461[_0x18a731];return _0x254d58;}async function showQuizList(){const _0x8102c7=a0_0x20f2da,_0x28320d=(function(){let _0x3e8f1d=!![];return function(_0x56dd27,_0x548de9){const _0x25076b=_0x3e8f1d?function(){if(_0x548de9){const _0x3fa816=_0x548de9['apply'](_0x56dd27,arguments);return _0x548de9=null,_0x3fa816;}}:function(){};return _0x3e8f1d=![],_0x25076b;};}()),_0x3e2fee=_0x28320d(this,function(){const _0x2fbc44=a0_0x3a36;return _0x3e2fee['toString']()[_0x2fbc44(0x11c)](_0x2fbc44(0x12e))[_0x2fbc44(0x12d)]()[_0x2fbc44(0x147)](_0x3e2fee)[_0x2fbc44(0x11c)](_0x2fbc44(0x12e));});_0x3e2fee();try{loadingEl[_0x8102c7(0x10c)]=_0x8102c7(0xfd);const _0x37d30b=await fetch(_0x8102c7(0x11d)+Date['now']());if(!_0x37d30b['ok'])throw new Error(_0x8102c7(0x13c));const _0x59e421=await _0x37d30b[_0x8102c7(0x13e)]();loadingEl['textContent']='',dateDisplayEl[_0x8102c7(0x10c)]='Select\x20a\x20quiz:';const _0x2f925c=document[_0x8102c7(0x10e)](_0x8102c7(0x124));_0x2f925c[_0x8102c7(0x113)]='',_0x59e421[_0x8102c7(0x157)]()['forEach'](_0x407f38=>{const _0x1ca909=_0x8102c7,_0x16a7ab=document[_0x1ca909(0x122)]('button');_0x16a7ab['className']=_0x1ca909(0x10d),_0x16a7ab[_0x1ca909(0x10c)]=_0x407f38[_0x1ca909(0x12b)](_0x1ca909(0x123),''),_0x16a7ab['onclick']=()=>loadQuiz(_0x407f38),_0x2f925c[_0x1ca909(0x114)](_0x16a7ab);});}catch(_0x575c43){loadingEl[_0x8102c7(0x10c)]='Failed\x20to\x20load\x20quizzes.',console[_0x8102c7(0xfe)](_0x575c43);}}async function loadQuiz(_0x46c901){const _0xdc117e=a0_0x20f2da;document[_0xdc117e(0x10e)](_0xdc117e(0x14d))[_0xdc117e(0x143)][_0xdc117e(0x128)]=_0xdc117e(0x10f),document['getElementById'](_0xdc117e(0x154))[_0xdc117e(0x143)][_0xdc117e(0x128)]=_0xdc117e(0x140);try{loadingEl['textContent']='Loading\x20quiz...';const _0x1319a8=await fetch(_0xdc117e(0x100)+_0x46c901+_0xdc117e(0x142)+Date[_0xdc117e(0x153)]());if(!_0x1319a8['ok'])throw new Error(_0xdc117e(0x148));const _0x2f4c6a=await _0x1319a8['json']();window[_0xdc117e(0x10b)]=_0x2f4c6a,window[_0xdc117e(0x141)]=0x0;const _0x35f7b2=_0x46c901['replace'](_0xdc117e(0x103),'')['replace'](_0xdc117e(0x123),'');window[_0xdc117e(0x133)]=_0xdc117e(0x127)+_0x35f7b2,dateDisplayEl[_0xdc117e(0x10c)]=_0x46c901[_0xdc117e(0x12b)](_0xdc117e(0x123),''),loadingEl[_0xdc117e(0x143)][_0xdc117e(0x128)]='none',nextBtn[_0xdc117e(0x106)]=![],optionsEl[_0xdc117e(0x113)]='',feedbackEl[_0xdc117e(0x10c)]='',scoreEl[_0xdc117e(0x10c)]='',displayQuestion();}catch(_0x3d10cc){loadingEl[_0xdc117e(0x10c)]=_0xdc117e(0x11e),console[_0xdc117e(0xfe)](_0x3d10cc);}}async function recordingExists(_0x466e9d){try{const _0x3be14c=await fetch(_0x466e9d,{'method':'HEAD'});return _0x3be14c['ok'];}catch{return![];}}async function displayQuestion(){const _0x10a9c0=a0_0x20f2da;if(!window[_0x10a9c0(0x10b)][_0x10a9c0(0x155)])return;const _0x4e7ab7=window[_0x10a9c0(0x10b)][window[_0x10a9c0(0x141)]],_0x232345=window[_0x10a9c0(0x141)]+0x1;progressEl['textContent']='Question\x20'+_0x232345+_0x10a9c0(0x13b)+window[_0x10a9c0(0x10b)][_0x10a9c0(0x155)],questionWordEl[_0x10a9c0(0x113)]='';const _0x3d17a7=_0x4e7ab7[_0x10a9c0(0x145)],_0x10c78f=_0x3d17a7[_0x10a9c0(0x11a)](/^(.+?)（(.+?)）/);if(_0x10c78f){const _0x116906=document[_0x10a9c0(0x122)]('span');_0x116906[_0x10a9c0(0x10c)]=_0x10c78f[0x1]['trim'](),questionWordEl[_0x10a9c0(0x114)](_0x116906);const _0x5a3930=document[_0x10a9c0(0x122)](_0x10a9c0(0x136));_0x5a3930['textContent']=_0x10c78f[0x2][_0x10a9c0(0x14e)](),_0x116906[_0x10a9c0(0x143)][_0x10a9c0(0x158)]=_0x10a9c0(0x130),_0x5a3930[_0x10a9c0(0x143)][_0x10a9c0(0x146)]=_0x10a9c0(0x138),questionWordEl[_0x10a9c0(0x114)](_0x5a3930);}else{const _0x4cea41=document[_0x10a9c0(0x122)]('span');_0x4cea41['textContent']=_0x3d17a7,_0x4cea41[_0x10a9c0(0x143)][_0x10a9c0(0x158)]=_0x10a9c0(0x130),questionWordEl[_0x10a9c0(0x114)](_0x4cea41);}const _0x10c12d=window[_0x10a9c0(0x133)]+'/question-'+_0x232345+'.wav',_0x2a84f6=await recordingExists(_0x10c12d);if(_0x2a84f6){const _0x4f78eb=document['createElement'](_0x10a9c0(0x12a));_0x4f78eb['id']=_0x10a9c0(0xff),_0x4f78eb[_0x10a9c0(0x14c)]=_0x10a9c0(0x134),_0x4f78eb['textContent']='📢',_0x4f78eb['style'][_0x10a9c0(0x146)]=_0x10a9c0(0x120),_0x4f78eb[_0x10a9c0(0x102)]=()=>_0x4f78eb[_0x10a9c0(0x143)][_0x10a9c0(0x13f)]='1',_0x4f78eb[_0x10a9c0(0x152)]=()=>_0x4f78eb[_0x10a9c0(0x143)][_0x10a9c0(0x13f)]=_0x10a9c0(0x14a),_0x4f78eb[_0x10a9c0(0x109)]=()=>{const _0x4c1c88=_0x10a9c0,_0xc2bdea=new Audio(_0x10c12d);_0xc2bdea[_0x4c1c88(0x11b)]();},questionWordEl[_0x10a9c0(0x114)](_0x4f78eb);}optionsEl[_0x10a9c0(0x113)]='',feedbackEl[_0x10a9c0(0x10c)]='';if(_0x4e7ab7[_0x10a9c0(0x10a)]===_0x10a9c0(0x104))_0x4e7ab7[_0x10a9c0(0x150)][_0x10a9c0(0x144)](_0x129195=>{const _0xe56c0d=_0x10a9c0,_0x2b0ef5=document[_0xe56c0d(0x122)](_0xe56c0d(0x12a));_0x2b0ef5[_0xe56c0d(0x111)]=_0xe56c0d(0x10d),_0x2b0ef5[_0xe56c0d(0x10c)]=_0x129195,_0x2b0ef5[_0xe56c0d(0x109)]=()=>selectAnswer(_0x129195,_0x4e7ab7[_0xe56c0d(0x108)],_0x4e7ab7[_0xe56c0d(0x13a)]),optionsEl[_0xe56c0d(0x114)](_0x2b0ef5);});else{if(_0x4e7ab7['type']===_0x10a9c0(0x129)){const _0x4ca89e=document[_0x10a9c0(0x122)]('input');_0x4ca89e[_0x10a9c0(0x10a)]=_0x10a9c0(0x121),_0x4ca89e['placeholder']='Type\x20your\x20answer...',_0x4ca89e[_0x10a9c0(0x143)]['width']=_0x10a9c0(0x151),_0x4ca89e[_0x10a9c0(0x143)]['padding']='12px',_0x4ca89e[_0x10a9c0(0x143)]['fontSize']=_0x10a9c0(0x149),_0x4ca89e[_0x10a9c0(0x13d)]=_0x1cdebd=>{const _0x3af097=_0x10a9c0;if(_0x1cdebd['key']===_0x3af097(0x105))selectAnswer(_0x4ca89e[_0x3af097(0x126)],_0x4e7ab7[_0x3af097(0x108)],_0x4e7ab7[_0x3af097(0x13a)]);},optionsEl['appendChild'](_0x4ca89e);}}}function selectAnswer(_0x339f41,_0x98227a,_0x27cbe7){const _0x514520=a0_0x20f2da;feedbackEl[_0x514520(0x10c)]=_0x339f41===_0x98227a?'✅\x20Correct!':_0x514520(0x12f)+_0x27cbe7,document[_0x514520(0x125)](_0x514520(0x131))['forEach'](_0x3556e5=>_0x3556e5[_0x514520(0x106)]=!![]),window['currentQuestionIndex']<window[_0x514520(0x10b)]['length']-0x1?(nextBtn['style'][_0x514520(0x128)]=_0x514520(0x140),nextBtn['disabled']=![]):(refreshBtn[_0x514520(0x143)][_0x514520(0x128)]=_0x514520(0x140),nextBtn['style'][_0x514520(0x128)]=_0x514520(0x10f));}function nextQuestion(){const _0x169c4e=a0_0x20f2da;window[_0x169c4e(0x141)]++,window['currentQuestionIndex']<window['currentQuiz'][_0x169c4e(0x155)]&&displayQuestion(),nextBtn[_0x169c4e(0x143)][_0x169c4e(0x128)]=_0x169c4e(0x10f);}function a0_0x43ea(){const _0x2160e0=['json','opacity','block','currentQuestionIndex','?t=','style','forEach','question','cssText','constructor','Failed\x20to\x20load\x20quiz\x20JSON','1rem','0.8','12nMEPXB','title','quiz-list-screen','trim','604060XDjDfx','options','100%','onmouseleave','now','quiz-screen','length','33091176oTtAUP','reverse','fontSize','Loading\x20available\x20quizzes...','error','speakerBtn','./quizzes/','10zfeLYj','onmouseenter','daily-','mcq','Enter','disabled','734531tvbmGg','answer','onclick','type','currentQuiz','textContent','option','getElementById','none','3IzGoDB','className','questionWord','innerHTML','appendChild','3600696qGeKjD','40mchezt','progress','53612EuuZUW','dateDisplay','match','play','search','./quizzes/index.json?t=','Failed\x20to\x20load\x20quiz.','score','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x201.2rem;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-left:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20opacity\x200.2s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','text','createElement','.json','quizList','querySelectorAll','value','./recordings/recording-','display','fill-in-the-blank','button','replace','84858anCnXn','toString','(((.+)+)+)+$','❌\x20Incorrect!\x20','1.5rem','.option','nextBtn','currentRecordingDir','Listen\x20to\x20question','refreshBtn','div','165rcKBSy','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x200.9rem;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','4731957bKurSI','explanation','\x20/\x20','Failed\x20to\x20load\x20index.json','onkeydown'];a0_0x43ea=function(){return _0x2160e0;};return a0_0x43ea();}nextBtn['onclick']=nextQuestion,showQuizList();
+// Global state
+window.currentQuiz = [];
+window.currentQuestionIndex = 0;
+window.currentRecordingDir = null; // e.g. "recordings/recording-2026-03-21"
+
+const loadingEl = document.getElementById("loading");
+const dateDisplayEl = document.getElementById("dateDisplay");
+const progressEl = document.getElementById("progress");
+const questionWordEl = document.getElementById("questionWord");
+const optionsEl = document.getElementById("options");
+const feedbackEl = document.getElementById("feedback");
+const scoreEl = document.getElementById("score");
+const nextBtn = document.getElementById("nextBtn");
+const refreshBtn = document.getElementById("refreshBtn");
+
+async function showQuizList() {
+    try {
+        loadingEl.textContent = "Loading available quizzes...";
+        const response = await fetch(`./quizzes/index.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error("Failed to load index.json");
+
+        const quizzes = await response.json();
+        loadingEl.textContent = "";
+        dateDisplayEl.textContent = "Select a quiz:";
+
+        const quizListEl = document.getElementById("quizList");
+        quizListEl.innerHTML = "";
+
+        quizzes.reverse().forEach((quizFile) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+            btn.textContent = quizFile.replace(".json", "");
+            btn.onclick = () => loadQuiz(quizFile);
+            quizListEl.appendChild(btn);
+        });
+    } catch (err) {
+        loadingEl.textContent = "Failed to load quizzes.";
+        console.error(err);
+    }
+}
+
+async function loadQuiz(fileName) {
+    document.getElementById("quiz-list-screen").style.display = "none";
+    document.getElementById("quiz-screen").style.display = "block";
+
+    try {
+        loadingEl.textContent = "Loading quiz...";
+        const response = await fetch(`./quizzes/${fileName}?t=${Date.now()}`);
+        if (!response.ok) throw new Error("Failed to load quiz JSON");
+
+        const quizData = await response.json();
+        window.currentQuiz = quizData;
+        window.currentQuestionIndex = 0;
+
+        // Derive recording folder from quiz filename: daily-2026-03-21.json → recordings/recording-2026-03-21
+        const date = fileName.replace("daily-", "").replace(".json", "");
+        window.currentRecordingDir = `./recordings/recording-${date}`;
+
+        dateDisplayEl.textContent = fileName.replace(".json", "");
+        loadingEl.style.display = "none";
+        nextBtn.disabled = false;
+        optionsEl.innerHTML = "";
+        feedbackEl.textContent = "";
+        scoreEl.textContent = "";
+
+        displayQuestion();
+    } catch (err) {
+        loadingEl.textContent = "Failed to load quiz.";
+        console.error(err);
+    }
+}
+
+// Check if a recording file exists by doing a HEAD request
+async function recordingExists(url) {
+    try {
+        const res = await fetch(url, { method: "HEAD" });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+async function displayQuestion() {
+    if (!window.currentQuiz.length) return;
+
+    const current = window.currentQuiz[window.currentQuestionIndex];
+    const questionNumber = window.currentQuestionIndex + 1;
+
+    progressEl.textContent = `Question ${questionNumber} / ${window.currentQuiz.length}`;
+
+    // Build question line
+    questionWordEl.innerHTML = "";
+
+    const questionText = current.question;
+    const match = questionText.match(/^(.+?)（(.+?)）/);
+
+    if (match) {
+        const mainText = document.createElement("span");
+        mainText.textContent = match[1].trim();
+        questionWordEl.appendChild(mainText);
+
+        const furigana = document.createElement("div");
+        furigana.textContent = match[2].trim();
+        mainText.style.fontSize = "1.5rem";
+        furigana.style.cssText = `
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 4px;
+        `;
+        questionWordEl.appendChild(furigana);
+    } else {
+        const mainText = document.createElement("span");
+        mainText.textContent = questionText;
+        mainText.style.fontSize = "1.5rem";
+        questionWordEl.appendChild(mainText);
+    }
+
+    // Check if recording exists for this question, then show speaker button
+    const recordingUrl = `${window.currentRecordingDir}/question-${questionNumber}.wav`;
+    const hasRecording = await recordingExists(recordingUrl);
+
+    if (hasRecording) {
+        const speakerBtn = document.createElement("button");
+        speakerBtn.id = "speakerBtn";
+        speakerBtn.title = "Listen to question";
+        speakerBtn.textContent = "📢";
+        speakerBtn.style.cssText = `
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            margin-left: 8px;
+            vertical-align: middle;
+            padding: 2px 6px;
+            border-radius: 4px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        `;
+        speakerBtn.onmouseenter = () => speakerBtn.style.opacity = "1";
+        speakerBtn.onmouseleave = () => speakerBtn.style.opacity = "0.8";
+        speakerBtn.onclick = () => {
+            const audio = new Audio(recordingUrl);
+            audio.play();
+        };
+        questionWordEl.appendChild(speakerBtn);
+    }
+
+    // Clear options & feedback
+    optionsEl.innerHTML = "";
+    feedbackEl.textContent = "";
+
+    if (current.type === "mcq") {
+        current.options.forEach((opt) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+            btn.textContent = opt;
+            btn.onclick = () => selectAnswer(opt, current.answer, current.explanation);
+            optionsEl.appendChild(btn);
+        });
+    } else if (current.type === "fill-in-the-blank") {
+        const input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = "Type your answer...";
+        input.style.width = "100%";
+        input.style.padding = "12px";
+        input.style.fontSize = "1rem";
+        input.onkeydown = (e) => {
+            if (e.key === "Enter") selectAnswer(input.value, current.answer, current.explanation);
+        };
+        optionsEl.appendChild(input);
+    }
+}
+
+function selectAnswer(selected, correct, explanation) {
+    feedbackEl.textContent = selected === correct ? "✅ Correct!" : `❌ Incorrect! ${explanation}`;
+    document.querySelectorAll(".option").forEach((btn) => (btn.disabled = true));
+
+    if (window.currentQuestionIndex < window.currentQuiz.length - 1) {
+        nextBtn.style.display = "block";
+        nextBtn.disabled = false;
+    } else {
+        refreshBtn.style.display = "block";
+        nextBtn.style.display = "none";
+    }
+}
+
+function nextQuestion() {
+    window.currentQuestionIndex++;
+    if (window.currentQuestionIndex < window.currentQuiz.length) {
+        displayQuestion();
+    }
+    nextBtn.style.display = "none";
+}
+
+nextBtn.onclick = nextQuestion;
+showQuizList();
