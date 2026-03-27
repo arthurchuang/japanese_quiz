@@ -1,27 +1,23 @@
+import { TypecastClient, TypecastAPIError } from "@neosapience/typecast-js";
 import fs from "fs";
 import path from "path";
 
+const client = new TypecastClient({
+    apiKey: process.env.TYPECAST_API_KEY,
+});
+
 async function textToSpeech(text) {
-    const response = await fetch("https://api.groq.com/openai/v1/audio/speech", {
-        method: "POST",
-        headers: {
-            "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
-            "Content-Type": "application/json",
+    const audio = await client.textToSpeech({
+        text,
+        model: "ssfm-v30",
+        voice_id: "tc_68f9c6a72f0f04a417bb136f",
+        language: "jpn",
+        output: {
+            audio_format: "wav",
         },
-        body: JSON.stringify({
-            model: "playai-tts",
-            voice: "Sakura-PlayAI", // Japanese voice
-            input: text,
-            response_format: "wav",
-        }),
     });
 
-    if (!response.ok) {
-        const err = await response.text();
-        throw new Error(`Groq TTS failed: ${response.status} ${err}`);
-    }
-
-    return Buffer.from(await response.arrayBuffer());
+    return Buffer.from(audio.audioData);
 }
 
 async function generateRecordings() {
@@ -53,7 +49,11 @@ async function generateRecordings() {
             fs.writeFileSync(outputPath, audioBuffer);
             console.log(`  ✅ Saved: ${outputPath}`);
         } catch (err) {
-            console.error(`  ❌ Failed for question ${i + 1}:`, err.message);
+            if (err instanceof TypecastAPIError) {
+                console.error(`  ❌ Typecast API error (${err.statusCode}):`, err.message);
+            } else {
+                console.error(`  ❌ Failed for question ${i + 1}:`, err.message);
+            }
         }
     }
 
