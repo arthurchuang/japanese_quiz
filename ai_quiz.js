@@ -91,9 +91,27 @@ async function displayQuestion() {
     // Build question line
     questionWordEl.innerHTML = "";
 
-    const questionText = document.createElement("span");
-    questionText.textContent = current.question;
-    questionWordEl.appendChild(questionText);
+    const questionText = current.question;
+    const match = questionText.match(/^(.+?)（(.+?)）/);
+
+    if (match) {
+        const mainText = document.createElement("span");
+        mainText.textContent = match[1].trim();
+        questionWordEl.appendChild(mainText);
+
+        const furigana = document.createElement("div");
+        furigana.textContent = match[2].trim();
+        furigana.style.cssText = `
+            font-size: 0.75rem;
+            color: #999;
+            margin-top: 4px;
+        `;
+        questionWordEl.appendChild(furigana);
+    } else {
+        const mainText = document.createElement("span");
+        mainText.textContent = questionText;
+        questionWordEl.appendChild(mainText);
+    }
 
     // Check if recording exists for this question, then show speaker button
     const recordingUrl = `${window.currentRecordingDir}/question-${questionNumber}.wav`;
