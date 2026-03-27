@@ -1,1 +1,117 @@
-(function(_0x1043cb,_0x21f05d){const _0x172e15=a1_0x354f,_0x4597e2=_0x1043cb();while(!![]){try{const _0x2ca8e3=-parseInt(_0x172e15(0x7c))/0x1*(-parseInt(_0x172e15(0x80))/0x2)+-parseInt(_0x172e15(0x7e))/0x3+parseInt(_0x172e15(0x8b))/0x4*(parseInt(_0x172e15(0x81))/0x5)+-parseInt(_0x172e15(0x84))/0x6+parseInt(_0x172e15(0x9d))/0x7*(-parseInt(_0x172e15(0x97))/0x8)+-parseInt(_0x172e15(0xa0))/0x9+parseInt(_0x172e15(0x86))/0xa*(parseInt(_0x172e15(0x9b))/0xb);if(_0x2ca8e3===_0x21f05d)break;else _0x4597e2['push'](_0x4597e2['shift']());}catch(_0x3011f3){_0x4597e2['push'](_0x4597e2['shift']());}}}(a1_0x2073,0x2a2b5));import a1_0x366d1e from'fs';function pickRandom(_0x5f5773,_0x27194e){const _0x51a058=a1_0x354f;return _0x5f5773['sort'](()=>0.5-Math[_0x51a058(0x8a)]())[_0x51a058(0x98)](0x0,_0x27194e);}function a1_0x2073(){const _0x6561ab=['options','./data/sentences.json','random','453604akJyuX','constructor','Bearer\x20','error','message','https://api.groq.com/openai/v1/chat/completions','\x0aYou\x20are\x20a\x20Japanese\x20teacher\x20creating\x20JLPT\x20N5\x20MCQ\x20quizzes.\x0a\x0aPick\x20exactly\x2010\x20sentences\x20from\x20the\x20provided\x20pool.\x0aDo\x20not\x20blank\x20out,\x20remove,\x20or\x20change\x20any\x20part\x20of\x20the\x20sentence.\x0a\x0aFor\x20each\x20sentence:\x0a-\x20show\x20the\x20full\x20original\x20sentence\x0a-\x20ask\x20which\x20grammar\x20point\x20is\x20used\x0a-\x20provide\x204\x20options:\x201\x20correct\x20answer\x20and\x203\x20incorrect\x20but\x20plausible\x20JLPT\x20N5\x20grammar\x20points\x0a-\x20The\x20correct\x20answer\x20must\x20match\x20one\x20option\x20exactly,\x20character\x20for\x20character\x0a-\x20add\x20a\x20short\x20English\x20explanation\x0a\x0aUse\x20only\x20one\x20clear\x20grammar\x20point\x20per\x20sentence.\x0aReturn\x20ONLY\x20valid\x20JSON.\x0a\x0aOUTPUT\x20SCHEMA:\x0a[\x0a\x20\x20{\x0a\x20\x20\x20\x20\x22type\x22:\x20\x22mcq\x22,\x0a\x20\x20\x20\x20\x22question\x22:\x20\x22<full\x20original\x20sentence>\x22,\x0a\x20\x20\x20\x20\x22options\x22:\x20[\x22...\x22,\x20\x22...\x22,\x20\x22...\x22,\x20\x22...\x22],\x0a\x20\x20\x20\x20\x22answer\x22:\x20\x22<correct\x20grammar\x20point>\x22,\x0a\x20\x20\x20\x20\x22explanation\x22:\x20\x22<short\x20English\x20explanation>\x22\x0a\x20\x20}\x0a]\x0a\x0aIf\x20unsure,\x20skip\x20the\x20sentence.\x0a\x0aSentences:\x0a','stringify','JSON\x20parse\x20failed,\x20retrying...','apply','toISOString','(((.+)+)+)+$','221648Ldynzy','slice','json','search','11msiokN','utf-8','28OyFBdu','user','explanation','2261943IIuPKE','POST','log','Invalid\x20format,\x20retrying...','parse','question','application/json','readFileSync','every','answer','length','1EmpVRY','choices','183720vMYvHm','type','444206XclDfL','10pinAdg','toString','writeFileSync','1815444dFzLeG','content','4497850MnAmJF','split'];a1_0x2073=function(){return _0x6561ab;};return a1_0x2073();}function isValidQuiz(_0x2d83d7){const _0x39960d=a1_0x354f;return Array['isArray'](_0x2d83d7)&&_0x2d83d7[_0x39960d(0x7b)]>0x0&&_0x2d83d7[_0x39960d(0x79)](_0x450d21=>_0x450d21[_0x39960d(0x7f)]==='mcq'&&_0x450d21[_0x39960d(0xa5)]&&Array['isArray'](_0x450d21[_0x39960d(0x88)])&&_0x450d21[_0x39960d(0x88)][_0x39960d(0x7b)]===0x4&&_0x450d21[_0x39960d(0x7a)]&&_0x450d21[_0x39960d(0x9f)]);}function a1_0x354f(_0x280eaf,_0x53c848){_0x280eaf=_0x280eaf-0x79;const _0x266307=a1_0x2073();let _0x67fa15=_0x266307[_0x280eaf];return _0x67fa15;}async function callGroq(_0x509f9b){const _0x485f6a=a1_0x354f,_0x19b824=await fetch(_0x485f6a(0x90),{'method':_0x485f6a(0xa1),'headers':{'Authorization':_0x485f6a(0x8d)+process.env.GROQ_API_KEY,'Content-Type':_0x485f6a(0xa6)},'body':JSON[_0x485f6a(0x92)]({'model':'llama-3.3-70b-versatile','messages':[{'role':_0x485f6a(0x9e),'content':_0x509f9b}],'temperature':0.7})}),_0x341d49=await _0x19b824[_0x485f6a(0x99)]();return _0x341d49[_0x485f6a(0x7d)][0x0][_0x485f6a(0x8f)][_0x485f6a(0x85)];}async function generateQuiz(){const _0x9e68e5=a1_0x354f,_0x15befe=(function(){let _0x3e01c7=!![];return function(_0x2db2cd,_0x4def05){const _0x2b0ef5=_0x3e01c7?function(){const _0x350f6=a1_0x354f;if(_0x4def05){const _0x542c20=_0x4def05[_0x350f6(0x94)](_0x2db2cd,arguments);return _0x4def05=null,_0x542c20;}}:function(){};return _0x3e01c7=![],_0x2b0ef5;};}()),_0x1192e2=_0x15befe(this,function(){const _0xe63788=a1_0x354f;return _0x1192e2[_0xe63788(0x82)]()[_0xe63788(0x9a)]('(((.+)+)+)+$')[_0xe63788(0x82)]()[_0xe63788(0x8c)](_0x1192e2)['search'](_0xe63788(0x96));});_0x1192e2();const _0xeceed=JSON['parse'](a1_0x366d1e[_0x9e68e5(0xa7)](_0x9e68e5(0x89),_0x9e68e5(0x9c))),_0x4857c4=pickRandom(_0xeceed,0x32),_0x289123=_0x9e68e5(0x91)+JSON[_0x9e68e5(0x92)](_0x4857c4)+'\x0a';for(let _0xc6f6d3=0x1;_0xc6f6d3<=0x2;_0xc6f6d3++){try{const _0xc2fddf=await callGroq(_0x289123);let _0x2cbf0c;try{_0x2cbf0c=JSON[_0x9e68e5(0xa4)](_0xc2fddf);}catch{console[_0x9e68e5(0xa2)](_0x9e68e5(0x93));continue;}if(!isValidQuiz(_0x2cbf0c)){console[_0x9e68e5(0xa2)](_0x9e68e5(0xa3));continue;}const _0x50d8da='./quizzes/daily-'+new Date()[_0x9e68e5(0x95)]()[_0x9e68e5(0x87)]('T')[0x0]+'.json';a1_0x366d1e[_0x9e68e5(0x83)](_0x50d8da,JSON[_0x9e68e5(0x92)](_0x2cbf0c,null,0x2)),console[_0x9e68e5(0xa2)]('✅\x20Quiz\x20generated:',_0x50d8da);return;}catch(_0x119ad4){console['error']('Error:',_0x119ad4);}}console[_0x9e68e5(0x8e)]('❌\x20Failed\x20after\x20retries');}generateQuiz();
+import fs from "fs";
+
+function pickRandom(arr, n) {
+    return arr.sort(() => 0.5 - Math.random()).slice(0, n);
+}
+
+function isValidQuiz(quiz) {
+    return (
+        Array.isArray(quiz) &&
+        quiz.length > 0 &&
+        quiz.every(
+            (q) =>
+                q.type === "mcq" &&
+                q.question &&
+                Array.isArray(q.options) &&
+                q.options.length === 4 &&
+                q.answer &&
+                q.explanation
+        )
+    );
+}
+
+async function callGroq(prompt) {
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: {
+            "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            model: "llama-3.3-70b-versatile",
+            messages: [
+                { role: "user", content: prompt }
+            ],
+            temperature: 0.7
+        })
+    });
+
+    const data = await response.json();
+    return data.choices[0].message.content;
+}
+
+async function generateQuiz() {
+    const sentences = JSON.parse(
+        fs.readFileSync("./data/sentences.json", "utf-8")
+    );
+
+    const selected = pickRandom(sentences, 50);
+
+    const prompt = `
+You are a Japanese teacher creating JLPT N5 MCQ quizzes.
+
+Pick exactly 10 sentences from the provided pool.
+Do not blank out, remove, or change any part of the sentence.
+
+For each sentence:
+- show the full original sentence
+- ask which grammar point is used
+- provide 4 options: 1 correct answer and 3 incorrect but plausible JLPT N5 grammar points
+- The correct answer must match one option exactly, character for character
+- add a short English explanation
+
+Use only one clear grammar point per sentence.
+Return ONLY valid JSON.
+
+OUTPUT SCHEMA:
+[
+  {
+    "type": "mcq",
+    "question": "<full original sentence>",
+    "options": ["...", "...", "...", "..."],
+    "answer": "<correct grammar point>",
+    "explanation": "<short English explanation>"
+  }
+]
+
+If unsure, skip the sentence.
+
+Sentences:
+${JSON.stringify(selected)}
+`;
+
+    for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+            const text = await callGroq(prompt);
+
+            let quiz;
+            try {
+                quiz = JSON.parse(text);
+            } catch {
+                console.log("JSON parse failed, retrying...");
+                continue;
+            }
+
+            if (!isValidQuiz(quiz)) {
+                console.log("Invalid format, retrying...");
+                continue;
+            }
+
+            const filename = `./quizzes/daily-${new Date()
+                .toISOString()
+                .split("T")[0]}.json`;
+
+            fs.writeFileSync(filename, JSON.stringify(quiz, null, 2));
+
+            console.log("✅ Quiz generated:", filename);
+            return;
+
+        } catch (err) {
+            console.error("Error:", err);
+        }
+    }
+
+    console.error("❌ Failed after retries");
+}
+
+generateQuiz();

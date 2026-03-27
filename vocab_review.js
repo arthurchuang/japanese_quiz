@@ -1,1 +1,21 @@
-(function(_0x273a50,_0x3e721e){const _0x43b2c0=a6_0x37d0,_0x1e79d4=_0x273a50();while(!![]){try{const _0x491245=-parseInt(_0x43b2c0(0x103))/0x1+parseInt(_0x43b2c0(0x10d))/0x2*(-parseInt(_0x43b2c0(0x10f))/0x3)+-parseInt(_0x43b2c0(0xf6))/0x4+-parseInt(_0x43b2c0(0x108))/0x5+-parseInt(_0x43b2c0(0xf4))/0x6*(-parseInt(_0x43b2c0(0xf8))/0x7)+-parseInt(_0x43b2c0(0xfa))/0x8*(-parseInt(_0x43b2c0(0x107))/0x9)+-parseInt(_0x43b2c0(0x106))/0xa*(-parseInt(_0x43b2c0(0x10c))/0xb);if(_0x491245===_0x3e721e)break;else _0x1e79d4['push'](_0x1e79d4['shift']());}catch(_0x19d10c){_0x1e79d4['push'](_0x1e79d4['shift']());}}}(a6_0x9577,0xd8ace));const a6_0x48d681=(function(){let _0x141f82=!![];return function(_0x3d11be,_0x398cb6){const _0x1d7067=_0x141f82?function(){const _0x14770d=a6_0x37d0;if(_0x398cb6){const _0x363bc3=_0x398cb6[_0x14770d(0xf3)](_0x3d11be,arguments);return _0x398cb6=null,_0x363bc3;}}:function(){};return _0x141f82=![],_0x1d7067;};}()),a6_0x5b032a=a6_0x48d681(this,function(){const _0x4c1f03=a6_0x37d0;return a6_0x5b032a[_0x4c1f03(0x104)]()['search'](_0x4c1f03(0xfe))[_0x4c1f03(0x104)]()[_0x4c1f03(0x112)](a6_0x5b032a)['search']('(((.+)+)+)+$');});function a6_0x9577(){const _0x3505f3=['getItem','0\x20/\x200','(((.+)+)+)+$','parse','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22correct-cell\x22>','correctAnswer','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22wrong-cell\x22>','913550kepKXQ','toString','createElement','30RBVvLX','1451529dDUyMG','3558985KRqQrl','question','finalScore','forEach','14370983xYIVBA','2vcOwUz','getElementById','2787951nQrFnU','tableBody','textContent','constructor','apply','53814jkZOPI','appendChild','4633416EBeiQc','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','154vfmSQE','userChoice','24UKiPcr','innerHTML'];a6_0x9577=function(){return _0x3505f3;};return a6_0x9577();}function a6_0x37d0(_0xfa26e4,_0x31778f){_0xfa26e4=_0xfa26e4-0xf3;const _0x5464f3=a6_0x9577();let _0x5b032a=_0x5464f3[_0xfa26e4];return _0x5b032a;}a6_0x5b032a(),document['addEventListener']('DOMContentLoaded',()=>{const _0x47ed4e=a6_0x37d0,_0x243a60=localStorage[_0x47ed4e(0xfc)]('failedQuestions'),_0x30f164=localStorage[_0x47ed4e(0xfc)]('finalScore')||_0x47ed4e(0xfd),_0x27b863=JSON[_0x47ed4e(0xff)](_0x243a60)||[],_0x176ce0=document[_0x47ed4e(0x10e)](_0x47ed4e(0x110));document[_0x47ed4e(0x10e)](_0x47ed4e(0x10a))[_0x47ed4e(0x111)]='最終スコア:\x20'+_0x30f164,_0x27b863[_0x47ed4e(0x10b)](_0x1e9c72=>{const _0x5b73ca=_0x47ed4e,_0xda816f=document[_0x5b73ca(0x105)]('tr');_0xda816f[_0x5b73ca(0xfb)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22jp-cell\x22>'+_0x1e9c72[_0x5b73ca(0x109)]+_0x5b73ca(0x102)+_0x1e9c72[_0x5b73ca(0xf9)]+_0x5b73ca(0x100)+_0x1e9c72[_0x5b73ca(0x101)]+_0x5b73ca(0xf7),_0x176ce0[_0x5b73ca(0xf5)](_0xda816f);});});
+document.addEventListener("DOMContentLoaded", () => {
+    const data = localStorage.getItem('failedQuestions');
+    const finalScore = localStorage.getItem('finalScore') || "0 / 0";
+
+    const mistakes = JSON.parse(data) || [];
+    const tableBody = document.getElementById("tableBody");
+
+    document.getElementById('finalScore').textContent = `最終スコア: ${finalScore}`;
+    mistakes.forEach(item => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td class="jp-cell">${item.question}</td>
+            <td class="wrong-cell">${item.userChoice}</td>
+            <td class="correct-cell">${item.correctAnswer}</td>
+        `;
+
+        tableBody.appendChild(row);
+    });
+
+});

@@ -1,1 +1,113 @@
-(function(_0x42a650,_0x4d2044){const _0x5940c3=a3_0x27f9,_0x2c6da1=_0x42a650();while(!![]){try{const _0x286538=parseInt(_0x5940c3(0x18b))/0x1+-parseInt(_0x5940c3(0x1b0))/0x2*(-parseInt(_0x5940c3(0x1a1))/0x3)+parseInt(_0x5940c3(0x18d))/0x4+-parseInt(_0x5940c3(0x1bb))/0x5*(-parseInt(_0x5940c3(0x1b9))/0x6)+parseInt(_0x5940c3(0x1bd))/0x7*(parseInt(_0x5940c3(0x197))/0x8)+parseInt(_0x5940c3(0x1b5))/0x9*(parseInt(_0x5940c3(0x1ac))/0xa)+-parseInt(_0x5940c3(0x1a4))/0xb;if(_0x286538===_0x4d2044)break;else _0x2c6da1['push'](_0x2c6da1['shift']());}catch(_0x341508){_0x2c6da1['push'](_0x2c6da1['shift']());}}}(a3_0x4391,0x99545));let currentIdx=0x0,score=0x0,canClick=!![],userResults=[],quizQuestions=[];function init(){const _0x4c762d=a3_0x27f9,_0x3e8159=(function(){let _0x3c3d07=!![];return function(_0x3c4800,_0x567411){const _0x5317dd=_0x3c3d07?function(){const _0x36b94e=a3_0x27f9;if(_0x567411){const _0x3d1c4c=_0x567411[_0x36b94e(0x1b4)](_0x3c4800,arguments);return _0x567411=null,_0x3d1c4c;}}:function(){};return _0x3c3d07=![],_0x5317dd;};}()),_0x3b8b1d=_0x3e8159(this,function(){const _0x19ca95=a3_0x27f9;return _0x3b8b1d[_0x19ca95(0x1bc)]()[_0x19ca95(0x19d)]('(((.+)+)+)+$')[_0x19ca95(0x1bc)]()[_0x19ca95(0x19f)](_0x3b8b1d)[_0x19ca95(0x19d)](_0x19ca95(0x19c));});_0x3b8b1d(),score=0x0,currentIdx=0x0,userResults=[],quizQuestions=[...n5Questions][_0x4c762d(0x199)](()=>Math[_0x4c762d(0x1a0)]()-0.5)[_0x4c762d(0x18c)](0x0,0x32),displayQuestion();}function buildOptions(_0x5a8f05){const _0x272f58=a3_0x27f9,_0xfecc9f=_0x5a8f05['a'],_0x46cdb5=n5Questions[_0x272f58(0x1c1)](_0xe87520=>_0xe87520['a']!==_0xfecc9f)[_0x272f58(0x199)](()=>Math[_0x272f58(0x1a0)]()-0.5)[_0x272f58(0x18c)](0x0,0x3)['map'](_0x5cfa8e=>_0x5cfa8e['a']);return[..._0x46cdb5,_0xfecc9f][_0x272f58(0x199)](()=>Math['random']()-0.5);}function a3_0x27f9(_0x583e4e,_0x127c4b){_0x583e4e=_0x583e4e-0x18b;const _0x4f006a=a3_0x4391();let _0x10a580=_0x4f006a[_0x583e4e];return _0x10a580;}function displayQuestion(){const _0x3cc2a3=a3_0x27f9;canClick=!![];const _0x53d26b=quizQuestions[currentIdx];document[_0x3cc2a3(0x1ae)]('progress-bar-fill')[_0x3cc2a3(0x1be)][_0x3cc2a3(0x1ad)]=currentIdx/quizQuestions['length']*0x64+'%',document[_0x3cc2a3(0x1ae)]('current-count')['innerText']=currentIdx+0x1,document[_0x3cc2a3(0x1ae)](_0x3cc2a3(0x1b7))[_0x3cc2a3(0x198)]=_0x53d26b['t'];const _0xf9b864=document[_0x3cc2a3(0x1ae)](_0x3cc2a3(0x191));if(_0xf9b864)_0xf9b864[_0x3cc2a3(0x198)]=_0x53d26b['q'];_0x53d26b['_options']=buildOptions(_0x53d26b);const _0x188ee0=document[_0x3cc2a3(0x1ae)](_0x3cc2a3(0x192));_0x188ee0[_0x3cc2a3(0x1c0)]='',_0x53d26b[_0x3cc2a3(0x1a9)]['forEach']((_0x397aab,_0x46a88a)=>{const _0x24c14e=_0x3cc2a3,_0x5d906f=document[_0x24c14e(0x19e)]('button');_0x5d906f[_0x24c14e(0x1a2)]=_0x24c14e(0x194),_0x5d906f['innerText']=_0x397aab,_0x5d906f[_0x24c14e(0x195)]=_0x2af044=>handleAnswer(_0x46a88a,_0x2af044['target']),_0x188ee0[_0x24c14e(0x1bf)](_0x5d906f);});}function handleAnswer(_0xf0f6e0,_0x244d36){const _0x484bd6=a3_0x27f9;if(!canClick)return;canClick=![];const _0x451f41=quizQuestions[currentIdx],_0x4797c7=_0x451f41['a'],_0x5b2059=_0x451f41[_0x484bd6(0x1a9)][_0x484bd6(0x1a7)](_0x4797c7),_0x4a0d56=_0xf0f6e0===_0x5b2059;userResults[_0x484bd6(0x1b3)]({'q':_0x451f41['t'],'ans':_0x4797c7,'meaning':_0x451f41['q'],'isCorrect':_0x4a0d56});if(_0x4a0d56)score++,document['getElementById'](_0x484bd6(0x1a3))[_0x484bd6(0x198)]=score,_0x244d36[_0x484bd6(0x1a6)]['add']('correct');else{_0x244d36[_0x484bd6(0x1a6)]['add'](_0x484bd6(0x1ba));const _0xf6e480=document[_0x484bd6(0x190)](_0x484bd6(0x1b2));if(_0xf6e480[_0x5b2059])_0xf6e480[_0x5b2059][_0x484bd6(0x1a6)][_0x484bd6(0x18e)]('correct');}setTimeout(()=>{currentIdx<quizQuestions['length']-0x1?(currentIdx++,displayQuestion()):showReview();},0x4b0);}function showReview(){const _0x51ccad=a3_0x27f9;document[_0x51ccad(0x1ae)](_0x51ccad(0x19b))[_0x51ccad(0x1be)][_0x51ccad(0x1b1)]=_0x51ccad(0x193),document[_0x51ccad(0x1ae)](_0x51ccad(0x1b6))[_0x51ccad(0x1be)]['display']=_0x51ccad(0x1af),document['getElementById']('final-score')[_0x51ccad(0x198)]=score;const _0x26deec=document[_0x51ccad(0x1ae)](_0x51ccad(0x19a));_0x26deec[_0x51ccad(0x1c0)]='',userResults[_0x51ccad(0x196)](_0x2a4b58=>{const _0x300fd9=_0x51ccad,_0x211576=document['createElement'](_0x300fd9(0x1b8));_0x211576[_0x300fd9(0x1a2)]='review-item\x20'+(_0x2a4b58[_0x300fd9(0x1a5)]?_0x300fd9(0x1a8):''),_0x211576[_0x300fd9(0x1c0)]=_0x300fd9(0x18f)+_0x2a4b58['q']+_0x300fd9(0x1ab)+_0x2a4b58[_0x300fd9(0x1aa)]+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22review-a\x22>正解:\x20'+_0x2a4b58['ans']+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x26deec[_0x300fd9(0x1bf)](_0x211576);});}init();function a3_0x4391(){const _0x49f938=['_options','meaning','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22review-meaning\x22>','261190wvQwzU','width','getElementById','block','82920kexVCe','display','.option-btn','push','apply','27uKbzZd','review-page','display-question','div','6PLlXkN','wrong','5567845cmrMMS','toString','65772VqDZwP','style','appendChild','innerHTML','filter','926842PIGkEV','slice','1891468JncniC','add','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22review-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22review-q\x22>','querySelectorAll','display-translation','options-list','none','option-btn','onclick','forEach','904YTrRJb','innerText','sort','review-list','quiz-page','(((.+)+)+)+$','search','createElement','constructor','random','24SiuypS','className','live-score','36927286ytndXS','isCorrect','classList','indexOf','was-correct'];a3_0x4391=function(){return _0x49f938;};return a3_0x4391();}
+let currentIdx = 0;
+let score = 0;
+let canClick = true;
+let userResults = [];
+let quizQuestions = [];
+
+function init() {
+    score = 0;
+    currentIdx = 0;
+    userResults = [];
+    quizQuestions = [...n5Questions]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 50);
+
+    displayQuestion();
+}
+
+function buildOptions(currentQuestion) {
+    const correctAnswer = currentQuestion.a;
+
+    const wrongAnswers = n5Questions
+        .filter(q => q.a !== correctAnswer)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .map(q => q.a);
+
+    return [...wrongAnswers, correctAnswer].sort(() => Math.random() - 0.5);
+}
+
+function displayQuestion() {
+    canClick = true;
+    const data = quizQuestions[currentIdx];
+
+    document.getElementById('progress-bar-fill').style.width = (currentIdx / quizQuestions.length * 100) + "%";
+    document.getElementById('current-count').innerText = currentIdx + 1;
+
+    document.getElementById('display-question').innerText = data.t;
+
+    const translationEl = document.getElementById('display-translation');
+    if (translationEl) translationEl.innerText = data.q;
+
+    data._options = buildOptions(data);
+
+    const list = document.getElementById('options-list');
+    list.innerHTML = '';
+    data._options.forEach((text, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerText = text;
+        btn.onclick = (e) => handleAnswer(i, e.target);
+        list.appendChild(btn);
+    });
+}
+
+function handleAnswer(idx, btn) {
+    if (!canClick) return;
+    canClick = false;
+
+    const data = quizQuestions[currentIdx];
+    const correctAnswer = data.a;
+    const correctIdx = data._options.indexOf(correctAnswer);
+    const isCorrect = (idx === correctIdx);
+
+    userResults.push({
+        q: data.t,
+        ans: correctAnswer,
+        meaning: data.q,
+        isCorrect: isCorrect
+    });
+
+    if (isCorrect) {
+        score++;
+        document.getElementById('live-score').innerText = score;
+        btn.classList.add('correct');
+    } else {
+        btn.classList.add('wrong');
+        const options = document.querySelectorAll('.option-btn');
+        if (options[correctIdx]) options[correctIdx].classList.add('correct');
+    }
+
+    setTimeout(() => {
+        if (currentIdx < quizQuestions.length - 1) {
+            currentIdx++;
+            displayQuestion();
+        } else {
+            showReview();
+        }
+    }, 1200);
+}
+
+function showReview() {
+    document.getElementById('quiz-page').style.display = 'none';
+    document.getElementById('review-page').style.display = 'block';
+    document.getElementById('final-score').innerText = score;
+
+    const list = document.getElementById('review-list');
+    list.innerHTML = '';
+
+    userResults.forEach(res => {
+        const item = document.createElement('div');
+        item.className = `review-item ${res.isCorrect ? 'was-correct' : ''}`;
+        item.innerHTML = `
+            <div class="review-row">
+                <span class="review-q">${res.q}</span>
+                <span class="review-meaning">${res.meaning}</span>
+            </div>
+            <span class="review-a">正解: ${res.ans}</span>
+        `;
+        list.appendChild(item);
+    });
+}
+
+init();

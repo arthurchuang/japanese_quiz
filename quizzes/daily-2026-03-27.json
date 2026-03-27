@@ -1,0 +1,122 @@
+[
+  {
+    "type": "mcq",
+    "question": "李さんは毎週火曜日と金曜日に日本語を勉強します。",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "verb masu-form with と (listing) and に (time)",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "verb masu-form with と (listing) and に (time)",
+    "explanation": "The sentence uses the verb masu-form with と (listing) and に (time) to indicate the days of the week when Lee studies Japanese."
+  },
+  {
+    "type": "mcq",
+    "question": "店は今月暇です。",
+    "options": [
+      "な形容詞 + です with time expression",
+      "い形容詞 + です",
+      "いいえ + verb masen-form",
+      "〜はどうですか"
+    ],
+    "answer": "な形容詞 + です with time expression",
+    "explanation": "The sentence uses the na-adjective ひま (暇) with the time expression こんげつ (this month) to indicate that the store is empty this month."
+  },
+  {
+    "type": "mcq",
+    "question": "朝食は六時から十時までです。",
+    "options": [
+      "〜から〜まで + です",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "〜から〜まで + です",
+    "explanation": "The sentence uses the grammar point 〜から〜まで + です to indicate the time range when breakfast is served."
+  },
+  {
+    "type": "mcq",
+    "question": "交番は遠いです。",
+    "options": [
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form",
+      "〜はどうですか"
+    ],
+    "answer": "い形容詞 + です",
+    "explanation": "The sentence uses the i-adjective とおい (遠い) with the verb です to indicate that the police box is far away."
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは林さんと一緒に空港へ行きます。",
+    "options": [
+      "verb masu-form with と一緒に (together with)",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "verb masu-form with と一緒に (together with)",
+    "explanation": "The sentence uses the verb masu-form with と一緒に (together with) to indicate that Wang is going to the airport with Lin."
+  },
+  {
+    "type": "mcq",
+    "question": "私は七時まで勉強します。",
+    "options": [
+      "time + まで + verb",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "time + まで + verb",
+    "explanation": "The sentence uses the grammar point time + まで + verb to indicate the ending point of the action of studying."
+  },
+  {
+    "type": "mcq",
+    "question": "その人は南へ行きました。",
+    "options": [
+      "verb mashita-form with へ (direction)",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "verb mashita-form with へ (direction)",
+    "explanation": "The sentence uses the verb mashita-form with へ (direction) to indicate the direction in which the person went."
+  },
+  {
+    "type": "mcq",
+    "question": "兄は顔を洗いました。",
+    "options": [
+      "verb mashita-form with を (direct object)",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "verb mashita-form with を (direct object)",
+    "explanation": "The sentence uses the verb mashita-form with を (direct object) to indicate the action of washing one's face."
+  },
+  {
+    "type": "mcq",
+    "question": "日本人は箸で食事します。",
+    "options": [
+      "verb masu-form with で (tool/instrument)",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "verb masu-form with で (tool/instrument)",
+    "explanation": "The sentence uses the verb masu-form with で (tool/instrument) to indicate the tool used for eating."
+  },
+  {
+    "type": "mcq",
+    "question": "コーヒーを飲みましょう。",
+    "options": [
+      "～ましょう let's form",
+      "い形容詞 + です",
+      "な形容詞 + です",
+      "いいえ + verb masen-form"
+    ],
+    "answer": "～ましょう let's form",
+    "explanation": "The sentence uses the grammar point ～ましょう to make a suggestion to drink coffee together."
+  }
+]
