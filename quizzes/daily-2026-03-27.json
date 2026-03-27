@@ -1,122 +1,122 @@
 [
   {
     "type": "mcq",
-    "question": "私は山田さんにこの事を話しました。（わたしはやまださんにこのことをはなしました。）",
+    "question": "はい、川の水は冷たいです。（はい、(かわのみずは)つめたいです。）",
     "options": [
-      "verb mashita-form",
-      "verb masu-form",
-      "い形容詞 + です",
-      "な形容詞 + です"
+      "はい + い形容詞 + です",
+      "はい + な形容詞 + です",
+      "です + い形容詞",
+      "〜ではありません"
     ],
-    "answer": "verb mashita-form",
-    "explanation": "The sentence uses the mashita-form of the verb to indicate a past action."
+    "answer": "はい + い形容詞 + です",
+    "explanation": "Affirmative answer + i-adjective structure"
+  },
+  {
+    "type": "mcq",
+    "question": "日曜日私は昼まで寝ました。（にちようびわたしはひるまでねました。）",
+    "options": [
+      "ます形",
+      "ません形",
+      "〜ました (past)",
+      "〜ています"
+    ],
+    "answer": "〜ました (past)",
+    "explanation": "Verb past tense form (〜ました) for completed actions"
   },
   {
     "type": "mcq",
     "question": "新しい仕事はどうですか?（あたらしいしごとはどうですか?）",
     "options": [
+      "〜は好きですか",
+      "〜があります",
       "〜はどうですか",
-      "〜はどうなんですか",
-      "〜はどうでしょう",
-      "〜はどうですかね"
+      "〜にします"
     ],
     "answer": "〜はどうですか",
-    "explanation": "The sentence uses the grammar point 〜はどうですか to ask about the state of something."
+    "explanation": "Asks about evaluation of something"
   },
   {
     "type": "mcq",
-    "question": "毎朝の散歩（まいあさのさんぽ）",
+    "question": "彼は朝六時半に起きます。（かれはあさろくじはんにおきます。）",
     "options": [
-      "time word + の + noun",
-      "noun + の + time word",
-      "time word + noun",
-      "noun + time word"
+      "時間 + に + ます形",
+      "時間 + が + ます形",
+      "時間 + へ + ます形",
+      "時間 + と + ます形"
     ],
-    "answer": "time word + の + noun",
-    "explanation": "The sentence uses the grammar point time word + の + noun to indicate a habitual action."
+    "answer": "時間 + に + ます形",
+    "explanation": "Time + に + verb for scheduled actions"
   },
   {
     "type": "mcq",
-    "question": "その言葉は正しくありませんでした。（そのことばはただしくありませんでした。）",
+    "question": "その言葉は正しくなかったです。（そのことばはただしくなかったです。）",
     "options": [
+      "い形容詞 + です",
+      "な形容詞 + ではありません",
       "い形容詞 + くありませんでした",
-      "な形容詞 + でありませんでした",
-      "い形容詞 + ありませんでした",
-      "な形容詞 + ありませんでした"
+      "い形容詞 + くなかったです"
     ],
     "answer": "い形容詞 + くありませんでした",
-    "explanation": "The sentence uses the grammar point い形容詞 + くありませんでした to indicate a past negative state."
+    "explanation": "i-adjective past negative alternative form"
   },
   {
     "type": "mcq",
-    "question": "あの元気な人は山田さんです。（あのげんきなひとはやまださんです。）",
+    "question": "あのドアは丈夫ではありませんでした。（あのドアはじょうぶではありませんでした。）",
     "options": [
-      "な形容詞 + noun + です",
-      "い形容詞 + noun + です",
-      "な形容詞 + noun + であります",
-      "い形容詞 + noun + であります"
+      "な形容詞 + ではありませんでした",
+      "な形容詞 + なかったです",
+      "い形容詞 + くありませんでした",
+      "〜ませんでした"
     ],
-    "answer": "な形容詞 + noun + です",
-    "explanation": "The sentence uses the grammar point な形容詞 + noun + です to modify a noun."
+    "answer": "な形容詞 + ではありませんでした",
+    "explanation": "na-adjective past negative"
   },
   {
     "type": "mcq",
-    "question": "先週私は大変でした。（せんしゅうわたしはたいへんでした。）",
+    "question": "私達は日曜日みんなで温泉へ行きます。（わたしたちはにちようびみんなでおんせんへいきます。）",
     "options": [
-      "な形容詞 + でした",
-      "い形容詞 + でした",
+      "みんなで",
+      "みんなと",
+      "みんなに",
+      "みんなが"
+    ],
+    "answer": "みんなで",
+    "explanation": "〜で marks collective action with group"
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは弟に飴をくれました。（おうさんはおとうとにあめをくれました。）",
+    "options": [
+      "〜あげました",
+      "〜もらいました",
+      "〜くれました",
+      "〜します"
+    ],
+    "answer": "くれました",
+    "explanation": "Giving verb showing benefit to speaker's group"
+  },
+  {
+    "type": "mcq",
+    "question": "このきれいなのは日本製です。（このきれいなのはにほんせいです。）",
+    "options": [
+      "な形容詞 + の",
+      "い形容詞 + です",
       "な形容詞 + です",
-      "い形容詞 + です"
+      "の + な形容詞"
     ],
-    "answer": "な形容詞 + でした",
-    "explanation": "The sentence uses the grammar point な形容詞 + でした to indicate a past state."
+    "answer": "な形容詞 + の",
+    "explanation": "Nominalizer turning adjective into noun"
   },
   {
     "type": "mcq",
-    "question": "あなたは毎朝食事しますか？（あなたはまいあさしょくじしますか？）",
+    "question": "会議は三時に終わりません。（かいぎはさんじにおわりません。）",
     "options": [
-      "verb masu-form question",
-      "verb mashita-form question",
-      "verb masu-form statement",
-      "verb mashita-form statement"
+      "〜ません (negative)",
+      "〜ませんでした",
+      "〜ませんでした",
+      "〜ませんでした"
     ],
-    "answer": "verb masu-form question",
-    "explanation": "The sentence uses the grammar point verb masu-form question to ask about a habitual action."
-  },
-  {
-    "type": "mcq",
-    "question": "毎晩の九時（まいばんのくじ）",
-    "options": [
-      "time word + の + time",
-      "time word + time",
-      "time + の + time word",
-      "time + time word"
-    ],
-    "answer": "time word + の + time",
-    "explanation": "The sentence uses the grammar point time word + の + time to indicate a specific time."
-  },
-  {
-    "type": "mcq",
-    "question": "私は毎晩十二時に寝ます。（わたしはまいばんじゅうにじにねます。）",
-    "options": [
-      "毎〜 + time + に + verb masu-form",
-      "毎〜 + time + に + verb mashita-form",
-      "毎〜 + time + で + verb masu-form",
-      "毎〜 + time + で + verb mashita-form"
-    ],
-    "answer": "毎〜 + time + に + verb masu-form",
-    "explanation": "The sentence uses the grammar point 毎〜 + time + に + verb masu-form to indicate a habitual action at a specific time."
-  },
-  {
-    "type": "mcq",
-    "question": "私は明日五時に起きます。（わたしはあしたごじにおきます。）",
-    "options": [
-      "time + に + verb masu-form",
-      "time + に + verb mashita-form",
-      "time + で + verb masu-form",
-      "time + で + verb mashita-form"
-    ],
-    "answer": "time + に + verb masu-form",
-    "explanation": "The sentence uses the grammar point time + に + verb masu-form to indicate a future action at a specific time."
+    "answer": "〜ません (negative)",
+    "explanation": "Verb negative form for habitual actions"
   }
 ]

@@ -1,1 +1,360 @@
-const a5_0x56073a=a5_0x1cdd;(function(_0x9d744c,_0x2a4bc2){const _0xe3a3ea=a5_0x1cdd,_0x5d523f=_0x9d744c();while(!![]){try{const _0x36610e=parseInt(_0xe3a3ea(0x191))/0x1+parseInt(_0xe3a3ea(0x194))/0x2+-parseInt(_0xe3a3ea(0x7d))/0x3+parseInt(_0xe3a3ea(0xd9))/0x4+parseInt(_0xe3a3ea(0xcb))/0x5+parseInt(_0xe3a3ea(0x162))/0x6*(parseInt(_0xe3a3ea(0xae))/0x7)+parseInt(_0xe3a3ea(0x132))/0x8*(-parseInt(_0xe3a3ea(0x100))/0x9);if(_0x36610e===_0x2a4bc2)break;else _0x5d523f['push'](_0x5d523f['shift']());}catch(_0x1e4ac5){_0x5d523f['push'](_0x5d523f['shift']());}}}(a5_0x5220,0xb82ba));const data=[{'question':a5_0x56073a(0x103),'option':a5_0x56073a(0x164)},{'question':'新的','option':a5_0x56073a(0x85)},{'question':'強的/強壯的','option':'つよい'},{'question':a5_0x56073a(0xa6),'option':'はやい'},{'question':a5_0x56073a(0x89),'option':a5_0x56073a(0x111)},{'question':a5_0x56073a(0x99),'option':a5_0x56073a(0x166)},{'question':'輕的','option':a5_0x56073a(0xeb)},{'question':'黑暗的/沮喪的','option':a5_0x56073a(0xe9)},{'question':a5_0x56073a(0x165),'option':'ちかい'},{'question':'長的','option':'ながい'},{'question':a5_0x56073a(0xe3),'option':a5_0x56073a(0xb5)},{'question':'粗的','option':a5_0x56073a(0x82)},{'question':'深的','option':a5_0x56073a(0x11e)},{'question':'忙碌的','option':'いそがしい'},{'question':'正確的','option':a5_0x56073a(0x17a)},{'question':a5_0x56073a(0x192),'option':a5_0x56073a(0x8d)},{'question':a5_0x56073a(0xb9),'option':a5_0x56073a(0x125)},{'question':'舊的','option':a5_0x56073a(0xa5)},{'question':'壞的','option':'わるい'},{'question':a5_0x56073a(0xc5),'option':a5_0x56073a(0xba)},{'question':'矮的/低的','option':'ひくい'},{'question':a5_0x56073a(0x15b),'option':a5_0x56073a(0x160)},{'question':a5_0x56073a(0xb6),'option':a5_0x56073a(0x108)},{'question':a5_0x56073a(0xcc),'option':a5_0x56073a(0xa2)},{'question':'效力弱的/弱的','option':a5_0x56073a(0x179)},{'question':a5_0x56073a(0x12e),'option':'おそい'},{'question':a5_0x56073a(0x173),'option':a5_0x56073a(0x96)},{'question':a5_0x56073a(0xa4),'option':a5_0x56073a(0x102)},{'question':a5_0x56073a(0xe2),'option':a5_0x56073a(0x79)},{'question':a5_0x56073a(0x14e),'option':'あかるい'},{'question':a5_0x56073a(0x16d),'option':a5_0x56073a(0xf3)},{'question':'短的','option':a5_0x56073a(0x86)},{'question':a5_0x56073a(0xb7),'option':'つまらない'},{'question':'細的','option':a5_0x56073a(0x93)},{'question':'淺的','option':a5_0x56073a(0x198)},{'question':'多的','option':a5_0x56073a(0x172)},{'question':'少的','option':a5_0x56073a(0x175)},{'question':'很難的','option':'むずかしい'},{'question':'甜的','option':a5_0x56073a(0xf2)},{'question':a5_0x56073a(0xff),'option':'やさしい'},{'question':'辣的','option':a5_0x56073a(0x115)},{'question':'圓的','option':a5_0x56073a(0xb2)},{'question':a5_0x56073a(0xef),'option':a5_0x56073a(0x14a)},{'question':'髒的／不乾淨的','option':a5_0x56073a(0x146)},{'question':a5_0x56073a(0xc8),'option':a5_0x56073a(0x127)},{'question':a5_0x56073a(0x13c),'option':a5_0x56073a(0x18b)},{'question':'藍色的','option':a5_0x56073a(0x7f)},{'question':'紅色的','option':a5_0x56073a(0xf0)},{'question':'黃色的','option':'きいろい'},{'question':a5_0x56073a(0xf8),'option':a5_0x56073a(0xbb)},{'question':a5_0x56073a(0xf4),'option':'きれいな'},{'question':a5_0x56073a(0x154),'option':a5_0x56073a(0xd0)},{'question':'方便的','option':a5_0x56073a(0x153)},{'question':a5_0x56073a(0x128),'option':a5_0x56073a(0x1a1)},{'question':a5_0x56073a(0x118),'option':a5_0x56073a(0xc0)},{'question':a5_0x56073a(0x180),'option':a5_0x56073a(0xf7)},{'question':'簡單的','option':a5_0x56073a(0x13b)},{'question':a5_0x56073a(0x141),'option':a5_0x56073a(0x114)},{'question':'有精神的／健康的','option':a5_0x56073a(0xf1)},{'question':a5_0x56073a(0xfa),'option':a5_0x56073a(0x158)},{'question':a5_0x56073a(0x13f),'option':a5_0x56073a(0xd7)},{'question':a5_0x56073a(0x17d),'option':a5_0x56073a(0x1a2)},{'question':a5_0x56073a(0xbe),'option':a5_0x56073a(0x183)},{'question':'各式各樣的','option':a5_0x56073a(0x140)},{'question':a5_0x56073a(0xca),'option':'たいせつな'},{'question':a5_0x56073a(0xa8),'option':'だいじょうぶな'},{'question':a5_0x56073a(0x19b),'option':a5_0x56073a(0xea)},{'question':'醜的\x20(俚語/粗俗)','option':a5_0x56073a(0x10a)},{'question':a5_0x56073a(0x177),'option':a5_0x56073a(0x195)},{'question':a5_0x56073a(0x147),'option':a5_0x56073a(0x8e)},{'question':a5_0x56073a(0x119),'option':a5_0x56073a(0x87)},{'question':a5_0x56073a(0xb8),'option':a5_0x56073a(0x17b)},{'question':a5_0x56073a(0x11d),'option':'らくな'},{'question':'見面','option':a5_0x56073a(0xbf)},{'question':'上去\x20/\x20上來','option':'あがります'},{'question':a5_0x56073a(0xc3),'option':a5_0x56073a(0x83)},{'question':'打開','option':'あける'},{'question':'早上','option':'あさ'},{'question':'早飯','option':a5_0x56073a(0x15d)},{'question':'後天','option':a5_0x56073a(0xaa)},{'question':'腳','option':'あし'},{'question':'明天','option':'あした'},{'question':'那裡','option':a5_0x56073a(0x16a)},{'question':'玩','option':a5_0x56073a(0x161)},{'question':'頭','option':a5_0x56073a(0x117)},{'question':a5_0x56073a(0x133),'option':a5_0x56073a(0x184)},{'question':a5_0x56073a(0x176),'option':a5_0x56073a(0x174)},{'question':a5_0x56073a(0xed),'option':'あと'},{'question':a5_0x56073a(0x134),'option':a5_0x56073a(0x182)},{'question':'你們','option':a5_0x56073a(0x144)},{'question':'哥哥\x20[謙稱]','option':'あに'},{'question':a5_0x56073a(0x135),'option':'あね'},{'question':a5_0x56073a(0x12d),'option':'あの'},{'question':'公寓','option':a5_0x56073a(0xde)},{'question':'淋','option':'あびます\x20/\x20あびる'},{'question':'（不）那麼～\x20/\x20～否定\x20/\x20(不)\x20怎麼～','option':a5_0x56073a(0xe5)},{'question':'編織','option':'あむ'},{'question':a5_0x56073a(0x107),'option':'あめ'},{'question':'美國','option':a5_0x56073a(0x148)},{'question':'洗','option':a5_0x56073a(0x187)},{'question':a5_0x56073a(0xe4),'option':a5_0x56073a(0x122)},{'question':'有\x20/\x20在\x20(否定)','option':a5_0x56073a(0x16f)},{'question':'打工','option':'アルバイト'},{'question':'那個','option':'あれ'},{'question':'胃','option':'い'},{'question':'好的','option':'いい'},{'question':'不是','option':a5_0x56073a(0x18f)},{'question':'說','option':'いう'},{'question':a5_0x56073a(0x12a),'option':'いえ\x20/\x20うち'},{'question':'去','option':a5_0x56073a(0xbd)},{'question':a5_0x56073a(0x19f),'option':a5_0x56073a(0x159)},{'question':a5_0x56073a(0x15e),'option':a5_0x56073a(0xa3)},{'question':'池塘','option':'いけ'},{'question':a5_0x56073a(0x151),'option':'いけません'},{'question':'醫生','option':a5_0x56073a(0x121)},{'question':'椅子','option':'いす'},{'question':'之前\x20/\x20以前','option':'いぜん'},{'question':'痛的','option':'いたい'},{'question':'1點','option':'いちじ'},{'question':a5_0x56073a(0x81),'option':'いちじかんご'},{'question':'1小時前','option':a5_0x56073a(0x145)},{'question':'最～','option':a5_0x56073a(0x12f)},{'question':a5_0x56073a(0x18e),'option':'いちばんきょうしつ'},{'question':'1張','option':a5_0x56073a(0xd1)},{'question':a5_0x56073a(0xdf),'option':a5_0x56073a(0x18d)},{'question':a5_0x56073a(0x9b),'option':a5_0x56073a(0x9a)},{'question':a5_0x56073a(0x19a),'option':a5_0x56073a(0x163)},{'question':'一起','option':a5_0x56073a(0x116)},{'question':'1隻','option':a5_0x56073a(0x197)},{'question':a5_0x56073a(0xe7),'option':a5_0x56073a(0x188)},{'question':a5_0x56073a(0x13e),'option':a5_0x56073a(0xb4)},{'question':'狗','option':'いぬ'},{'question':'現在','option':'いま'},{'question':a5_0x56073a(0x13a),'option':'います\x20/\x20いる'},{'question':'意思','option':'いみ'},{'question':a5_0x56073a(0x169),'option':a5_0x56073a(0xdb)},{'question':'入口','option':'いりぐち'},{'question':a5_0x56073a(0xe1),'option':a5_0x56073a(0x12b)},{'question':'顏色','option':'いろ'},{'question':'小提琴','option':a5_0x56073a(0x98)},{'question':'維多利亞','option':a5_0x56073a(0xd4)},{'question':'上面','option':'うえ'},{'question':'主唱','option':a5_0x56073a(0xa9)},{'question':'櫃檯','option':a5_0x56073a(0xcf)},{'question':'動','option':a5_0x56073a(0x157)},{'question':'後面','option':a5_0x56073a(0xc6)},{'question':'歌','option':'うた'},{'question':a5_0x56073a(0x142),'option':a5_0x56073a(0x17e)},{'question':a5_0x56073a(0xfd),'option':a5_0x56073a(0x90)},{'question':a5_0x56073a(0x11a),'option':'うみ'},{'question':'賣','option':a5_0x56073a(0x9e)},{'question':a5_0x56073a(0x136),'option':'うるさい'},{'question':'外套','option':a5_0x56073a(0xfc)},{'question':'駕駛','option':a5_0x56073a(0x7c)},{'question':'運動','option':a5_0x56073a(0x11b)},{'question':a5_0x56073a(0x190),'option':a5_0x56073a(0xaf)},{'question':'電影','option':'えいが'},{'question':a5_0x56073a(0x16e),'option':a5_0x56073a(0xce)},{'question':'英文','option':a5_0x56073a(0x19c)},{'question':'車站','option':'えき'},{'question':a5_0x56073a(0x156),'option':a5_0x56073a(0x150)},{'question':a5_0x56073a(0x8a),'option':'エム'},{'question':'選擇','option':'えらびます\x20/\x20えらぶ'},{'question':'L\x20(尺寸)','option':'エル'},{'question':'電梯','option':a5_0x56073a(0x193)},{'question':'日幣','option':'えん'},{'question':'演奏','option':a5_0x56073a(0x18a)},{'question':'鉛筆','option':'えんぴつ'},{'question':'貴庚','option':a5_0x56073a(0x88)},{'question':'美味的','option':'おいしい'},{'question':'大的','option':a5_0x56073a(0xd8)},{'question':a5_0x56073a(0x11c),'option':a5_0x56073a(0x130)},{'question':a5_0x56073a(0x14b),'option':a5_0x56073a(0xc2)},{'question':'母親\x20[尊稱]','option':'おかあさん'},{'question':a5_0x56073a(0x113),'option':a5_0x56073a(0xec)},{'question':'錢','option':a5_0x56073a(0x7b)},{'question':'起床\x20/\x20起來','option':a5_0x56073a(0x84)},{'question':'放置','option':a5_0x56073a(0x185)},{'question':a5_0x56073a(0xf6),'option':a5_0x56073a(0x95)},{'question':a5_0x56073a(0xa1),'option':a5_0x56073a(0x9c)},{'question':'酒','option':a5_0x56073a(0x110)},{'question':'盤子','option':a5_0x56073a(0xc7)},{'question':a5_0x56073a(0xf9),'option':a5_0x56073a(0x8c)},{'question':a5_0x56073a(0xbc),'option':a5_0x56073a(0x12c)},{'question':a5_0x56073a(0xb0),'option':'おしえます\x20/\x20おしえる'},{'question':'聊天','option':'おしゃべり'},{'question':'按\x20/\x20壓\x20/\x20推','option':'おす'},{'question':'壽司','option':'おすし'},{'question':'茶','option':a5_0x56073a(0x7e)},{'question':'飯碗\x20/\x20茶碗','option':'おちゃわん'},{'question':'洗手間\x20/\x20廁所','option':a5_0x56073a(0x124)},{'question':'寺院','option':a5_0x56073a(0xda)},{'question':a5_0x56073a(0xe6),'option':a5_0x56073a(0xad)},{'question':a5_0x56073a(0xd6),'option':a5_0x56073a(0x19e)},{'question':a5_0x56073a(0x80),'option':a5_0x56073a(0xdd)},{'question':a5_0x56073a(0x181),'option':a5_0x56073a(0xab)},{'question':'前天','option':a5_0x56073a(0x123)},{'question':'前年','option':'おととし'},{'question':'大人','option':a5_0x56073a(0x1a4)},{'question':'肚子','option':a5_0x56073a(0x1a0)},{'question':'哥哥\x20[尊稱]','option':'おにいさん'},{'question':a5_0x56073a(0x109),'option':'おば'},{'question':a5_0x56073a(0x97),'option':a5_0x56073a(0x167)}],japDictionary=data[a5_0x56073a(0x106)]((_0x2f1605,_0x61f8d1)=>{const _0x29d389=a5_0x56073a;return _0x2f1605[_0x61f8d1[_0x29d389(0x92)]]=_0x61f8d1[_0x29d389(0x16c)],_0x2f1605;},{});function a5_0x5220(){const _0x396a14=['1號教室','いいえ','運動會','1434864bvAHSk','快樂的','エレベーター','2343386SJIEhj','きらいな','push','いっとう','あさい','replace','拚命地','筆直的','えいご','\x20/\x20','おとうと','幾個\x20/\x20幾歲','おなか','じょうずな','ひまな','refreshBtn','おとな','おもい','$1\x20$2','おかね','うんてんする','1672326osFvKb','おちゃ','あおい','男\x20/\x20男人','1小時後','ふとい','あげます\x20/\x20あげる','おきます\x20/\x20おきる','あたらしい','みじかい','へたな','おいくつ','寬敞的','M\x20(尺寸)','random','おじいさん','たのしい','ふべんな','length','うまい','Score:\x20','option','ほそい','dateDisplay','おきゃくさん','せまい','祖母\x20/\x20年長的女生\x20[尊稱]','ヴァイオリン','溫暖的','いっしゅうかんご','1個星期後','おくさん','textContent','うります\x20/\x20うる','ja-JP','score','太太\x20[尊稱]','うすい','いくら','涼爽的','ふるい','快的/早的','filter','沒問題的','ヴォーカル','あさって','おとこのこ','block','おとうさん','476diOOpg','うんどうかい','教\x20/\x20告訴','createElement','まるい','splice','いつも','おもしろい','冰的/冷的','無聊的','不擅長／討厭的','親密的','やすい','くろい','叔父\x20/\x20伯父\x20[尊稱]','いきます\x20/\x20いく','有名的','あいます','とくいな','onclick','おおそうじ','給\x20/\x20舉起','slice','便宜的','うしろ','おさら','年輕的','(((.+)+)+)+$','重要的','4932925dmpsds','薄的/淡的','Google','えいがかん','うけつけ','すきな','いちまい','failedQuestions','stringify','ヴィクトリア','progress','弟弟\x20[謙稱]','にぎやかな','おおきい','5024572MJdnxj','おてら','いもうと','speak','おとこ\x20/\x20おとこのひと','アパート','1個星期','long','放入/沖泡/倒入','沉重的','有趣的/好笑的','有\x20/\x20在','あまり','父親\x20[尊稱]','很多地/滿滿地','lang','くらい','まっすぐな','かるい','おかし','～之後\x20/\x20後來','nextBtn','危險的','あかい','げんきな','あまい','とおい','漂亮的／乾淨的','forEach','客人\x20[尊稱]','しずかな','黑色的','祖父\x20[尊稱]','強壯的／堅固的','options','うわぎ','美味的/擅長的','✅\x20Correct!','親切的/容易的','3321TSlTDQ','color','すずしい','昂貴的/高的','getElementById','toString','reduce','糖果\x20/\x20雨','つめたい','父母的姊妹\x20[謙稱]','ぶすな','vocab_review.html','floor','#2e7d32','appendChild','name','おさけ','ひろい','selected','點心\x20/\x20零食','たいへんな','からい','いっしょに','あたま','拿手的','不擅長的','海\x20/\x20海洋','うんどう','大阪\x20[地名]','輕鬆的','ふかい','display','includes','いしゃ','あります\x20/\x20ある','おととい','おてあらい','したしい','map','わかい','擅長的','finalScore','家\x20/\x20房子','いれます\x20/\x20いれる','おじさん','那個\x20+\x20名詞','慢的/晚的','いちばん','おおさか','rate','103656UHdlwh','那個\x20/\x20那裡\x20/\x20那位','你\x20/\x20您','姊姊\x20[謙稱]','吵鬧的\x20/\x20煩的','すごいですね!','log','feedback','有\x20/\x20在\x20(人或動物)','かんたんな','想要的','querySelector','總是\x20/\x20每次','熱鬧的','いろいろな','辛苦的／糟糕的','唱（歌）','add','あなたたち','いちじかんまえ','きたない','不方便的','アメリカ','classList','あぶない','大掃除','className','setItem','明亮的','getVoices','えきまえ','不行的','constructor','べんりな','喜歡的','find','車站前','うごく','じょうぶな','いくつ','#c62828','難吃的','questionWord','あさごはん','多少錢','Question\x20','まずい','あそぶ','109734FlDCTT','いっしょうけんめい','たかい','鄰近的','あたたかい','おばあさん','innerHTML','妹妹\x20[謙稱]','あそこ','speechSynthesis','question','遙遠的','電影院','ありません','numeric','search','おおい','狹小的','あつい','すくない','熱的\x20/\x20厚的','討厭的','japanese','よわい','ただしい','にがてな','.option.selected','有空的','うたいます\x20/\x20うたう','voice','安靜的','男孩子','あなた','ゆうめいな','あちら','おきます\x20/\x20おく','toLocaleDateString','あらいます\x20/\x20あらう','いっぱい','2-digit','えんそうします','ほしい','style','いっしゅうかん'];a5_0x5220=function(){return _0x396a14;};return a5_0x5220();}let unusedQuestions=[],current={},score=0x0,totalQuestions=0x19,wrongAnswers=[],hasAttempted=![];function shuffle(_0x13ba8e){const _0x17c884=a5_0x56073a;for(let _0x3c9818=_0x13ba8e[_0x17c884(0x8f)]-0x1;_0x3c9818>0x0;_0x3c9818--){const _0x3c1d13=Math['floor'](Math[_0x17c884(0x8b)]()*(_0x3c9818+0x1));[_0x13ba8e[_0x3c9818],_0x13ba8e[_0x3c1d13]]=[_0x13ba8e[_0x3c1d13],_0x13ba8e[_0x3c9818]];}return _0x13ba8e;}window['speechSynthesis']['onvoiceschanged']=()=>{const _0x1bd823=a5_0x56073a;window[_0x1bd823(0x16b)][_0x1bd823(0x14f)](),console[_0x1bd823(0x138)]('Japanese\x20voices\x20loaded\x20and\x20ready!');};function a5_0x1cdd(_0x15cd1d,_0x17bdae){_0x15cd1d=_0x15cd1d-0x79;const _0x21606b=a5_0x5220();let _0x394201=_0x21606b[_0x15cd1d];return _0x394201;}function speakJapaneseText(_0x3fd1ed){const _0x1520e0=a5_0x56073a,_0x3dc0b4=new SpeechSynthesisUtterance(_0x3fd1ed),_0x24c20f=window[_0x1520e0(0x16b)][_0x1520e0(0x14f)](),_0x5c1f26=_0x24c20f['find'](_0x2ec52e=>_0x2ec52e[_0x1520e0(0xe8)]===_0x1520e0(0x9f)&&_0x2ec52e[_0x1520e0(0x10f)][_0x1520e0(0x120)](_0x1520e0(0xcd)))||_0x24c20f[_0x1520e0(0x155)](_0x1735bd=>_0x1735bd[_0x1520e0(0xe8)]===_0x1520e0(0x9f));_0x5c1f26&&(_0x3dc0b4[_0x1520e0(0x17f)]=_0x5c1f26),_0x3dc0b4[_0x1520e0(0xe8)]=_0x1520e0(0x9f),_0x3dc0b4[_0x1520e0(0x131)]=0.7,window[_0x1520e0(0x16b)][_0x1520e0(0xdc)](_0x3dc0b4);}function displayJapaneseDate(){const _0x268e88=a5_0x56073a,_0x5e993a=(function(){let _0x2b0082=!![];return function(_0x740627,_0x1a7f2c){const _0x2d036e=_0x2b0082?function(){if(_0x1a7f2c){const _0x2573da=_0x1a7f2c['apply'](_0x740627,arguments);return _0x1a7f2c=null,_0x2573da;}}:function(){};return _0x2b0082=![],_0x2d036e;};}()),_0x374d7e=_0x5e993a(this,function(){const _0x485ede=a5_0x1cdd;return _0x374d7e[_0x485ede(0x105)]()[_0x485ede(0x171)](_0x485ede(0xc9))[_0x485ede(0x105)]()[_0x485ede(0x152)](_0x374d7e)['search'](_0x485ede(0xc9));});_0x374d7e();const _0x118d65=new Date();let _0x543832=_0x118d65[_0x268e88(0x186)](_0x268e88(0x9f),{'calendar':_0x268e88(0x178),'era':_0x268e88(0xe0),'year':_0x268e88(0x170),'month':'2-digit','day':_0x268e88(0x189),'weekday':'long'});_0x543832=_0x543832[_0x268e88(0x199)](/(\D)(\d+)/,_0x268e88(0x7a))[_0x268e88(0x199)]('年','\x20年\x20')[_0x268e88(0x199)]('月','/')[_0x268e88(0x199)]('日','\x20'),document['getElementById'](_0x268e88(0x94))['innerText']=_0x543832;}function nextQuestion(){const _0x19d094=a5_0x56073a;document[_0x19d094(0x104)](_0x19d094(0xee))[_0x19d094(0x18c)][_0x19d094(0x11f)]='none';const _0x524f78=document[_0x19d094(0x104)](_0x19d094(0x139));_0x524f78[_0x19d094(0x9d)]='',hasAttempted=![];if(unusedQuestions[_0x19d094(0x8f)]===0x0){if(wrongAnswers['length']>0x0){localStorage['setItem'](_0x19d094(0xd2),JSON[_0x19d094(0xd3)](wrongAnswers)),localStorage[_0x19d094(0x14d)](_0x19d094(0x129),score+_0x19d094(0x19d)+totalQuestions),window['location'][_0x19d094(0x199)](_0x19d094(0x10b));return;}document[_0x19d094(0x104)](_0x19d094(0x15c))[_0x19d094(0x9d)]=_0x19d094(0x137),document[_0x19d094(0x104)](_0x19d094(0xfb))[_0x19d094(0x168)]='',document[_0x19d094(0x104)](_0x19d094(0xd5))[_0x19d094(0x9d)]='',document[_0x19d094(0x104)](_0x19d094(0xa0))['textContent']='Final\x20Score:\x20'+score+_0x19d094(0x19d)+totalQuestions,document[_0x19d094(0x104)](_0x19d094(0xee))[_0x19d094(0x18c)][_0x19d094(0x11f)]='none',document[_0x19d094(0x104)](_0x19d094(0x1a3))[_0x19d094(0x18c)]['display']=_0x19d094(0xac);return;}const _0x114ffe=Math[_0x19d094(0x10c)](Math[_0x19d094(0x8b)]()*unusedQuestions[_0x19d094(0x8f)]);current=unusedQuestions[_0x19d094(0xb3)](_0x114ffe,0x1)[0x0],document[_0x19d094(0x104)](_0x19d094(0x15c))['textContent']=current['question'],document[_0x19d094(0x104)](_0x19d094(0xd5))['textContent']=_0x19d094(0x15f)+(totalQuestions-unusedQuestions['length'])+_0x19d094(0x19d)+totalQuestions,document[_0x19d094(0x104)](_0x19d094(0xa0))[_0x19d094(0x9d)]='Score:\x20'+score;let _0x2912a1=data[_0x19d094(0xa7)](_0x5bb270=>_0x5bb270['option']!==current[_0x19d094(0x92)]);_0x2912a1=shuffle(_0x2912a1)[_0x19d094(0xc4)](0x0,0x3)[_0x19d094(0x126)](_0x4406b3=>_0x4406b3[_0x19d094(0x92)]);const _0x42f91e=shuffle([current['option'],..._0x2912a1]),_0x5efdfa=document[_0x19d094(0x104)](_0x19d094(0xfb));_0x5efdfa['innerHTML']='',_0x42f91e[_0x19d094(0xf5)](_0xfe1137=>{const _0xd6fd1a=_0x19d094,_0xb712a5=document[_0xd6fd1a(0xb1)]('button');_0xb712a5[_0xd6fd1a(0x9d)]=_0xfe1137,_0xb712a5[_0xd6fd1a(0x14c)]='option',_0xb712a5[_0xd6fd1a(0xc1)]=()=>{const _0x3e32df=_0xd6fd1a,_0x3230eb=_0x5efdfa[_0x3e32df(0x13d)](_0x3e32df(0x17c));_0x3230eb&&_0x3230eb['classList']['remove'](_0x3e32df(0x112)),_0xb712a5[_0x3e32df(0x149)][_0x3e32df(0x143)](_0x3e32df(0x112)),speakJapaneseText(_0xfe1137),_0xfe1137===current[_0x3e32df(0x92)]?(_0x524f78[_0x3e32df(0x9d)]=_0x3e32df(0xfe),_0x524f78[_0x3e32df(0x18c)]['color']=_0x3e32df(0x10d),!hasAttempted&&(score++,hasAttempted=!![])):(!hasAttempted&&wrongAnswers[_0x3e32df(0x196)]({'question':current[_0x3e32df(0x16c)],'correctAnswer':current[_0x3e32df(0x92)],'userChoice':_0xfe1137}),_0x524f78['innerHTML']='❌\x20'+japDictionary[_0xfe1137]+'<br>The\x20answer\x20is:\x20'+current[_0x3e32df(0x92)],_0x524f78['style'][_0x3e32df(0x101)]=_0x3e32df(0x15a),hasAttempted=!![]),document['getElementById'](_0x3e32df(0xee))[_0x3e32df(0x18c)][_0x3e32df(0x11f)]=_0x3e32df(0xac),document['getElementById'](_0x3e32df(0xa0))[_0x3e32df(0x9d)]=_0x3e32df(0x91)+score;},_0x5efdfa[_0xd6fd1a(0x10e)](_0xb712a5);});}unusedQuestions=shuffle([...data])[a5_0x56073a(0xc4)](0x0,totalQuestions),displayJapaneseDate(),nextQuestion();
+// Hardcoded vocabulary list
+const data = [
+    { question: "昂貴的/高的", option: "たかい" },
+    { question: "新的", option: "あたらしい" },
+    { question: "強的/強壯的", option: "つよい" },
+    { question: "快的/早的", option: "はやい" },
+    { question: "寬敞的", option: "ひろい" },
+    { question: "溫暖的", option: "あたたかい" },
+    { question: "輕的", option: "かるい" },
+    { question: "黑暗的/沮喪的", option: "くらい" },
+    { question: "鄰近的", option: "ちかい" },
+    { question: "長的", option: "ながい" },
+    { question: "有趣的/好笑的", option: "おもしろい" },
+    { question: "粗的", option: "ふとい" },
+    { question: "深的", option: "ふかい" },
+    { question: "忙碌的", option: "いそがしい" },
+    { question: "正確的", option: "ただしい" },
+    { question: "快樂的", option: "たのしい" },
+    { question: "親密的", option: "したしい" },
+    { question: "舊的", option: "ふるい" },
+    { question: "壞的", option: "わるい" },
+    { question: "便宜的", option: "やすい" },
+    { question: "矮的/低的", option: "ひくい" },
+    { question: "難吃的", option: "まずい" },
+    { question: "冰的/冷的", option: "つめたい" },
+    { question: "薄的/淡的", option: "うすい" },
+    { question: "效力弱的/弱的", option: "よわい" },
+    { question: "慢的/晚的", option: "おそい" },
+    { question: "狹小的", option: "せまい" },
+    { question: "涼爽的", option: "すずしい" },
+    { question: "沉重的", option: "おもい" },
+    { question: "明亮的", option: "あかるい" },
+    { question: "遙遠的", option: "とおい" },
+    { question: "短的", option: "みじかい" },
+    { question: "無聊的", option: "つまらない" },
+    { question: "細的", option: "ほそい" },
+    { question: "淺的", option: "あさい" },
+    { question: "多的", option: "おおい" },
+    { question: "少的", option: "すくない" },
+    { question: "很難的", option: "むずかしい" },
+    { question: "甜的", option: "あまい" },
+    { question: "親切的/容易的", option: "やさしい" },
+    { question: "辣的", option: "からい" },
+    { question: "圓的", option: "まるい" },
+    { question: "危險的", option: "あぶない" },
+    { question: "髒的／不乾淨的", option: "きたない" },
+    { question: "年輕的", option: "わかい" },
+    { question: "想要的", option: "ほしい" },
+    { question: "藍色的", option: "あおい" },
+    { question: "紅色的", option: "あかい" },
+    { question: "黃色的", option: "きいろい" },
+    { question: "黑色的", option: "くろい" },
+    { question: "漂亮的／乾淨的", option: "きれいな" },
+    { question: "喜歡的", option: "すきな" },
+    { question: "方便的", option: "べんりな" },
+    { question: "擅長的", option: "じょうずな" },
+    { question: "拿手的", option: "とくいな" },
+    { question: "安靜的", option: "しずかな" },
+    { question: "簡單的", option: "かんたんな" },
+    { question: "辛苦的／糟糕的", option: "たいへんな" },
+    { question: "有精神的／健康的", option: "げんきな" },
+    { question: "強壯的／堅固的", option: "じょうぶな" },
+    { question: "熱鬧的", option: "にぎやかな" },
+    { question: "有空的", option: "ひまな" },
+    { question: "有名的", option: "ゆうめいな" },
+    { question: "各式各樣的", option: "いろいろな" },
+    { question: "重要的", option: "たいせつな" },
+    { question: "沒問題的", option: "だいじょうぶな" },
+    { question: "筆直的", option: "まっすぐな" },
+    { question: "醜的 (俚語/粗俗)", option: "ぶすな" },
+    { question: "討厭的", option: "きらいな" },
+    { question: "不方便的", option: "ふべんな" },
+    { question: "不擅長的", option: "へたな" },
+    { question: "不擅長／討厭的", option: "にがてな" },
+    { question: "輕鬆的", option: "らくな" },
+    { question: "見面", option: "あいます" },
+    { question: "上去 / 上來", option: "あがります" },
+    { question: "給 / 舉起", option: "あげます / あげる" },
+    { question: "打開", option: "あける" },
+    { question: "早上", option: "あさ" },
+    { question: "早飯", option: "あさごはん" },
+    { question: "後天", option: "あさって" },
+    { question: "腳", option: "あし" },
+    { question: "明天", option: "あした" },
+    { question: "那裡", option: "あそこ" },
+    { question: "玩", option: "あそぶ" },
+    { question: "頭", option: "あたま" },
+    { question: "那個 / 那裡 / 那位", option: "あちら" },
+    { question: "熱的 / 厚的", option: "あつい" },
+    { question: "～之後 / 後來", option: "あと" },
+    { question: "你 / 您", option: "あなた" },
+    { question: "你們", option: "あなたたち" },
+    { question: "哥哥 [謙稱]", option: "あに" },
+    { question: "姊姊 [謙稱]", option: "あね" },
+    { question: "那個 + 名詞", option: "あの" },
+    { question: "公寓", option: "アパート" },
+    { question: "淋", option: "あびます / あびる" },
+    { question: "（不）那麼～ / ～否定 / (不) 怎麼～", option: "あまり" },
+    { question: "編織", option: "あむ" },
+    { question: "糖果 / 雨", option: "あめ" },
+    { question: "美國", option: "アメリカ" },
+    { question: "洗", option: "あらいます / あらう" },
+    { question: "有 / 在", option: "あります / ある" },
+    { question: "有 / 在 (否定)", option: "ありません" },
+    { question: "打工", option: "アルバイト" },
+    { question: "那個", option: "あれ" },
+    { question: "胃", option: "い" },
+    { question: "好的", option: "いい" },
+    { question: "不是", option: "いいえ" },
+    { question: "說", option: "いう" },
+    { question: "家 / 房子", option: "いえ / うち" },
+    { question: "去", option: "いきます / いく" },
+    { question: "幾個 / 幾歲", option: "いくつ" },
+    { question: "多少錢", option: "いくら" },
+    { question: "池塘", option: "いけ" },
+    { question: "不行的", option: "いけません" },
+    { question: "醫生", option: "いしゃ" },
+    { question: "椅子", option: "いす" },
+    { question: "之前 / 以前", option: "いぜん" },
+    { question: "痛的", option: "いたい" },
+    { question: "1點", option: "いちじ" },
+    { question: "1小時後", option: "いちじかんご" },
+    { question: "1小時前", option: "いちじかんまえ" },
+    { question: "最～", option: "いちばん" },
+    { question: "1號教室", option: "いちばんきょうしつ" },
+    { question: "1張", option: "いちまい" },
+    { question: "1個星期", option: "いっしゅうかん" },
+    { question: "1個星期後", option: "いっしゅうかんご" },
+    { question: "拚命地", option: "いっしょうけんめい" },
+    { question: "一起", option: "いっしょに" },
+    { question: "1隻", option: "いっとう" },
+    { question: "很多地/滿滿地", option: "いっぱい" },
+    { question: "總是 / 每次", option: "いつも" },
+    { question: "狗", option: "いぬ" },
+    { question: "現在", option: "いま" },
+    { question: "有 / 在 (人或動物)", option: "います / いる" },
+    { question: "意思", option: "いみ" },
+    { question: "妹妹 [謙稱]", option: "いもうと" },
+    { question: "入口", option: "いりぐち" },
+    { question: "放入/沖泡/倒入", option: "いれます / いれる" },
+    { question: "顏色", option: "いろ" },
+    { question: "小提琴", option: "ヴァイオリン" },
+    { question: "維多利亞", option: "ヴィクトリア" },
+    { question: "上面", option: "うえ" },
+    { question: "主唱", option: "ヴォーカル" },
+    { question: "櫃檯", option: "うけつけ" },
+    { question: "動", option: "うごく" },
+    { question: "後面", option: "うしろ" },
+    { question: "歌", option: "うた" },
+    { question: "唱（歌）", option: "うたいます / うたう" },
+    { question: "美味的/擅長的", option: "うまい" },
+    { question: "海 / 海洋", option: "うみ" },
+    { question: "賣", option: "うります / うる" },
+    { question: "吵鬧的 / 煩的", option: "うるさい" },
+    { question: "外套", option: "うわぎ" },
+    { question: "駕駛", option: "うんてんする" },
+    { question: "運動", option: "うんどう" },
+    { question: "運動會", option: "うんどうかい" },
+    { question: "電影", option: "えいが" },
+    { question: "電影院", option: "えいがかん" },
+    { question: "英文", option: "えいご" },
+    { question: "車站", option: "えき" },
+    { question: "車站前", option: "えきまえ" },
+    { question: "M (尺寸)", option: "エム" },
+    { question: "選擇", option: "えらびます / えらぶ" },
+    { question: "L (尺寸)", option: "エル" },
+    { question: "電梯", option: "エレベーター" },
+    { question: "日幣", option: "えん" },
+    { question: "演奏", option: "えんそうします" },
+    { question: "鉛筆", option: "えんぴつ" },
+    { question: "貴庚", option: "おいくつ" },
+    { question: "美味的", option: "おいしい" },
+    { question: "大的", option: "おおきい" },
+    { question: "大阪 [地名]", option: "おおさか" },
+    { question: "大掃除", option: "おおそうじ" },
+    { question: "母親 [尊稱]", option: "おかあさん" },
+    { question: "點心 / 零食", option: "おかし" },
+    { question: "錢", option: "おかね" },
+    { question: "起床 / 起來", option: "おきます / おきる" },
+    { question: "放置", option: "おきます / おく" },
+    { question: "客人 [尊稱]", option: "おきゃくさん" },
+    { question: "太太 [尊稱]", option: "おくさん" },
+    { question: "酒", option: "おさけ" },
+    { question: "盤子", option: "おさら" },
+    { question: "祖父 [尊稱]", option: "おじいさん" },
+    { question: "叔父 / 伯父 [尊稱]", option: "おじさん" },
+    { question: "教 / 告訴", option: "おしえます / おしえる" },
+    { question: "聊天", option: "おしゃべり" },
+    { question: "按 / 壓 / 推", option: "おす" },
+    { question: "壽司", option: "おすし" },
+    { question: "茶", option: "おちゃ" },
+    { question: "飯碗 / 茶碗", option: "おちゃわん" },
+    { question: "洗手間 / 廁所", option: "おてあらい" },
+    { question: "寺院", option: "おてら" },
+    { question: "父親 [尊稱]", option: "おとうさん" },
+    { question: "弟弟 [謙稱]", option: "おとうと" },
+    { question: "男 / 男人", option: "おとこ / おとこのひと" },
+    { question: "男孩子", option: "おとこのこ" },
+    { question: "前天", option: "おととい" },
+    { question: "前年", option: "おととし" },
+    { question: "大人", option: "おとな" },
+    { question: "肚子", option: "おなか" },
+    { question: "哥哥 [尊稱]", option: "おにいさん" },
+    { question: "父母的姊妹 [謙稱]", option: "おば" },
+    { question: "祖母 / 年長的女生 [尊稱]", option: "おばあさん" },
+];
+
+const japDictionary = data.reduce((acc, item) => {
+    acc[item.option] = item.question;
+    return acc;
+}, {});
+
+// Quiz variables.
+let unusedQuestions = [];
+let current = {};
+let score = 0;
+let totalQuestions = 25;
+let wrongAnswers = [];
+let hasAttempted = false;
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+window.speechSynthesis.onvoiceschanged = () => {
+    // This "warms up" the voice list so it's ready when the user clicks 'Play'
+    window.speechSynthesis.getVoices();
+    console.log("Japanese voices loaded and ready!");
+};
+function speakJapaneseText(text) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+
+    // Look for a specific high-quality voice
+    // "Google 日本語" is usually very good on Chrome
+    const jpVoice = voices.find(voice =>
+        voice.lang === 'ja-JP' && voice.name.includes('Google')
+    ) || voices.find(voice => voice.lang === 'ja-JP');
+
+    if (jpVoice) {
+        utterance.voice = jpVoice;
+    }
+
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.7; // Slightly slower is often better for learners
+    window.speechSynthesis.speak(utterance);
+}
+
+function displayJapaneseDate() {
+    const today = new Date();
+
+    // 1. Get the base Era/Year/Padded Month/Day/Weekday
+    let formatted = today.toLocaleDateString('ja-JP', {
+        calendar: 'japanese',
+        era: 'long',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        weekday: 'long'
+    });
+
+    // 2. Clean up the Kanji to get your "/" and spacing
+    // Transforms "令和8年03月04日水曜日" -> "令和 8 年 03/04 水曜日"
+    formatted = formatted
+        .replace(/(\D)(\d+)/, '$1 $2')
+        .replace('年', ' 年 ')
+        .replace('月', '/')
+        .replace('日', ' ');
+
+    // 3. Print it to the top of the page
+    document.getElementById("dateDisplay").innerText = formatted;
+}
+
+function nextQuestion() {
+    document.getElementById("nextBtn").style.display = "none";
+    const feedback = document.getElementById("feedback");
+    feedback.textContent = "";
+    hasAttempted = false;
+
+    if (unusedQuestions.length === 0) {
+        if (wrongAnswers.length > 0) {
+            localStorage.setItem('failedQuestions', JSON.stringify(wrongAnswers));
+            localStorage.setItem('finalScore', `${score} / ${totalQuestions}`);
+            window.location.replace("vocab_review.html");
+            return
+        }
+        document.getElementById("questionWord").textContent = "すごいですね!";
+        document.getElementById("options").innerHTML = "";
+        document.getElementById("progress").textContent = "";
+        document.getElementById("score").textContent = `Final Score: ${score} / ${totalQuestions}`;
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("refreshBtn").style.display = "block";
+        return;
+    }
+
+    const index = Math.floor(Math.random() * unusedQuestions.length);
+    current = unusedQuestions.splice(index, 1)[0];
+
+    document.getElementById("questionWord").textContent = current.question;
+    document.getElementById("progress").textContent = `Question ${totalQuestions - unusedQuestions.length} / ${totalQuestions}`;
+    document.getElementById("score").textContent = `Score: ${score}`;
+
+    let distractors = data.filter(d => d.option !== current.option);
+    distractors = shuffle(distractors).slice(0, 3).map(d => d.option);
+
+    const options = shuffle([current.option, ...distractors]);
+    const optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+
+    options.forEach(opt => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.className = "option";
+        btn.onclick = () => {
+            // 1. Remove .selected from any other option button
+            const existingSelected = optionsDiv.querySelector('.option.selected');
+            if (existingSelected) {
+                existingSelected.classList.remove('selected');
+            }
+
+            // 2. Add .selected to the button that was just clicked
+            btn.classList.add('selected');
+
+            speakJapaneseText(opt);
+
+            // 3. Quiz logic (checking the answer)
+            if (opt === current.option) {
+                feedback.textContent = "✅ Correct!";
+                feedback.style.color = "#2e7d32";
+                if (!hasAttempted) {
+                    score++;
+                    hasAttempted = true;
+                }
+            } else {
+                if (!hasAttempted) {
+                    // Save the question AND what the user actually clicked
+                    wrongAnswers.push({
+                        question: current.question, // The Kanji/Word
+                        correctAnswer: current.option, // The right meaning
+                        userChoice: opt // The wrong meaning the user picked
+                    });
+                }
+                feedback.innerHTML = `❌ ${japDictionary[opt]}<br>The answer is: ${current.option}`;
+                feedback.style.color = "#c62828";
+                hasAttempted = true;
+            }
+            document.getElementById("nextBtn").style.display = "block";
+            document.getElementById("score").textContent = `Score: ${score}`;
+        };
+        optionsDiv.appendChild(btn);
+    });
+}
+
+unusedQuestions = shuffle([...data]).slice(0, totalQuestions);
+displayJapaneseDate();
+nextQuestion();
