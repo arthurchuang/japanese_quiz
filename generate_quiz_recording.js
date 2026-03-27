@@ -39,7 +39,7 @@ async function generateRecordings() {
     console.log(`🎙️ Generating ${quiz.length} recordings into ${recordingDir}...`);
 
     for (let i = 0; i < quiz.length; i++) {
-        const question = quiz[i].question;
+        const question = quiz[i].question.replace(/（.+?）/, "").trim();
         const outputPath = path.join(recordingDir, `question-${i + 1}.wav`);
 
         console.log(`  [${i + 1}/${quiz.length}] "${question}"`);

@@ -28,7 +28,7 @@ async function callGroq(prompt) {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            model: "llama-3.3-70b-versatile",
+            model: "qwen/qwen3-32b",
             messages: [
                 { role: "user", content: prompt }
             ],
@@ -84,9 +84,11 @@ ${JSON.stringify(selected)}
         try {
             const text = await callGroq(prompt);
 
+            const cleaned = text.replace(/<think>[\s\S]*?<\/think>/g, "").trim();
+
             let quiz;
             try {
-                quiz = JSON.parse(text);
+                quiz = JSON.parse(cleaned);
             } catch {
                 console.log("JSON parse failed, retrying...");
                 continue;

@@ -102,7 +102,7 @@ async function displayQuestion() {
         const furigana = document.createElement("div");
         furigana.textContent = match[2].trim();
         furigana.style.cssText = `
-            font-size: 0.75rem;
+            font-size: 0.9rem;
             color: #999;
             margin-top: 4px;
         `;
@@ -121,7 +121,7 @@ async function displayQuestion() {
         const speakerBtn = document.createElement("button");
         speakerBtn.id = "speakerBtn";
         speakerBtn.title = "Listen to question";
-        speakerBtn.textContent = "🔊";
+        speakerBtn.textContent = "📢";
         speakerBtn.style.cssText = `
             background: none;
             border: none;
