@@ -1,8 +1,8 @@
 // Global state
 window.currentQuiz = [];
 window.currentQuestionIndex = 0;
+window.currentRecordingDir = null; // e.g. "recordings/recording-2026-03-21"
 
-// DOM elements
 const loadingEl = document.getElementById("loading");
 const dateDisplayEl = document.getElementById("dateDisplay");
 const progressEl = document.getElementById("progress");
@@ -13,7 +13,6 @@ const scoreEl = document.getElementById("score");
 const nextBtn = document.getElementById("nextBtn");
 const refreshBtn = document.getElementById("refreshBtn");
 
-// 1️⃣ Fetch and display list of available quizzes
 async function showQuizList() {
     try {
         loadingEl.textContent = "Loading available quizzes...";
@@ -24,7 +23,6 @@ async function showQuizList() {
         loadingEl.textContent = "";
         dateDisplayEl.textContent = "Select a quiz:";
 
-        // Clear previous content
         const quizListEl = document.getElementById("quizList");
         quizListEl.innerHTML = "";
 
@@ -41,7 +39,6 @@ async function showQuizList() {
     }
 }
 
-// 2️⃣ Load selected quiz JSON
 async function loadQuiz(fileName) {
     document.getElementById("quiz-list-screen").style.display = "none";
     document.getElementById("quiz-screen").style.display = "block";
@@ -55,10 +52,11 @@ async function loadQuiz(fileName) {
         window.currentQuiz = quizData;
         window.currentQuestionIndex = 0;
 
-        // Update date display
-        dateDisplayEl.textContent = fileName.replace(".json", "");
+        // Derive recording folder from quiz filename: daily-2026-03-21.json → recordings/recording-2026-03-21
+        const date = fileName.replace("daily-", "").replace(".json", "");
+        window.currentRecordingDir = `./recordings/recording-${date}`;
 
-        // Hide loading, show quiz
+        dateDisplayEl.textContent = fileName.replace(".json", "");
         loadingEl.style.display = "none";
         nextBtn.disabled = false;
         optionsEl.innerHTML = "";
@@ -72,23 +70,65 @@ async function loadQuiz(fileName) {
     }
 }
 
-// 3️⃣ Display current question
-function displayQuestion() {
+// Check if a recording file exists by doing a HEAD request
+async function recordingExists(url) {
+    try {
+        const res = await fetch(url, { method: "HEAD" });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+async function displayQuestion() {
     if (!window.currentQuiz.length) return;
 
     const current = window.currentQuiz[window.currentQuestionIndex];
+    const questionNumber = window.currentQuestionIndex + 1;
 
-    // Update progress
-    progressEl.textContent = `Question ${window.currentQuestionIndex + 1} / ${window.currentQuiz.length}`;
+    progressEl.textContent = `Question ${questionNumber} / ${window.currentQuiz.length}`;
 
-    // Update question text
-    questionWordEl.textContent = current.question;
+    // Build question line
+    questionWordEl.innerHTML = "";
+
+    const questionText = document.createElement("span");
+    questionText.textContent = current.question;
+    questionWordEl.appendChild(questionText);
+
+    // Check if recording exists for this question, then show speaker button
+    const recordingUrl = `${window.currentRecordingDir}/question-${questionNumber}.wav`;
+    const hasRecording = await recordingExists(recordingUrl);
+
+    if (hasRecording) {
+        const speakerBtn = document.createElement("button");
+        speakerBtn.id = "speakerBtn";
+        speakerBtn.title = "Listen to question";
+        speakerBtn.textContent = "🔊";
+        speakerBtn.style.cssText = `
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            margin-left: 8px;
+            vertical-align: middle;
+            padding: 2px 6px;
+            border-radius: 4px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        `;
+        speakerBtn.onmouseenter = () => speakerBtn.style.opacity = "1";
+        speakerBtn.onmouseleave = () => speakerBtn.style.opacity = "0.8";
+        speakerBtn.onclick = () => {
+            const audio = new Audio(recordingUrl);
+            audio.play();
+        };
+        questionWordEl.appendChild(speakerBtn);
+    }
 
     // Clear options & feedback
     optionsEl.innerHTML = "";
     feedbackEl.textContent = "";
 
-    // Fill options for MCQ
     if (current.type === "mcq") {
         current.options.forEach((opt) => {
             const btn = document.createElement("button");
@@ -97,10 +137,7 @@ function displayQuestion() {
             btn.onclick = () => selectAnswer(opt, current.answer, current.explanation);
             optionsEl.appendChild(btn);
         });
-    }
-
-    // Fill for fill-in-the-blank
-    else if (current.type === "fill-in-the-blank") {
+    } else if (current.type === "fill-in-the-blank") {
         const input = document.createElement("input");
         input.type = "text";
         input.placeholder = "Type your answer...";
@@ -114,14 +151,10 @@ function displayQuestion() {
     }
 }
 
-// 4️⃣ Handle answer selection
 function selectAnswer(selected, correct, explanation) {
     feedbackEl.textContent = selected === correct ? "✅ Correct!" : `❌ Incorrect! ${explanation}`;
-
-    // Disable all option buttons
     document.querySelectorAll(".option").forEach((btn) => (btn.disabled = true));
 
-    // Show next button if more questions remain
     if (window.currentQuestionIndex < window.currentQuiz.length - 1) {
         nextBtn.style.display = "block";
         nextBtn.disabled = false;
@@ -131,7 +164,6 @@ function selectAnswer(selected, correct, explanation) {
     }
 }
 
-// 5️⃣ Next question
 function nextQuestion() {
     window.currentQuestionIndex++;
     if (window.currentQuestionIndex < window.currentQuiz.length) {
@@ -140,6 +172,5 @@ function nextQuestion() {
     nextBtn.style.display = "none";
 }
 
-// 6️⃣ Initialize
 nextBtn.onclick = nextQuestion;
 showQuizList();
