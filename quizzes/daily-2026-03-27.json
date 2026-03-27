@@ -1,95 +1,59 @@
 [
   {
     "type": "mcq",
-    "question": "張さんと洪さんはバイオリンを弾きました。（ちょうさんとほんさんはばいおりんをひきました。）",
+    "question": "去年のテストは簡単でした。",
     "options": [
-      "verb mashita-form with を (direct object)",
-      "verb mashita-form with で (means of transport)",
-      "verb masu-form with と (together with)",
-      "verb masen-form (negative)"
+      "な形容詞 + でした (na-adjective past tense)",
+      "い形容詞 + です (i-adjective predicate)",
+      "な形容詞 + です (na-adjective predicate)",
+      "い形容詞 + でした (i-adjective past tense)"
     ],
-    "answer": "verb mashita-form with を (direct object)",
-    "explanation": "The sentence describes an action done to a direct object."
+    "answer": "な形容詞 + でした (na-adjective past tense)",
+    "explanation": "The sentence describes a past state using a na-adjective."
   },
   {
     "type": "mcq",
-    "question": "ここはどんな町ですか?（ここはどんなまちですか?）",
+    "question": "私は暇です。",
     "options": [
-      "どんな〜ですか (what kind of ~?)",
+      "な形容詞 + でした (na-adjective past tense)",
       "い形容詞 + です (i-adjective predicate)",
       "な形容詞 + です (na-adjective predicate)",
-      "verb masu-form with で (means of transport)"
-    ],
-    "answer": "どんな〜ですか (what kind of ~?)",
-    "explanation": "The sentence asks for a description of the town."
-  },
-  {
-    "type": "mcq",
-    "question": "あの洋服は綺麗です。（あのようふくはきれいです。）",
-    "options": [
-      "な形容詞 + です (na-adjective predicate)",
-      "い形容詞 + です (i-adjective predicate)",
-      "verb mashita-form with を (direct object)",
-      "い形容詞 (stacked i-adjectives)"
+      "い形容詞 + でした (i-adjective past tense)"
     ],
     "answer": "な形容詞 + です (na-adjective predicate)",
     "explanation": "The sentence describes a state using a na-adjective."
   },
   {
     "type": "mcq",
-    "question": "あなたは友達と帰りますか？（あなたはともだちとかえりますか？）",
+    "question": "私はピアノで演奏します。",
     "options": [
-      "verb masu-form question with と (together with)",
-      "verb masu-form with で (means of transport)",
-      "verb masen-form (negative)",
-      "い形容詞 + です (i-adjective predicate)"
+      "verb masu-form with で (tool/instrument)",
+      "verb mashita-form with で (means of transport)",
+      "verb masu-form with に (direction)",
+      "verb masu-form with を (direct object)"
     ],
-    "answer": "verb masu-form question with と (together with)",
-    "explanation": "The sentence asks about an action done with someone."
+    "answer": "verb masu-form with で (tool/instrument)",
+    "explanation": "The sentence describes an action using a tool or instrument."
   },
   {
     "type": "mcq",
-    "question": "いいえ、飛びません。（いいえ、とびません。）",
+    "question": "妹は昼食を食べました。",
     "options": [
-      "verb masen-form (negative)",
       "verb mashita-form with を (direct object)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)"
+      "verb masu-form with を (direct object)",
+      "verb masu-form with で (means of transport)",
+      "verb mashita-form with で (tool/instrument)"
     ],
-    "answer": "verb masen-form (negative)",
-    "explanation": "The sentence describes a negative action."
+    "answer": "verb mashita-form with を (direct object)",
+    "explanation": "The sentence describes a past action with a direct object."
   },
   {
     "type": "mcq",
-    "question": "綺麗なお皿（きれいなおさら）",
-    "options": [
-      "な形容詞 (na-adjective)",
-      "い形容詞 (i-adjective)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)"
-    ],
-    "answer": "な形容詞 (na-adjective)",
-    "explanation": "The phrase describes a noun using a na-adjective."
-  },
-  {
-    "type": "mcq",
-    "question": "小さいコンピューターは安くないです。（ちいさいコンピューターはやすくないです。）",
-    "options": [
-      "い形容詞 + くないです (i-adjective negative)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)",
-      "い形容詞 (stacked i-adjectives)"
-    ],
-    "answer": "い形容詞 + くないです (i-adjective negative)",
-    "explanation": "The sentence describes a negative state using an i-adjective."
-  },
-  {
-    "type": "mcq",
-    "question": "今週彼は来ませんでした。（こんしゅうかれはきませんでした。）",
+    "question": "去年両親は旅行しませんでした。",
     "options": [
       "verb masendeshita-form (past negative)",
-      "verb mashita-form with を (direct object)",
-      "verb masu-form with と (together with)",
+      "verb mashita-form (past tense)",
+      "verb masu-form (present/future)",
       "verb masen-form (negative)"
     ],
     "answer": "verb masendeshita-form (past negative)",
@@ -97,26 +61,62 @@
   },
   {
     "type": "mcq",
-    "question": "王さんは行きません。（おうさんはいきません。）",
+    "question": "私は今晩家族で食事します。",
     "options": [
-      "verb masen-form (negative)",
-      "verb mashita-form with を (direct object)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)"
+      "verb masu-form with で (group)",
+      "verb masu-form with に (direction)",
+      "verb masu-form with を (direct object)",
+      "verb mashita-form with で (means of transport)"
     ],
-    "answer": "verb masen-form (negative)",
-    "explanation": "The sentence describes a negative action."
+    "answer": "verb masu-form with で (group)",
+    "explanation": "The sentence describes an action with a group."
   },
   {
     "type": "mcq",
-    "question": "日本人は箸で食事します。（にほんじんははしでしょくじします。）",
+    "question": "鈴木さんは高さんに花をもらいました。",
     "options": [
-      "verb masu-form with で (tool/instrument)",
-      "verb mashita-form with を (direct object)",
-      "い形容詞 + です (i-adjective predicate)",
-      "な形容詞 + です (na-adjective predicate)"
+      "receiving verb もらいました",
+      "giving verb くれました",
+      "verb mashita-form (past tense)",
+      "verb masu-form (present/future)"
     ],
-    "answer": "verb masu-form with で (tool/instrument)",
-    "explanation": "The sentence describes an action done using a tool."
+    "answer": "receiving verb もらいました",
+    "explanation": "The sentence describes an action of receiving something."
+  },
+  {
+    "type": "mcq",
+    "question": "王さんは私からラジカセを借りました。",
+    "options": [
+      "verb mashita-form (借りました); から marks the source explicitly (from me)",
+      "verb mashita-form (past tense)",
+      "verb masu-form (present/future)",
+      "receiving verb もらいました"
+    ],
+    "answer": "verb mashita-form (借りました); から marks the source explicitly (from me)",
+    "explanation": "The sentence describes a past action of borrowing with the source marked explicitly."
+  },
+  {
+    "type": "mcq",
+    "question": "私はいつも夜十一時から朝六時まで寝ます。",
+    "options": [
+      "〜から〜まで (from ~ to ~)",
+      "〜から〜まで + です",
+      "verb mashita-form (past tense)",
+      "verb masu-form (present/future)"
+    ],
+    "answer": "〜から〜まで (from ~ to ~)",
+    "explanation": "The sentence describes a time period from one point to another."
+  },
+  {
+    "type": "mcq",
+    "question": "あさってのパーティーは五時に始まります。",
+    "options": [
+      "time + に + verb masu-form",
+      "time + に + verb mashita-form",
+      "time + から + verb masu-form",
+      "time + まで + verb masu-form"
+    ],
+    "answer": "time + に + verb masu-form",
+    "explanation": "The sentence describes a future action at a specific time."
   }
 ]
