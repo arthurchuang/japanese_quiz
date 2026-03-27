@@ -1,0 +1,8 @@
+{
+  "name": "japanese-quiz",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@neosapience/typecast-js": "^0.1.5"
+  }
+}
