@@ -18,7 +18,32 @@
             align-items: center;
             justify-content: center;
             min-height: 100svh;
-            background-color: #f0f2f5;
+            background: linear-gradient(to top,
+                    #1a3a5c 0%,
+                    /* deep midnight blue */
+                    #2e6ea6 20%,
+                    /* ocean blue */
+                    #6aaed6 38%,
+                    /* clear sky */
+                    #a8cfe8 50%,
+                    /* soft blue transition */
+                    #c4d4e0 54%,
+                    /* blue fading */
+                    #d4c8d0 57%,
+                    /* blue-pink midpoint */
+                    #dcc4cc 60%,
+                    /* warming pink */
+                    #e0bcc4 65%,
+                    /* blue-pink blend */
+                    #e0bcc4 68%,
+                    /* hold blue-pink blend */
+                    #f7d4c8 82%,
+                    /* soft petal */
+                    #fce8e2 91%,
+                    /* morning haze */
+                    #fff5f0 100%
+                    /* pale spring sky */
+                );
             text-align: center;
             padding: 15px;
         }
@@ -78,15 +103,15 @@
         <h1>にほんごをべんきょうしましょう!</h1>
         <div id="quiz-menu">
             <button class="menu-btn" onclick="startQuiz('vocab')">
-                語彙 (Vocab)
+                語彙
                 <span class="btn-desc">Vocabulary Practice</span>
             </button>
             <button class="menu-btn" onclick="startQuiz('grammar')">
-                文法 (Grammar)
+                文法
                 <span class="btn-desc">Grammar Practice</span>
             </button>
             <button class="menu-btn" onclick="startQuiz('daily')">
-                今日の文法 (Daily Grammar Quiz)
+                今日のクイズ
                 <span class="btn-desc">AI-generated quiz for today</span>
             </button>
         </div>

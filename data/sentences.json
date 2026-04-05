@@ -1148,5 +1148,240 @@
         "japanese": "空はまだ明るいです。（そらはまだあかるいです。）",
         "chinese": "天空還很亮。",
         "grammar": "まだ + い-adjective + です = still (adjective); 明るい (bright) is an い-adjective; は marks topic (the sky)"
+    },
+    {
+      "japanese": "単語を正しく覚えましょう。（たんごをただしくおぼえましょう。）",
+      "chinese": "正確的記單字吧。",
+      "grammar": "adverb 正しく modifies verb 覚える (to memorize); ましょう = let's ~; を marks direct object"
+    },
+    {
+      "japanese": "母はいつも料理を多く作ります。（はははいつもりょうりをおおくつくります。）",
+      "chinese": "媽媽總是做料理做得很多。",
+      "grammar": "いつも = always; 多く is adverbial form of 多い (many/much); を marks direct object 料理; は marks topic 母"
+    },
+    {
+      "japanese": "弟は字をとても大きく書きました。（おとうとはじをとてもおおきくかきました。）",
+      "chinese": "弟弟把字寫很大。",
+      "grammar": "大きく is adverbial form of 大きい (big); とても = very; を marks direct object 字; ました = past tense"
+    },
+    {
+      "japanese": "妹は可愛くなりました。（いもうとはかわいくなりました。）",
+      "chinese": "妹妹變可愛了。",
+      "grammar": "い-adjective + く + なる = to become (adjective); 可愛い → 可愛く; なりました = past tense of なる"
+    },
+    {
+      "japanese": "私はカップを綺麗に洗いました。（わたしはカップをきれいにあらいました。）",
+      "chinese": "我把杯子洗乾淨了。",
+      "grammar": "な-adjective + に = adverbial form; 綺麗に modifies verb 洗う; を marks direct object カップ; ました = past tense"
+    },
+    {
+      "japanese": "王さんは上手に絵を描きます。（おうさんはじょうずにえをかきます。）",
+      "chinese": "王先生／小姐會把畫畫得很好。",
+      "grammar": "な-adjective + に = adverbial form; 上手に modifies verb 描く (to draw); を marks direct object 絵"
+    },
+    {
+      "japanese": "飛行機は真っ直ぐに飛びます。（ひこうきはまっすぐにとびます。）",
+      "chinese": "飛機直線飛行。",
+      "grammar": "真っ直ぐに = adverb meaning 'straight'; に marks adverbial manner; は marks topic 飛行機"
+    },
+    {
+      "japanese": "息子は今朝元気に学校へ行きました。（むすこはけさげんきにがっこうへいきました。）",
+      "chinese": "兒子今天早上很有精神地去上學。",
+      "grammar": "な-adjective 元気 + に = adverbial form; へ marks direction (toward school); 今朝 = this morning; ました = past tense"
+    },
+    {
+      "japanese": "彼女は綺麗です。（かのじょはきれいです。）",
+      "chinese": "她很漂亮。",
+      "grammar": "は marks topic 彼女; 綺麗 is a な-adjective; です = copula (polite)"
+    },
+    {
+      "japanese": "彼女は髪の毛が綺麗です。（かのじょはかみのけがきれいです。）",
+      "chinese": "她的頭髮很漂亮。",
+      "grammar": "は marks topic 彼女; が marks subject of predicate adjective 綺麗; 髪の毛 = hair; double topic-subject structure"
+    },
+    {
+      "japanese": "王さんは目が大きいです。（おうさんはめがおおきいです。）",
+      "chinese": "王先生／小姐眼睛很大。",
+      "grammar": "は marks topic 王さん; が marks subject of predicate adjective 大きい; 目 = eyes; い-adjective + です = polite form"
+    },
+    {
+      "japanese": "私は今お腹が痛いです。（わたしはいまおなかがいたいです。）",
+      "chinese": "我現在肚子痛。",
+      "grammar": "は marks topic 私; が marks subject お腹 (stomach); 痛い is an い-adjective; 今 = now"
+    },
+    {
+      "japanese": "彼女は背が高くありません。（かのじょはせがたかくありません。）",
+      "chinese": "她的身高不高。",
+      "grammar": "い-adjective negative: 高い → 高く + ありません; が marks subject 背 (height/stature); は marks topic 彼女"
+    },
+    {
+      "japanese": "以前あのレストランはコーヒーが美味しかったです。（いぜんあのレストランはコーヒーがおいしかったです。）",
+      "chinese": "以前那間餐廳，咖啡很好喝。",
+      "grammar": "以前 = previously; は marks topic レストラン; が marks subject コーヒー; 美味しかった = past tense of い-adjective 美味しい"
+    },
+    {
+      "japanese": "この会社は通勤が大変です。（このかいしゃはつうきんがたいへんです。）",
+      "chinese": "這間公司，通勤很辛苦。",
+      "grammar": "は marks topic 会社; が marks subject 通勤 (commute); 大変 is a な-adjective meaning difficult/tough"
+    },
+    {
+      "japanese": "主人は体が丈夫じゃないです。（しゅじんはからだがじょうぶじゃないです。）",
+      "chinese": "我先生的身體不健康。",
+      "grammar": "は marks topic 主人; が marks subject 体 (body); な-adjective negative: 丈夫 + じゃない; じゃないです = polite negative"
+    },
+    {
+      "japanese": "山田さんは中国語が上手ではありませんでした。（やまださんはちゅうごくごがじょうずではありませんでした。）",
+      "chinese": "山田先生以前中文沒那麼好。",
+      "grammar": "は marks topic 山田さん; が marks subject 中国語; な-adjective past negative: 上手 + ではありませんでした"
+    },
+    {
+      "japanese": "私は新しい時計が欲しいです。（わたしはあたらしいとけいがほしいです。）",
+      "chinese": "我想要新的時鐘。",
+      "grammar": "欲しい = want (something); が marks desired object 時計; 新しい is an い-adjective modifying 時計; は marks topic 私"
+    },
+    {
+      "japanese": "学生は試験が嫌いです。（がくせいはしけんがきらいです。）",
+      "chinese": "學生討厭考試。",
+      "grammar": "は marks topic 学生; が marks object of feeling 試験; 嫌い is a な-adjective meaning dislike; です = polite copula"
+    },
+    {
+      "japanese": "祖母は犬が好きでした。（そぼはいぬがすきでした。）",
+      "chinese": "祖母之前喜歡狗。",
+      "grammar": "は marks topic 祖母; が marks object of feeling 犬; 好き is a な-adjective meaning like/fond of; でした = past tense"
+    },
+    {
+      "japanese": "私は作文が得意じゃありません。（わたしはさくぶんがとくいじゃありません。）",
+      "chinese": "我對作文不是那麼在行。",
+      "grammar": "は marks topic 私; が marks subject of ability 作文; な-adjective negative: 得意 + じゃありません; 得意 = be good at"
+    },
+    {
+      "japanese": "彼は自分の鍵があります。（かれはじぶんのかぎがあります。）",
+      "chinese": "他有自己的鑰匙。",
+      "grammar": "あります = to exist/have (for inanimate objects); が marks subject 鍵; 自分の = one's own; は marks topic 彼"
+    },
+    {
+      "japanese": "林さんは傘がありません。（はやしさんはかさがありません。）",
+      "chinese": "林先生沒有傘。",
+      "grammar": "ありません = negative of あります (do not have/exist); が marks subject 傘; は marks topic 林さん"
+    },
+    {
+      "japanese": "山本さんは小学生の息子さんがいます。（やまもとさんはしょうがくせいのむすこさんがいます。）",
+      "chinese": "山本先生有讀國小的兒子。",
+      "grammar": "います = to exist/have (for animate beings); が marks subject 息子さん; 小学生の modifies 息子さん; は marks topic 山本さん"
+    },
+    {
+      "japanese": "私は兄弟がいません。（わたしはきょうだいがいません。）",
+      "chinese": "我沒有兄弟。",
+      "grammar": "いません = negative of います (do not have/exist, animate); が marks subject 兄弟; は marks topic 私"
+    },
+    {
+      "japanese": "彼女はスキーができます。（かのじょはスキーができます。）",
+      "chinese": "她會滑雪。",
+      "grammar": "〜ができます = can do / be able to; が marks ability object スキー; は marks topic 彼女; できます = potential form of する"
+    },
+    {
+      "japanese": "李さんは日本語ができませんでした。（りさんはにほんごができませんでした。）",
+      "chinese": "李先生以前不會日語。",
+      "grammar": "〜ができませんでした = could not do (past negative); が marks ability object 日本語; は marks topic 李さん"
+    },
+    {
+      "japanese": "黄さんは日本語が分かります。（こうさんはにほんごがわかります。）",
+      "chinese": "黃先生懂日語。",
+      "grammar": "分かります = to understand; が marks object of understanding 日本語; は marks topic 黄さん; not transitive, uses が not を"
+    },
+    {
+      "japanese": "私は林さんの電話番号が分かりません。（わたしははやしさんのでんわばんごうがわかりません。）",
+      "chinese": "我不知道林先生的電話號碼。",
+      "grammar": "分かりません = negative of 分かる (do not understand/know); が marks object 電話番号; の marks possession (林さんの)"
+    },
+    {
+      "japanese": "明日は土曜日です。だから、私は会社へ行きません。（あしたはどようびです。だから、わたしはかいしゃへいきません。）",
+      "chinese": "明天是星期六，所以我不去公司。",
+      "grammar": "だから = therefore/so (conjunction between sentences); は marks topic 明日; へ marks direction (toward company); 行きません = negative of 行く"
+    },
+    {
+      "japanese": "明日は土曜日ですから、私は会社へ行きません。（あしたはどようびですから、わたしはかいしゃへいきません。）",
+      "chinese": "因為明天是星期六，所以我不去公司。",
+      "grammar": "〜ですから = because ~ (reason clause connector within one sentence); contrast with だから which connects two separate sentences"
+    },
+    {
+      "japanese": "私は彼女が好きです。だから、私は彼女に手紙を書きました。（わたしはかのじょがすきです。だから、わたしはかのじょにてがみをかきました。）",
+      "chinese": "因為我喜歡她，所以我寫了信給她。",
+      "grammar": "だから = so/therefore (sentence connector); に marks recipient 彼女 (to her); を marks direct object 手紙; ました = past tense"
+    },
+    {
+      "japanese": "私は彼女が好きですから、手紙を書きました。（わたしはかのじょがすきですから、てがみをかきました。）",
+      "chinese": "因為我喜歡她，所以寫了信給她。",
+      "grammar": "〜ですから = because ~ (reason clause within one sentence); subject can be omitted in second clause when same as first; を marks object 手紙"
+    },
+    {
+      "japanese": "冬の北海道はとても寒いです。だから、私は夏北海道へ行きます。（ふゆのほっかいどうはとてもさむいです。だから、わたしはなつほっかいどうへいきます。）",
+      "chinese": "冬天的北海道非常的冷，所以我要夏天去北海道。",
+      "grammar": "だから = therefore (sentence connector); の connects nouns 冬 + 北海道; とても = very; 夏 used without particle directly before destination; へ marks direction"
+    },
+    {
+      "japanese": "冬の北海道はとても寒いですから、私は夏休みに北海道へ行きます。（ふゆのほっかいどうはとてもさむいですから、わたしはなつやすみにほっかいどうへいきます。）",
+      "chinese": "冬天的北海道非常的冷，所以我要暑假去北海道。",
+      "grammar": "〜ですから = because ~ (clause connector); 夏休み = summer vacation; に marks time; へ marks destination direction"
+    },
+    {
+      "japanese": "明後日はお休みです。でも、私は学校へ行きます。（あさってはおやすみです。でも、わたしはがっこうへいきます。）",
+      "chinese": "後天是假日，可是我要去學校。",
+      "grammar": "でも = but/however (sentence connector); 明後日 = day after tomorrow; お休み = holiday (polite); へ marks direction 学校"
+    },
+    {
+      "japanese": "明後日はお休みですけど、私は学校へ行きます。（あさってはおやすみですけど、わたしはがっこうへいきます。）",
+      "chinese": "雖然後天是假日，可是我要去學校。",
+      "grammar": "〜ですけど = although/but (clause connector within one sentence); softer contrast than でも; は marks topic 明後日"
+    },
+    {
+      "japanese": "このテレビは小さいです。でも、高いです。（このテレビはちいさいです。でも、たかいです。）",
+      "chinese": "這台電視很小，可是很貴。",
+      "grammar": "でも = but/however (sentence connector); は marks topic このテレビ; 小さい and 高い are both い-adjectives; subject omitted in second sentence"
+    },
+    {
+      "japanese": "このテレビは小さいですが、高いです。（このテレビはちいさいですが、たかいです。）",
+      "chinese": "這台電視很小，但很貴。",
+      "grammar": "〜ですが = but/although (clause connector); が here is a conjunction (not subject marker); more formal than けど; contrast between small size and high price"
+    },
+    {
+      "japanese": "現金があります。でも、私はカードでラジオを買いました。（げんきんがあります。でも、わたしはカードでラジオをかいました。）",
+      "chinese": "我有現金，可是我用信用卡買了收音機。",
+      "grammar": "でも = but/however (sentence connector); で marks means/method カード (by card); を marks direct object ラジオ; ました = past tense"
+    },
+    {
+      "japanese": "現金がありますけど、私はカードでラジオを買いました。（げんきんがありますけど、わたしはカードでラジオをかいました。）",
+      "chinese": "雖然有現金，可是我用信用卡買了收音機。",
+      "grammar": "〜ますけど = although ~ (clause connector); subject 私 omitted in first clause; で marks means カード; を marks object ラジオ"
+    },
+    {
+      "japanese": "このノートパソコンは性能がいいですけど、高いです。（このノートパソコンはせいのうがいいですけど、たかいです。）",
+      "chinese": "這台筆電雖然性能好，可是貴。",
+      "grammar": "〜ですけど = although (clause connector); は marks topic ノートパソコン; が marks subject 性能; いい = good (irregular い-adjective); 高い = expensive"
+    },
+    {
+      "japanese": "このノートパソコンは高いですけど、性能がいいです。（このノートパソコンはたかいですけど、せいのうがいいです。）",
+      "chinese": "這台筆電雖然貴，可是性能好。",
+      "grammar": "〜ですけど = although (clause connector); same content as above but reversed order changes emphasis/nuance; が marks subject 性能 in second clause"
+    },
+    {
+      "japanese": "林さんは背が低いですが、性格がいいです。（はやしさんはせがひくいですが、せいかくがいいです。）",
+      "chinese": "林先生雖然個子不高，可是個性好。",
+      "grammar": "〜ですが = but/although (clause connector); が marks subjects 背 and 性格 respectively; 低い = short/low; 性格 = personality"
+    },
+    {
+      "japanese": "林さんは性格がいいですが、背が低いです。（はやしさんはせいかくがいいですが、せがひくいです。）",
+      "chinese": "林先生雖然個性好，可是個子不高。",
+      "grammar": "〜ですが = but/although (clause connector); reversed order from previous sentence shifts the focus/emphasis; same facts, different nuance"
+    },
+    {
+      "japanese": "このアパートは部屋が暗いですけど、交通が便利です。（このアパートはへやがくらいですけど、こうつうがべんりです。）",
+      "chinese": "這間公寓雖然房間很暗，可是交通很方便。",
+      "grammar": "〜ですけど = although (clause connector); は marks topic アパート; が marks subjects 部屋 and 交通; 便利 is a な-adjective"
+    },
+    {
+      "japanese": "このアパートは交通が便利ですけど、部屋が暗いです。（このアパートはこうつうがべんりですけど、へやがくらいです。）",
+      "chinese": "這間公寓雖然交通很方便，可是房間很暗。",
+      "grammar": "〜ですけど = although (clause connector); reversed order shifts emphasis to the drawback 部屋が暗い; same contrast as above with different nuance"
     }
 ]
