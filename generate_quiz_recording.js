@@ -1,1 +1,63 @@
-function a2_0x3d7e(_0x2cec78,_0x1af988){_0x2cec78=_0x2cec78-0x8e;const _0x49450d=a2_0x1ef3();let _0x4ef4ba=_0x49450d[_0x2cec78];return _0x4ef4ba;}(function(_0x2f245d,_0x1772e0){const _0x20086b=a2_0x3d7e,_0xd7f71c=_0x2f245d();while(!![]){try{const _0x375cc0=parseInt(_0x20086b(0xbd))/0x1*(parseInt(_0x20086b(0xa9))/0x2)+-parseInt(_0x20086b(0xab))/0x3*(-parseInt(_0x20086b(0xa7))/0x4)+-parseInt(_0x20086b(0xa4))/0x5*(-parseInt(_0x20086b(0x92))/0x6)+parseInt(_0x20086b(0x8f))/0x7*(-parseInt(_0x20086b(0xba))/0x8)+parseInt(_0x20086b(0xb8))/0x9*(-parseInt(_0x20086b(0xb6))/0xa)+-parseInt(_0x20086b(0xa6))/0xb*(parseInt(_0x20086b(0xb2))/0xc)+parseInt(_0x20086b(0xa8))/0xd*(parseInt(_0x20086b(0x9f))/0xe);if(_0x375cc0===_0x1772e0)break;else _0xd7f71c['push'](_0xd7f71c['shift']());}catch(_0x78254d){_0xd7f71c['push'](_0xd7f71c['shift']());}}}(a2_0x1ef3,0x32ed7));import{TypecastClient,TypecastAPIError}from'@neosapience/typecast-js';import a2_0x15131a from'fs';import a2_0x557c9e from'path';const client=new TypecastClient({'apiKey':process.env.TYPECAST_API_KEY});function a2_0x1ef3(){const _0x14e861=['replace','join','1730TnPTTU','search','20241ebJgFf','\x20\x20❌\x20Failed\x20for\x20question\x20','16QGUvhF','jpn','statusCode','1xfHtad','\x20\x20[','./quizzes/daily-','ssfm-v30','audioData','1159634Czfzva','🎙️\x20Generating\x20','utf-8','24AtLXXp','length','constructor','tc_68f9c6a72f0f04a417bb136f','existsSync','from','\x20\x20✅\x20Saved:\x20','./recordings/recording-','(((.+)+)+)+$','writeFileSync','question','textToSpeech','.json','22862pMRhyl','\x20recordings\x20into\x20',']\x20\x22','toISOString','exit','38135hUNIqs','Done!','517BZahRk','112716nELHpO','4823TtZXDC','411798tEKlRO','message','42SgymVD','error','trim','parse','log','wav','readFileSync','78576NTBJFk','\x20\x20❌\x20Typecast\x20API\x20error\x20('];a2_0x1ef3=function(){return _0x14e861;};return a2_0x1ef3();}async function textToSpeech(_0x4ee2b8){const _0x5093c1=a2_0x3d7e,_0x4b3450=await client[_0x5093c1(0x9d)]({'text':_0x4ee2b8,'model':_0x5093c1(0xc0),'voice_id':_0x5093c1(0x95),'language':_0x5093c1(0xbb),'output':{'audio_format':_0x5093c1(0xb0)}});return Buffer[_0x5093c1(0x97)](_0x4b3450[_0x5093c1(0x8e)]);}async function generateRecordings(){const _0x5e8833=a2_0x3d7e,_0x43ca01=(function(){let _0x5369e2=!![];return function(_0xeb6670,_0x52f523){const _0xe0766d=_0x5369e2?function(){if(_0x52f523){const _0x1499dd=_0x52f523['apply'](_0xeb6670,arguments);return _0x52f523=null,_0x1499dd;}}:function(){};return _0x5369e2=![],_0xe0766d;};}()),_0x1dacc3=_0x43ca01(this,function(){const _0x204c98=a2_0x3d7e;return _0x1dacc3['toString']()[_0x204c98(0xb7)](_0x204c98(0x9a))['toString']()[_0x204c98(0x94)](_0x1dacc3)['search'](_0x204c98(0x9a));});_0x1dacc3();const _0x25ba8c=new Date()[_0x5e8833(0xa2)]()['split']('T')[0x0],_0x147111=_0x5e8833(0xbf)+_0x25ba8c+_0x5e8833(0x9e);!a2_0x15131a[_0x5e8833(0x96)](_0x147111)&&(console[_0x5e8833(0xac)]('❌\x20No\x20quiz\x20file\x20found\x20for\x20today:\x20'+_0x147111),process[_0x5e8833(0xa3)](0x1));const _0x30e430=JSON[_0x5e8833(0xae)](a2_0x15131a[_0x5e8833(0xb1)](_0x147111,_0x5e8833(0x91))),_0x4093b5=_0x5e8833(0x99)+_0x25ba8c;a2_0x15131a['mkdirSync'](_0x4093b5,{'recursive':!![]}),console[_0x5e8833(0xaf)](_0x5e8833(0x90)+_0x30e430[_0x5e8833(0x93)]+_0x5e8833(0xa0)+_0x4093b5+'...');for(let _0x25d55d=0x0;_0x25d55d<_0x30e430[_0x5e8833(0x93)];_0x25d55d++){const _0x1618a8=_0x30e430[_0x25d55d][_0x5e8833(0x9c)][_0x5e8833(0xb4)](/（.+?）/,'')[_0x5e8833(0xad)](),_0x24130f=a2_0x557c9e[_0x5e8833(0xb5)](_0x4093b5,'question-'+(_0x25d55d+0x1)+'.wav');console['log'](_0x5e8833(0xbe)+(_0x25d55d+0x1)+'/'+_0x30e430[_0x5e8833(0x93)]+_0x5e8833(0xa1)+_0x1618a8+'\x22');try{const _0x324687=await textToSpeech(_0x1618a8);a2_0x15131a[_0x5e8833(0x9b)](_0x24130f,_0x324687),console['log'](_0x5e8833(0x98)+_0x24130f);}catch(_0x232158){_0x232158 instanceof TypecastAPIError?console['error'](_0x5e8833(0xb3)+_0x232158[_0x5e8833(0xbc)]+'):',_0x232158[_0x5e8833(0xaa)]):console['error'](_0x5e8833(0xb9)+(_0x25d55d+0x1)+':',_0x232158[_0x5e8833(0xaa)]);}}console[_0x5e8833(0xaf)](_0x5e8833(0xa5));}generateRecordings();
+import { TypecastClient, TypecastAPIError } from "@neosapience/typecast-js";
+import fs from "fs";
+import path from "path";
+
+const client = new TypecastClient({
+    apiKey: process.env.TYPECAST_API_KEY,
+});
+
+async function textToSpeech(text) {
+    const audio = await client.textToSpeech({
+        text,
+        model: "ssfm-v30",
+        voice_id: "tc_68f9c6a72f0f04a417bb136f",
+        language: "jpn",
+        output: {
+            audio_format: "wav",
+        },
+    });
+
+    return Buffer.from(audio.audioData);
+}
+
+async function generateRecordings() {
+    // Find today's quiz file
+    const date = new Date().toISOString().split("T")[0];
+    const quizFile = `./quizzes/daily-${date}.json`;
+
+    if (!fs.existsSync(quizFile)) {
+        console.error(`❌ No quiz file found for today: ${quizFile}`);
+        process.exit(1);
+    }
+
+    const quiz = JSON.parse(fs.readFileSync(quizFile, "utf-8"));
+
+    // Create recordings folder
+    const recordingDir = `./recordings/recording-${date}`;
+    fs.mkdirSync(recordingDir, { recursive: true });
+
+    console.log(`🎙️ Generating ${quiz.length} recordings into ${recordingDir}...`);
+
+    for (let i = 0; i < quiz.length; i++) {
+        const question = quiz[i].question.replace(/（.+?）/, "").trim();
+        const outputPath = path.join(recordingDir, `question-${i + 1}.wav`);
+
+        console.log(`  [${i + 1}/${quiz.length}] "${question}"`);
+
+        try {
+            const audioBuffer = await textToSpeech(question);
+            fs.writeFileSync(outputPath, audioBuffer);
+            console.log(`  ✅ Saved: ${outputPath}`);
+        } catch (err) {
+            if (err instanceof TypecastAPIError) {
+                console.error(`  ❌ Typecast API error (${err.statusCode}):`, err.message);
+            } else {
+                console.error(`  ❌ Failed for question ${i + 1}:`, err.message);
+            }
+        }
+    }
+
+    console.log("Done!");
+}
+
+generateRecordings();
