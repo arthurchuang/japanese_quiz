@@ -1150,238 +1150,1138 @@
         "grammar": "まだ + い-adjective + です = still (adjective); 明るい (bright) is an い-adjective; は marks topic (the sky)"
     },
     {
-      "japanese": "単語を正しく覚えましょう。（たんごをただしくおぼえましょう。）",
-      "chinese": "正確的記單字吧。",
-      "grammar": "adverb 正しく modifies verb 覚える (to memorize); ましょう = let's ~; を marks direct object"
+        "japanese": "単語を正しく覚えましょう。（たんごをただしくおぼえましょう。）",
+        "chinese": "正確的記單字吧。",
+        "grammar": "adverb 正しく modifies verb 覚える (to memorize); ましょう = let's ~; を marks direct object"
     },
     {
-      "japanese": "母はいつも料理を多く作ります。（はははいつもりょうりをおおくつくります。）",
-      "chinese": "媽媽總是做料理做得很多。",
-      "grammar": "いつも = always; 多く is adverbial form of 多い (many/much); を marks direct object 料理; は marks topic 母"
+        "japanese": "母はいつも料理を多く作ります。（はははいつもりょうりをおおくつくります。）",
+        "chinese": "媽媽總是做料理做得很多。",
+        "grammar": "いつも = always; 多く is adverbial form of 多い (many/much); を marks direct object 料理; は marks topic 母"
     },
     {
-      "japanese": "弟は字をとても大きく書きました。（おとうとはじをとてもおおきくかきました。）",
-      "chinese": "弟弟把字寫很大。",
-      "grammar": "大きく is adverbial form of 大きい (big); とても = very; を marks direct object 字; ました = past tense"
+        "japanese": "弟は字をとても大きく書きました。（おとうとはじをとてもおおきくかきました。）",
+        "chinese": "弟弟把字寫很大。",
+        "grammar": "大きく is adverbial form of 大きい (big); とても = very; を marks direct object 字; ました = past tense"
     },
     {
-      "japanese": "妹は可愛くなりました。（いもうとはかわいくなりました。）",
-      "chinese": "妹妹變可愛了。",
-      "grammar": "い-adjective + く + なる = to become (adjective); 可愛い → 可愛く; なりました = past tense of なる"
+        "japanese": "妹は可愛くなりました。（いもうとはかわいくなりました。）",
+        "chinese": "妹妹變可愛了。",
+        "grammar": "い-adjective + く + なる = to become (adjective); 可愛い → 可愛く; なりました = past tense of なる"
     },
     {
-      "japanese": "私はカップを綺麗に洗いました。（わたしはカップをきれいにあらいました。）",
-      "chinese": "我把杯子洗乾淨了。",
-      "grammar": "な-adjective + に = adverbial form; 綺麗に modifies verb 洗う; を marks direct object カップ; ました = past tense"
+        "japanese": "私はカップを綺麗に洗いました。（わたしはカップをきれいにあらいました。）",
+        "chinese": "我把杯子洗乾淨了。",
+        "grammar": "な-adjective + に = adverbial form; 綺麗に modifies verb 洗う; を marks direct object カップ; ました = past tense"
     },
     {
-      "japanese": "王さんは上手に絵を描きます。（おうさんはじょうずにえをかきます。）",
-      "chinese": "王先生／小姐會把畫畫得很好。",
-      "grammar": "な-adjective + に = adverbial form; 上手に modifies verb 描く (to draw); を marks direct object 絵"
+        "japanese": "王さんは上手に絵を描きます。（おうさんはじょうずにえをかきます。）",
+        "chinese": "王先生／小姐會把畫畫得很好。",
+        "grammar": "な-adjective + に = adverbial form; 上手に modifies verb 描く (to draw); を marks direct object 絵"
     },
     {
-      "japanese": "飛行機は真っ直ぐに飛びます。（ひこうきはまっすぐにとびます。）",
-      "chinese": "飛機直線飛行。",
-      "grammar": "真っ直ぐに = adverb meaning 'straight'; に marks adverbial manner; は marks topic 飛行機"
+        "japanese": "飛行機は真っ直ぐに飛びます。（ひこうきはまっすぐにとびます。）",
+        "chinese": "飛機直線飛行。",
+        "grammar": "真っ直ぐに = adverb meaning 'straight'; に marks adverbial manner; は marks topic 飛行機"
     },
     {
-      "japanese": "息子は今朝元気に学校へ行きました。（むすこはけさげんきにがっこうへいきました。）",
-      "chinese": "兒子今天早上很有精神地去上學。",
-      "grammar": "な-adjective 元気 + に = adverbial form; へ marks direction (toward school); 今朝 = this morning; ました = past tense"
+        "japanese": "息子は今朝元気に学校へ行きました。（むすこはけさげんきにがっこうへいきました。）",
+        "chinese": "兒子今天早上很有精神地去上學。",
+        "grammar": "な-adjective 元気 + に = adverbial form; へ marks direction (toward school); 今朝 = this morning; ました = past tense"
     },
     {
-      "japanese": "彼女は綺麗です。（かのじょはきれいです。）",
-      "chinese": "她很漂亮。",
-      "grammar": "は marks topic 彼女; 綺麗 is a な-adjective; です = copula (polite)"
+        "japanese": "彼女は綺麗です。（かのじょはきれいです。）",
+        "chinese": "她很漂亮。",
+        "grammar": "は marks topic 彼女; 綺麗 is a な-adjective; です = copula (polite)"
     },
     {
-      "japanese": "彼女は髪の毛が綺麗です。（かのじょはかみのけがきれいです。）",
-      "chinese": "她的頭髮很漂亮。",
-      "grammar": "は marks topic 彼女; が marks subject of predicate adjective 綺麗; 髪の毛 = hair; double topic-subject structure"
+        "japanese": "彼女は髪の毛が綺麗です。（かのじょはかみのけがきれいです。）",
+        "chinese": "她的頭髮很漂亮。",
+        "grammar": "は marks topic 彼女; が marks subject of predicate adjective 綺麗; 髪の毛 = hair; double topic-subject structure"
     },
     {
-      "japanese": "王さんは目が大きいです。（おうさんはめがおおきいです。）",
-      "chinese": "王先生／小姐眼睛很大。",
-      "grammar": "は marks topic 王さん; が marks subject of predicate adjective 大きい; 目 = eyes; い-adjective + です = polite form"
+        "japanese": "王さんは目が大きいです。（おうさんはめがおおきいです。）",
+        "chinese": "王先生／小姐眼睛很大。",
+        "grammar": "は marks topic 王さん; が marks subject of predicate adjective 大きい; 目 = eyes; い-adjective + です = polite form"
     },
     {
-      "japanese": "私は今お腹が痛いです。（わたしはいまおなかがいたいです。）",
-      "chinese": "我現在肚子痛。",
-      "grammar": "は marks topic 私; が marks subject お腹 (stomach); 痛い is an い-adjective; 今 = now"
+        "japanese": "私は今お腹が痛いです。（わたしはいまおなかがいたいです。）",
+        "chinese": "我現在肚子痛。",
+        "grammar": "は marks topic 私; が marks subject お腹 (stomach); 痛い is an い-adjective; 今 = now"
     },
     {
-      "japanese": "彼女は背が高くありません。（かのじょはせがたかくありません。）",
-      "chinese": "她的身高不高。",
-      "grammar": "い-adjective negative: 高い → 高く + ありません; が marks subject 背 (height/stature); は marks topic 彼女"
+        "japanese": "彼女は背が高くありません。（かのじょはせがたかくありません。）",
+        "chinese": "她的身高不高。",
+        "grammar": "い-adjective negative: 高い → 高く + ありません; が marks subject 背 (height/stature); は marks topic 彼女"
     },
     {
-      "japanese": "以前あのレストランはコーヒーが美味しかったです。（いぜんあのレストランはコーヒーがおいしかったです。）",
-      "chinese": "以前那間餐廳，咖啡很好喝。",
-      "grammar": "以前 = previously; は marks topic レストラン; が marks subject コーヒー; 美味しかった = past tense of い-adjective 美味しい"
+        "japanese": "以前あのレストランはコーヒーが美味しかったです。（いぜんあのレストランはコーヒーがおいしかったです。）",
+        "chinese": "以前那間餐廳，咖啡很好喝。",
+        "grammar": "以前 = previously; は marks topic レストラン; が marks subject コーヒー; 美味しかった = past tense of い-adjective 美味しい"
     },
     {
-      "japanese": "この会社は通勤が大変です。（このかいしゃはつうきんがたいへんです。）",
-      "chinese": "這間公司，通勤很辛苦。",
-      "grammar": "は marks topic 会社; が marks subject 通勤 (commute); 大変 is a な-adjective meaning difficult/tough"
+        "japanese": "この会社は通勤が大変です。（このかいしゃはつうきんがたいへんです。）",
+        "chinese": "這間公司，通勤很辛苦。",
+        "grammar": "は marks topic 会社; が marks subject 通勤 (commute); 大変 is a な-adjective meaning difficult/tough"
     },
     {
-      "japanese": "主人は体が丈夫じゃないです。（しゅじんはからだがじょうぶじゃないです。）",
-      "chinese": "我先生的身體不健康。",
-      "grammar": "は marks topic 主人; が marks subject 体 (body); な-adjective negative: 丈夫 + じゃない; じゃないです = polite negative"
+        "japanese": "主人は体が丈夫じゃないです。（しゅじんはからだがじょうぶじゃないです。）",
+        "chinese": "我先生的身體不健康。",
+        "grammar": "は marks topic 主人; が marks subject 体 (body); な-adjective negative: 丈夫 + じゃない; じゃないです = polite negative"
     },
     {
-      "japanese": "山田さんは中国語が上手ではありませんでした。（やまださんはちゅうごくごがじょうずではありませんでした。）",
-      "chinese": "山田先生以前中文沒那麼好。",
-      "grammar": "は marks topic 山田さん; が marks subject 中国語; な-adjective past negative: 上手 + ではありませんでした"
+        "japanese": "山田さんは中国語が上手ではありませんでした。（やまださんはちゅうごくごがじょうずではありませんでした。）",
+        "chinese": "山田先生以前中文沒那麼好。",
+        "grammar": "は marks topic 山田さん; が marks subject 中国語; な-adjective past negative: 上手 + ではありませんでした"
     },
     {
-      "japanese": "私は新しい時計が欲しいです。（わたしはあたらしいとけいがほしいです。）",
-      "chinese": "我想要新的時鐘。",
-      "grammar": "欲しい = want (something); が marks desired object 時計; 新しい is an い-adjective modifying 時計; は marks topic 私"
+        "japanese": "私は新しい時計が欲しいです。（わたしはあたらしいとけいがほしいです。）",
+        "chinese": "我想要新的時鐘。",
+        "grammar": "欲しい = want (something); が marks desired object 時計; 新しい is an い-adjective modifying 時計; は marks topic 私"
     },
     {
-      "japanese": "学生は試験が嫌いです。（がくせいはしけんがきらいです。）",
-      "chinese": "學生討厭考試。",
-      "grammar": "は marks topic 学生; が marks object of feeling 試験; 嫌い is a な-adjective meaning dislike; です = polite copula"
+        "japanese": "学生は試験が嫌いです。（がくせいはしけんがきらいです。）",
+        "chinese": "學生討厭考試。",
+        "grammar": "は marks topic 学生; が marks object of feeling 試験; 嫌い is a な-adjective meaning dislike; です = polite copula"
     },
     {
-      "japanese": "祖母は犬が好きでした。（そぼはいぬがすきでした。）",
-      "chinese": "祖母之前喜歡狗。",
-      "grammar": "は marks topic 祖母; が marks object of feeling 犬; 好き is a な-adjective meaning like/fond of; でした = past tense"
+        "japanese": "祖母は犬が好きでした。（そぼはいぬがすきでした。）",
+        "chinese": "祖母之前喜歡狗。",
+        "grammar": "は marks topic 祖母; が marks object of feeling 犬; 好き is a な-adjective meaning like/fond of; でした = past tense"
     },
     {
-      "japanese": "私は作文が得意じゃありません。（わたしはさくぶんがとくいじゃありません。）",
-      "chinese": "我對作文不是那麼在行。",
-      "grammar": "は marks topic 私; が marks subject of ability 作文; な-adjective negative: 得意 + じゃありません; 得意 = be good at"
+        "japanese": "私は作文が得意じゃありません。（わたしはさくぶんがとくいじゃありません。）",
+        "chinese": "我對作文不是那麼在行。",
+        "grammar": "は marks topic 私; が marks subject of ability 作文; な-adjective negative: 得意 + じゃありません; 得意 = be good at"
     },
     {
-      "japanese": "彼は自分の鍵があります。（かれはじぶんのかぎがあります。）",
-      "chinese": "他有自己的鑰匙。",
-      "grammar": "あります = to exist/have (for inanimate objects); が marks subject 鍵; 自分の = one's own; は marks topic 彼"
+        "japanese": "彼は自分の鍵があります。（かれはじぶんのかぎがあります。）",
+        "chinese": "他有自己的鑰匙。",
+        "grammar": "あります = to exist/have (for inanimate objects); が marks subject 鍵; 自分の = one's own; は marks topic 彼"
     },
     {
-      "japanese": "林さんは傘がありません。（はやしさんはかさがありません。）",
-      "chinese": "林先生沒有傘。",
-      "grammar": "ありません = negative of あります (do not have/exist); が marks subject 傘; は marks topic 林さん"
+        "japanese": "林さんは傘がありません。（はやしさんはかさがありません。）",
+        "chinese": "林先生沒有傘。",
+        "grammar": "ありません = negative of あります (do not have/exist); が marks subject 傘; は marks topic 林さん"
     },
     {
-      "japanese": "山本さんは小学生の息子さんがいます。（やまもとさんはしょうがくせいのむすこさんがいます。）",
-      "chinese": "山本先生有讀國小的兒子。",
-      "grammar": "います = to exist/have (for animate beings); が marks subject 息子さん; 小学生の modifies 息子さん; は marks topic 山本さん"
+        "japanese": "山本さんは小学生の息子さんがいます。（やまもとさんはしょうがくせいのむすこさんがいます。）",
+        "chinese": "山本先生有讀國小的兒子。",
+        "grammar": "います = to exist/have (for animate beings); が marks subject 息子さん; 小学生の modifies 息子さん; は marks topic 山本さん"
     },
     {
-      "japanese": "私は兄弟がいません。（わたしはきょうだいがいません。）",
-      "chinese": "我沒有兄弟。",
-      "grammar": "いません = negative of います (do not have/exist, animate); が marks subject 兄弟; は marks topic 私"
+        "japanese": "私は兄弟がいません。（わたしはきょうだいがいません。）",
+        "chinese": "我沒有兄弟。",
+        "grammar": "いません = negative of います (do not have/exist, animate); が marks subject 兄弟; は marks topic 私"
     },
     {
-      "japanese": "彼女はスキーができます。（かのじょはスキーができます。）",
-      "chinese": "她會滑雪。",
-      "grammar": "〜ができます = can do / be able to; が marks ability object スキー; は marks topic 彼女; できます = potential form of する"
+        "japanese": "彼女はスキーができます。（かのじょはスキーができます。）",
+        "chinese": "她會滑雪。",
+        "grammar": "〜ができます = can do / be able to; が marks ability object スキー; は marks topic 彼女; できます = potential form of する"
     },
     {
-      "japanese": "李さんは日本語ができませんでした。（りさんはにほんごができませんでした。）",
-      "chinese": "李先生以前不會日語。",
-      "grammar": "〜ができませんでした = could not do (past negative); が marks ability object 日本語; は marks topic 李さん"
+        "japanese": "李さんは日本語ができませんでした。（りさんはにほんごができませんでした。）",
+        "chinese": "李先生以前不會日語。",
+        "grammar": "〜ができませんでした = could not do (past negative); が marks ability object 日本語; は marks topic 李さん"
     },
     {
-      "japanese": "黄さんは日本語が分かります。（こうさんはにほんごがわかります。）",
-      "chinese": "黃先生懂日語。",
-      "grammar": "分かります = to understand; が marks object of understanding 日本語; は marks topic 黄さん; not transitive, uses が not を"
+        "japanese": "黄さんは日本語が分かります。（こうさんはにほんごがわかります。）",
+        "chinese": "黃先生懂日語。",
+        "grammar": "分かります = to understand; が marks object of understanding 日本語; は marks topic 黄さん; not transitive, uses が not を"
     },
     {
-      "japanese": "私は林さんの電話番号が分かりません。（わたしははやしさんのでんわばんごうがわかりません。）",
-      "chinese": "我不知道林先生的電話號碼。",
-      "grammar": "分かりません = negative of 分かる (do not understand/know); が marks object 電話番号; の marks possession (林さんの)"
+        "japanese": "私は林さんの電話番号が分かりません。（わたしははやしさんのでんわばんごうがわかりません。）",
+        "chinese": "我不知道林先生的電話號碼。",
+        "grammar": "分かりません = negative of 分かる (do not understand/know); が marks object 電話番号; の marks possession (林さんの)"
     },
     {
-      "japanese": "明日は土曜日です。だから、私は会社へ行きません。（あしたはどようびです。だから、わたしはかいしゃへいきません。）",
-      "chinese": "明天是星期六，所以我不去公司。",
-      "grammar": "だから = therefore/so (conjunction between sentences); は marks topic 明日; へ marks direction (toward company); 行きません = negative of 行く"
+        "japanese": "明日は土曜日です。だから、私は会社へ行きません。（あしたはどようびです。だから、わたしはかいしゃへいきません。）",
+        "chinese": "明天是星期六，所以我不去公司。",
+        "grammar": "だから = therefore/so (conjunction between sentences); は marks topic 明日; へ marks direction (toward company); 行きません = negative of 行く"
     },
     {
-      "japanese": "明日は土曜日ですから、私は会社へ行きません。（あしたはどようびですから、わたしはかいしゃへいきません。）",
-      "chinese": "因為明天是星期六，所以我不去公司。",
-      "grammar": "〜ですから = because ~ (reason clause connector within one sentence); contrast with だから which connects two separate sentences"
+        "japanese": "明日は土曜日ですから、私は会社へ行きません。（あしたはどようびですから、わたしはかいしゃへいきません。）",
+        "chinese": "因為明天是星期六，所以我不去公司。",
+        "grammar": "〜ですから = because ~ (reason clause connector within one sentence); contrast with だから which connects two separate sentences"
     },
     {
-      "japanese": "私は彼女が好きです。だから、私は彼女に手紙を書きました。（わたしはかのじょがすきです。だから、わたしはかのじょにてがみをかきました。）",
-      "chinese": "因為我喜歡她，所以我寫了信給她。",
-      "grammar": "だから = so/therefore (sentence connector); に marks recipient 彼女 (to her); を marks direct object 手紙; ました = past tense"
+        "japanese": "私は彼女が好きです。だから、私は彼女に手紙を書きました。（わたしはかのじょがすきです。だから、わたしはかのじょにてがみをかきました。）",
+        "chinese": "因為我喜歡她，所以我寫了信給她。",
+        "grammar": "だから = so/therefore (sentence connector); に marks recipient 彼女 (to her); を marks direct object 手紙; ました = past tense"
     },
     {
-      "japanese": "私は彼女が好きですから、手紙を書きました。（わたしはかのじょがすきですから、てがみをかきました。）",
-      "chinese": "因為我喜歡她，所以寫了信給她。",
-      "grammar": "〜ですから = because ~ (reason clause within one sentence); subject can be omitted in second clause when same as first; を marks object 手紙"
+        "japanese": "私は彼女が好きですから、手紙を書きました。（わたしはかのじょがすきですから、てがみをかきました。）",
+        "chinese": "因為我喜歡她，所以寫了信給她。",
+        "grammar": "〜ですから = because ~ (reason clause within one sentence); subject can be omitted in second clause when same as first; を marks object 手紙"
     },
     {
-      "japanese": "冬の北海道はとても寒いです。だから、私は夏北海道へ行きます。（ふゆのほっかいどうはとてもさむいです。だから、わたしはなつほっかいどうへいきます。）",
-      "chinese": "冬天的北海道非常的冷，所以我要夏天去北海道。",
-      "grammar": "だから = therefore (sentence connector); の connects nouns 冬 + 北海道; とても = very; 夏 used without particle directly before destination; へ marks direction"
+        "japanese": "冬の北海道はとても寒いです。だから、私は夏北海道へ行きます。（ふゆのほっかいどうはとてもさむいです。だから、わたしはなつほっかいどうへいきます。）",
+        "chinese": "冬天的北海道非常的冷，所以我要夏天去北海道。",
+        "grammar": "だから = therefore (sentence connector); の connects nouns 冬 + 北海道; とても = very; 夏 used without particle directly before destination; へ marks direction"
     },
     {
-      "japanese": "冬の北海道はとても寒いですから、私は夏休みに北海道へ行きます。（ふゆのほっかいどうはとてもさむいですから、わたしはなつやすみにほっかいどうへいきます。）",
-      "chinese": "冬天的北海道非常的冷，所以我要暑假去北海道。",
-      "grammar": "〜ですから = because ~ (clause connector); 夏休み = summer vacation; に marks time; へ marks destination direction"
+        "japanese": "冬の北海道はとても寒いですから、私は夏休みに北海道へ行きます。（ふゆのほっかいどうはとてもさむいですから、わたしはなつやすみにほっかいどうへいきます。）",
+        "chinese": "冬天的北海道非常的冷，所以我要暑假去北海道。",
+        "grammar": "〜ですから = because ~ (clause connector); 夏休み = summer vacation; に marks time; へ marks destination direction"
     },
     {
-      "japanese": "明後日はお休みです。でも、私は学校へ行きます。（あさってはおやすみです。でも、わたしはがっこうへいきます。）",
-      "chinese": "後天是假日，可是我要去學校。",
-      "grammar": "でも = but/however (sentence connector); 明後日 = day after tomorrow; お休み = holiday (polite); へ marks direction 学校"
+        "japanese": "明後日はお休みです。でも、私は学校へ行きます。（あさってはおやすみです。でも、わたしはがっこうへいきます。）",
+        "chinese": "後天是假日，可是我要去學校。",
+        "grammar": "でも = but/however (sentence connector); 明後日 = day after tomorrow; お休み = holiday (polite); へ marks direction 学校"
     },
     {
-      "japanese": "明後日はお休みですけど、私は学校へ行きます。（あさってはおやすみですけど、わたしはがっこうへいきます。）",
-      "chinese": "雖然後天是假日，可是我要去學校。",
-      "grammar": "〜ですけど = although/but (clause connector within one sentence); softer contrast than でも; は marks topic 明後日"
+        "japanese": "明後日はお休みですけど、私は学校へ行きます。（あさってはおやすみですけど、わたしはがっこうへいきます。）",
+        "chinese": "雖然後天是假日，可是我要去學校。",
+        "grammar": "〜ですけど = although/but (clause connector within one sentence); softer contrast than でも; は marks topic 明後日"
     },
     {
-      "japanese": "このテレビは小さいです。でも、高いです。（このテレビはちいさいです。でも、たかいです。）",
-      "chinese": "這台電視很小，可是很貴。",
-      "grammar": "でも = but/however (sentence connector); は marks topic このテレビ; 小さい and 高い are both い-adjectives; subject omitted in second sentence"
+        "japanese": "このテレビは小さいです。でも、高いです。（このテレビはちいさいです。でも、たかいです。）",
+        "chinese": "這台電視很小，可是很貴。",
+        "grammar": "でも = but/however (sentence connector); は marks topic このテレビ; 小さい and 高い are both い-adjectives; subject omitted in second sentence"
     },
     {
-      "japanese": "このテレビは小さいですが、高いです。（このテレビはちいさいですが、たかいです。）",
-      "chinese": "這台電視很小，但很貴。",
-      "grammar": "〜ですが = but/although (clause connector); が here is a conjunction (not subject marker); more formal than けど; contrast between small size and high price"
+        "japanese": "このテレビは小さいですが、高いです。（このテレビはちいさいですが、たかいです。）",
+        "chinese": "這台電視很小，但很貴。",
+        "grammar": "〜ですが = but/although (clause connector); が here is a conjunction (not subject marker); more formal than けど; contrast between small size and high price"
     },
     {
-      "japanese": "現金があります。でも、私はカードでラジオを買いました。（げんきんがあります。でも、わたしはカードでラジオをかいました。）",
-      "chinese": "我有現金，可是我用信用卡買了收音機。",
-      "grammar": "でも = but/however (sentence connector); で marks means/method カード (by card); を marks direct object ラジオ; ました = past tense"
+        "japanese": "現金があります。でも、私はカードでラジオを買いました。（げんきんがあります。でも、わたしはカードでラジオをかいました。）",
+        "chinese": "我有現金，可是我用信用卡買了收音機。",
+        "grammar": "でも = but/however (sentence connector); で marks means/method カード (by card); を marks direct object ラジオ; ました = past tense"
     },
     {
-      "japanese": "現金がありますけど、私はカードでラジオを買いました。（げんきんがありますけど、わたしはカードでラジオをかいました。）",
-      "chinese": "雖然有現金，可是我用信用卡買了收音機。",
-      "grammar": "〜ますけど = although ~ (clause connector); subject 私 omitted in first clause; で marks means カード; を marks object ラジオ"
+        "japanese": "現金がありますけど、私はカードでラジオを買いました。（げんきんがありますけど、わたしはカードでラジオをかいました。）",
+        "chinese": "雖然有現金，可是我用信用卡買了收音機。",
+        "grammar": "〜ますけど = although ~ (clause connector); subject 私 omitted in first clause; で marks means カード; を marks object ラジオ"
     },
     {
-      "japanese": "このノートパソコンは性能がいいですけど、高いです。（このノートパソコンはせいのうがいいですけど、たかいです。）",
-      "chinese": "這台筆電雖然性能好，可是貴。",
-      "grammar": "〜ですけど = although (clause connector); は marks topic ノートパソコン; が marks subject 性能; いい = good (irregular い-adjective); 高い = expensive"
+        "japanese": "このノートパソコンは性能がいいですけど、高いです。（このノートパソコンはせいのうがいいですけど、たかいです。）",
+        "chinese": "這台筆電雖然性能好，可是貴。",
+        "grammar": "〜ですけど = although (clause connector); は marks topic ノートパソコン; が marks subject 性能; いい = good (irregular い-adjective); 高い = expensive"
     },
     {
-      "japanese": "このノートパソコンは高いですけど、性能がいいです。（このノートパソコンはたかいですけど、せいのうがいいです。）",
-      "chinese": "這台筆電雖然貴，可是性能好。",
-      "grammar": "〜ですけど = although (clause connector); same content as above but reversed order changes emphasis/nuance; が marks subject 性能 in second clause"
+        "japanese": "このノートパソコンは高いですけど、性能がいいです。（このノートパソコンはたかいですけど、せいのうがいいです。）",
+        "chinese": "這台筆電雖然貴，可是性能好。",
+        "grammar": "〜ですけど = although (clause connector); same content as above but reversed order changes emphasis/nuance; が marks subject 性能 in second clause"
     },
     {
-      "japanese": "林さんは背が低いですが、性格がいいです。（はやしさんはせがひくいですが、せいかくがいいです。）",
-      "chinese": "林先生雖然個子不高，可是個性好。",
-      "grammar": "〜ですが = but/although (clause connector); が marks subjects 背 and 性格 respectively; 低い = short/low; 性格 = personality"
+        "japanese": "林さんは背が低いですが、性格がいいです。（はやしさんはせがひくいですが、せいかくがいいです。）",
+        "chinese": "林先生雖然個子不高，可是個性好。",
+        "grammar": "〜ですが = but/although (clause connector); が marks subjects 背 and 性格 respectively; 低い = short/low; 性格 = personality"
     },
     {
-      "japanese": "林さんは性格がいいですが、背が低いです。（はやしさんはせいかくがいいですが、せがひくいです。）",
-      "chinese": "林先生雖然個性好，可是個子不高。",
-      "grammar": "〜ですが = but/although (clause connector); reversed order from previous sentence shifts the focus/emphasis; same facts, different nuance"
+        "japanese": "林さんは性格がいいですが、背が低いです。（はやしさんはせいかくがいいですが、せがひくいです。）",
+        "chinese": "林先生雖然個性好，可是個子不高。",
+        "grammar": "〜ですが = but/although (clause connector); reversed order from previous sentence shifts the focus/emphasis; same facts, different nuance"
     },
     {
-      "japanese": "このアパートは部屋が暗いですけど、交通が便利です。（このアパートはへやがくらいですけど、こうつうがべんりです。）",
-      "chinese": "這間公寓雖然房間很暗，可是交通很方便。",
-      "grammar": "〜ですけど = although (clause connector); は marks topic アパート; が marks subjects 部屋 and 交通; 便利 is a な-adjective"
+        "japanese": "このアパートは部屋が暗いですけど、交通が便利です。（このアパートはへやがくらいですけど、こうつうがべんりです。）",
+        "chinese": "這間公寓雖然房間很暗，可是交通很方便。",
+        "grammar": "〜ですけど = although (clause connector); は marks topic アパート; が marks subjects 部屋 and 交通; 便利 is a な-adjective"
     },
     {
-      "japanese": "このアパートは交通が便利ですけど、部屋が暗いです。（このアパートはこうつうがべんりですけど、へやがくらいです。）",
-      "chinese": "這間公寓雖然交通很方便，可是房間很暗。",
-      "grammar": "〜ですけど = although (clause connector); reversed order shifts emphasis to the drawback 部屋が暗い; same contrast as above with different nuance"
+        "japanese": "このアパートは交通が便利ですけど、部屋が暗いです。（このアパートはこうつうがべんりですけど、へやがくらいです。）",
+        "chinese": "這間公寓雖然交通很方便，可是房間很暗。",
+        "grammar": "〜ですけど = although (clause connector); reversed order shifts emphasis to the drawback 部屋が暗い; same contrast as above with different nuance"
+    },
+    {
+        "japanese": "どちらがあなたの先生ですか？（どちらがあなたのせんせいですか？）",
+        "chinese": "哪一位是您的老師？",
+        "grammar": "どちら = which one (polite); が marks the unknown subject being asked about; 先生 = teacher"
+    },
+    {
+        "japanese": "どこが教室ですか？（どこがきょうしつですか？）",
+        "chinese": "哪裡是教室？",
+        "grammar": "どこ = where; が marks the subject being identified; 教室 = classroom"
+    },
+    {
+        "japanese": "誰の声が綺麗ですか？（だれのこえがきれいですか？）",
+        "chinese": "誰的聲音優美？",
+        "grammar": "誰 = who; の = possessive particle; 綺麗 = beautiful/clean (な-adjective)"
+    },
+    {
+        "japanese": "どの食堂が値段が安いですか？（どのしょくどうがねだんがやすいですか？）",
+        "chinese": "哪間餐廳的價錢便宜？",
+        "grammar": "どの = which (+ noun); 食堂 = cafeteria/diner; 値段 = price; 安い = cheap (い-adjective)"
+    },
+    {
+        "japanese": "誰が来月日本へ行きますか？（だれがらいげつにほんへいきますか？）",
+        "chinese": "誰下個月要去日本？",
+        "grammar": "来月 = next month; へ = direction particle; 行きます = to go"
+    },
+    {
+        "japanese": "こちらが私の先生です。（こちらがわたしのせんせいですか。）",
+        "chinese": "這一位是我的老師。",
+        "grammar": "こちら = this person (polite); answers the 'どちらが' question directly using が"
+    },
+    {
+        "japanese": "あそこが教室です。（あそこがきょうしつです。）",
+        "chinese": "那裡是教室。",
+        "grammar": "あそこ = over there; answers the 'どこが' question directly using が"
+    },
+    {
+        "japanese": "王さんの声が綺麗です。（おうさんのこえがきれいです。）",
+        "chinese": "王先生／小姐的聲音優美。",
+        "grammar": "王さん = Mr./Ms. Wang; 綺麗です = is beautiful (な-adjective copula)"
+    },
+    {
+        "japanese": "駅前の山田食堂が値段が安いです。（えきまえのやまだしょくどうがねだんがやすいです。）",
+        "chinese": "車站附近的山田食堂價錢便宜。",
+        "grammar": "駅前 = in front of the station; 山田食堂 = Yamada Diner; double-が construction specifying an attribute"
+    },
+    {
+        "japanese": "田中さんが来月日本へ行きます。（たなかさんがらいげつにほんへいきます。）",
+        "chinese": "田中先生／小姐下個月要去日本。",
+        "grammar": "田中さん = Mr./Ms. Tanaka; が marks the specific person performing the action"
+    },
+    {
+        "japanese": "ナイフは台所にあります。（ナイフはだいどころにあります。）",
+        "chinese": "刀子在廚房。",
+        "grammar": "は marks the topic (knife); に marks the location of existence; あります = to exist (inanimate)"
+    },
+    {
+        "japanese": "辞書は本棚にあります。（じしょはほんだなにあります。）",
+        "chinese": "字典在書架上。",
+        "grammar": "辞書 = dictionary; 本棚 = bookshelf; あります indicates the object's presence"
+    },
+    {
+        "japanese": "廊下に猫はいます。（ろうかにねこはいます。）",
+        "chinese": "貓在走廊。",
+        "grammar": "廊下 = hallway/corridor; います = to exist (animate things, like cats)"
+    },
+    {
+        "japanese": "高橋さんは入り口にいました。（たかはしさんはいりぐちにいました。）",
+        "chinese": "高橋先生／小姐在入口處。",
+        "grammar": "入り口 = entrance; いました = past tense of います (was present)"
+    },
+    {
+        "japanese": "カッターナイフが玄関にあります。（カッターナイフがげんかんにあります。）",
+        "chinese": "玄關有美工刀。",
+        "grammar": "カッターナイフ = box cutter/utility knife; 玄関 = entranceway/foyer; が introduces new information"
+    },
+    {
+        "japanese": "本棚にノートがあります。（ほんだなにノートがあります。）",
+        "chinese": "書架上有筆記本。",
+        "grammar": "ノート = notebook; [Location]に[Object]があります = There is an object at location"
+    },
+    {
+        "japanese": "猫がベランダにいます。（ねこがベランダにいます。）",
+        "chinese": "有貓在陽台。",
+        "grammar": "ベランダ = balcony; が emphasizes the subject (cat) discovered at the location"
+    },
+    {
+        "japanese": "高橋さんが出口にいました。（たかはしさんのでぐちにいました。）",
+        "chinese": "高橋先生／小姐在出口處。",
+        "grammar": "出口 = exit; 出口にいました = was at the exit"
+    },
+    {
+        "japanese": "あの建物の向こうに何がありますか？（あのたてもののむこうになにがありますか？）",
+        "chinese": "那棟建築物的那一頭有什麼？",
+        "grammar": "建物 = building; 向こう = beyond/the other side; 何 = what"
+    },
+    {
+        "japanese": "あの建物の向こうに銀行や病院があります。（あのたてもののむこうにぎんこうやびょういんがあります。）",
+        "chinese": "那棟建築物的那一頭有銀行和醫院等。",
+        "grammar": "銀行 = bank; 病院 = hospital; や = non-exhaustive list connector (and others like...)"
+    },
+    {
+        "japanese": "森の中にトラが一頭います。（もり のなか に トラ が いっとう います。）",
+        "chinese": "森林有一頭老虎。",
+        "grammar": "森 = forest; トラ = tiger; 一頭 (いっとう) = counter for large animals"
+    },
+    {
+        "japanese": "先月私は四回出張しました。（せんげつわたしはよんかいしゅつちょうしました。）",
+        "chinese": "上個月我出差了4次。",
+        "grammar": "先月 = last month; 四回 (よんかい) = four times (frequency counter); 出張します = to go on business trips"
+    },
+    {
+        "japanese": "林さんは先生から白い紙を五枚もらいました。（はやしさんはせんせいからしろいかみをごまいもらいました。）",
+        "chinese": "林先生／小姐從老師那裡收到5張白紙。",
+        "grammar": "から = from; 白い = white; 五枚 (ごまい) = five flat objects (counter); もらいました = received"
+    },
+    {
+        "japanese": "靴箱に靴が八足あります。（くつばこにくつがはっそくあります。）",
+        "chinese": "鞋櫃裡有8雙鞋子。",
+        "grammar": "靴箱 = shoe cupboard; 靴 = shoes; 八足 (はっそく) = eight pairs of footwear (counter)"
+    },
+    {
+        "japanese": "姉は昨日夜市で服を十着買いました。（あねはきのうよいちでふくをじゅっちゃくかいました。）",
+        "chinese": "姊姊昨天在夜市買了10件衣服。",
+        "grammar": "夜市 = night market; で = action location particle; 服 = clothes; 十着 (じゅっちゃく) = 10 articles of clothing (counter)"
+    },
+    {
+        "japanese": "林さんは先生から白い紙を五枚ももらいました。（はやしさんはせんせいからしろいかみをごまいももらいました。）",
+        "chinese": "林先生／小姐從老師那裡收到5張白紙那麼多。",
+        "grammar": "も added after a counter emphasizes a surprisingly large quantity ('as many as / as much as')"
+    },
+    {
+        "japanese": "姉は昨日夜市で服を十着も買いました。（あねはきのうよいちでふくをじゅっちゃくもかいました。）",
+        "chinese": "姊姊昨天在夜市買了10件衣服那麼多。",
+        "grammar": "十着も = as many as ten outfits; highlights the excessive amount of purchasing"
+    },
+    {
+        "japanese": "六十五円の切手を二枚ください。（ろくじゅうごえんのきってをにまいください。）",
+        "chinese": "請給我65日圓的郵票2張。",
+        "grammar": "切手 = postage stamp; 二枚 = two flat items; 〜をください = Please give me..."
+    },
+    {
+        "japanese": "コーラのエムとポテトのエルをください。（コーラのエムとポテトのエルをください。）",
+        "chinese": "請給我中杯可樂跟大包薯條。",
+        "grammar": "コーラ = cola; エム = M (medium); ポテト = fries; エル = L (large); と = and"
+    },
+    {
+        "japanese": "新宿までの切ップを一枚ください。（しんじゅくまで の きっぷ を いちまい ください。）",
+        "chinese": "請給我一張到新宿的車票。",
+        "grammar": "新宿 = Shinjuku; まで = up to/until; 切符 = ticket; 一枚 = one flat item counter"
+    },
+    {
+        "japanese": "砂糖とミルクをください。（さとうとミルクをください。）",
+        "chinese": "請給我砂糖跟牛奶。",
+        "grammar": "砂糖 = sugar; ミルク = milk; simple item request using noun + をください"
+    },
+    {
+        "japanese": "今年の社員旅行は三日間です。（ことしのしゃいんりょこうはみっかかんです。）",
+        "chinese": "今年的員工旅行是3天。",
+        "grammar": "社員旅行 = company trip; 三日間 (みっかかん) = period of three days"
+    },
+    {
+        "japanese": "三年間 の日本 の生活はとても楽しかったです。（さんねんかんのにほんのせいかつはとてもたのしかったです。）",
+        "chinese": "3年的日本生活非常的愉快。",
+        "grammar": "三年間 = duration of 3 years; 生活 = life; 楽しかったです = past tense of 楽しい (enjoyable)"
+    },
+    {
+        "japanese": "私は駅で三時間彼女を待ちました。（わたしはえきでさんじかんかのじょをまちました。）",
+        "chinese": "我在車站等了她3個小時。",
+        "grammar": "三時間 = 3 hours; 彼女 = her/girlfriend; 待ちました = past tense of 待つ (to wait)"
+    },
+    {
+        "japanese": "王さんは台湾で日本語を三ヶ月勉強しました。（おうさんはたいわんでにほんごをさんかげつべんきょうしました。）",
+        "chinese": "王先生／小姐在台灣學了3個月的日文。",
+        "grammar": "台湾 = Taiwan; 三ヶ月 = duration of 3 months; 勉強しました = studied"
+    },
+    {
+        "japanese": "林さんは二年前に日本で日本語を三ヶ月間勉強しました。（はやしさんはにねんまえににほんでにほんごをさんかげつかんべんきょうしました。）",
+        "chinese": "林先生／小姐2年前在日本學了3個月的日語。",
+        "grammar": "二年前に = two years ago; 三ヶ月間 = alternative duration form for 3 months"
+    },
+    {
+        "japanese": "私達は一時間後に出発します。（わたしたちはいちじかんごにしゅっぱつします。）",
+        "chinese": "我們一個小時後出發。",
+        "grammar": "私達 = we; 一時間後 = one hour later; 出発します = to depart/start out"
+    },
+    {
+        "japanese": "父はラジオに電池を入れました。（ちちはラジオにでんちをいれました。）",
+        "chinese": "爸爸把電池放進收音機。",
+        "grammar": "ラジオ = radio; 電池 = battery; [Container]に[Item]を入れます = to put item into container"
+    },
+    {
+        "japanese": "私は携帯電話をズボンのポケットに入れます。（わたしはけいたいでんわをズボンのポケットにいれます。）",
+        "chinese": "我會把行動電話放進褲子的口袋裡。",
+        "grammar": "携帯電話 = cell phone; ズボン = pants; ポケット = pocket"
+    },
+    {
+        "japanese": "さあ、教室に入りましょう。（さあ、きょうしつにはいりましょう。）",
+        "chinese": "走吧，進教室吧。",
+        "grammar": "さあ = come along/well; 〜ましょう = let's do (volitional form of 入りる)"
+    },
+    {
+        "japanese": "二年前に弟は大学に入学しました。（にねんまえにおとうとはだいがくににゅうがくしました。）",
+        "chinese": "2年前弟弟進入大學了。",
+        "grammar": "弟 = younger brother; 大学に入学します = matriculate/enter college"
+    },
+    {
+        "japanese": "私は来年の四月から繁田商事に勤めます。（わたしはらいねんのしがつからはんだしょうじにつとめます。）",
+        "chinese": "我明年4月要到繁田商事就業。",
+        "grammar": "来年 = next year; 〜から = from; 繁田商事 = Handal Shōji (company); 勤めます = to work for/be employed at (takes に)"
+    },
+    {
+        "japanese": "電車はバスより便利です。（でんしゃはバスよりべんりです。）",
+        "chinese": "電車比巴士方便。",
+        "grammar": "AはBより[Adj]です = A is more [Adj] than B (comparative grammar pattern)"
+    },
+    {
+        "japanese": "この会社は私の会社より休みが多いです。（このかいしゃはわたしのかいしゃよりやすみがおおいです。）",
+        "chinese": "比起我的公司，這間公司休假較多。",
+        "grammar": "休み = vacation/days off; 多い = many/frequent (い-adjective)"
+    },
+    {
+        "japanese": "今日の宿題は昨日の宿題より簡単です。（きょうのしゅくだいはきのうのしゅくだいよりかんたんです。）",
+        "chinese": "比起昨天的作業，今天的作業較簡單。",
+        "grammar": "今日 = today; 昨日 = yesterday; 宿題 = homework; 簡単 = easy (な-adjective)"
+    },
+    {
+        "japanese": "田中さんは鈴木さんより沢山買い物をしました。（たなかさんはすずきさんよりたくさんかいものをしました。）",
+        "chinese": "田中先生／小姐比鈴木先生／小姐買了更多的東西。",
+        "grammar": "沢山 (たくさん) = a lot; 買い物をします = to do shopping"
+    },
+    {
+        "japanese": "天麩羅とお寿司と、どっちが美味しいですか？（てんぷらとおすしと、どっちがおいしいですか？）",
+        "chinese": "天婦羅和壽司，哪一個好吃？",
+        "grammar": "AとBと、どっちが[Adj]ですか = Between A and B, which one is more [Adj]?"
+    },
+    {
+        "japanese": "田中さんと山本さん、どっちが背が高いですか？（たなかさんとやまもとさん、どっちがせがたかいですか？）",
+        "chinese": "田中先生跟山本先生，誰個子比較高？",
+        "grammar": "どっち = which of the two (colloquial selection); 背が高い = tall"
+    },
+    {
+        "japanese": "野球とサッカーと、あなたはどっちが好きですか？（やきゅうとサッカーと、あなたはどっちがすきですか？）",
+        "chinese": "棒球跟足球你喜歡哪個？",
+        "grammar": "野球 = baseball; サッカー = soccer; 好き = likeable/fond of"
+    },
+    {
+        "japanese": "お寿司の方が美味しいです。（おすしのほうがおいしいです。）",
+        "chinese": "壽司比較好吃。",
+        "grammar": "[Option]の方 (ほう) が = This option is more... (used to state a preference/choice)"
+    },
+    {
+        "japanese": "田中さんの方が背が高いです。（たなかさんのほうがせがたかいです。）",
+        "chinese": "田中先生的個子比較高。",
+        "grammar": "田中さんの方 = Selected side in a comparison statement"
+    },
+    {
+        "japanese": "私は野球の方が好きです。（わたしはやきゅうのほうがすきです。）",
+        "chinese": "我比較喜歡棒球。",
+        "grammar": "Expresses definitive preference of baseball over the other choice"
+    },
+    {
+        "japanese": "先週の日曜日私は山に登りました。（せんしゅうのにちようびわたしやまにのぼりました。）",
+        "chinese": "上個星期日去登山。",
+        "grammar": "先週 = last week; 山に登ります = climb a mountain (に marks the destination/target)"
+    },
+    {
+        "japanese": "タクシーに乗りませんか？（タクシーにのりませんか？）",
+        "chinese": "要不要搭計程車？",
+        "grammar": "〜に乗りる = board/ride transportation; 〜ませんか = invitation pattern ('won't you?')"
+    },
+    {
+        "japanese": "私達は観覧車に乗りました。（わたしたちはかんらんしゃにのりました。）",
+        "chinese": "我們搭了摩天輪。",
+        "grammar": "観覧車 = Ferris wheel; 乗りました = past tense of 乗る"
+    },
+    {
+        "japanese": "彼女はエレベーターで三階に上がりました。（かのじょはエレベーターでさんがいにあがりました。）",
+        "chinese": "她搭乘電梯上到3樓。",
+        "grammar": "で = tool/means particle; 三階 = third floor; 上がりました = went up"
+    },
+    {
+        "japanese": "この飛行機は十五分後に成田国際空港に着陸します。（このひこうきじゅうごふんごになりたこくさいくうこうにちゃくりくします。）",
+        "chinese": "這班飛機會在15分鐘後抵達成田國際機場。",
+        "grammar": "飛行機 = airplane; 十五分後 = 15 minutes later; 成田国際空港 = Narita Airport; 着陸します = to land"
+    },
+    {
+        "japanese": "彼はもう幼稚園に着きました。（かれはもうようちえんにつきました。）",
+        "chinese": "他已經到幼稚園了。",
+        "grammar": "もう = already; 幼稚園 = kindergarten; 着きました = arrived (takes destination particle に)"
+    },
+    {
+        "japanese": "私は昨日駅のホームで太田さんに会いました。（わたしはきのうえきのホームでおおたさんにあいました。）",
+        "chinese": "我昨天在車站的月台跟太田見了面。",
+        "grammar": "ホーム = station platform; 〜に会います = to meet with a person (requires particle に)"
+    },
+    {
+        "japanese": "社長はその人に会いません。（しゃちょうはそのひとにあいません。）",
+        "chinese": "社長不跟那個人見面。",
+        "grammar": "社長 = company president; 会いません = negative form of 会う"
+    },
+    {
+        "japanese": "リンゴとミカンとバナナの中で、ミカンが一番安いです。（リンゴとミカンとバナナのなかで、ミカンがいちばんやすいです。）",
+        "chinese": "蘋果跟橘子跟香蕉之中，橘子是最便宜的。",
+        "grammar": "[Group]の中で、[Item]が一番[Adj]です = Superlative construction ('among group, item is most...')"
+    },
+    {
+        "japanese": "緑と黒と茶色で、私は黒が一番好きです。（みどりとくろとちゃいろで、わたしはくろがいちばんすきです。）",
+        "chinese": "綠色跟黑色跟咖啡色之中，我最喜歡黑色。",
+        "grammar": "緑 = green; 黒 = black; 茶色 = brown; 一番好き = favorite / like best"
+    },
+    {
+        "japanese": "王さんと林さんと張さんの中で、張さんが一番お酒を喜びます。（おうさんとはやしさんとちょうさんのなかで、ちょうさんがいちばんおさけをのみます。）",
+        "chinese": "在王先生跟林先生、張先生之中，張先生最會喝酒。",
+        "grammar": "お酒 = alcohol; 飲みます = drinks (here indicating highest tolerance/consumption)"
+    },
+    {
+        "japanese": "果物の中で、ミカンが一番安いです。（くだもののなかで、ミカンがいちばんやすいです。）",
+        "chinese": "在水果之中，橘子最便宜。",
+        "grammar": "果物 = fruit; simplified group category for the superlative sentence"
+    },
+    {
+        "japanese": "色の中で、私は黒が一番好きです。（いろのなかで、わたしはくろがいちばんすきです。）",
+        "chinese": "在顏色裡，我最喜歡黑色。",
+        "grammar": "色 = color; specifies preference within an entire category rather than listing individual choices"
+    },
+    {
+        "japanese": "友達の中で、張さんが一番お酒を飲みます。（ともだちのなかで、ちょうさんがいちばんおさけをのみます。）",
+        "chinese": "在朋友當中，張先生最會喝酒。",
+        "grammar": "友達 = friends; social demographic category statement"
+    },
+    {
+        "japanese": "タクシーと電車とバスで、どれが一番便利ですか？（タクシーとでんしゃとバスで、どれがいちばんべんりですか？）",
+        "chinese": "計程車、電車跟巴士，哪一個最方便？",
+        "grammar": "どれ = which one (used when choosing among 3 or more options)"
+    },
+    {
+        "japanese": "電車が一番便利です。（でんしゃがいちばんべんりです。）",
+        "chinese": "電車最方便。",
+        "grammar": "Definitive choice answer to the superlative inquiry"
+    },
+    {
+        "japanese": "テニスとゴルフとスキーで、あなたはどれが一番得意ですか？（テニスとゴルフとスキーで、あなたはどれがいちばんとくいですか？）",
+        "chinese": "網球、高爾夫跟滑雪，你最擅長哪一項？",
+        "grammar": "テニス = tennis; ゴルフ = golf; スキー = skiing; 得意 = good at / skillful (な-adjective)"
+    },
+    {
+        "japanese": "私はスキーが一番得意です。（わたしはスキーがいちばんとくいです。）",
+        "chinese": "我最擅長滑雪。",
+        "grammar": "Direct self-evaluation of proficiency"
+    },
+    {
+        "japanese": "乗り物の中で、何が一番便利ですか？（のりもののなかで、なにがいちばんべんりですか？）",
+        "chinese": "在交通工具之中什麼最方便？",
+        "grammar": "乗り物 = vehicles/transportation; 何 = what (used instead of どれ because it refers to an open category)"
+    },
+    {
+        "japanese": "スポーツの中で、あなたは何が一番得意ですか？（スポーツのなかで、あなたは何がいちばんとくいですか？）",
+        "chinese": "在運動之中你什麼最拿手？",
+        "grammar": "スポーツ = sports; targets absolute specialization area"
+    },
+    {
+        "japanese": "私はバスケットボールが一番得意です。（わたしはバスケットボールがいちばんとくいです。）",
+        "chinese": "我最擅長籃球。",
+        "grammar": "バスケットボール = basketball; reveals category favorite"
+    },
+    {
+        "japanese": "一番教室と二番教室と三番教室で、どこが一番広いですか？（いちばんきょうしつとにばんきょうしつとさんばんきょうしつで、どこがいちばんひろいです？）",
+        "chinese": "一號教室與二號教室、三號教室之中，哪一間最大間？",
+        "grammar": "一番/二番/三番 = #1, #2, #3 counters; どこ = where (used for locations); 広い = spacious/wide"
+    },
+    {
+        "japanese": "三番教室が一番広いです。（さんばんきょうしつがいちばんひろいです。）",
+        "chinese": "三號教室最大間。",
+        "grammar": "Identifies the correct room location response"
+    },
+    {
+        "japanese": "教室の中で、どこが一番広いですか？（きょうしつのなかで、どこがいちばんひろいです？）",
+        "chinese": "在教室中哪一間最大？",
+        "grammar": "Open category formulation matching classrooms to physical capacity"
+    },
+    {
+        "japanese": "山田さんと田中さんと高橋さんの中で、誰が一番背が低いですか？（やだまさんとたなかさんとたかはしさんのなかで、だれがいちばんせがひくいですか？）",
+        "chinese": "在山田先生跟田中先生、高橋先生之中，誰的個子最矮？",
+        "grammar": "誰 = who (used for people selection); 低い = low/short (い-adjective)"
+    },
+    {
+        "japanese": "山田さんが一番背が低いです。（やまださんがいちばんせがひくいです。）",
+        "chinese": "山田先生的個子最矮。",
+        "grammar": "Resolves identity comparison tracking attribute"
+    },
+    {
+        "japanese": "クラスメートの中で、誰が一番背が低いですか？（クラスメートのなかで、だれがいちばんせがひくいですか？）",
+        "chinese": "在同班同學中誰的個子最矮？",
+        "grammar": "クラスメート = classmate group descriptor"
+    },
+    {
+        "japanese": "私は静かな所で勉強したいです。（わたしはしずかなところでべんきょうしたいです。）",
+        "chinese": "我想在安靜的地方讀書。",
+        "grammar": "静か = quiet (な-adjective); 所 = place; Verb [Stem] + たい = want to do"
+    },
+    {
+        "japanese": "私は皆で食事したいです。（わたしはみんなでしょくじしたいです。）",
+        "chinese": "我想要大家一起吃飯。",
+        "grammar": "皆で = altogether as a crowd; 食事します = have a meal; 食事したい = want to dine"
+    },
+    {
+        "japanese": "私は明日の朝五時半に起きたいです。（わたしはあしたのあさごじはんにおきたいです。）",
+        "chinese": "我想要明天的早上5點半起床。",
+        "grammar": "朝 = morning; 五時半 = 5:30; 起きます = wake up; 起きたい = wish to awaken"
+    },
+    {
+        "japanese": "私は温かいコーヒーを飲みたいです。（わたしはあたたかいコーヒーをのみたいです。）",
+        "chinese": "我想喝熱的咖啡。",
+        "grammar": "温かい = hot/warm to touch; 飲みます -> 飲みたい (desire expression using object marker を)"
+    },
+    {
+        "japanese": "私は徐さんと結婚をしたいです。（わたしはじょさんとけっこんをしたいです。）",
+        "chinese": "我想和徐先生結婚。",
+        "grammar": "徐さん = Mr./Ms. Xu; と = with; 結婚をします = to do marriage"
+    },
+    {
+        "japanese": "私は温かいコーヒーが飲みたいです。（わたしはあたたかいコーヒーがのみたいです。）",
+        "chinese": "我想喝熱的咖啡。",
+        "grammar": "Using が instead of を with a 〜たい form switches focus to the object desired"
+    },
+    {
+        "japanese": "私は徐さんと結婚がしたいです。（わたしはじょさんとけっこんがしたいです。）",
+        "chinese": "我想和徐先生結婚。",
+        "grammar": "結婚がしたい = emphasizes the act of marriage as the key target choice"
+    },
+    {
+        "japanese": "結婚したい人はお見合いをします。（けっこんしたいひとはおみあいをします。）",
+        "chinese": "想結婚的人去相親。",
+        "grammar": "結婚したい directly modifies 人 (noun-modifying clause); お見合い = formal matchmaking meeting"
+    },
+    {
+        "japanese": "私はあの池で釣りがしたかったです。（わたしはあのいけでつりがしたかったです。）",
+        "chinese": "我想在那個池塘釣魚。",
+        "grammar": "池 = pond; 釣り = fishing; したい -> したかった = past tense of desire ('wanted to')"
+    },
+    {
+        "japanese": "私はこのお金を使いたくありません。（わたしはこのおかねをついたくありません。）",
+        "cheese": "我不想使用這筆錢。",
+        "grammar": "使います = use; 〜たくありません = negative desire ('do not want to do')"
+    },
+    {
+        "japanese": "私は野球を練習しに公園へ行きます。（わたしはやきゅうをれんしゅうしにこうえんへいきます。）",
+        "chinese": "我要去公園練習棒球。",
+        "grammar": "Verb [Stem] + に行きます = go in order to do something (purpose pattern)"
+    },
+    {
+        "japanese": "李さんは受付へテープレコーダーを返しに来ました。（りさんはうけつけへテープレコーダーをかえしにきました。）",
+        "chinese": "李先生來櫃台還錄音機。",
+        "grammar": "受付 = reception desk; 返します = return object; 来ました = came (past of 来る)"
+    },
+    {
+        "japanese": "私は台所へお茶碗を取りに行きました。（わたしはだいどころへおちゃわんをとりにいきました。）",
+        "chinese": "我到廚房拿碗。",
+        "grammar": "お茶碗 = rice bowl; 取ります = take/grab; 行きました = went"
+    },
+    {
+        "japanese": "私は公園へ野球の練習に行きます。（わたしはこうえんへやきゅうのれんしゅうにいきます。）",
+        "chinese": "我要去公園練習棒球。",
+        "grammar": "[Noun] + に行きます = go for an activity event (練習 acts as noun activity purpose)"
+    },
+    {
+        "japanese": "祖父は毎日近くへ散歩に行きます。（そふはまいにちちかくへさんぽにいきます。）",
+        "chinese": "祖父每天去附近散步。",
+        "grammar": "祖父 = grandfather; 毎日 = every day; 散歩 = a walk; 散歩に行きます = go for a stroll"
+    },
+    {
+        "japanese": "私は日曜日買い物にスーパーへ行きました。（わたしはにちようびかいものにスーパーへいきました。）",
+        "chinese": "我星期天去超市買東西。",
+        "grammar": "日曜日 = Sunday; 買い物 = shopping; スーパー = supermarket"
+    },
+    {
+        "japanese": "昨晚私はドラマを見ながら、晩御飯を食べました。（ゆうべわたしはドラマをみながら、ばんごはんをたべました。）",
+        "chinese": "昨晚我邊看電視劇邊吃晚餐。",
+        "grammar": "Verb [Stem] + ながら = while doing (concurrent action clause connector)"
+    },
+    {
+        "japanese": "私は音楽を聞きながら、宿題をしません。（わたしはおんがくをききながら、しゅくだいをしません。）",
+        "chinese": "我不會邊聽音樂邊寫作業。",
+        "grammar": "聞きながら = while listening; 宿題をしません = does not do homework"
+    },
+    {
+        "japanese": "姉は歌を歌いながら、掃除をします。（あねはうたをうたいながら、そうじをします。）",
+        "chinese": "姊姊會邊唱歌邊打掃。",
+        "grammar": "歌を歌う = sing songs; 掃除をします = perform house cleaning"
+    },
+    {
+        "japanese": "林さん、太田さんに電話を掛けてください。（はやしさん、おおたさんにでんわをかけてください。）",
+        "chinese": "林先生／小姐，請打電話給太田先生。",
+        "grammar": "電話を掛ける = make a phone call; Verb [て-form] + ください = please do (request)"
+    },
+    {
+        "japanese": "この言葉を覚えてください。（このことばをおぼえてください。）",
+        "chinese": "請記住這句話。",
+        "grammar": "言葉 = word/phrase; 覚えます = memorize/remember -> 覚えてください"
+    },
+    {
+        "japanese": "私と結婚してください。（わたしとけっこんしてください。）",
+        "chinese": "請和我結婚。",
+        "grammar": "結婚します -> 結婚してください = please marry me"
+    },
+    {
+        "japanese": "三年生はバスに乗ってください。（さんねんせいはバスにのってください。）",
+        "chinese": "三年級請搭乘巴士。",
+        "grammar": "三年生 = 3rd-year students; 乗ります -> 乗ってください"
+    },
+    {
+        "japanese": "外国の方は手を挙げてください。（がいこくのかたはてをあげてください。）",
+        "chinese": "外國的人士請舉手。",
+        "grammar": "外国の方 = foreign individual; 手を挙げます = raise hand -> 挙げてください"
+    },
+    {
+        "japanese": "質問したい人はここへ来てください。（しつもんしたいひとはここへきてください。）",
+        "chinese": "想問問題的人請到這裡來。",
+        "grammar": "質問したい = want to ask question; 来ます -> 来てください"
+    },
+    {
+        "japanese": "私は今漢字の練習をしています。（わたしはいまかんじのれんしゅうをしています。）",
+        "chinese": "我現在在做漢字的練習。",
+        "grammar": "今 = now; Verb [て-form] + います = present continuous state/action in progress"
+    },
+    {
+        "japanese": "李さんは今何をしていますか？（りさんはいまなにをしていますか？）",
+        "chinese": "李先生現在在做什麼？",
+        "grammar": "何をしていますか = What are you doing currently?"
+    },
+    {
+        "japanese": "私は今レポートを書いています。（わたしはいまレポートをかいています。）",
+        "chinese": "我現在在寫報告。",
+        "grammar": "レポート = report/essay; 書きます -> 書いています"
+    },
+    {
+        "japanese": "母は私のお弁当を作っています。（はははわたしのおべんとうをつくっています。）",
+        "chinese": "媽媽在做我的便當。",
+        "grammar": "母 = my mother; お弁当 = bento box; 作ります -> 作っています"
+    },
+    {
+        "japanese": "彼女は先生の話を聞いていません。（かのじょはせんせいのはなしをきいていません。）",
+        "chinese": "她沒有在聽老師講話。",
+        "grammar": "話 = talk/speech; 聞きます -> 聞いていません (negative continuous: is not listening)"
+    },
+    {
+        "japanese": "その時、あなたは何をしていましたか？（そのとき、あなたは何をしていましたか？）",
+        "chinese": "那個時候您在做什麼？",
+        "grammar": "その時 = at that time; 〜ていました = past continuous/progressive state"
+    },
+    {
+        "japanese": "シャワーを浴びていました。（シャワーをあびていました。）",
+        "chinese": "我在沖澡。",
+        "grammar": "シャワーを浴びる = take a shower -> 浴びていました"
+    },
+    {
+        "japanese": "佐藤さんは煙草を吸っていました。（さとうさんはたばこをすっていました。）",
+        "chinese": "佐藤先生／小姐曾經在抽菸。",
+        "grammar": "煙草 = cigarettes; 吸います = smoke -> 吸っていました (was smoking/used to smoke)"
+    },
+    {
+        "japanese": "弟はその時、ゲームをしていませんでした。（おとうとはそのとき、ゲームをしていませんでした。）",
+        "chinese": "弟弟那個時候沒在打電動。",
+        "grammar": "ゲーム = video game; していませんでした = negative past continuous"
+    },
+    {
+        "japanese": "田中さんはもう昼ご飯を食べています。（たなかさんはもうひるごはんをたべています。）",
+        "chinese": "現在田中先生已經在吃午餐了。",
+        "grammar": "もう + [ていています] indicates an action that has carried through to completion"
+    },
+    {
+        "japanese": "山田さんは今まだお酒を飲んでいます。（やまださんはいままでおさけをのんでいます。）",
+        "chinese": "山田先生現在還在喝酒。",
+        "grammar": "まだ + [ていています] shows an ongoing state that hasn't ended ('still drinking')"
+    },
+    {
+        "japanese": "太田さんは今もうテレビを見ていません。（おおたさんはいまもうテレビをみていません。）",
+        "chinese": "太田先生現在已經沒有在看電視了。",
+        "grammar": "もう + [negative continuous] means 'not anymore / no longer doing'"
+    },
+    {
+        "japanese": "今佳子はまだ寝ていません。（いまよしこはまだねていません。）",
+        "chinese": "現在佳子還沒有睡。",
+        "grammar": "まだ + [negative continuous] means 'not yet done' ('has not slept yet')"
+    },
+    {
+        "japanese": "その時、山田さんはもう蔡さんに電話を掛けていました。（そのとき、やまださんはもうさいさんにでんわをかけていました。）",
+        "chinese": "那個時候山田先生／小姐已經在打電話給蔡先生／小姐了。",
+        "grammar": "もう + [ていました] = at that past checkpoint, the action was already completed or underway"
+    },
+    {
+        "japanese": "許さんはその時、まだ先生に質問をしていました。（きょさんはそのとき、まだせんせいにしつもんをしていました。）",
+        "chinese": "許先生／小姐那個時候還在問老師問題。",
+        "grammar": "まだ + [ていました] = at that past point, the action was still ongoing"
+    },
+    {
+        "japanese": "その時、張さんはまだ洋服を洗っていませんでした。（そのとき、ちょうさんはまだようふくをあらっていませんでした。）",
+        "chinese": "那個時候張先生／小姐還沒有在洗衣服。",
+        "grammar": "まだ + [ていませんでした] = at that past point, the action had not yet occurred"
+    },
+    {
+        "japanese": "私は繁田塾で日本語を勉強しています。（わたしははんだじゅくでにほんごをべんきょうしています。）",
+        "chinese": "我在繁田塾學日語。",
+        "grammar": "繁田塾 = Handajuku (school); ています here shows a repeated habit/ongoing long-term state"
+    },
+    {
+        "japanese": "父は銀行に勤めています。（ちちはぎんこうにつとめています。）",
+        "chinese": "爸爸在銀行上班。",
+        "grammar": "勤めています shows a continuous occupational state/status (always uses destination に)"
+    },
+    {
+        "japanese": "彼女は二年前にマクドナルドでアルバイトをしていました。（かのじょはにねんまえにマクドナルドでアルバイトをしていました。）",
+        "chinese": "她2年前曾在麥當勞打工。",
+        "grammar": "マクドナルド = McDonald's; アルバイトをします = part-time job; shows past historical habit"
+    },
+    {
+        "japanese": "彼女は先月まで煙草を吸っていました。（かのじょはせんげつまでたばこをすっていました。）",
+        "chinese": "她到上個月為止都在抽菸。",
+        "grammar": "〜まで = until; registers a past ongoing habit that concluded at the specified time mark"
+    },
+    {
+        "japanese": "彼女は今煙草を吸っていません。（かのじょはいまたばこをすっていません。）",
+        "chinese": "她現在不抽了。",
+        "grammar": "吸っていません shows her current ongoing behavioral state (non-smoker status)"
+    },
+    {
+        "japanese": "私は昨日この言葉の意味を覚えました。（わたしはきのうこのことばのいみを覚えました。）",
+        "chinese": "我昨天記了這個單字的意思。",
+        "grammar": "意味 = meaning; 覚えました = memorized (completed past action snapshot)"
+    },
+    {
+        "japanese": "私は今この言葉の意味を覚えています。（わたしはいまこのことばのいみをおぼえています。）",
+        "chinese": "我現在還記得這個單字的意思。",
+        "grammar": "覚えています = to hold the memory state internally ('I remember / I know it now')"
+    },
+    {
+        "japanese": "徐さんは今年の春結婚しました。（じょさんはことしのはるけっこんしました。）",
+        "chinese": "徐小姐今年春天結婚了。",
+        "grammar": "春 = spring; 結婚しました = got married (past event occurrence marker)"
+    },
+    {
+        "japanese": "徐さんは結婚しています。（じょさんはけっこんしています。）",
+        "chinese": "徐小姐結婚了。",
+        "grammar": "結婚しています = is married (current status outcome resulting from a past event change)"
+    },
+    {
+        "japanese": "王さんは一昨年自分の家を持ちました。（おうさんはおととしじぶんのいえをもちました。）",
+        "chinese": "王先生前年有了自己的房子。",
+        "grammar": "一昨年 = year before last; 持ちました = acquired ownership/bought"
+    },
+    {
+        "japanese": "王さんは自分の家を持っています。（おうさんはじぶんのいえをもっています。）",
+        "chinese": "王先生有自己的房子。",
+        "grammar": "持っています = possesses/owns (continuous state of asset ownership)"
+    },
+    {
+        "japanese": "田中さんは昨日林さんの住所を知りました。（たなかさんはきのうはやしさんのじゅうしょをしりました。）",
+        "chinese": "田中先生／小姐昨天知道了林先生／小姐的地址。",
+        "grammar": "住所 = address; 知りました = came to find out/discovered information"
+    },
+    {
+        "japanese": "田中さんは林さんの住所を知っています。（たなかさんははやしさんのじゅうしょをしっています。）",
+        "chinese": "田中先生／小姐知道林先生／小姐的地址。",
+        "grammar": "知っています = is aware of / possesses the knowledge (negative is never 知っていません, always 知りません)"
+    },
+    {
+        "japanese": "林さんはもう空港に着きましたか？（はやしさんはもうくうこうにつきましたか？）",
+        "chinese": "林先生／小姐已經到機場了嗎？",
+        "grammar": "空港 = airport; 着きました = arrived; interrogative checking status change"
+    },
+    {
+        "japanese": "はい、私はもう空港に着きました。（はい、わたしはもうくうこうにつきました。）",
+        "chinese": "是的，我已經到了。",
+        "grammar": "Confirms transition to destination is done"
+    },
+    {
+        "japanese": "いいえ、私はいまだ空港に着いていません。（いいえ、わたしはまだくうこうについていません。）",
+        "chinese": "不，我還沒到機場。",
+        "grammar": "まだ + [ていません] = has not done yet (standard formula answering 'already done?' prompts)"
+    },
+    {
+        "japanese": "先に帰ってもいいですか？（さきにかえってもいいですか？）",
+        "chinese": "我可以先回去嗎？",
+        "grammar": "先に = ahead/before others; Verb [て-form] + もいいですか = May I do...? (seeking permission)"
+    },
+    {
+        "japanese": "あなたの写真を撮ってもいいですか？（あなたのしゃしんをとってもいいですか？）",
+        "chinese": "我可以拍您的照片嗎？",
+        "grammar": "写真を撮る = take a picture -> 撮ってもいいですか"
+    },
+    {
+        "japanese": "座ってもいいですか？（すわってもいいですか？）",
+        "chinese": "我可以坐嗎？",
+        "grammar": "座ります = sit down -> 座ってもいいですか"
+    },
+    {
+        "japanese": "はい、先に帰ってもいいです。（はい、さきにかえってもいいです。）",
+        "chinese": "好的，可以先回去。",
+        "grammar": "Verb [て-form] + もいいです = You may do... (granting permission)"
+    },
+    {
+        "japanese": "はい、私の写真を撮っても構いません。（はい、わたしのしゃしんをとってもかまいません。）",
+        "chinese": "好的，拍我的照片也沒關係。",
+        "grammar": "〜ても構いません = it doesn't matter if you do / it is totally fine (alternative permission style)"
+    },
+    {
+        "japanese": "はい、どうぞ、座ってください。（はい、どうぞ、すわってください。）",
+        "chinese": "好的，請坐。",
+        "grammar": "どうぞ = go ahead; combining permission context with a soft mandate request"
+    },
+    {
+        "japanese": "はい、どうぞ。（はい、どうぞ。）",
+        "chinese": "好的，請。",
+        "grammar": "Abbreviated acknowledgment yielding the floor or action item to the asker"
+    },
+    {
+        "japanese": "いいえ、いけません。（いいえ、いけません。）",
+        "chinese": "不，不可以。",
+        "grammar": "〜てはいけません foundation base; strong explicit denial of permission"
+    },
+    {
+        "japanese": "いいえ、駄目です。（いいえ、だめです。）",
+        "chinese": "不，不行。",
+        "grammar": "駄目 = no good/forbidden; colloquial straightforward conversational refusal"
+    },
+    {
+        "japanese": "いいえ、困ります。（いいえ、こまります。）",
+        "chinese": "不，這樣我很困擾。",
+        "grammar": "困ります = to be troubled; gentle indirect way to decline permission by noting hardship caused"
+    },
+    {
+        "japanese": "私は朝起きて顔を洗って歯を磨きます。（わたしはあさおきてかおをあらってはをみがきます。）",
+        "chinese": "我早上起床，洗臉，然後刷牙。",
+        "grammar": "Using [て-form], [て-form] chains multiple actions together in chronological order"
+    },
+    {
+        "japanese": "姉は綺麗な服を着て化粧をしてデートに出かけました。（あねはきれいなふくをきてけしょうをしてデートにでかけました。）",
+        "chinese": "姊姊穿上漂亮的衣服後，化了妝，然後出門約會。",
+        "grammar": "着て = wear; 化粧をして = do makeup; デートに出かけます = leave for a date"
+    },
+    {
+        "japanese": "昨日私はご飯を食べてテレビを見て寝ました。（きのうわたしはごはんをたべてテレビをみてねました。）",
+        "chinese": "昨天我吃飯後，看電視，然後睡覺。",
+        "grammar": "The final verb (寝ました) sets the tense for all preceding sequential verbs in the sequence chain"
+    },
+    {
+        "japanese": "私は大学を卒業してからアメリカへ行きたいです。（わたしはだいがくをそつぎょうしてからアメリカへいきたいです。）",
+        "chinese": "我大學畢業以後想要去美國。",
+        "grammar": "Verb [て-form] + から = after doing... (emphasizes that action A must complete before action B starts)"
+    },
+    {
+        "japanese": "父はいつも晩御飯を食べてからお風呂に入ります。（ちちはいつもばんごはんをたべてからおふろにはいります。）",
+        "chinese": "爸爸總是吃晚飯後洗澡。",
+        "grammar": "お風呂に入る = take a bath; establishes explicit sequence habits"
+    },
+    {
+        "japanese": "彼は電話を掛けてから王さんの家へ行きました。（かれはでんわをかけてからおうさんのいえへいきました。）",
+        "chinese": "他打完電話後去王先生的家。",
+        "grammar": "家へ行きました = went to the residence house location"
+    },
+    {
+        "japanese": "山本さんはバイクがあります。それに、車があります。（やまもとさんはバイクがあります。それに、くるまがあります。）",
+        "chinese": "山本先生有機車，而且有汽車。",
+        "grammar": "それに = besides/moreover; sentence conjunction adding distinct separate item attributes"
+    },
+    {
+        "japanese": "山本さんはバイクがあって、車があります。（やまもとさんはバイクがあって、くるまがあります。）",
+        "chinese": "山本先生有機車也有汽車。",
+        "grammar": "あります -> あって; using the [て-form] of a verb to smoothly merge parallel descriptive clauses"
+    },
+    {
+        "japanese": "彼女は証券会社に勤めています。そして、横浜で一人暮らしをしています。（かのじょはしょうけんがいしゃにつとめています。そして、よこはまでひとりぐらしをしています。）",
+        "chinese": "她在證券公司工作，而且在橫濱一個人生活。",
+        "grammar": "そして = and then / furthermore; 横浜 = Yokohama; 一人暮らし = living alone"
+    },
+    {
+        "japanese": "彼女は証券会社に勤めていて、横浜で一人暮らしをしています。（かのじょはしょうけんがいしゃにつとめていて、よこはまでひとりぐらしをしています。）",
+        "chinese": "她在證券公司工作，並在橫濱一個人生活。",
+        "grammar": "勤めています -> 勤めていて; clause consolidation via midpoint stative continuation marker"
+    },
+    {
+        "japanese": "このトイレは広いです。それに、綺麗です。（このトイレはひろいです。それに、きれいです。）",
+        "chinese": "這間廁所很寬敞。而且很漂亮。",
+        "grammar": "広いです = is spacious; adds descriptive quality across twin stand-alone sentences"
+    },
+    {
+        "japanese": "このトイレは広くて、綺麗です。（このトイレはひろくて、きれいです。）",
+        "chinese": "這間廁所寬敞又乾淨。",
+        "grammar": "い-adjective [て-form] drop い add くて; compound linking mechanic for shared descriptors"
+    },
+    {
+        "japanese": "この鞄は形が可愛いです。そして、色がいいです。（このかばんはかたちがかわいいです。そして、いろがいいです。）",
+        "chinese": "這個包包的形狀很可愛。而且顏色很棒。",
+        "grammar": "形 = shape; 可愛い = cute; 色 = color; いい = good"
+    },
+    {
+        "japanese": "この鞄は形が可愛くて、色がいいです。（このかばんはかたちがかわいくて、いろがいいです。）",
+        "chinese": "這個包包的形狀可愛，顏色也很棒。",
+        "grammar": "可愛くて connects the physical qualities directly inside an integrated package clause"
+    },
+    {
+        "japanese": "私はワインが飲みたいです。放置して、美味しい魚の料理が食べたいです。（わたしはワインがのみたいです。そして、おいしいさかなのりょうりがたべたいです。）",
+        "chinese": "我想喝紅酒。而且想吃好吃的魚料理。",
+        "grammar": "魚の料理 = fish dish; clusters dual descriptive target desires apart"
+    },
+    {
+        "japanese": "私はワインが飲みたくて、美味しい魚 of 料理が食べたいです。（わたしはワインがのみたくて、おいしいさかなのりょうりがたべたいです。）",
+        "chinese": "我想喝紅酒也想吃好吃的魚料理。",
+        "grammar": "飲みたい -> 飲みたくて; links concurrent desire thoughts using the adjective structure"
+    },
+    {
+        "japanese": "電車は便利です。そして、速いです。（でんしゃはべんりです。そして、はやいです。）",
+        "chinese": "電車很方便。而且很快。",
+        "grammar": "速い = fast (い-adjective); tracks sequential positive points"
+    },
+    {
+        "japanese": "電車は便利で、速いです。（(でんしゃはべんりで、はやいです。）",
+        "chinese": "電車方便又快速。",
+        "grammar": "な-adjective [て-form] swap な/です for で; coordinates twin descriptions smoothly"
+    },
+    {
+        "japanese": "彼女は掃除が嫌いです。それに、料理ができません。（かのじょはそうじがきらいです。それに、りょうりができません。）",
+        "chinese": "她討厭打掃。而且不會做菜。",
+        "grammar": "嫌い = dislike (な-adjective); できません = cannot do / unable to execute"
+    },
+    {
+        "japanese": "彼女は掃除が嫌いで、料理ができません。（かのじょはそうじがきらいで、りょうりができません。）",
+        "chinese": "她討厭打掃也不會做菜。",
+        "grammar": "嫌い -> 嫌いで; pieces negative traits together contextually"
+    },
+    {
+        "japanese": "彼は二十歳です。そして、大学生です。（かれははたちです。そして、だいがくせいです。）",
+        "chinese": "他二十歲。而且是個大學生。",
+        "grammar": "二十歳 (はたち) = 20 years old (special age reading counter); 大学生 = university student"
+    },
+    {
+        "japanese": "彼は二十歳で、大学生です。（かれははたちで、だいがくせいです。）",
+        "chinese": "他二十歲，而且是大學生。",
+        "grammar": "Noun + で links identity descriptions ('He is X, and he is Y')"
+    },
+    {
+        "japanese": "これは美味しいお菓子です。それに、安いです。（これはおいしいおかしです。それに、やすいです。）",
+        "chinese": "這是好吃的點心。而且很便宜。",
+        "grammar": "お菓子 = snacks/sweets; dual favorable qualities itemized"
+    },
+    {
+        "japanese": "これは美味しいお菓子で、安いです。（これはおいしいおかしで、やすいです。）",
+        "chinese": "這是好吃又便宜的點心。",
+        "grammar": "お菓子です -> お菓子で; noun modifier sequence unification"
+    },
+    {
+        "japanese": "明日検査をしますから、朝御飯を食べないでください。（あしたけんさをしますから、あさごはんをたべないでください。）",
+        "chinese": "因為明天要做檢查，所以請不要吃早餐。",
+        "grammar": "〜から = because (reason clause); Verb [ない-form] + でください = please do not do (negative request)"
+    },
+    {
+        "japanese": "故障していますから、エレベーターに乗らないでください。（こしょうしていますから、エレベーターにのらないでください。）",
+        "chinese": "因為故障了，所以請不要搭電梯。",
+        "grammar": "故障しています = is broken down/malfunctioning; 乗らないでください = please do not ride"
+    },
+    {
+        "japanese": "電気をつけないでください。（でんきをつけないでください。）",
+        "chinese": "請不要開燈。",
+        "grammar": "電気 = lights; つけます = turn on -> つけないでください = please do not turn on"
+    },
+    {
+        "japanese": "グループのリーダーは地図を忘れないでください。（グループのリーダーはちずをわすれないでください。）",
+        "chinese": "小組的組長請不要忘記地圖。",
+        "grammar": "リーダー = leader; 地図 = map; 忘れます = forget -> 忘れないでください"
+    },
+    {
+        "japanese": "私は明日も残業をしなければなりません。（わたしはあしたもざんぎょうをしなければなりません。）",
+        "chinese": "我明天也不得不加班。",
+        "grammar": "残業 = overtime work; Verb [ない-form minus い] + ければなりません = must do / obligation expression"
+    },
+    {
+        "japanese": "この学校の生徒は制服を着なければいけません。（このがっこうのせいとはせいふくをきなければいけません。）",
+        "chinese": "這間學校的學生必須穿制服。",
+        "grammar": "生徒 = student; 制服 = uniform; 着ます = wear; 〜なければいけません = must do (interchangeable obligation marker)"
+    },
+    {
+        "japanese": "高橋さんは来週大使館へ行かなければ駄目です。（たかはしさんはらいしゅうたいしかんへいかなければだめです。）",
+        "chinese": "高橋先生下週不能不去大使館。",
+        "grammar": "来週 = next week; 大使館 = embassy; 〜なければ駄目です = conversational style for 'absolutely must do'"
+    },
+    {
+        "japanese": "私は明後日学校へ行かなくてもいいです。（わたしはあさってがっこうへいかなくてもいいです。）",
+        "chinese": "我後天不用去學校也可以。",
+        "grammar": "明後日 = day after tomorrow; Verb [ない-form minus い] + くてもいいです = do not have to do / need not"
+    },
+    {
+        "japanese": "すぐに使いますから、野菜を冷蔵庫に入れなくても結構です。（すぐにつかいますから、やさいをれいぞうこにいれなくてもけっこうです。）",
+        "chinese": "因為馬上要使用，所以蔬菜不用放到冰箱裡也可以。",
+        "grammar": "すぐに = immediately; 野菜 = vegetables; 冷蔵庫 = refrigerator; 〜なくても結構です = it is perfectly fine if you don't do"
+    },
+    {
+        "japanese": "ネクタイをつけなくても構いません。（ネクタイをつけなくてもかまいません。）",
+        "chinese": "不打領帶也沒關係。",
+        "grammar": "ネクタイ = necktie; つけます = wear/attach; 〜なくても構いません = no problem if omitted"
     }
 ]
