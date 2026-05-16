@@ -10,7 +10,7 @@ function init() {
     userResults = [];
     quizQuestions = [...n5Questions]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 50);
+        .slice(0, 100);
 
     displayQuestion();
 }
