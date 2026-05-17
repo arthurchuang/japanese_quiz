@@ -1,1 +1,156 @@
-const a5_0xfaeb76=a5_0x95ce;function a5_0x95ce(_0x597d81,_0x2077a4){_0x597d81=_0x597d81-0xf0;const _0x502b19=a5_0x4340();let _0x188933=_0x502b19[_0x597d81];return _0x188933;}(function(_0x21db57,_0x4196b4){const _0x4b2f86=a5_0x95ce,_0x5350cc=_0x21db57();while(!![]){try{const _0x1f342b=-parseInt(_0x4b2f86(0x101))/0x1*(-parseInt(_0x4b2f86(0xf1))/0x2)+parseInt(_0x4b2f86(0x137))/0x3+parseInt(_0x4b2f86(0x131))/0x4+-parseInt(_0x4b2f86(0x13a))/0x5+parseInt(_0x4b2f86(0x11e))/0x6*(-parseInt(_0x4b2f86(0x12f))/0x7)+-parseInt(_0x4b2f86(0x11b))/0x8*(parseInt(_0x4b2f86(0x11f))/0x9)+parseInt(_0x4b2f86(0x132))/0xa;if(_0x1f342b===_0x4196b4)break;else _0x5350cc['push'](_0x5350cc['shift']());}catch(_0x5d0072){_0x5350cc['push'](_0x5350cc['shift']());}}}(a5_0x4340,0x7b30c));const japDictionary=data[a5_0xfaeb76(0xfe)]((_0x501973,_0x2ce7b1)=>{const _0x1c9682=a5_0xfaeb76;return _0x501973[_0x2ce7b1[_0x1c9682(0xf4)]]=_0x2ce7b1['question'],_0x501973;},{});let unusedQuestions=[],current={},score=0x0,totalQuestions=0x19,wrongAnswers=[],hasAttempted=![];function shuffle(_0x9fd6c8){const _0x47cf1f=a5_0xfaeb76;for(let _0x46e995=_0x9fd6c8[_0x47cf1f(0x10b)]-0x1;_0x46e995>0x0;_0x46e995--){const _0x322da3=Math[_0x47cf1f(0x114)](Math['random']()*(_0x46e995+0x1));[_0x9fd6c8[_0x46e995],_0x9fd6c8[_0x322da3]]=[_0x9fd6c8[_0x322da3],_0x9fd6c8[_0x46e995]];}return _0x9fd6c8;}window['speechSynthesis']['onvoiceschanged']=()=>{const _0x5c2e36=a5_0xfaeb76;window['speechSynthesis'][_0x5c2e36(0x13c)](),console[_0x5c2e36(0x138)](_0x5c2e36(0xf8));};function a5_0x4340(){const _0x355bad=['splice','#2e7d32','progress','#c62828','querySelector','japanese','getElementById','floor','$1\x20$2','speechSynthesis','replace','nextBtn','txt','speak','2803736MueAqf','toLocaleDateString','classList','30BaswIW','18SXYxnG','<br>The\x20answer\x20is:\x20','style','add','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x200.8em;\x20color:\x20gray;\x22>','stringify','dateDisplay','refreshBtn','name','(((.+)+)+)+$','forEach','textContent','button','lang','Score:\x20','toString','561169gWgbwJ','block','1048952ZHcoZT','18243900UfKfgZ','rate','questionWord','long','\x20年\x20','848649vmEqpK','log','score','3943235UTRTkn','feedback','getVoices','finalScore','search','Question\x20','106khnzeT','color','includes','option','すごいですね!','find','push','Japanese\x20voices\x20loaded\x20and\x20ready!','innerText','2-digit','remove','onclick','constructor','reduce','ja-JP','innerHTML','481NvDkoO','setItem','.option.selected','voice','display','failedQuestions','options','selected','apply','\x20/\x20','length','slice'];a5_0x4340=function(){return _0x355bad;};return a5_0x4340();}function speakJapaneseText(_0x105045){const _0x2bd5ea=a5_0xfaeb76,_0x429c95=new SpeechSynthesisUtterance(_0x105045),_0x1172ae=window[_0x2bd5ea(0x116)][_0x2bd5ea(0x13c)](),_0x4b5c2c=_0x1172ae['find'](_0x21c520=>_0x21c520[_0x2bd5ea(0x12c)]===_0x2bd5ea(0xff)&&_0x21c520[_0x2bd5ea(0x127)][_0x2bd5ea(0xf3)]('Google'))||_0x1172ae[_0x2bd5ea(0xf6)](_0x5baddd=>_0x5baddd[_0x2bd5ea(0x12c)]===_0x2bd5ea(0xff));_0x4b5c2c&&(_0x429c95[_0x2bd5ea(0x104)]=_0x4b5c2c),_0x429c95[_0x2bd5ea(0x12c)]='ja-JP',_0x429c95[_0x2bd5ea(0x133)]=0.7,window[_0x2bd5ea(0x116)][_0x2bd5ea(0x11a)](_0x429c95);}function displayJapaneseDate(){const _0x2045b3=a5_0xfaeb76,_0x3a4187=new Date();let _0x13f483=_0x3a4187[_0x2045b3(0x11c)](_0x2045b3(0xff),{'calendar':_0x2045b3(0x112),'era':_0x2045b3(0x135),'year':'numeric','month':_0x2045b3(0xfa),'day':_0x2045b3(0xfa),'weekday':'long'});_0x13f483=_0x13f483['replace'](/(\D)(\d+)/,_0x2045b3(0x115))[_0x2045b3(0x117)]('年',_0x2045b3(0x136))[_0x2045b3(0x117)]('月','/')[_0x2045b3(0x117)]('日','\x20'),document[_0x2045b3(0x113)](_0x2045b3(0x125))[_0x2045b3(0xf9)]=_0x13f483;}function nextQuestion(){const _0x3759c8=a5_0xfaeb76,_0x4ae3bd=(function(){let _0x1c4826=!![];return function(_0x50f25c,_0x50d771){const _0x302041=_0x1c4826?function(){const _0x304d34=a5_0x95ce;if(_0x50d771){const _0x2832e3=_0x50d771[_0x304d34(0x109)](_0x50f25c,arguments);return _0x50d771=null,_0x2832e3;}}:function(){};return _0x1c4826=![],_0x302041;};}()),_0x22b88b=_0x4ae3bd(this,function(){const _0x18c405=a5_0x95ce;return _0x22b88b[_0x18c405(0x12e)]()[_0x18c405(0x13e)](_0x18c405(0x128))[_0x18c405(0x12e)]()[_0x18c405(0xfd)](_0x22b88b)[_0x18c405(0x13e)](_0x18c405(0x128));});_0x22b88b(),document['getElementById'](_0x3759c8(0x118))[_0x3759c8(0x121)][_0x3759c8(0x105)]='none';const _0x4b34d8=document[_0x3759c8(0x113)](_0x3759c8(0x13b));_0x4b34d8[_0x3759c8(0x12a)]='',hasAttempted=![];if(unusedQuestions['length']===0x0){if(wrongAnswers['length']>0x0){localStorage[_0x3759c8(0x102)](_0x3759c8(0x106),JSON[_0x3759c8(0x124)](wrongAnswers)),localStorage[_0x3759c8(0x102)](_0x3759c8(0x13d),score+'\x20/\x20'+totalQuestions),window['location'][_0x3759c8(0x117)]('vocab_review.html');return;}document[_0x3759c8(0x113)]('questionWord')[_0x3759c8(0x12a)]=_0x3759c8(0xf5),document[_0x3759c8(0x113)](_0x3759c8(0x107))[_0x3759c8(0x100)]='',document['getElementById'](_0x3759c8(0x10f))[_0x3759c8(0x12a)]='',document[_0x3759c8(0x113)](_0x3759c8(0x139))[_0x3759c8(0x12a)]='Final\x20Score:\x20'+score+_0x3759c8(0x10a)+totalQuestions,document[_0x3759c8(0x113)](_0x3759c8(0x118))[_0x3759c8(0x121)][_0x3759c8(0x105)]='none',document[_0x3759c8(0x113)](_0x3759c8(0x126))[_0x3759c8(0x121)][_0x3759c8(0x105)]=_0x3759c8(0x130);return;}const _0x1d788e=Math[_0x3759c8(0x114)](Math['random']()*unusedQuestions[_0x3759c8(0x10b)]);current=unusedQuestions[_0x3759c8(0x10d)](_0x1d788e,0x1)[0x0],document['getElementById'](_0x3759c8(0x134))[_0x3759c8(0x12a)]=current['question'],document[_0x3759c8(0x113)](_0x3759c8(0x10f))[_0x3759c8(0x12a)]=_0x3759c8(0xf0)+(totalQuestions-unusedQuestions[_0x3759c8(0x10b)])+_0x3759c8(0x10a)+totalQuestions,document[_0x3759c8(0x113)]('score')[_0x3759c8(0x12a)]=_0x3759c8(0x12d)+score;let _0x1dae73=data['filter'](_0x30c9e3=>_0x30c9e3['option']!==current[_0x3759c8(0xf4)]);_0x1dae73=shuffle(_0x1dae73)[_0x3759c8(0x10c)](0x0,0x3);const _0x4a98a3=shuffle([current,..._0x1dae73]),_0x44c30a=document[_0x3759c8(0x113)]('options');_0x44c30a['innerHTML']='',_0x4a98a3[_0x3759c8(0x129)](_0x10a80b=>{const _0x3b0837=_0x3759c8,_0x101665=document['createElement'](_0x3b0837(0x12b));_0x101665['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>'+_0x10a80b[_0x3b0837(0xf4)]+_0x3b0837(0x123)+_0x10a80b[_0x3b0837(0x119)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x101665['className']=_0x3b0837(0xf4),_0x101665[_0x3b0837(0xfc)]=()=>{const _0xb6d21a=_0x3b0837,_0x1ec336=_0x44c30a[_0xb6d21a(0x111)](_0xb6d21a(0x103));_0x1ec336&&_0x1ec336[_0xb6d21a(0x11d)][_0xb6d21a(0xfb)](_0xb6d21a(0x108)),_0x101665[_0xb6d21a(0x11d)][_0xb6d21a(0x122)](_0xb6d21a(0x108)),speakJapaneseText(_0x10a80b[_0xb6d21a(0xf4)]),_0x10a80b[_0xb6d21a(0xf4)]===current[_0xb6d21a(0xf4)]?(_0x4b34d8[_0xb6d21a(0x12a)]='✅\x20Correct!',_0x4b34d8[_0xb6d21a(0x121)]['color']=_0xb6d21a(0x10e),!hasAttempted&&(score++,hasAttempted=!![])):(!hasAttempted&&wrongAnswers[_0xb6d21a(0xf7)]({'question':current['question'],'correctAnswer':current[_0xb6d21a(0xf4)],'userChoice':_0x10a80b[_0xb6d21a(0xf4)]}),_0x4b34d8['innerHTML']='❌\x20'+japDictionary[_0x10a80b[_0xb6d21a(0xf4)]]+_0xb6d21a(0x120)+current[_0xb6d21a(0xf4)],_0x4b34d8[_0xb6d21a(0x121)][_0xb6d21a(0xf2)]=_0xb6d21a(0x110),hasAttempted=!![]),document['getElementById'](_0xb6d21a(0x118))[_0xb6d21a(0x121)][_0xb6d21a(0x105)]='block',document[_0xb6d21a(0x113)]('score')['textContent']=_0xb6d21a(0x12d)+score;},_0x44c30a['appendChild'](_0x101665);});}unusedQuestions=shuffle([...data])['slice'](0x0,totalQuestions),displayJapaneseDate(),nextQuestion();
+const japDictionary = data.reduce((acc, item) => {
+    acc[item.option] = item.question;
+    return acc;
+}, {});
+
+// Quiz variables.
+let unusedQuestions = [];
+let current = {};
+let score = 0;
+let totalQuestions = 25;
+let wrongAnswers = [];
+let hasAttempted = false;
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+window.speechSynthesis.onvoiceschanged = () => {
+    // This "warms up" the voice list so it's ready when the user clicks 'Play'
+    window.speechSynthesis.getVoices();
+    console.log("Japanese voices loaded and ready!");
+};
+function speakJapaneseText(text) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+
+    const jpVoice = voices.find(voice =>
+        voice.lang === 'ja-JP' && voice.name.includes('Google')
+    ) || voices.find(voice => voice.lang === 'ja-JP');
+
+    if (jpVoice) {
+        utterance.voice = jpVoice;
+    }
+
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.7;
+    window.speechSynthesis.speak(utterance);
+}
+
+function displayJapaneseDate() {
+    const today = new Date();
+
+    // 1. Get the base Era/Year/Padded Month/Day/Weekday
+    let formatted = today.toLocaleDateString('ja-JP', {
+        calendar: 'japanese',
+        era: 'long',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        weekday: 'long'
+    });
+
+    // 2. Clean up the Kanji to get your "/" and spacing
+    // Transforms "令和8年03月04日水曜日" -> "令和 8 年 03/04 水曜日"
+    formatted = formatted
+        .replace(/(\D)(\d+)/, '$1 $2')
+        .replace('年', ' 年 ')
+        .replace('月', '/')
+        .replace('日', ' ');
+
+    // 3. Print it to the top of the page
+    document.getElementById("dateDisplay").innerText = formatted;
+}
+
+function nextQuestion() {
+    document.getElementById("nextBtn").style.display = "none";
+    const feedback = document.getElementById("feedback");
+    feedback.textContent = "";
+    hasAttempted = false;
+
+    if (unusedQuestions.length === 0) {
+        if (wrongAnswers.length > 0) {
+            localStorage.setItem('failedQuestions', JSON.stringify(wrongAnswers));
+            localStorage.setItem('finalScore', `${score} / ${totalQuestions}`);
+            window.location.replace("vocab_review.html");
+            return
+        }
+        document.getElementById("questionWord").textContent = "すごいですね!";
+        document.getElementById("options").innerHTML = "";
+        document.getElementById("progress").textContent = "";
+        document.getElementById("score").textContent = `Final Score: ${score} / ${totalQuestions}`;
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("refreshBtn").style.display = "block";
+        return;
+    }
+
+    const index = Math.floor(Math.random() * unusedQuestions.length);
+    current = unusedQuestions.splice(index, 1)[0];
+
+    document.getElementById("questionWord").textContent = current.question;
+    document.getElementById("progress").textContent = `Question ${totalQuestions - unusedQuestions.length} / ${totalQuestions}`;
+    document.getElementById("score").textContent = `Score: ${score}`;
+
+    let distractors = data.filter(d => d.option !== current.option);
+    distractors = shuffle(distractors).slice(0, 3);
+
+    const options = shuffle([current, ...distractors]);
+    const optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+
+    options.forEach(opt => {
+        const btn = document.createElement("button");
+
+        // Create two lines: option + txt
+        btn.innerHTML = `
+            <div>${opt.option}</div>
+            <div style="font-size: 0.8em; color: gray;">${opt.txt}</div>
+        `;
+
+        btn.className = "option";
+
+        btn.onclick = () => {
+            const existingSelected = optionsDiv.querySelector('.option.selected');
+            if (existingSelected) {
+                existingSelected.classList.remove('selected');
+            }
+
+            btn.classList.add('selected');
+
+            speakJapaneseText(opt.option);
+
+            if (opt.option === current.option) {
+                feedback.textContent = "✅ Correct!";
+                feedback.style.color = "#2e7d32";
+                if (!hasAttempted) {
+                    score++;
+                    hasAttempted = true;
+                }
+            } else {
+                if (!hasAttempted) {
+                    wrongAnswers.push({
+                        question: current.question,
+                        correctAnswer: current.option,
+                        userChoice: opt.option
+                    });
+                }
+                feedback.innerHTML = `❌ ${japDictionary[opt.option]}<br>The answer is: ${current.option}`;
+                feedback.style.color = "#c62828";
+                hasAttempted = true;
+            }
+
+            document.getElementById("nextBtn").style.display = "block";
+            document.getElementById("score").textContent = `Score: ${score}`;
+        };
+
+        optionsDiv.appendChild(btn);
+    });
+}
+
+unusedQuestions = shuffle([...data]).slice(0, totalQuestions);
+displayJapaneseDate();
+nextQuestion();
