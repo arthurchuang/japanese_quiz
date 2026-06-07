@@ -101,6 +101,7 @@ async function displayQuestion() {
     progressEl.textContent = `Question ${questionNumber} / ${window.currentQuiz.length}`;
     optionsEl.innerHTML = "";
     feedbackEl.textContent = "";
+    feedbackEl.style.color = "";
     nextBtn.style.display = "none";
     refreshBtn.style.display = "none";
 
@@ -157,6 +158,7 @@ async function displayQuestion() {
 
 function revealAnswer(answer) {
     feedbackEl.textContent = `${answer}`;
+    feedbackEl.style.color = "#2e7d32";
     optionsEl.innerHTML = "";
 
     const isLast = window.currentQuestionIndex >= window.currentQuiz.length - 1;
