@@ -1,116 +1,119 @@
 import fs from "fs";
+import { n5Questions } from "./grammar_questions.js";
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function pickRandom(arr, n) {
-    return arr.sort(() => 0.5 - Math.random()).slice(0, n);
+    return [...arr].sort(() => 0.5 - Math.random()).slice(0, n);
 }
 
 function isValidQuiz(quiz) {
     return (
         Array.isArray(quiz) &&
         quiz.length > 0 &&
-        quiz.every(
-            (q) =>
-                q.type === "mcq" &&
-                q.question &&
-                Array.isArray(q.options) &&
-                q.options.length === 4 &&
-                q.answer &&
-                q.explanation
-        )
+        quiz.every((q) => q.type === "translation" && q.question && q.answer)
     );
 }
+
+// ─── Groq ─────────────────────────────────────────────────────────────────────
 
 async function callGroq(prompt) {
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {
             "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         },
         body: JSON.stringify({
             model: "llama-3.3-70b-versatile",
-            messages: [
-                { role: "user", content: prompt }
-            ],
-            temperature: 0.7
-        })
+            messages: [{ role: "user", content: prompt }],
+            temperature: 0.7,
+        }),
     });
 
     const data = await response.json();
     return data.choices[0].message.content;
 }
 
-async function generateQuiz() {
-    const sentences = JSON.parse(
-        fs.readFileSync("./data/sentences.json", "utf-8")
-    );
+// ─── Main ─────────────────────────────────────────────────────────────────────
 
-    const selected = pickRandom(sentences, 50);
+async function generateQuiz() {
+    // Give Groq a random pool of 40 to choose 10 diverse sentences from
+    const pool = pickRandom(n5Questions, 40);
 
     const prompt = `
-You are a native Japanese teacher creating JLPT N5 MCQ quizzes for Chinese speakers.
+You are a JLPT N5 Japanese teacher. You will be given a pool of Japanese sentences, each with an index.
 
-Pick exactly 10 sentences from the provided pool.
-Do not blank out, remove, or change any part of the sentence.
+Your task: pick exactly 10 sentences that together cover a diverse variety of grammar points
+(e.g. don't pick 3 sentences that all use な-adjectives — spread across verbs, particles, adjectives, tenses, etc.).
 
-For each sentence:
-- Show the full original Japanese sentence as the question
-- Provide 4 Chinese translation options: 1 correct translation and 3 incorrect but plausible alternatives
-- The correct answer must match one option exactly, character for character
-- Add a short explanation in Chinese about why the correct translation is right
+Return ONLY a JSON array of the indices you selected (0-based), nothing else. No explanation, no markdown.
 
-Use only one sentence per question.
-Return ONLY valid JSON.
+Example output: [0, 4, 7, 12, 15, 19, 22, 28, 33, 37]
 
-OUTPUT SCHEMA:
-[
-  {
-    "type": "mcq",
-    "question": "<full original Japanese sentence>",
-    "options": ["...", "...", "...", "..."],
-    "answer": "<correct Chinese translation>",
-    "explanation": "<short Chinese explanation>"
-  }
-]
-
-If unsure about a sentence, skip it.
-
-Sentences:
-${JSON.stringify(selected)}
+Pool:
+${JSON.stringify(pool.map((entry, i) => ({ index: i, q: entry.q })))}
 `;
 
     for (let attempt = 1; attempt <= 2; attempt++) {
         try {
             const text = await callGroq(prompt);
 
-            let quiz;
+            let indices;
             try {
-                quiz = JSON.parse(text);
+                indices = JSON.parse(text.trim());
             } catch {
-                console.log("JSON parse failed, retrying...");
+                console.log(`  ⚠️  Attempt ${attempt}: JSON parse failed, retrying...`);
                 continue;
             }
+
+            if (
+                !Array.isArray(indices) ||
+                indices.length !== 10 ||
+                indices.some((i) => typeof i !== "number" || i < 0 || i >= pool.length)
+            ) {
+                console.log(`  ⚠️  Attempt ${attempt}: Invalid indices, retrying...`);
+                continue;
+            }
+
+            const quiz = indices.map((i) => ({
+                type: "translation",
+                question: pool[i].q,
+                answer: pool[i].a,
+            }));
 
             if (!isValidQuiz(quiz)) {
-                console.log("Invalid format, retrying...");
+                console.log(`  ⚠️  Attempt ${attempt}: Invalid quiz format, retrying...`);
                 continue;
             }
 
-            const filename = `./quizzes/daily-${new Date()
-                .toISOString()
-                .split("T")[0]}.json`;
-
+            // Save quiz file
+            const date = new Date().toISOString().split("T")[0];
+            const filename = `./quizzes/daily-${date}.json`;
             fs.writeFileSync(filename, JSON.stringify(quiz, null, 2));
+            console.log("✅ Quiz saved:", filename);
 
-            console.log("✅ Quiz generated:", filename);
+            // Update index.json
+            const indexFile = "./quizzes/index.json";
+            const index = fs.existsSync(indexFile)
+                ? JSON.parse(fs.readFileSync(indexFile, "utf-8"))
+                : [];
+            const entry = `daily-${date}.json`;
+            if (!index.includes(entry)) {
+                index.push(entry);
+                fs.writeFileSync(indexFile, JSON.stringify(index, null, 2));
+                console.log("✅ Index updated:", indexFile);
+            }
+
             return;
 
         } catch (err) {
-            console.error("Error:", err);
+            console.error(`  ❌ Attempt ${attempt} error:`, err.message);
         }
     }
 
-    console.error("❌ Failed after retries");
+    console.error("❌ Failed to generate quiz after all attempts");
+    process.exit(1);
 }
 
 generateQuiz();

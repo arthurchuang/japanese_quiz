@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily AI Quiz</title>
+    <title>Daily Japanese Quiz</title>
 
     <style>
+        /* ─── Reset & base ───────────────────────────────────────────────────── */
+
         * {
             box-sizing: border-box;
         }
@@ -24,8 +26,10 @@
             padding: 15px;
         }
 
+        /* ─── Container ──────────────────────────────────────────────────────── */
+
         .quiz-container {
-            background: pink;
+            background: white;
             padding: 25px;
             border-radius: 16px;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
@@ -33,6 +37,8 @@
             max-width: 400px;
             margin-bottom: 15px;
         }
+
+        /* ─── Typography ─────────────────────────────────────────────────────── */
 
         h1 {
             font-size: 1.4rem;
@@ -48,7 +54,30 @@
             font-size: 1.8rem;
             font-weight: bold;
             margin: 1em 0;
+            line-height: 1.4;
         }
+
+        #feedback {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            min-height: 2em;
+            color: #333;
+        }
+
+        #score {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .date-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* ─── Buttons ────────────────────────────────────────────────────────── */
 
         .option {
             display: block;
@@ -60,17 +89,12 @@
             background-color: #fff;
             font-size: 1rem;
             cursor: pointer;
+            transition: background-color 0.15s, border-color 0.15s;
         }
 
-        #feedback {
-            margin-top: 15px;
-            font-weight: 600;
-            min-height: 3em;
-        }
-
-        #score {
-            font-weight: bold;
-            margin: 10px 0;
+        .option:hover {
+            background-color: #f5f5f5;
+            border-color: #ddd;
         }
 
         .next-btn {
@@ -84,52 +108,58 @@
             font-size: 1.1rem;
             font-weight: bold;
             cursor: pointer;
+            transition: background-color 0.15s;
+        }
+
+        .next-btn:hover {
+            background-color: #0066CC;
         }
 
         .next-btn:disabled {
             background-color: #ccc;
+            cursor: default;
         }
 
         #nextBtn {
             display: none;
         }
 
-        .date-header {
-            font-weight: bold;
-            margin-bottom: 5px;
+        /* ─── Loading ────────────────────────────────────────────────────────── */
+
+        #loading {
+            color: #888;
+            font-size: 0.95rem;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- 🔹 Quiz Selection -->
+    <!-- ─── Quiz selection ──────────────────────────────────────────────────── -->
     <div id="quiz-list-screen" class="quiz-container">
         <h1>クイズを選びましょう</h1>
-        <p>Select a quiz</p>
+        <p id="loading">Loading available quizzes...</p>
         <div id="quizList"></div>
     </div>
 
-    <!-- 🔹 Quiz Screen -->
-    <div id="quiz-screen" class="quiz-container" style="display:none;">
-
-        <p id="loading">Loading quiz...</p>
+    <!-- ─── Quiz screen ─────────────────────────────────────────────────────── -->
+    <div id="quiz-screen" class="quiz-container" style="display: none;">
 
         <p id="dateDisplay" class="date-header"></p>
         <h1>今日の文法クイズ</h1>
 
-        <div id="question-section">
-            <p id="progress"></p>
-            <p id="questionWord"></p>
-        </div>
+        <p id="progress"></p>
+        <div id="questionWord"></div>
 
         <div id="options"></div>
 
         <p id="feedback"></p>
         <p id="score"></p>
 
-        <button id="nextBtn" class="next-btn" disabled>Next Question</button>
-        <button id="refreshBtn" class="next-btn" style="display:none;" onclick="location.reload()">もう一度挑戦する!</button>
+        <button id="nextBtn" class="next-btn" disabled>Next Question →</button>
+        <button id="refreshBtn" class="next-btn" style="display: none;" onclick="location.reload()">
+            もう一度挑戦する! 🔄
+        </button>
 
     </div>
 

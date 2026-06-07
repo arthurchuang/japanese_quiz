@@ -2,6 +2,8 @@ import { TypecastClient, TypecastAPIError } from "@neosapience/typecast-js";
 import fs from "fs";
 import path from "path";
 
+// ─── Typecast client ──────────────────────────────────────────────────────────
+
 const client = new TypecastClient({
     apiKey: process.env.TYPECAST_API_KEY,
 });
@@ -20,8 +22,9 @@ async function textToSpeech(text) {
     return Buffer.from(audio.audioData);
 }
 
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
 async function generateRecordings() {
-    // Find today's quiz file
     const date = new Date().toISOString().split("T")[0];
     const quizFile = `./quizzes/daily-${date}.json`;
 
@@ -32,14 +35,23 @@ async function generateRecordings() {
 
     const quiz = JSON.parse(fs.readFileSync(quizFile, "utf-8"));
 
-    // Create recordings folder
     const recordingDir = `./recordings/recording-${date}`;
     fs.mkdirSync(recordingDir, { recursive: true });
 
-    console.log(`🎙️ Generating ${quiz.length} recordings into ${recordingDir}...`);
+    // Skip questions that already have a recording
+    const pending = quiz
+        .map((entry, i) => ({ entry, i }))
+        .filter(({ i }) => !fs.existsSync(path.join(recordingDir, `question-${i + 1}.wav`)));
 
-    for (let i = 0; i < quiz.length; i++) {
-        const question = quiz[i].question.replace(/（.+?）/, "").trim();
+    if (pending.length === 0) {
+        console.log("✅ All recordings already exist, nothing to do.");
+        return;
+    }
+
+    console.log(`🎙️  Generating ${pending.length} / ${quiz.length} recording(s) into ${recordingDir}...`);
+
+    for (const { entry, i } of pending) {
+        const question = entry.question.replace(/（.+?）/, "").trim();
         const outputPath = path.join(recordingDir, `question-${i + 1}.wav`);
 
         console.log(`  [${i + 1}/${quiz.length}] "${question}"`);
@@ -57,7 +69,7 @@ async function generateRecordings() {
         }
     }
 
-    console.log("Done!");
+    console.log("✅ Done!");
 }
 
 generateRecordings();
