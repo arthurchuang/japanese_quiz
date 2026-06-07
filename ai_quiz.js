@@ -156,7 +156,7 @@ async function displayQuestion() {
 // ─── Reveal answer ────────────────────────────────────────────────────────────
 
 function revealAnswer(answer) {
-    feedbackEl.textContent = `✅ ${answer}`;
+    feedbackEl.textContent = `${answer}`;
     optionsEl.innerHTML = "";
 
     const isLast = window.currentQuestionIndex >= window.currentQuiz.length - 1;
