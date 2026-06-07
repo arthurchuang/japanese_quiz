@@ -1,1 +1,75 @@
-(function(_0x8b93d3,_0x221d4b){const _0x19597f=a2_0x360c,_0x598910=_0x8b93d3();while(!![]){try{const _0x3f88a3=parseInt(_0x19597f(0x15f))/0x1*(parseInt(_0x19597f(0x151))/0x2)+-parseInt(_0x19597f(0x152))/0x3*(-parseInt(_0x19597f(0x164))/0x4)+parseInt(_0x19597f(0x16c))/0x5*(-parseInt(_0x19597f(0x155))/0x6)+parseInt(_0x19597f(0x15a))/0x7*(parseInt(_0x19597f(0x14e))/0x8)+-parseInt(_0x19597f(0x15d))/0x9*(-parseInt(_0x19597f(0x178))/0xa)+-parseInt(_0x19597f(0x154))/0xb+-parseInt(_0x19597f(0x153))/0xc;if(_0x3f88a3===_0x221d4b)break;else _0x598910['push'](_0x598910['shift']());}catch(_0x32c632){_0x598910['push'](_0x598910['shift']());}}}(a2_0x5c1f,0x3e79b));function a2_0x360c(_0x2d5352,_0x560b35){_0x2d5352=_0x2d5352-0x14a;const _0x2bf60b=a2_0x5c1f();let _0x885564=_0x2bf60b[_0x2d5352];return _0x885564;}import{TypecastClient,TypecastAPIError}from'@neosapience/typecast-js';import a2_0x4219e5 from'fs';import a2_0x361737 from'path';const client=new TypecastClient({'apiKey':process.env.TYPECAST_API_KEY});async function textToSpeech(_0x41e822){const _0x605899=a2_0x360c,_0x7e9e95=await client[_0x605899(0x175)]({'text':_0x41e822,'model':_0x605899(0x157),'voice_id':_0x605899(0x176),'language':_0x605899(0x16d),'output':{'audio_format':'wav'}});return Buffer[_0x605899(0x14a)](_0x7e9e95[_0x605899(0x14b)]);}async function generateRecordings(){const _0x730804=a2_0x360c,_0x41b61f=(function(){let _0x449705=!![];return function(_0x53fd8f,_0x1b59b5){const _0x5f1550=_0x449705?function(){const _0x27e63c=a2_0x360c;if(_0x1b59b5){const _0x171602=_0x1b59b5[_0x27e63c(0x14c)](_0x53fd8f,arguments);return _0x1b59b5=null,_0x171602;}}:function(){};return _0x449705=![],_0x5f1550;};}()),_0x5c89f6=_0x41b61f(this,function(){const _0x48e36f=a2_0x360c;return _0x5c89f6[_0x48e36f(0x167)]()[_0x48e36f(0x14d)]('(((.+)+)+)+$')['toString']()[_0x48e36f(0x168)](_0x5c89f6)[_0x48e36f(0x14d)](_0x48e36f(0x14f));});_0x5c89f6();const _0x1b12a4=new Date()['toISOString']()[_0x730804(0x177)]('T')[0x0],_0x2bd912='./quizzes/daily-'+_0x1b12a4+_0x730804(0x16b);!a2_0x4219e5['existsSync'](_0x2bd912)&&(console[_0x730804(0x169)](_0x730804(0x172)+_0x2bd912),process[_0x730804(0x170)](0x1));const _0xf34769=JSON[_0x730804(0x171)](a2_0x4219e5['readFileSync'](_0x2bd912,_0x730804(0x15c))),_0x2ef441=_0x730804(0x173)+_0x1b12a4;a2_0x4219e5[_0x730804(0x16f)](_0x2ef441,{'recursive':!![]});const _0x1c8f78=_0xf34769['map']((_0x40eace,_0x5d5fb4)=>({'entry':_0x40eace,'i':_0x5d5fb4}))['filter'](({i:_0x5318fd})=>!a2_0x4219e5[_0x730804(0x174)](a2_0x361737['join'](_0x2ef441,_0x730804(0x162)+(_0x5318fd+0x1)+_0x730804(0x150))));if(_0x1c8f78['length']===0x0){console['log'](_0x730804(0x159));return;}console[_0x730804(0x158)]('🎙️\x20\x20Generating\x20'+_0x1c8f78[_0x730804(0x15e)]+'\x20/\x20'+_0xf34769[_0x730804(0x15e)]+_0x730804(0x161)+_0x2ef441+_0x730804(0x160));for(const {entry:_0x3e8d0c,i:_0x1a032b}of _0x1c8f78){const _0x3969c7=_0x3e8d0c[_0x730804(0x16e)][_0x730804(0x15b)](/（.+?）/,'')['trim'](),_0x52c950=a2_0x361737[_0x730804(0x163)](_0x2ef441,'question-'+(_0x1a032b+0x1)+_0x730804(0x150));console[_0x730804(0x158)]('\x20\x20['+(_0x1a032b+0x1)+'/'+_0xf34769[_0x730804(0x15e)]+_0x730804(0x166)+_0x3969c7+'\x22');try{const _0x3933ae=await textToSpeech(_0x3969c7);a2_0x4219e5['writeFileSync'](_0x52c950,_0x3933ae),console['log']('\x20\x20✅\x20Saved:\x20'+_0x52c950);}catch(_0x5bbc8f){_0x5bbc8f instanceof TypecastAPIError?console[_0x730804(0x169)](_0x730804(0x156)+_0x5bbc8f['statusCode']+'):',_0x5bbc8f['message']):console[_0x730804(0x169)](_0x730804(0x165)+(_0x1a032b+0x1)+':',_0x5bbc8f[_0x730804(0x16a)]);}}console['log']('✅\x20Done!');}generateRecordings();function a2_0x5c1f(){const _0x2a806d=['message','.json','25NUYQcR','jpn','question','mkdirSync','exit','parse','❌\x20No\x20quiz\x20file\x20found\x20for\x20today:\x20','./recordings/recording-','existsSync','textToSpeech','tc_68f9c6a72f0f04a417bb136f','split','10hLwVOl','from','audioData','apply','search','4044520uWHDPg','(((.+)+)+)+$','.wav','318290riHxLv','107637kHySsw','4245588uHUsti','4826250EWUDDd','61584sTYodo','\x20\x20❌\x20Typecast\x20API\x20error\x20(','ssfm-v30','log','✅\x20All\x20recordings\x20already\x20exist,\x20nothing\x20to\x20do.','7fkvZcw','replace','utf-8','3592611EkDWeT','length','1FoIwPo','...','\x20recording(s)\x20into\x20','question-','join','4RonGHz','\x20\x20❌\x20Failed\x20for\x20question\x20',']\x20\x22','toString','constructor','error'];a2_0x5c1f=function(){return _0x2a806d;};return a2_0x5c1f();}
+import { TypecastClient, TypecastAPIError } from "@neosapience/typecast-js";
+import fs from "fs";
+import path from "path";
+
+// ─── Typecast client ──────────────────────────────────────────────────────────
+
+const client = new TypecastClient({
+    apiKey: process.env.TYPECAST_API_KEY,
+});
+
+async function textToSpeech(text) {
+    const audio = await client.textToSpeech({
+        text,
+        model: "ssfm-v30",
+        voice_id: "tc_68f9c6a72f0f04a417bb136f",
+        language: "jpn",
+        output: {
+            audio_format: "wav",
+        },
+    });
+
+    return Buffer.from(audio.audioData);
+}
+
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
+async function generateRecordings() {
+    const date = new Date().toISOString().split("T")[0];
+    const quizFile = `./quizzes/daily-${date}.json`;
+
+    if (!fs.existsSync(quizFile)) {
+        console.error(`❌ No quiz file found for today: ${quizFile}`);
+        process.exit(1);
+    }
+
+    const quiz = JSON.parse(fs.readFileSync(quizFile, "utf-8"));
+
+    const recordingDir = `./recordings/recording-${date}`;
+    fs.mkdirSync(recordingDir, { recursive: true });
+
+    // Skip questions that already have a recording
+    const pending = quiz
+        .map((entry, i) => ({ entry, i }))
+        .filter(({ i }) => !fs.existsSync(path.join(recordingDir, `question-${i + 1}.wav`)));
+
+    if (pending.length === 0) {
+        console.log("✅ All recordings already exist, nothing to do.");
+        return;
+    }
+
+    console.log(`🎙️  Generating ${pending.length} / ${quiz.length} recording(s) into ${recordingDir}...`);
+
+    for (const { entry, i } of pending) {
+        const question = entry.question.replace(/（.+?）/, "").trim();
+        const outputPath = path.join(recordingDir, `question-${i + 1}.wav`);
+
+        console.log(`  [${i + 1}/${quiz.length}] "${question}"`);
+
+        try {
+            const audioBuffer = await textToSpeech(question);
+            fs.writeFileSync(outputPath, audioBuffer);
+            console.log(`  ✅ Saved: ${outputPath}`);
+        } catch (err) {
+            if (err instanceof TypecastAPIError) {
+                console.error(`  ❌ Typecast API error (${err.statusCode}):`, err.message);
+            } else {
+                console.error(`  ❌ Failed for question ${i + 1}:`, err.message);
+            }
+        }
+    }
+
+    console.log("✅ Done!");
+}
+
+generateRecordings();
