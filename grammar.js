@@ -1,3 +1,4 @@
+import { n5Questions } from "./grammar_questions.js";
 let currentIdx = 0;
 let score = 0;
 let canClick = true;
