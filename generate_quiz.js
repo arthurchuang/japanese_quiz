@@ -1,1 +1,119 @@
-(function(_0x19cb64,_0x1f1b11){const _0x40e4cf=a1_0x45fc,_0x1bba65=_0x19cb64();while(!![]){try{const _0x5e7102=-parseInt(_0x40e4cf(0x187))/0x1*(parseInt(_0x40e4cf(0x17c))/0x2)+parseInt(_0x40e4cf(0x15a))/0x3*(parseInt(_0x40e4cf(0x178))/0x4)+-parseInt(_0x40e4cf(0x175))/0x5*(-parseInt(_0x40e4cf(0x17f))/0x6)+parseInt(_0x40e4cf(0x14f))/0x7*(-parseInt(_0x40e4cf(0x185))/0x8)+-parseInt(_0x40e4cf(0x16a))/0x9+parseInt(_0x40e4cf(0x162))/0xa+parseInt(_0x40e4cf(0x177))/0xb;if(_0x5e7102===_0x1f1b11)break;else _0x1bba65['push'](_0x1bba65['shift']());}catch(_0xcb4f17){_0x1bba65['push'](_0x1bba65['shift']());}}}(a1_0x5257,0x40e96));import a1_0x448efa from'fs';import{n5Questions}from'./grammar_questions.js';function pickRandom(_0x5959ba,_0xbb485f){const _0x1b2086=a1_0x45fc;return[..._0x5959ba][_0x1b2086(0x15b)](()=>0.5-Math['random']())[_0x1b2086(0x179)](0x0,_0xbb485f);}function isValidQuiz(_0x404774){const _0x236af8=a1_0x45fc;return Array[_0x236af8(0x15f)](_0x404774)&&_0x404774[_0x236af8(0x158)]>0x0&&_0x404774[_0x236af8(0x186)](_0x3513b4=>_0x3513b4[_0x236af8(0x172)]===_0x236af8(0x182)&&_0x3513b4[_0x236af8(0x17e)]&&_0x3513b4[_0x236af8(0x17b)]);}function a1_0x45fc(_0x587622,_0xeba51d){_0x587622=_0x587622-0x14c;const _0x3ebd3e=a1_0x5257();let _0x1ca334=_0x3ebd3e[_0x587622];return _0x1ca334;}async function callGroq(_0x4af54a){const _0x264942=a1_0x45fc,_0x124a72=await fetch(_0x264942(0x16f),{'method':_0x264942(0x15e),'headers':{'Authorization':_0x264942(0x159)+process.env.GROQ_API_KEY,'Content-Type':'application/json'},'body':JSON[_0x264942(0x180)]({'model':'llama-3.3-70b-versatile','messages':[{'role':_0x264942(0x16e),'content':_0x4af54a}],'temperature':0.7})}),_0x102198=await _0x124a72[_0x264942(0x170)]();return _0x102198[_0x264942(0x169)][0x0][_0x264942(0x181)][_0x264942(0x151)];}async function generateQuiz(){const _0x377346=a1_0x45fc,_0x4ca78c=(function(){let _0x48e160=!![];return function(_0x351c9c,_0xed8eb){const _0xa441b3=_0x48e160?function(){const _0x26a394=a1_0x45fc;if(_0xed8eb){const _0x434539=_0xed8eb[_0x26a394(0x160)](_0x351c9c,arguments);return _0xed8eb=null,_0x434539;}}:function(){};return _0x48e160=![],_0xa441b3;};}()),_0x821a96=_0x4ca78c(this,function(){const _0x2df589=a1_0x45fc;return _0x821a96[_0x2df589(0x163)]()[_0x2df589(0x14d)](_0x2df589(0x16c))['toString']()[_0x2df589(0x14c)](_0x821a96)[_0x2df589(0x14d)](_0x2df589(0x16c));});_0x821a96();const _0x49c10e=pickRandom(n5Questions,0x28),_0x5518a0='\x0aYou\x20are\x20a\x20JLPT\x20N5\x20Japanese\x20teacher.\x20You\x20will\x20be\x20given\x20a\x20pool\x20of\x20Japanese\x20sentences,\x20each\x20with\x20an\x20index.\x0a\x0aYour\x20task:\x20pick\x20exactly\x2010\x20sentences\x20that\x20together\x20cover\x20a\x20diverse\x20variety\x20of\x20grammar\x20points\x0a(e.g.\x20don\x27t\x20pick\x203\x20sentences\x20that\x20all\x20use\x20な-adjectives\x20—\x20spread\x20across\x20verbs,\x20particles,\x20adjectives,\x20tenses,\x20etc.).\x0a\x0aReturn\x20ONLY\x20a\x20JSON\x20array\x20of\x20the\x20indices\x20you\x20selected\x20(0-based),\x20nothing\x20else.\x20No\x20explanation,\x20no\x20markdown.\x0a\x0aExample\x20output:\x20[0,\x204,\x207,\x2012,\x2015,\x2019,\x2022,\x2028,\x2033,\x2037]\x0a\x0aPool:\x0a'+JSON[_0x377346(0x180)](_0x49c10e[_0x377346(0x15d)]((_0x2166db,_0x18e08d)=>({'index':_0x18e08d,'q':_0x2166db['q']})))+'\x0a';for(let _0x521779=0x1;_0x521779<=0x2;_0x521779++){try{const _0x1fe278=await callGroq(_0x5518a0);let _0x43a72b;try{_0x43a72b=JSON['parse'](_0x1fe278[_0x377346(0x161)]());}catch{console[_0x377346(0x16b)](_0x377346(0x164)+_0x521779+_0x377346(0x188));continue;}if(!Array['isArray'](_0x43a72b)||_0x43a72b[_0x377346(0x158)]!==0xa||_0x43a72b[_0x377346(0x171)](_0x1dbf6b=>typeof _0x1dbf6b!==_0x377346(0x173)||_0x1dbf6b<0x0||_0x1dbf6b>=_0x49c10e[_0x377346(0x158)])){console[_0x377346(0x16b)]('\x20\x20⚠️\x20\x20Attempt\x20'+_0x521779+_0x377346(0x17d));continue;}const _0x53c5fe=_0x43a72b[_0x377346(0x15d)](_0xd19a0c=>({'type':_0x377346(0x182),'question':_0x49c10e[_0xd19a0c]['q'],'answer':_0x49c10e[_0xd19a0c]['a']}));if(!isValidQuiz(_0x53c5fe)){console[_0x377346(0x16b)](_0x377346(0x164)+_0x521779+_0x377346(0x154));continue;}const _0x185b80=new Date()[_0x377346(0x174)]()[_0x377346(0x176)]('T')[0x0],_0x41ced4='./quizzes/daily-'+_0x185b80+_0x377346(0x184);a1_0x448efa[_0x377346(0x166)](_0x41ced4,JSON['stringify'](_0x53c5fe,null,0x2)),console[_0x377346(0x16b)](_0x377346(0x16d),_0x41ced4);const _0x3ecdc5=_0x377346(0x183),_0x505df4=a1_0x448efa[_0x377346(0x165)](_0x3ecdc5)?JSON[_0x377346(0x150)](a1_0x448efa[_0x377346(0x153)](_0x3ecdc5,_0x377346(0x168))):[],_0x411114=_0x377346(0x156)+_0x185b80+'.json';!_0x505df4[_0x377346(0x157)](_0x411114)&&(_0x505df4[_0x377346(0x14e)](_0x411114),a1_0x448efa[_0x377346(0x166)](_0x3ecdc5,JSON[_0x377346(0x180)](_0x505df4,null,0x2)),console[_0x377346(0x16b)](_0x377346(0x167),_0x3ecdc5));return;}catch(_0x488b12){console[_0x377346(0x155)](_0x377346(0x15c)+_0x521779+_0x377346(0x152),_0x488b12[_0x377346(0x181)]);}}console[_0x377346(0x155)]('❌\x20Failed\x20to\x20generate\x20quiz\x20after\x20all\x20attempts'),process[_0x377346(0x17a)](0x1);}generateQuiz();function a1_0x5257(){const _0x268d8=['type','number','toISOString','265FayfDV','split','3928375aFORXv','4VADQSH','slice','exit','answer','6WEdTcF',':\x20Invalid\x20indices,\x20retrying...','question','56238VCJANY','stringify','message','translation','./quizzes/index.json','.json','8xkBOva','every','120354XkkTXM',':\x20JSON\x20parse\x20failed,\x20retrying...','constructor','search','push','3657493zcNIBL','parse','content','\x20error:','readFileSync',':\x20Invalid\x20quiz\x20format,\x20retrying...','error','daily-','includes','length','Bearer\x20','401421XzenAg','sort','\x20\x20❌\x20Attempt\x20','map','POST','isArray','apply','trim','3122910OTbRje','toString','\x20\x20⚠️\x20\x20Attempt\x20','existsSync','writeFileSync','✅\x20Index\x20updated:','utf-8','choices','1354977EeBFqH','log','(((.+)+)+)+$','✅\x20Quiz\x20saved:','user','https://api.groq.com/openai/v1/chat/completions','json','some'];a1_0x5257=function(){return _0x268d8;};return a1_0x5257();}
+import fs from "fs";
+import { n5Questions } from "./grammar_questions.js";
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+function pickRandom(arr, n) {
+    return [...arr].sort(() => 0.5 - Math.random()).slice(0, n);
+}
+
+function isValidQuiz(quiz) {
+    return (
+        Array.isArray(quiz) &&
+        quiz.length > 0 &&
+        quiz.every((q) => q.type === "translation" && q.question && q.answer)
+    );
+}
+
+// ─── Groq ─────────────────────────────────────────────────────────────────────
+
+async function callGroq(prompt) {
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: {
+            "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+            model: "llama-3.3-70b-versatile",
+            messages: [{ role: "user", content: prompt }],
+            temperature: 0.7,
+        }),
+    });
+
+    const data = await response.json();
+    return data.choices[0].message.content;
+}
+
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
+async function generateQuiz() {
+    // Give Groq a random pool of 40 to choose 10 diverse sentences from
+    const pool = pickRandom(n5Questions, 40);
+
+    const prompt = `
+You are a JLPT N5 Japanese teacher. You will be given a pool of Japanese sentences, each with an index.
+
+Your task: pick exactly 10 sentences that together cover a diverse variety of grammar points
+(e.g. don't pick 3 sentences that all use な-adjectives — spread across verbs, particles, adjectives, tenses, etc.).
+
+Return ONLY a JSON array of the indices you selected (0-based), nothing else. No explanation, no markdown.
+
+Example output: [0, 4, 7, 12, 15, 19, 22, 28, 33, 37]
+
+Pool:
+${JSON.stringify(pool.map((entry, i) => ({ index: i, q: entry.q })))}
+`;
+
+    for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+            const text = await callGroq(prompt);
+
+            let indices;
+            try {
+                indices = JSON.parse(text.trim());
+            } catch {
+                console.log(`  ⚠️  Attempt ${attempt}: JSON parse failed, retrying...`);
+                continue;
+            }
+
+            if (
+                !Array.isArray(indices) ||
+                indices.length !== 10 ||
+                indices.some((i) => typeof i !== "number" || i < 0 || i >= pool.length)
+            ) {
+                console.log(`  ⚠️  Attempt ${attempt}: Invalid indices, retrying...`);
+                continue;
+            }
+
+            const quiz = indices.map((i) => ({
+                type: "translation",
+                question: pool[i].q,
+                answer: pool[i].a,
+            }));
+
+            if (!isValidQuiz(quiz)) {
+                console.log(`  ⚠️  Attempt ${attempt}: Invalid quiz format, retrying...`);
+                continue;
+            }
+
+            // Save quiz file
+            const date = new Date().toISOString().split("T")[0];
+            const filename = `./quizzes/daily-${date}.json`;
+            fs.writeFileSync(filename, JSON.stringify(quiz, null, 2));
+            console.log("✅ Quiz saved:", filename);
+
+            // Update index.json
+            const indexFile = "./quizzes/index.json";
+            const index = fs.existsSync(indexFile)
+                ? JSON.parse(fs.readFileSync(indexFile, "utf-8"))
+                : [];
+            const entry = `daily-${date}.json`;
+            if (!index.includes(entry)) {
+                index.push(entry);
+                fs.writeFileSync(indexFile, JSON.stringify(index, null, 2));
+                console.log("✅ Index updated:", indexFile);
+            }
+
+            return;
+
+        } catch (err) {
+            console.error(`  ❌ Attempt ${attempt} error:`, err.message);
+        }
+    }
+
+    console.error("❌ Failed to generate quiz after all attempts");
+    process.exit(1);
+}
+
+generateQuiz();
