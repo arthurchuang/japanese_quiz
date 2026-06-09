@@ -1,1 +1,21 @@
-const a7_0x39363b=a7_0x354e;(function(_0x4fb6cf,_0x264f25){const _0xee53e8=a7_0x354e,_0x2dfbd5=_0x4fb6cf();while(!![]){try{const _0x4b02fa=-parseInt(_0xee53e8(0x134))/0x1+-parseInt(_0xee53e8(0x121))/0x2+-parseInt(_0xee53e8(0x126))/0x3+-parseInt(_0xee53e8(0x127))/0x4*(-parseInt(_0xee53e8(0x12b))/0x5)+-parseInt(_0xee53e8(0x133))/0x6+-parseInt(_0xee53e8(0x120))/0x7+parseInt(_0xee53e8(0x125))/0x8;if(_0x4b02fa===_0x264f25)break;else _0x2dfbd5['push'](_0x2dfbd5['shift']());}catch(_0x575075){_0x2dfbd5['push'](_0x2dfbd5['shift']());}}}(a7_0x19e1,0x46160));const a7_0x59b93f=(function(){let _0xd83c09=!![];return function(_0x3b996d,_0x5860e2){const _0x5479ed=_0xd83c09?function(){const _0x206959=a7_0x354e;if(_0x5860e2){const _0x253800=_0x5860e2[_0x206959(0x11f)](_0x3b996d,arguments);return _0x5860e2=null,_0x253800;}}:function(){};return _0xd83c09=![],_0x5479ed;};}()),a7_0x3296bc=a7_0x59b93f(this,function(){const _0x5d2750=a7_0x354e;return a7_0x3296bc[_0x5d2750(0x122)]()[_0x5d2750(0x12f)]('(((.+)+)+)+$')['toString']()['constructor'](a7_0x3296bc)[_0x5d2750(0x12f)](_0x5d2750(0x124));});function a7_0x354e(_0x474eae,_0x452f9d){_0x474eae=_0x474eae-0x11d;const _0x2fec74=a7_0x19e1();let _0x3296bc=_0x2fec74[_0x474eae];return _0x3296bc;}function a7_0x19e1(){const _0x44eb48=['2771436aSLxxC','460156rQRUzp','appendChild','textContent','question','finalScore','apply','1593438iLnGpB','155462ArnNdJ','toString','innerHTML','(((.+)+)+)+$','14451232OjQNMv','1437750LZnwxX','749380mtKBMO','parse','failedQuestions','getItem','5sROlzG','addEventListener','correctAnswer','tableBody','search','userChoice','getElementById','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'];a7_0x19e1=function(){return _0x44eb48;};return a7_0x19e1();}a7_0x3296bc(),document[a7_0x39363b(0x12c)]('DOMContentLoaded',()=>{const _0x577acb=a7_0x39363b,_0x3ec7cd=localStorage[_0x577acb(0x12a)](_0x577acb(0x129)),_0x41b9be=localStorage[_0x577acb(0x12a)](_0x577acb(0x11e))||'0\x20/\x200',_0x26f3b1=JSON[_0x577acb(0x128)](_0x3ec7cd)||[],_0x3ef396=document[_0x577acb(0x131)](_0x577acb(0x12e));document['getElementById'](_0x577acb(0x11e))[_0x577acb(0x136)]='最終スコア:\x20'+_0x41b9be,_0x26f3b1['forEach'](_0x683e1c=>{const _0x4069fd=_0x577acb,_0x4f009b=document['createElement']('tr');_0x4f009b[_0x4069fd(0x123)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22jp-cell\x22>'+_0x683e1c[_0x4069fd(0x11d)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22wrong-cell\x22>'+_0x683e1c[_0x4069fd(0x130)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22correct-cell\x22>'+_0x683e1c[_0x4069fd(0x12d)]+_0x4069fd(0x132),_0x3ef396[_0x4069fd(0x135)](_0x4f009b);});});
+document.addEventListener("DOMContentLoaded", () => {
+    const data = localStorage.getItem('failedQuestions');
+    const finalScore = localStorage.getItem('finalScore') || "0 / 0";
+
+    const mistakes = JSON.parse(data) || [];
+    const tableBody = document.getElementById("tableBody");
+
+    document.getElementById('finalScore').textContent = `最終スコア: ${finalScore}`;
+    mistakes.forEach(item => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td class="jp-cell">${item.question}</td>
+            <td class="wrong-cell">${item.userChoice}</td>
+            <td class="correct-cell">${item.correctAnswer}</td>
+        `;
+
+        tableBody.appendChild(row);
+    });
+
+});

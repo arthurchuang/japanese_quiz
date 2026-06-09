@@ -1,1 +1,184 @@
-const a0_0x2e6187=a0_0x53de;(function(_0x34e57f,_0x41b32b){const _0x333a15=a0_0x53de,_0x19cf31=_0x34e57f();while(!![]){try{const _0x3a10ef=-parseInt(_0x333a15(0x22f))/0x1*(-parseInt(_0x333a15(0x208))/0x2)+parseInt(_0x333a15(0x1f1))/0x3+-parseInt(_0x333a15(0x1e9))/0x4+parseInt(_0x333a15(0x206))/0x5*(parseInt(_0x333a15(0x20b))/0x6)+parseInt(_0x333a15(0x1fc))/0x7*(parseInt(_0x333a15(0x210))/0x8)+-parseInt(_0x333a15(0x1f7))/0x9+-parseInt(_0x333a15(0x235))/0xa*(parseInt(_0x333a15(0x203))/0xb);if(_0x3a10ef===_0x41b32b)break;else _0x19cf31['push'](_0x19cf31['shift']());}catch(_0x43a7f2){_0x19cf31['push'](_0x19cf31['shift']());}}}(a0_0x343f,0xc73e1),window[a0_0x2e6187(0x227)]=[],window[a0_0x2e6187(0x21a)]=0x0,window[a0_0x2e6187(0x230)]=null);const loadingEl=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x234)),dateDisplayEl=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x213)),progressEl=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x1e8)),questionWordEl=document[a0_0x2e6187(0x201)]('questionWord'),optionsEl=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x1ed)),feedbackEl=document['getElementById']('feedback'),scoreEl=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x218)),nextBtn=document[a0_0x2e6187(0x201)](a0_0x2e6187(0x20f)),refreshBtn=document['getElementById'](a0_0x2e6187(0x1f4));async function showQuizList(){const _0x52273c=a0_0x2e6187,_0x39e261=(function(){let _0x32d92c=!![];return function(_0x59361b,_0x1cffd9){const _0x308827=_0x32d92c?function(){const _0x12a168=a0_0x53de;if(_0x1cffd9){const _0x32ace7=_0x1cffd9[_0x12a168(0x1ec)](_0x59361b,arguments);return _0x1cffd9=null,_0x32ace7;}}:function(){};return _0x32d92c=![],_0x308827;};}()),_0xdfcad3=_0x39e261(this,function(){const _0x1d56fb=a0_0x53de;return _0xdfcad3[_0x1d56fb(0x222)]()['search']('(((.+)+)+)+$')[_0x1d56fb(0x222)]()[_0x1d56fb(0x22c)](_0xdfcad3)[_0x1d56fb(0x204)](_0x1d56fb(0x1ff));});_0xdfcad3();try{loadingEl[_0x52273c(0x211)]=_0x52273c(0x1ea);const _0x3a99da=await fetch('./quizzes/index.json?t='+Date[_0x52273c(0x21d)]());if(!_0x3a99da['ok'])throw new Error(_0x52273c(0x1ee));const _0x1b04ca=await _0x3a99da['json']();loadingEl[_0x52273c(0x211)]='',dateDisplayEl['textContent']='Select\x20a\x20quiz:';const _0x2ecdb9=document[_0x52273c(0x201)](_0x52273c(0x209));_0x2ecdb9[_0x52273c(0x22a)]='',[..._0x1b04ca][_0x52273c(0x223)]()[_0x52273c(0x212)](_0x374e76=>{const _0x2b2aad=_0x52273c,_0x5506c3=document['createElement'](_0x2b2aad(0x20c));_0x5506c3[_0x2b2aad(0x226)]=_0x2b2aad(0x1f3),_0x5506c3['textContent']=_0x374e76[_0x2b2aad(0x1f5)](_0x2b2aad(0x1f9),''),_0x5506c3[_0x2b2aad(0x215)]=()=>loadQuiz(_0x374e76),_0x2ecdb9[_0x2b2aad(0x1f8)](_0x5506c3);});}catch(_0x23aad5){loadingEl['textContent']=_0x52273c(0x207),console[_0x52273c(0x1fd)](_0x23aad5);}}function a0_0x53de(_0x597f99,_0x371c17){_0x597f99=_0x597f99-0x1e8;const _0x118a01=a0_0x343f();let _0x52b0be=_0x118a01[_0x597f99];return _0x52b0be;}async function loadQuiz(_0x129414){const _0x3c69c9=a0_0x2e6187;document[_0x3c69c9(0x201)](_0x3c69c9(0x216))[_0x3c69c9(0x232)][_0x3c69c9(0x219)]=_0x3c69c9(0x1fe),document['getElementById'](_0x3c69c9(0x1fb))[_0x3c69c9(0x232)][_0x3c69c9(0x219)]=_0x3c69c9(0x1ef);try{loadingEl['textContent']=_0x3c69c9(0x220),loadingEl[_0x3c69c9(0x232)][_0x3c69c9(0x219)]=_0x3c69c9(0x1ef);const _0x570286=await fetch(_0x3c69c9(0x21f)+_0x129414+'?t='+Date['now']());if(!_0x570286['ok'])throw new Error(_0x3c69c9(0x1fa));const _0x1022a4=await _0x570286[_0x3c69c9(0x202)]();window['currentQuiz']=_0x1022a4,window[_0x3c69c9(0x21a)]=0x0;const _0xeb6456=_0x129414[_0x3c69c9(0x1f5)](_0x3c69c9(0x231),'')[_0x3c69c9(0x1f5)](_0x3c69c9(0x1f9),'');window[_0x3c69c9(0x230)]=_0x3c69c9(0x1f2)+_0xeb6456,dateDisplayEl[_0x3c69c9(0x211)]=_0x129414[_0x3c69c9(0x1f5)](_0x3c69c9(0x1f9),''),loadingEl[_0x3c69c9(0x232)]['display']=_0x3c69c9(0x1fe),optionsEl[_0x3c69c9(0x22a)]='',feedbackEl[_0x3c69c9(0x211)]='',scoreEl[_0x3c69c9(0x211)]='',displayQuestion();}catch(_0xd7b83b){loadingEl['textContent']=_0x3c69c9(0x20d),console['error'](_0xd7b83b);}}async function recordingExists(_0x121647){const _0x33c3bf=a0_0x2e6187;try{const _0xd95718=await fetch(_0x121647,{'method':_0x33c3bf(0x22d)});return _0xd95718['ok'];}catch{return![];}}async function displayQuestion(){const _0x213401=a0_0x2e6187;if(!window[_0x213401(0x227)]['length'])return;const _0x55950f=window[_0x213401(0x227)][window[_0x213401(0x21a)]],_0x1fe1ff=window[_0x213401(0x21a)]+0x1;progressEl['textContent']=_0x213401(0x224)+_0x1fe1ff+'\x20/\x20'+window[_0x213401(0x227)]['length'],optionsEl[_0x213401(0x22a)]='',feedbackEl['textContent']='',feedbackEl[_0x213401(0x232)]['color']='',nextBtn[_0x213401(0x232)]['display']=_0x213401(0x1fe),refreshBtn[_0x213401(0x232)]['display']=_0x213401(0x1fe),questionWordEl[_0x213401(0x22a)]='';const _0x107697=_0x55950f['question'],_0x33e529=_0x107697['match'](/^(.+?)（(.+?)）/),_0x4a6602=document['createElement'](_0x213401(0x214));_0x4a6602[_0x213401(0x232)][_0x213401(0x22b)]=_0x213401(0x1eb);if(_0x33e529){_0x4a6602['textContent']=_0x33e529[0x1][_0x213401(0x21b)]();const _0x4463f4=document[_0x213401(0x21c)](_0x213401(0x1f6));_0x4463f4[_0x213401(0x211)]=_0x33e529[0x2][_0x213401(0x21b)](),_0x4463f4[_0x213401(0x232)][_0x213401(0x233)]=_0x213401(0x21e),questionWordEl[_0x213401(0x1f8)](_0x4a6602),questionWordEl[_0x213401(0x1f8)](_0x4463f4);}else _0x4a6602[_0x213401(0x211)]=_0x107697,questionWordEl[_0x213401(0x1f8)](_0x4a6602);const _0x4d367c=window[_0x213401(0x230)]+_0x213401(0x228)+_0x1fe1ff+_0x213401(0x225),_0x226945=await recordingExists(_0x4d367c);if(_0x226945){const _0x51ca84=document[_0x213401(0x21c)](_0x213401(0x20c));_0x51ca84[_0x213401(0x221)]=_0x213401(0x1f0),_0x51ca84[_0x213401(0x211)]='📢',_0x51ca84[_0x213401(0x232)][_0x213401(0x233)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20none;\x20border:\x20none;\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x201.2rem;\x20margin-left:\x208px;\x20vertical-align:\x20middle;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x206px;\x20border-radius:\x204px;\x20opacity:\x200.8;\x20transition:\x20opacity\x200.2s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x51ca84[_0x213401(0x20e)]=()=>_0x51ca84['style'][_0x213401(0x205)]='1',_0x51ca84['onmouseleave']=()=>_0x51ca84[_0x213401(0x232)][_0x213401(0x205)]=_0x213401(0x200),_0x51ca84[_0x213401(0x215)]=()=>new Audio(_0x4d367c)[_0x213401(0x229)](),questionWordEl[_0x213401(0x1f8)](_0x51ca84);}const _0x4e8b20=document[_0x213401(0x21c)](_0x213401(0x20c));_0x4e8b20[_0x213401(0x226)]='option',_0x4e8b20['textContent']='Reveal\x20Answer',_0x4e8b20[_0x213401(0x215)]=()=>revealAnswer(_0x55950f['answer']),optionsEl[_0x213401(0x1f8)](_0x4e8b20);}function a0_0x343f(){const _0x25a24e=['display','currentQuestionIndex','trim','createElement','now','font-size:\x200.9rem;\x20color:\x20#999;\x20margin-top:\x204px;','./quizzes/','Loading\x20quiz...','title','toString','reverse','Question\x20','.wav','className','currentQuiz','/question-','play','innerHTML','fontSize','constructor','HEAD','color','400543CPDOru','currentRecordingDir','daily-','style','cssText','loading','10yRrPQZ','progress','1710104seNSbw','Loading\x20available\x20quizzes...','1.5rem','apply','options','Failed\x20to\x20load\x20index.json','block','Listen\x20to\x20question','852294bryYCt','./recordings/recording-','option','refreshBtn','replace','div','13447575lWmOoU','appendChild','.json','Failed\x20to\x20load\x20quiz\x20JSON','quiz-screen','7iedcSi','error','none','(((.+)+)+)+$','0.8','getElementById','json','5203297LhCBGX','search','opacity','115zUGwFx','Failed\x20to\x20load\x20quizzes.','6EnwfIk','quizList','#2e7d32','362622SDLBgL','button','Failed\x20to\x20load\x20quiz.','onmouseenter','nextBtn','2680376EKEWLS','textContent','forEach','dateDisplay','span','onclick','quiz-list-screen','length','score'];a0_0x343f=function(){return _0x25a24e;};return a0_0x343f();}function revealAnswer(_0x16c3c3){const _0x52c3e9=a0_0x2e6187;feedbackEl[_0x52c3e9(0x211)]=''+_0x16c3c3,feedbackEl['style'][_0x52c3e9(0x22e)]=_0x52c3e9(0x20a),optionsEl[_0x52c3e9(0x22a)]='';const _0x2e7aa0=window[_0x52c3e9(0x21a)]>=window[_0x52c3e9(0x227)][_0x52c3e9(0x217)]-0x1;nextBtn[_0x52c3e9(0x232)][_0x52c3e9(0x219)]=_0x2e7aa0?_0x52c3e9(0x1fe):_0x52c3e9(0x1ef),refreshBtn['style']['display']=_0x2e7aa0?'block':_0x52c3e9(0x1fe),nextBtn['disabled']=![];}function nextQuestion(){const _0x24786e=a0_0x2e6187;window[_0x24786e(0x21a)]++,window[_0x24786e(0x21a)]<window[_0x24786e(0x227)][_0x24786e(0x217)]&&displayQuestion(),nextBtn[_0x24786e(0x232)][_0x24786e(0x219)]=_0x24786e(0x1fe);}nextBtn[a0_0x2e6187(0x215)]=nextQuestion,showQuizList();
+// ─── State ────────────────────────────────────────────────────────────────────
+
+window.currentQuiz = [];
+window.currentQuestionIndex = 0;
+window.currentRecordingDir = null;
+
+// ─── Elements ─────────────────────────────────────────────────────────────────
+
+const loadingEl     = document.getElementById("loading");
+const dateDisplayEl = document.getElementById("dateDisplay");
+const progressEl    = document.getElementById("progress");
+const questionWordEl = document.getElementById("questionWord");
+const optionsEl     = document.getElementById("options");
+const feedbackEl    = document.getElementById("feedback");
+const scoreEl       = document.getElementById("score");
+const nextBtn       = document.getElementById("nextBtn");
+const refreshBtn    = document.getElementById("refreshBtn");
+
+// ─── Quiz list ────────────────────────────────────────────────────────────────
+
+async function showQuizList() {
+    try {
+        loadingEl.textContent = "Loading available quizzes...";
+
+        const response = await fetch(`./quizzes/index.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error("Failed to load index.json");
+
+        const quizzes = await response.json();
+        loadingEl.textContent = "";
+        dateDisplayEl.textContent = "Select a quiz:";
+
+        const quizListEl = document.getElementById("quizList");
+        quizListEl.innerHTML = "";
+
+        [...quizzes].reverse().forEach((quizFile) => {
+            const btn = document.createElement("button");
+            btn.className = "option";
+            btn.textContent = quizFile.replace(".json", "");
+            btn.onclick = () => loadQuiz(quizFile);
+            quizListEl.appendChild(btn);
+        });
+    } catch (err) {
+        loadingEl.textContent = "Failed to load quizzes.";
+        console.error(err);
+    }
+}
+
+// ─── Load quiz ────────────────────────────────────────────────────────────────
+
+async function loadQuiz(fileName) {
+    document.getElementById("quiz-list-screen").style.display = "none";
+    document.getElementById("quiz-screen").style.display = "block";
+
+    try {
+        loadingEl.textContent = "Loading quiz...";
+        loadingEl.style.display = "block";
+
+        const response = await fetch(`./quizzes/${fileName}?t=${Date.now()}`);
+        if (!response.ok) throw new Error("Failed to load quiz JSON");
+
+        const quizData = await response.json();
+        window.currentQuiz = quizData;
+        window.currentQuestionIndex = 0;
+
+        // Derive recording folder: daily-2026-03-21.json → recordings/recording-2026-03-21
+        const date = fileName.replace("daily-", "").replace(".json", "");
+        window.currentRecordingDir = `./recordings/recording-${date}`;
+
+        dateDisplayEl.textContent = fileName.replace(".json", "");
+        loadingEl.style.display = "none";
+        optionsEl.innerHTML = "";
+        feedbackEl.textContent = "";
+        scoreEl.textContent = "";
+
+        displayQuestion();
+    } catch (err) {
+        loadingEl.textContent = "Failed to load quiz.";
+        console.error(err);
+    }
+}
+
+// ─── Recording ────────────────────────────────────────────────────────────────
+
+async function recordingExists(url) {
+    try {
+        const res = await fetch(url, { method: "HEAD" });
+        return res.ok;
+    } catch {
+        return false;
+    }
+}
+
+// ─── Display question ─────────────────────────────────────────────────────────
+
+async function displayQuestion() {
+    if (!window.currentQuiz.length) return;
+
+    const current = window.currentQuiz[window.currentQuestionIndex];
+    const questionNumber = window.currentQuestionIndex + 1;
+
+    progressEl.textContent = `Question ${questionNumber} / ${window.currentQuiz.length}`;
+    optionsEl.innerHTML = "";
+    feedbackEl.textContent = "";
+    feedbackEl.style.color = "";
+    nextBtn.style.display = "none";
+    refreshBtn.style.display = "none";
+
+    // Question text
+    questionWordEl.innerHTML = "";
+    const questionText = current.question;
+    const match = questionText.match(/^(.+?)（(.+?)）/);
+
+    const mainText = document.createElement("span");
+    mainText.style.fontSize = "1.5rem";
+
+    if (match) {
+        mainText.textContent = match[1].trim();
+
+        const furigana = document.createElement("div");
+        furigana.textContent = match[2].trim();
+        furigana.style.cssText = `font-size: 0.9rem; color: #999; margin-top: 4px;`;
+
+        questionWordEl.appendChild(mainText);
+        questionWordEl.appendChild(furigana);
+    } else {
+        mainText.textContent = questionText;
+        questionWordEl.appendChild(mainText);
+    }
+
+    // Speaker button (if recording exists)
+    const recordingUrl = `${window.currentRecordingDir}/question-${questionNumber}.wav`;
+    const hasRecording = await recordingExists(recordingUrl);
+
+    if (hasRecording) {
+        const speakerBtn = document.createElement("button");
+        speakerBtn.title = "Listen to question";
+        speakerBtn.textContent = "📢";
+        speakerBtn.style.cssText = `
+            background: none; border: none; cursor: pointer;
+            font-size: 1.2rem; margin-left: 8px; vertical-align: middle;
+            padding: 2px 6px; border-radius: 4px; opacity: 0.8; transition: opacity 0.2s;
+        `;
+        speakerBtn.onmouseenter = () => (speakerBtn.style.opacity = "1");
+        speakerBtn.onmouseleave = () => (speakerBtn.style.opacity = "0.8");
+        speakerBtn.onclick = () => new Audio(recordingUrl).play();
+        questionWordEl.appendChild(speakerBtn);
+    }
+
+    // Reveal button
+    const revealBtn = document.createElement("button");
+    revealBtn.className = "option";
+    revealBtn.textContent = "Reveal Answer";
+    revealBtn.onclick = () => revealAnswer(current.answer);
+    optionsEl.appendChild(revealBtn);
+}
+
+// ─── Reveal answer ────────────────────────────────────────────────────────────
+
+function revealAnswer(answer) {
+    feedbackEl.textContent = `${answer}`;
+    feedbackEl.style.color = "#2e7d32";
+    optionsEl.innerHTML = "";
+
+    const isLast = window.currentQuestionIndex >= window.currentQuiz.length - 1;
+    nextBtn.style.display    = isLast ? "none"  : "block";
+    refreshBtn.style.display = isLast ? "block" : "none";
+    nextBtn.disabled = false;
+}
+
+// ─── Next question ────────────────────────────────────────────────────────────
+
+function nextQuestion() {
+    window.currentQuestionIndex++;
+    if (window.currentQuestionIndex < window.currentQuiz.length) {
+        displayQuestion();
+    }
+    nextBtn.style.display = "none";
+}
+
+nextBtn.onclick = nextQuestion;
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+
+showQuizList();
