@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "先に帰ってもいいですか？",
+    "answer": "我可以先回去嗎？"
+  },
+  {
+    "type": "translation",
+    "question": "新しい仕事はどうですか?",
+    "answer": "新的工作如何呀?"
+  },
+  {
+    "type": "translation",
+    "question": "私は寝ます。",
+    "answer": "我要睡覺。"
+  },
+  {
+    "type": "translation",
+    "question": "おばさんの病気は大丈夫ですか?",
+    "answer": "阿姨的病還好嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "新しい先生は綺麗じゃなかったです。",
+    "answer": "新的老師不漂亮(過去式)。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(川の水は)全然冷たくありません。",
+    "answer": "不，(河川的水）完全不冰。"
+  },
+  {
+    "type": "translation",
+    "question": "この歌手は有名でした。",
+    "answer": "以前這位歌手很有名。"
+  },
+  {
+    "type": "translation",
+    "question": "(このレストランの料理は）辛いです。",
+    "answer": "(這間餐廳的料理）很辣。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、(おばの病気は)大丈夫です。",
+    "answer": "是的，(阿姨的病）沒問題。"
+  },
+  {
+    "type": "translation",
+    "question": "冬の北海道はとても寒いです。だから、私は夏に北海道へ行きます。",
+    "answer": "冬天的北海道非常的冷，所以我要夏天去北海道。"
+  }
+]
