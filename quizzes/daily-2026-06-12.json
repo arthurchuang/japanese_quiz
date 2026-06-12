@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私は明日も残業をしなければなりません。",
+    "answer": "我明天也不得不加班。"
+  },
+  {
+    "type": "translation",
+    "question": "母はいつも料理を多く作ります。",
+    "answer": "媽媽總是做料理做得很多。"
+  },
+  {
+    "type": "translation",
+    "question": "先週の土曜日王さんは出勤しましたか?",
+    "answer": "上星期六王先生有上班嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "ペンギンは飛びますか?",
+    "answer": "企鵝會飛嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "この会社は私の会社より休みが多いです。",
+    "answer": "比起我的公司，這間公司休假較多。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは先生から白い紙を五枚ももらいました。",
+    "answer": "林先生/小姐從老師那裡收到5張白紙那麼多。"
+  },
+  {
+    "type": "translation",
+    "question": "私は張さんからカレンダーをもらいました。",
+    "answer": "我從張小姐那收到了月曆。[注意(X) 張さんは私にカレンダーをあげました。]"
+  },
+  {
+    "type": "translation",
+    "question": "山本さんは日曜日どこへ行きましたか?",
+    "answer": "山本先生星期日去了哪裡?"
+  },
+  {
+    "type": "translation",
+    "question": "王さんと林さんと張さんの中で、張さんが一番お酒を飲みます。",
+    "answer": "在王先生跟林先生、張先生之中，張先生最會喝酒。"
+  },
+  {
+    "type": "translation",
+    "question": "テニスとゴルフとスキーで、あなたはどれが一番得意ですか？",
+    "answer": "網球、高爾夫跟滑雪，你最擅長哪一項？"
+  }
+]
