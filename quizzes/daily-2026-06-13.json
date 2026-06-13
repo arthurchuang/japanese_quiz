@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "あなたは何で日本へ行きましたか?",
+    "answer": "你搭什麼去日本?"
+  },
+  {
+    "type": "translation",
+    "question": "このアパートは交通が便利ですけど、部屋が暗いです。",
+    "answer": "這間公寓雖然交通很方便，可是房間很暗。"
+  },
+  {
+    "type": "translation",
+    "question": "私は台所へお茶碗を取りに行きました。",
+    "answer": "我到廚房拿碗。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、私はもう空港に着きました。",
+    "answer": "是的，我已經到了。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女はスキーができます。",
+    "answer": "她會滑雪。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女は先月まで煙草を吸っていました。",
+    "answer": "她到上個月為止都在抽菸。"
+  },
+  {
+    "type": "translation",
+    "question": "妹は可愛くなりました。",
+    "answer": "妹妹變可愛了。"
+  },
+  {
+    "type": "translation",
+    "question": "太田さんは今もうテレビを見ていません。",
+    "answer": "太田先生現在已經沒有在看電視了。"
+  },
+  {
+    "type": "translation",
+    "question": "私は皆で食事したいです。",
+    "answer": "我想要大家一起吃飯。"
+  },
+  {
+    "type": "translation",
+    "question": "明後日はお休みですけど、私は学校へ行きます。",
+    "answer": "雖然後天是假日，可是我要去學校。"
+  }
+]
