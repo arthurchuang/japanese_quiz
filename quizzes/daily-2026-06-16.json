@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私達は英語で会話しました。",
+    "answer": "我們用英文對話。"
+  },
+  {
+    "type": "translation",
+    "question": "先週のドラマ",
+    "answer": "上星期的電視劇"
+  },
+  {
+    "type": "translation",
+    "question": "交番は遠いです。",
+    "answer": "派出所很遠。"
+  },
+  {
+    "type": "translation",
+    "question": "あの元気な人は山田さんです。",
+    "answer": "那位很有精神的人是山田先生。"
+  },
+  {
+    "type": "translation",
+    "question": "高橋さんは暇です。",
+    "answer": "高橋先生很閒。"
+  },
+  {
+    "type": "translation",
+    "question": "彼の歌は上手でしょう?",
+    "answer": "他的歌棒吧?"
+  },
+  {
+    "type": "translation",
+    "question": "私はスキーが一番得意です。",
+    "answer": "我最擅長滑雪。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、私はまだ空港に着いていません。",
+    "answer": "不，我還沒到機場。"
+  },
+  {
+    "type": "translation",
+    "question": "カッターナイフが玄関にあります。",
+    "answer": "玄關有美工刀。"
+  },
+  {
+    "type": "translation",
+    "question": "冬の北海道はとても寒いです。だから、私は夏に北海道へ行きます。",
+    "answer": "冬天的北海道非常的冷，所以我要夏天去北海道。"
+  }
+]
