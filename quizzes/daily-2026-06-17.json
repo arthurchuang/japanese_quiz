@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "はい、私の写真を撮っても構いません。",
+    "answer": "好的，拍我的照片也沒關係。"
+  },
+  {
+    "type": "translation",
+    "question": "私は徐さんと結婚をしたいです。",
+    "answer": "我想和徐先生結婚。"
+  },
+  {
+    "type": "translation",
+    "question": "私は静かな所で勉強したいです。",
+    "answer": "我想在安靜的地方讀書。"
+  },
+  {
+    "type": "translation",
+    "question": "その時、山田さんはもう蔡さんに電話を掛けていました。",
+    "answer": "那個時候山田先生／小姐已經在打電話給蔡先生／小姐了。"
+  },
+  {
+    "type": "translation",
+    "question": "田中さんの方が背が高いです。",
+    "answer": "田中先生的個子比較高。"
+  },
+  {
+    "type": "translation",
+    "question": "この会社は通勤が大変です。",
+    "answer": "這間公司，通勤很辛苦。"
+  },
+  {
+    "type": "translation",
+    "question": "弟は字をとても大きく書きました。",
+    "answer": "弟弟把字寫很大。"
+  },
+  {
+    "type": "translation",
+    "question": "彼は自分の鍵があります。",
+    "answer": "他有自己的鑰匙。"
+  },
+  {
+    "type": "translation",
+    "question": "高橋さんは元気でしょう?",
+    "answer": "高橋先生很有活力吧?"
+  },
+  {
+    "type": "translation",
+    "question": "山田さんと田中さんと高橋さんの中で、誰が一番背が低いですか？",
+    "answer": "在山田先生跟田中先生、高橋先生之中，誰的個子最矮？"
+  }
+]
