@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "山本さんはバイクがあって、車があります。",
+    "answer": "山本先生有機車也有汽車。"
+  },
+  {
+    "type": "translation",
+    "question": "このお酒は安くなかったです。",
+    "answer": "這瓶酒不便宜(過去式)。"
+  },
+  {
+    "type": "translation",
+    "question": "(新しい仕事は）大変です。",
+    "answer": "(新的工作)很辛苦。"
+  },
+  {
+    "type": "translation",
+    "question": "高橋さんは元気でしょう?",
+    "answer": "高橋先生很有活力吧?"
+  },
+  {
+    "type": "translation",
+    "question": "この電子辞書は良いです。",
+    "answer": "這電子辭典很好。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、まだ見ます。／いいえ、もう見ません。",
+    "answer": "是，還要看。／不，已經不看了。"
+  },
+  {
+    "type": "translation",
+    "question": "八時に帰りました。",
+    "answer": "8點回家。"
+  },
+  {
+    "type": "translation",
+    "question": "コーヒーを飲みましょう。",
+    "answer": "一起喝咖啡吧。"
+  },
+  {
+    "type": "translation",
+    "question": "虎は田中さんを食べました。",
+    "answer": "老虎吃了田中先生。"
+  },
+  {
+    "type": "translation",
+    "question": "日本は寒いですか?",
+    "answer": "日本很冷嗎?"
+  }
+]
