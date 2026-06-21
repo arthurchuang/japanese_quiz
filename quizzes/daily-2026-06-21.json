@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "兄は昨夜映画館で映画を見ました。",
+    "answer": "哥哥昨天晚上在電影院看了電影。"
+  },
+  {
+    "type": "translation",
+    "question": "英語のクラスは四時半に終わりました。",
+    "answer": "英文課4點半結束了。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、終わりません。",
+    "answer": "不，不會結束。"
+  },
+  {
+    "type": "translation",
+    "question": "姉は今朝歯を磨きました。",
+    "answer": "姊姊今天早上刷了牙。"
+  },
+  {
+    "type": "translation",
+    "question": "この建物は古くないです。",
+    "answer": "這棟建築物不舊。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは先生から白い紙を五枚ももらいました。",
+    "answer": "林先生/小姐從老師那裡收到5張白紙那麼多。"
+  },
+  {
+    "type": "translation",
+    "question": "今夜の二時",
+    "answer": "今晚(的)兩點"
+  },
+  {
+    "type": "translation",
+    "question": "飛行機は一時に飛びませんでした。",
+    "answer": "飛機在1點的時候沒有起飛。"
+  },
+  {
+    "type": "translation",
+    "question": "このノートパソコンは性能がいいですけど、高いです。",
+    "answer": "這台筆電雖然性能好，可是貴。"
+  },
+  {
+    "type": "translation",
+    "question": "このテレビは小さいです。でも、高いです。",
+    "answer": "這台電視很小，可是很貴。"
+  }
+]
