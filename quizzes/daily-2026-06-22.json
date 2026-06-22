@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "会議は五時半までです。",
+    "answer": "會議到5點半為止。"
+  },
+  {
+    "type": "translation",
+    "question": "お寿司はうまいです。",
+    "answer": "壽司很好吃。"
+  },
+  {
+    "type": "translation",
+    "question": "厚い手紙",
+    "answer": "很厚的信"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは毎朝食事しますか?",
+    "answer": "你每天早上都會吃飯?"
+  },
+  {
+    "type": "translation",
+    "question": "おばさんの病気は大丈夫ですか?",
+    "answer": "阿姨的病還好嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "先週の水曜日私は十一時まで働きました。",
+    "answer": "上週的星期三我工作到11點。"
+  },
+  {
+    "type": "translation",
+    "question": "山田さんは何日から何日まで休みますか?",
+    "answer": "山田先生從幾號休息到幾號?"
+  },
+  {
+    "type": "translation",
+    "question": "教室の中で、どこが一番広いですか？",
+    "answer": "在教室中哪一間最大？"
+  },
+  {
+    "type": "translation",
+    "question": "母はスーパーで砂糖や塩を買いました。",
+    "answer": "媽媽在超市買了砂糖跟鹽巴等。"
+  },
+  {
+    "type": "translation",
+    "question": "これは美味しいお菓子です。それに、安いです。",
+    "answer": "這是好吃的點心。而且很便宜。"
+  }
+]
