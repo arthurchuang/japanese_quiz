@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "彼女はまだ若いです。",
+    "answer": "她還很年輕。"
+  },
+  {
+    "type": "translation",
+    "question": "私は勉強します。",
+    "answer": "我要用功。"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは昨日の夕方出掛けましたか?",
+    "answer": "你昨天的傍晚有出門嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは毎朝食事しますか?",
+    "answer": "你每天早上都會吃飯?"
+  },
+  {
+    "type": "translation",
+    "question": "八時に帰りました。",
+    "answer": "8點回家。"
+  },
+  {
+    "type": "translation",
+    "question": "昨日王さんは何時に帰りましたか?",
+    "answer": "昨天王先生幾點回家的?"
+  },
+  {
+    "type": "translation",
+    "question": "兄は顔を洗いました。",
+    "answer": "哥哥洗了臉。"
+  },
+  {
+    "type": "translation",
+    "question": "私は今晩家族で食事します。",
+    "answer": "我今晚要和家人聚餐。"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは日本語でレポートを書きました。",
+    "answer": "王先生用日文寫了報告。"
+  },
+  {
+    "type": "translation",
+    "question": "明日は土曜日ですから、私は会社へ行きません。",
+    "answer": "因為明天是星期六，所以我不去公司。"
+  }
+]
