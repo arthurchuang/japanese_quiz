@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このテレビは小さいですが、高いです。",
+    "answer": "這台電視很小，但很貴。"
+  },
+  {
+    "type": "translation",
+    "question": "山本さんはバイクがあって、車があります。",
+    "answer": "山本先生有機車也有汽車。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、私の写真を撮っても構いません。",
+    "answer": "好的，拍我的照片也沒關係。"
+  },
+  {
+    "type": "translation",
+    "question": "三年生はバスに乗ってください。",
+    "answer": "三年級請搭乘巴士。"
+  },
+  {
+    "type": "translation",
+    "question": "私は徐さんと結婚をしたいです。",
+    "answer": "我想和徐先生結婚。"
+  },
+  {
+    "type": "translation",
+    "question": "私はワインが飲みたくて、美味しい魚の料理が食べたいです。",
+    "answer": "我想喝紅酒也想吃好吃的魚料理。"
+  },
+  {
+    "type": "translation",
+    "question": "私はあの池で釣りがしたかったです。",
+    "answer": "我想在那個池塘釣魚。"
+  },
+  {
+    "type": "translation",
+    "question": "結婚したい人はお見合いをします。",
+    "answer": "想結婚的人去相親。"
+  },
+  {
+    "type": "translation",
+    "question": "毎晩の九時",
+    "answer": "每晩(的)九點"
+  },
+  {
+    "type": "translation",
+    "question": "昨日私達はラーメンや餃子を食べました。",
+    "answer": "昨天我們吃了拉麵跟餃子等。"
+  }
+]
