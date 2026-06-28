@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "王さんは上手に絵を描きます。",
+    "answer": "王先生／小姐會把畫畫得很好。"
+  },
+  {
+    "type": "translation",
+    "question": "このテレビは小さいです。でも、高いです。",
+    "answer": "這台電視很小，可是很貴。"
+  },
+  {
+    "type": "translation",
+    "question": "私は野球の方が好きです。",
+    "answer": "我比較喜歡棒球。"
+  },
+  {
+    "type": "translation",
+    "question": "私は彼女が好きです。だから、私は彼女に手紙を書きました。",
+    "answer": "因為我喜歡她，所以我寫了信給她。"
+  },
+  {
+    "type": "translation",
+    "question": "新しい仕事はどうですか?",
+    "answer": "新的工作如何呀?"
+  },
+  {
+    "type": "translation",
+    "question": "あのドアは丈夫ではありませんでした。",
+    "answer": "那扇門不堅固(過去式）。"
+  },
+  {
+    "type": "translation",
+    "question": "私は来年の四月から繁田商事に勤めます。",
+    "answer": "我明年4月要到繁田商事就業。"
+  },
+  {
+    "type": "translation",
+    "question": "彼はもう幼稚園に着きました。",
+    "answer": "他已經到幼稚園了。"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは昨日の夕方出掛けましたか?",
+    "answer": "你昨天的傍晚有出門嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "綺麗なお皿",
+    "answer": "漂亮的盤子"
+  }
+]
