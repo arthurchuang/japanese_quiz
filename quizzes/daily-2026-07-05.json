@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このテレビは小さいですが、高いです。",
+    "answer": "這台電視很小，但很貴。"
+  },
+  {
+    "type": "translation",
+    "question": "私は明日五時に起きます。",
+    "answer": "我明天5點起床。"
+  },
+  {
+    "type": "translation",
+    "question": "今日お客さんは少ないです。",
+    "answer": "今天客人很少。"
+  },
+  {
+    "type": "translation",
+    "question": "私は昨日高橋さんと勉強しました。",
+    "answer": "我昨天和高橋先生讀書。"
+  },
+  {
+    "type": "translation",
+    "question": "鈴木さんは高さんに花をもらいました。",
+    "answer": "鈴木小姐從高先生那裡收到花。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、(日本は)少し寒いです。",
+    "answer": "是的，(日本）有點冷。"
+  },
+  {
+    "type": "translation",
+    "question": "私はまだ帰りません。",
+    "answer": "我還不回去。"
+  },
+  {
+    "type": "translation",
+    "question": "おばさんの病気は大丈夫ですか?",
+    "answer": "阿姨的病還好嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "二年前に弟は大学に入学しました。",
+    "answer": "2年前弟弟進入大學了。"
+  },
+  {
+    "type": "translation",
+    "question": "弟は字をとても大きく書きました。",
+    "answer": "弟弟把字寫很大。"
+  }
+]
