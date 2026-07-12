@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "田中さんは昨日林さんの住所を知りました。",
+    "answer": "田中先生／小姐昨天知道了林先生／小姐的地址。"
+  },
+  {
+    "type": "translation",
+    "question": "李さんは今何をしていますか？",
+    "answer": "李先生現在在做什麼？"
+  },
+  {
+    "type": "translation",
+    "question": "徐さんは今年の春結婚しました。",
+    "answer": "徐小姐今年春天結婚了。"
+  },
+  {
+    "type": "translation",
+    "question": "私は今レポートを書いています。",
+    "answer": "我現在在寫報告。"
+  },
+  {
+    "type": "translation",
+    "question": "私は妹とデパートへ行きました。",
+    "answer": "我和妹妹去了百貨公司。"
+  },
+  {
+    "type": "translation",
+    "question": "海へ行きました。",
+    "answer": "去了海邊。"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは私にラジカセを借りました。",
+    "answer": "王先生向我借了手提音響。"
+  },
+  {
+    "type": "translation",
+    "question": "私はまだお風呂へ行きません。",
+    "answer": "我不去洗澡。"
+  },
+  {
+    "type": "translation",
+    "question": "私は昨日この言葉の意味を覚えました。",
+    "answer": "我昨天記了這個單字的意思。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、車で行きます。",
+    "answer": "不，開車去。"
+  }
+]
