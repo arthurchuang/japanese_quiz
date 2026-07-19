@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このテレビは小さいです。でも、高いです。",
+    "answer": "這台電視很小，可是很貴。"
+  },
+  {
+    "type": "translation",
+    "question": "彼は電話を掛けてから王さんの家へ行きました。",
+    "answer": "他打完電話後去王先生的家。"
+  },
+  {
+    "type": "translation",
+    "question": "グループのリーダーは地図を忘れないでください。",
+    "answer": "小組的組長請不要忘記地圖。"
+  },
+  {
+    "type": "translation",
+    "question": "私は明日も残業をしなければなりません。",
+    "answer": "我明天也不得不加班。"
+  },
+  {
+    "type": "translation",
+    "question": "田中さんは昨日林さんの住所を知りました。",
+    "answer": "田中先生／小姐昨天知道了林先生／小姐的地址。"
+  },
+  {
+    "type": "translation",
+    "question": "これは美味しいお菓子で、安いです。",
+    "answer": "這是好吃又便宜的點心。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女はうるさいでしょう?",
+    "answer": "她很吵吧?"
+  },
+  {
+    "type": "translation",
+    "question": "現金がありますけど、私はカードでラジオを買いました。",
+    "answer": "雖然有現金，可是我用信用卡買了收音機。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女は掃除が嫌いです。それに、料理ができません。",
+    "answer": "她討厭打掃。而且不會做菜。"
+  },
+  {
+    "type": "translation",
+    "question": "私は作文が得意じゃありません。",
+    "answer": "我對作文不是那麼在行。"
+  }
+]
