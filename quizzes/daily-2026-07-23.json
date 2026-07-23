@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私は明日の午前中勉強しません。",
+    "answer": "我明天的上午不讀書。"
+  },
+  {
+    "type": "translation",
+    "question": "明後日はお休みです。でも、私は学校へ行きます。",
+    "answer": "後天是假日，可是我要去學校。"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは上手に絵を描きます。",
+    "answer": "王先生／小姐會把畫畫得很好。"
+  },
+  {
+    "type": "translation",
+    "question": "私はカップを綺麗に洗いました。",
+    "answer": "我把杯子洗乾淨了。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女は奇麗です。",
+    "answer": "她很漂亮。"
+  },
+  {
+    "type": "translation",
+    "question": "このノートパソコンは性能がいいですけど、高いです。",
+    "answer": "這台筆電雖然性能好，可是貴。"
+  },
+  {
+    "type": "translation",
+    "question": "祖母は犬が好きでした。",
+    "answer": "祖母之前喜歡狗。"
+  },
+  {
+    "type": "translation",
+    "question": "あなたはもうお母さんに手紙を書きましたか？",
+    "answer": "你已經寫信給媽媽了嗎？"
+  },
+  {
+    "type": "translation",
+    "question": "飛行機は真っ直ぐに飛びます。",
+    "answer": "飛機直線飛行。"
+  },
+  {
+    "type": "translation",
+    "question": "(このレストランの料理は）辛いです。",
+    "answer": "(這間餐廳的料理）很辣。"
+  }
+]
