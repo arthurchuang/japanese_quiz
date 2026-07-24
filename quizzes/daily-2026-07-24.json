@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "はい、私はもう空港に着きました。",
+    "answer": "是的，我已經到了。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは先生から白い紙を五枚ももらいました。",
+    "answer": "林先生/小姐從老師那裡收到5張白紙那麼多。"
+  },
+  {
+    "type": "translation",
+    "question": "山田さんが一番背が低いです。",
+    "answer": "山田先生的個子最矮。"
+  },
+  {
+    "type": "translation",
+    "question": "私は野球の方が好きです。",
+    "answer": "我比較喜歡棒球。"
+  },
+  {
+    "type": "translation",
+    "question": "私達は一時間後に出発します。",
+    "answer": "我們一個小時後出發。"
+  },
+  {
+    "type": "translation",
+    "question": "この鞄は形が可愛くて、色がいいです。",
+    "answer": "這個包包的形狀可愛，顏色也很棒。"
+  },
+  {
+    "type": "translation",
+    "question": "姉は昨日夜市で服を十着買いました。",
+    "answer": "姊姊昨天在夜市買了10件衣服。"
+  },
+  {
+    "type": "translation",
+    "question": "この電子辞書は良いです。",
+    "answer": "這電子辭典很好。"
+  },
+  {
+    "type": "translation",
+    "question": "このトイレは広いです。それに、綺麗です。",
+    "answer": "這間廁所很寬敞。而且很漂亮。"
+  },
+  {
+    "type": "translation",
+    "question": "六日から九日まで休みます。",
+    "answer": "6號休息到9號。"
+  }
+]
