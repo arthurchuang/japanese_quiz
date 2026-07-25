@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このベッドは狭いです。",
+    "answer": "這張床很窄。"
+  },
+  {
+    "type": "translation",
+    "question": "電気をつけないでください。",
+    "answer": "請不要開燈。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは先生から白い紙を五枚ももらいました。",
+    "answer": "林先生/小姐從老師那裡收到5張白紙那麼多。"
+  },
+  {
+    "type": "translation",
+    "question": "どちらがあなたの先生ですか？",
+    "answer": "哪一位是您的老師？"
+  },
+  {
+    "type": "translation",
+    "question": "あそこが教室です。",
+    "answer": "那裡是教室。"
+  },
+  {
+    "type": "translation",
+    "question": "果物の中で、ミカンが一番安いです。",
+    "answer": "在水果之中，橘子最便宜。"
+  },
+  {
+    "type": "translation",
+    "question": "彼は自分の鍵があります。",
+    "answer": "他有自己的鑰匙。"
+  },
+  {
+    "type": "translation",
+    "question": "五時に終わります。",
+    "answer": "5點結束。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは性格がいいですが、背が低いです。",
+    "answer": "林先生雖然個性好，可是個子不高。"
+  },
+  {
+    "type": "translation",
+    "question": "乗り物の中で、何が一番便利ですか？",
+    "answer": "在交通工具之中什麼最方便？"
+  }
+]
