@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このきれいなのは日本製です。",
+    "answer": "這個很漂亮的是日本製的。"
+  },
+  {
+    "type": "translation",
+    "question": "彼はもう幼稚園に着きました。",
+    "answer": "他已經到幼稚園了。"
+  },
+  {
+    "type": "translation",
+    "question": "天麩羅とお寿司と、どっちが美味しいですか？",
+    "answer": "天婦羅和壽司，哪一個好吃？"
+  },
+  {
+    "type": "translation",
+    "question": "明日は土曜日です。だから、私は会社へ行きません。",
+    "answer": "明天是星期六，所以我不去公司。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは性格がいいですが、背が低いです。",
+    "answer": "林先生雖然個性好，可是個子不高。"
+  },
+  {
+    "type": "translation",
+    "question": "私は林さんの電話番号が分かりません。",
+    "answer": "我不知道林先生的電話號碼。"
+  },
+  {
+    "type": "translation",
+    "question": "今年彼女は私にプレゼントをくれませんでした。",
+    "answer": "今年她沒有給我禮物。"
+  },
+  {
+    "type": "translation",
+    "question": "今週彼は来ませんでした。",
+    "answer": "他這週沒有來。"
+  },
+  {
+    "type": "translation",
+    "question": "(ここは）便利な町です。",
+    "answer": "(這裡）是方便的城市。"
+  },
+  {
+    "type": "translation",
+    "question": "このお酒は安くありませんでした。",
+    "answer": "這瓶酒不便宜(過去式)。"
+  }
+]
