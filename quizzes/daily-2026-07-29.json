@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私はワインが飲みたいです。そして、美味しい魚の料理が食べたいです。",
+    "answer": "我想喝紅酒。而且想吃好吃的魚料理。"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは毎朝食事しますか?",
+    "answer": "你每天早上都會吃飯?"
+  },
+  {
+    "type": "translation",
+    "question": "(このレストランの料理は）辛いです。",
+    "answer": "(這間餐廳的料理）很辣。"
+  },
+  {
+    "type": "translation",
+    "question": "田中さんは誰とここへ来ましたか?",
+    "answer": "田中先生是和誰一起來的呢?"
+  },
+  {
+    "type": "translation",
+    "question": "徐さんは結婚しています。",
+    "answer": "徐小姐結婚了。"
+  },
+  {
+    "type": "translation",
+    "question": "電車が一番便利です。",
+    "answer": "電車最方便。"
+  },
+  {
+    "type": "translation",
+    "question": "私は駅で三時間彼女を待ちました。",
+    "answer": "我在車站等了她3個小時。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女はスキーができます。",
+    "answer": "她會滑雪。"
+  },
+  {
+    "type": "translation",
+    "question": "私は日曜日に掃除と洗濯をします。",
+    "answer": "我星期天會打掃跟洗衣服。"
+  },
+  {
+    "type": "translation",
+    "question": "私はまだ寝ません。",
+    "answer": "我還不睡。"
+  }
+]
