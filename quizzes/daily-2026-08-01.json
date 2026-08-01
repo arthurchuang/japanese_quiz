@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "この鞄は形が可愛いです。そして、色がいいです。",
+    "answer": "這個包包的形狀很可愛。而且顏色很棒。"
+  },
+  {
+    "type": "translation",
+    "question": "あの建物の向こうに何がありますか？",
+    "answer": "那棟建築物的那一頭有什麼？"
+  },
+  {
+    "type": "translation",
+    "question": "先月私は四回出張しました。",
+    "answer": "上個月我出差了4次。"
+  },
+  {
+    "type": "translation",
+    "question": "祖母は犬が好きでした。",
+    "answer": "祖母之前喜歡狗。"
+  },
+  {
+    "type": "translation",
+    "question": "森の中にトラが一頭います。",
+    "answer": "森林有一頭老虎。"
+  },
+  {
+    "type": "translation",
+    "question": "この飛行機は十五分後に成田国際空港に着陸します。",
+    "answer": "這班飛機會在15分鐘後抵達成田國際機場。"
+  },
+  {
+    "type": "translation",
+    "question": "猫がベランダにいます。",
+    "answer": "有貓在陽台。"
+  },
+  {
+    "type": "translation",
+    "question": "青いのはいくらですか?",
+    "answer": "藍色的要多少錢?"
+  },
+  {
+    "type": "translation",
+    "question": "明後日はお休みです。でも、私は学校へ行きます。",
+    "answer": "後天是假日，可是我要去學校。"
+  },
+  {
+    "type": "translation",
+    "question": "先週の日曜日私は山に登りました。",
+    "answer": "上個星期日去登山。"
+  }
+]
