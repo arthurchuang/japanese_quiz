@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "先に帰ってもいいですか？",
+    "answer": "我可以先回去嗎？"
+  },
+  {
+    "type": "translation",
+    "question": "日本のものは高かったです。",
+    "answer": "日本的東西(以前)很貴。"
+  },
+  {
+    "type": "translation",
+    "question": "店は今月暇です。",
+    "answer": "店裡這個月很閒。"
+  },
+  {
+    "type": "translation",
+    "question": "あなたはもう食事しましたか？",
+    "answer": "你已經吃飯了嗎？"
+  },
+  {
+    "type": "translation",
+    "question": "私は王さんにラジカセを貸しました。",
+    "answer": "我借給王先生手提音響。"
+  },
+  {
+    "type": "translation",
+    "question": "蔡さんは来週山へ行きます。",
+    "answer": "蔡先生下週要去山上。"
+  },
+  {
+    "type": "translation",
+    "question": "このレストランの料理はどうですか?",
+    "answer": "這間餐廳的料理如何呢?"
+  },
+  {
+    "type": "translation",
+    "question": "新しい仕事はどうですか?",
+    "answer": "新的工作如何呀?"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(その葉書は)大切じゃありません。",
+    "answer": "不，(那張明信片）並不重要。"
+  },
+  {
+    "type": "translation",
+    "question": "先週の水曜日私は十一時まで働きました。",
+    "answer": "上週的星期三我工作到11點。"
+  }
+]
