@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私は昨日駅のホームで太田さんに会いました。",
+    "answer": "我昨天在車站的月台跟太田見了面。"
+  },
+  {
+    "type": "translation",
+    "question": "この学校の生徒は制服を着なければいけません。",
+    "answer": "這間學校的學生必須穿制服。"
+  },
+  {
+    "type": "translation",
+    "question": "山田さんは何日から何日まで休みますか?",
+    "answer": "山田先生從幾號休息到幾號?"
+  },
+  {
+    "type": "translation",
+    "question": "あなたは何で日本へ行きましたか?",
+    "answer": "你搭什麼去日本?"
+  },
+  {
+    "type": "translation",
+    "question": "祖母は犬が好きでした。",
+    "answer": "祖母之前喜歡狗。"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは弟に飴をくれました。",
+    "answer": "王先生／小姐給了弟弟糖。"
+  },
+  {
+    "type": "translation",
+    "question": "今朝の八時",
+    "answer": "今天早上(的）八點"
+  },
+  {
+    "type": "translation",
+    "question": "二年前に弟は大学に入学しました。",
+    "answer": "2年前弟弟進入大學了。"
+  },
+  {
+    "type": "translation",
+    "question": "李さんは日本語ができませんでした。",
+    "answer": "李先生／小姐以前不會日語。"
+  },
+  {
+    "type": "translation",
+    "question": "猫がベランダにいます。",
+    "answer": "有貓在陽台。"
+  }
+]
