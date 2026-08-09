@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "ここは賑やかなところです。",
+    "answer": "這裡是熱鬧的地方。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、車で行きます。",
+    "answer": "不，開車去。"
+  },
+  {
+    "type": "translation",
+    "question": "私は大学や塾で日本語を勉強しました。",
+    "answer": "我在大學及補習班等地方學了日語。"
+  },
+  {
+    "type": "translation",
+    "question": "主人は体が丈夫じゃないです。",
+    "answer": "我先生身體不健康。"
+  },
+  {
+    "type": "translation",
+    "question": "このお酒は安くなかったです。",
+    "answer": "這瓶酒不便宜(過去式)。"
+  },
+  {
+    "type": "translation",
+    "question": "このテストはどんなテストですか?",
+    "answer": "這個考試是怎麼樣的考試呢?"
+  },
+  {
+    "type": "translation",
+    "question": "私達は一時間後に出発します。",
+    "answer": "我們一個小時後出發。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは二年前に日本で日本語を三ヶ月間勉強しました。",
+    "answer": "林先生/小姐2年前在日本學了3個月的日語。"
+  },
+  {
+    "type": "translation",
+    "question": "この仕事は四月一日から九月三十日までです。",
+    "answer": "這份工作是從4月1日開始到9月30日為止。"
+  },
+  {
+    "type": "translation",
+    "question": "高さんは鈴木さんに花をあげました。",
+    "answer": "高先生給了鈴木小姐花。"
+  }
+]
