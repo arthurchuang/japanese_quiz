@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "王さんは上手に絵を描きます。",
+    "answer": "王先生／小姐會把畫畫得很好。"
+  },
+  {
+    "type": "translation",
+    "question": "私は明日五時に起きます。",
+    "answer": "我明天5點起床。"
+  },
+  {
+    "type": "translation",
+    "question": "作文の授業は来月の二十日に始まります。",
+    "answer": "作文課從下個月20日開始。"
+  },
+  {
+    "type": "translation",
+    "question": "お寺は静かです。",
+    "answer": "寺院很安靜。"
+  },
+  {
+    "type": "translation",
+    "question": "あの赤いハンカチはかわいいです。",
+    "answer": "那個紅色的手帕很可愛。"
+  },
+  {
+    "type": "translation",
+    "question": "先週私は大変でした。",
+    "answer": "上週我很辛苦。"
+  },
+  {
+    "type": "translation",
+    "question": "この仕事は四月一日から九月三十日までです。",
+    "answer": "這份工作是從4月1日開始到9月30日為止。"
+  },
+  {
+    "type": "translation",
+    "question": "今日仕事は六時に終わりますか?",
+    "answer": "今天工作會6點結束嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは行きません。",
+    "answer": "王先生不去。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女はまだ若いです。",
+    "answer": "她還很年輕。"
+  }
+]
