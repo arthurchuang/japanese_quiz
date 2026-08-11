@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "このトイレは広いです。それに、綺麗です。",
+    "answer": "這間廁所很寬敞。而且很漂亮。"
+  },
+  {
+    "type": "translation",
+    "question": "毎朝の散歩",
+    "answer": "每天早上的散步"
+  },
+  {
+    "type": "translation",
+    "question": "夕方の五時",
+    "answer": "傍晚(的）五點"
+  },
+  {
+    "type": "translation",
+    "question": "佐藤さんは友達と三人で北海道へ行きました。",
+    "answer": "佐藤先生和朋友3個人一起去了北海道。"
+  },
+  {
+    "type": "translation",
+    "question": "山本さんは私にストーブをくれました。",
+    "answer": "山本先生給了我暖爐。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、飛びません。",
+    "answer": "不，不飛。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(日本は)あまり寒くありません。",
+    "answer": "不，(日本)不太冷。"
+  },
+  {
+    "type": "translation",
+    "question": "はい、もう食事しました。／いいえ、まだです。",
+    "answer": "是，已經吃過了。／不，還沒有。"
+  },
+  {
+    "type": "translation",
+    "question": "王さんは田中さんにチョコレートをあげます。",
+    "answer": "王先生要給田中小姐巧克力。"
+  },
+  {
+    "type": "translation",
+    "question": "日本はまだ寒いです。",
+    "answer": "日本還很冷。"
+  }
+]
