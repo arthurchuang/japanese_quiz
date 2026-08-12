@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "いいえ、(その葉書は)大切じゃありません。",
+    "answer": "不，(那張明信片）並不重要。"
+  },
+  {
+    "type": "translation",
+    "question": "林さんは二年前に日本で日本語を三ヶ月間勉強しました。",
+    "answer": "林先生/小姐2年前在日本學了3個月的日語。"
+  },
+  {
+    "type": "translation",
+    "question": "このテストはどんなテストですか?",
+    "answer": "這個考試是怎麼樣的考試呢?"
+  },
+  {
+    "type": "translation",
+    "question": "太田さんは毎朝電車で新聞を読みます。",
+    "answer": "太田先生每天早上在電車上讀報紙。"
+  },
+  {
+    "type": "translation",
+    "question": "このベッドは狭いです。",
+    "answer": "這張床很窄。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、飛びません。",
+    "answer": "不，不飛。"
+  },
+  {
+    "type": "translation",
+    "question": "あの元気な人は山田さんです。",
+    "answer": "那位很有精神的人是山田先生。"
+  },
+  {
+    "type": "translation",
+    "question": "蔡さんは来週山へ行きます。",
+    "answer": "蔡先生下週要去山上。"
+  },
+  {
+    "type": "translation",
+    "question": "川の水は冷たいですか?",
+    "answer": "河川的水很冰嗎?"
+  },
+  {
+    "type": "translation",
+    "question": "黄さんは日本語が分かります。",
+    "answer": "黃先生懂日語。"
+  }
+]
