@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "私は温かいコーヒーが飲みたいです。",
+    "answer": "我想喝熱的咖啡。"
+  },
+  {
+    "type": "translation",
+    "question": "姉は歌を歌いながら、掃除をします。",
+    "answer": "姊姊會邊唱歌邊打掃。"
+  },
+  {
+    "type": "translation",
+    "question": "私は昨日この言葉の意味を覚えました。",
+    "answer": "我昨天記了這個單字的意思。"
+  },
+  {
+    "type": "translation",
+    "question": "教室の中で、どこが一番広いですか？",
+    "answer": "在教室中哪一間最大？"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(川の水は)全然冷たくありません。",
+    "answer": "不，(河川的水）完全不冰。"
+  },
+  {
+    "type": "translation",
+    "question": "私はこのお金を使いたくありません。",
+    "answer": "我不想使用這筆錢。"
+  },
+  {
+    "type": "translation",
+    "question": "私は台所へお茶碗を取りに行きました。",
+    "answer": "我到廚房拿碗。"
+  },
+  {
+    "type": "translation",
+    "question": "私は寝ません。",
+    "answer": "我不要睡。"
+  },
+  {
+    "type": "translation",
+    "question": "コーラのエムとポテトのエルをください。",
+    "answer": "請給我中杯可樂跟大包薯條。"
+  },
+  {
+    "type": "translation",
+    "question": "明日検査をしますから、朝御飯を食べないでください。",
+    "answer": "因為明天要做檢查，所以請不要吃早餐。"
+  }
+]
