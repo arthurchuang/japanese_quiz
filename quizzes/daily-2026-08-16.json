@@ -1,0 +1,52 @@
+[
+  {
+    "type": "translation",
+    "question": "はい、私の写真を撮っても構いません。",
+    "answer": "好的，拍我的照片也沒關係。"
+  },
+  {
+    "type": "translation",
+    "question": "彼女はうるさいでしょう?",
+    "answer": "她很吵吧?"
+  },
+  {
+    "type": "translation",
+    "question": "このレストランの料理はどうですか?",
+    "answer": "這間餐廳的料理如何呢?"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(川の水は)全然冷たくありません。",
+    "answer": "不，(河川的水）完全不冰。"
+  },
+  {
+    "type": "translation",
+    "question": "夕べの食事",
+    "answer": "昨晩的飯局"
+  },
+  {
+    "type": "translation",
+    "question": "その箱は重いでしょう?",
+    "answer": "那個箱子很重吧?"
+  },
+  {
+    "type": "translation",
+    "question": "田中さんは勉強しません。",
+    "answer": "田中先生不用功。"
+  },
+  {
+    "type": "translation",
+    "question": "いいえ、(その葉書は)大切じゃありません。",
+    "answer": "不，(那張明信片）並不重要。"
+  },
+  {
+    "type": "translation",
+    "question": "夕方の五時",
+    "answer": "傍晚(的）五點"
+  },
+  {
+    "type": "translation",
+    "question": "毎朝の散歩",
+    "answer": "每天早上的散步"
+  }
+]
